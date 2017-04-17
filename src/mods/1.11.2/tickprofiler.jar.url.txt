@@ -1,0 +1,1 @@
+https://jenkins.nallar.me/job/TickProfiler/job/1.10.2/lastSuccessfulBuild/artifact/build/libs/TickProfiler-1.10.2.jenkins.31.jar
