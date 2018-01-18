@@ -1,0 +1,6 @@
+*.jar
+data/
+loaders/
+mods/
+.modpacks/
+modpack.json
