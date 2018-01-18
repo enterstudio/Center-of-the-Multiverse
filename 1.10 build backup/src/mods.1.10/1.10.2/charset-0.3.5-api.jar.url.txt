@@ -1,1 +1,0 @@
-http://charset.asie.pl/releases/0.3.5/charset-0.3.5-api.jar
