@@ -2,17 +2,20 @@ output: ./
 name: cotm
 title: Center of the Multiverse
 mc_version: ["1.12.2", "1.12.1", "1.12"]
-forge: "latest" # `version`(-recommended /-latest) or branch-name
+forge: 2590
 urls: true
+
 provider_settings:
   curse:
     <<: *curse_settings
     optional: false
     release_type: [ Alpha, Beta, Release ]
+    
 mods:
 #===========#
 # Core Pack #
 #===========#
+
   # coolAlias
   - Dynamic Sword Skills
   
@@ -32,6 +35,7 @@ mods:
   # Sangar
   - Architect
   - Bedrock Ores
+  
   # Darkevilmac
   - <<: *jenkins
     jenkins_url: https://ci.elytradev.com
@@ -71,10 +75,12 @@ mods:
   - <<: *direct
     url: https://unascribed.com/foamfix/FoamFix-1.12.2-0.8.4-Anarchy.jar
   - Unlimited Chisel Works
+  
   # chiselTeam
   - Chisel
   # AlgorithmX2
   - Chisels & Bits
+  
   # clienthax, xalcon
   - ChocoCraft
   
@@ -82,27 +88,34 @@ mods:
   - Clumps
   # KevinGames_17
   - Colored Water
+  
   # TheIllusiveC4
   - Colytra
   - Comforts
+  
   # bdew
   - Compacter
+  
   # BlayTheNinth
   - Cooking for Blockheads
   - Crafting Tweaks
   - Waystones
   - TrashSlot
+  
   # ZLainSama
   - Cosmetic Armor Reworked
+  
   # jaredlll08
   - CraftTweaker
   - Currency
   - Cyberware
   - "Bailey's Dailies"
   - Diamond Glass
+  
 #Dimensional Doors
   - <<: *direct
     url: http://centerofthemultiverse.net/launcher/dist/dimdoors-3.0.0-beta-4.jar
+    
   - The Disenchanter Mod
   - Doggy Talents
   - Draconic Evolution
@@ -132,15 +145,18 @@ mods:
   - Hwyla
   - Initial Inventory
   - Inventory Tweaks
-  
   - Iron Chests
-  # copgirl
+  
+  # copygirl
   - Wearable Backpacks
+  
   # TheLMiffy1111
   - JAOPCA
   - Just Enough HarvestCraft (JEHC)
+  
   # mezz
   - Just Enough Items (JEI)
+  
   - JEI Bees
   - Just Enough Torches (JET)
   - JourneyMap
@@ -151,9 +167,11 @@ mods:
   - MagicBooks2
   - Magic Feather
   - MalisisDoors
+  
   # dmillerw
   - <<: [*curse, *client]
     name: "MineMenu"
+    
   - Mob Grinding Utils
   - ModTweaker
   - More Bees
@@ -166,12 +184,15 @@ mods:
   - NotEnoughIDs
   - OpenComputers
   - OpenBlocks
+  
   # keridos
   - OpenModularTurrets
+  
   # team_otg
   - Biome Bundle
   - "OTG: Skylands"
   - "OTG: The Void"
+  
   - Packing Tape
   - Pam's HarvestCraft
   - Passthrough Signs
@@ -226,6 +247,7 @@ mods:
     jenkins_url: https://ci.elytradev.com
     job: elytra/Engination/master
     name: "Engination"
+    
   # unascribed
   - <<: *jenkins
     jenkins_url: https://ci.elytradev.com
@@ -242,6 +264,7 @@ mods:
     depends:
       required:
         - ProbeDataProvider
+        
  # capitalthree
   - <<: *jenkins
     jenkins_url: https://ci.elytradev.com
@@ -251,26 +274,35 @@ mods:
     jenkins_url: https://ci.elytradev.com
     job: capitalthree/TinkeredConstructer/master
     name: "TinkersConstruct" # fake the name to satisfy dependencies
+    
   - The Spotlight Mod
   - TickProfiler
   - Tinkers' Tool Leveling
   - Tool Belt
   - TorchMaster
   - Totemic
+  
   # Benimatic
   - The Twilight Forest
+  
   # The_Wabbit
   - Upsizer Mod
+  
   # Bartz24
   - Useful Nullifiers
+  
   # Viesis
   - "ViesCraft - Airships!"
+  
   # Face of Cat
   - Villager Market
+  
   # gegy1000, JurassicAlien_KOC_owner
   - Wearables
+  
   # CenturianFox13
   - Wolf Armor and Storage
+  
   # Ipsis
   - Woot
   
