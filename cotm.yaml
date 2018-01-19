@@ -16,6 +16,10 @@ mods:
 # Core Pack #
 #===========#
 
+  - Good Ol' Currency
+  
+  - Robotic Parts
+
   # coolAlias
   - Dynamic Sword Skills
   
@@ -107,8 +111,6 @@ mods:
   
   # jaredlll08
   - CraftTweaker
-  - Currency
-  - Cyberware
   - "Bailey's Dailies"
   - Diamond Glass
   
@@ -122,7 +124,7 @@ mods:
   - Dynamic Surroundings
   - Embers
   - Enchiridion
-  - Ender Storage
+  - Ender Storage 1.8.+
   - Environmental Tech
   - ET Lunar [Environmental Tech Addon]
   - EverlastingAbilities
@@ -206,7 +208,7 @@ mods:
   - Redstone Flux
   - Refined Storage
   - Refined Storage Addons
-  - Reliquary
+  - Reliquary v1.3
   - RFTools
   - Roguelike Dungeons
   - Roots
