@@ -9,7 +9,7 @@ provider_settings:
   curse:
     <<: *curse_settings
     optional: false
-    release_type: [ Alpha, Beta, Release ]
+    release_types: [ Alpha, Beta, Release ]
     
 mods:
 #===========#
