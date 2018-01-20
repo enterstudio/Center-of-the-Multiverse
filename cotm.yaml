@@ -120,7 +120,7 @@ mods:
   - "Bailey's Dailies"
   - Diamond Glass
   
-#Dimensional Doors
+  #Dimensional Doors
   - <<: *direct
     url: http://centerofthemultiverse.net/launcher/dist/dimdoors-3.0.0-beta-4.jar
     name: Dimensional Doors
@@ -275,15 +275,17 @@ mods:
       optional:
         - ProbeDataProvider
         
- # capitalthree
-  - <<: *jenkins
-    jenkins_url: https://ci.elytradev.com
-    job: elytra/LingeringLoot/master
-    name: "LingeringLoot"
-  - <<: *jenkins
-    jenkins_url: https://ci.elytradev.com
-    job: capitalthree/TinkeredConstructer/master
-    name: "Tinkers Construct" # fake the name to satisfy dependencies
+  # capitalthree
+  #- <<: *jenkins
+  #  jenkins_url: https://ci.elytradev.com
+  #  job: elytra/LingeringLoot/master
+  #  name: "LingeringLoot"
+  #- <<: *jenkins
+  # jenkins_url: https://ci.elytradev.com
+  # job: capitalthree/TinkeredConstructer/master
+  # name: "Tinkers Construct" # fake the name to satisfy dependencies
+   
+  - Tinkers Construct
     
   - The Spotlight Mod
   - TickProfiler

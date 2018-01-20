@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Center of the Multiverse",
+      "name" : "Center of the Multiverse",
+      "version" : "cotm-2.0.1",
+      "location" : "center-of-the-multiverse.json",
+      "priority" : 0
+    }
+  ]
+}
