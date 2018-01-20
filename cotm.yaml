@@ -324,6 +324,8 @@ mods:
   # Raven2396
   - Yoyos
   
+  - Level Up!
+  
   
 #============#
 # Clientside #
@@ -354,8 +356,6 @@ mods:
     name: JEI Integration
   - <<: [*curse, *client]
     name: Keyboard Wizard
-  - <<: [*curse, *client]
-    name: Level Up!
   - <<: [*curse, *client]
     name: Mod Name Tooltip
   - <<: [*curse, *client]
