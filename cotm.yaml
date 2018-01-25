@@ -227,7 +227,6 @@ mods:
   - Simple Sponge
   - Simple Teleporters
   - Spartan Shields
-  - The Spice of Life
   - Storage Drawers
   - Storage Drawers Extras
   - Tails
@@ -321,11 +320,12 @@ mods:
   # TehNut
   - Xtones
   
-  # Raven2396
-  - Yoyos
+  - <<: *direct
+    url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.6.0.jar
+    name: Nutrition
   
   - Level Up!
-  
+  - Fast Leaf Decay
   
 #============#
 # Clientside #
@@ -358,8 +358,6 @@ mods:
     name: Keyboard Wizard
   - <<: [*curse, *client]
     name: Mod Name Tooltip
-  - <<: [*curse, *client]
-    name: More Overlays
   - <<: [*curse, *client]
     name: Mouse Tweaks
   - <<: [*curse, *client]
