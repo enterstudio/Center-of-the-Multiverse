@@ -82,12 +82,13 @@ mods:
       required:
         - Charset
   - <<: *direct
-    url: https://unascribed.com/foamfix/FoamFix-1.12.2-0.8.4-Anarchy.jar
+    url: http://centerofthemultiverse.net/launcher/dist/foamfix-0.9.1-beta1-1.12.2-anarchy.jar
     name: FoamFix
   - Unlimited Chisel Works
   
   # chiselTeam
   - Chisel
+  
   # AlgorithmX2
   - Chisels & Bits
   
@@ -96,6 +97,7 @@ mods:
   
   # jaredlll08
   - Clumps
+  
   # KevinGames_17
   - Colored Water
   
@@ -325,6 +327,7 @@ mods:
     name: Nutrition
   
   - Level Up!
+  
   - Fast Leaf Decay
   
 #============#
