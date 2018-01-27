@@ -2,7 +2,7 @@ output: ./
 name: Center of the Multiverse
 title: Center of the Multiverse
 mc_version: ["1.12.2", "1.12.1", "1.12"]
-forge: 2590
+forge: 2604
 urls: true
 
 provider_settings:
@@ -29,9 +29,6 @@ mods:
   # Vazkii
   - Akashic Tome
   - Botania
-  
-  # Purpilicious_Cow and RazzleberryFox
-  - Animania
   
   # Tamaized
   - Angel of Vengeance
@@ -97,9 +94,6 @@ mods:
   
   # jaredlll08
   - Clumps
-  
-  # KevinGames_17
-  - Colored Water
   
   # TheIllusiveC4
   - Colytra
