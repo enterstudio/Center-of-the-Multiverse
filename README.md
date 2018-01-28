@@ -4,7 +4,7 @@
 
 ### Installing Voodoo
 
-download a voodoo jar from the [buildserver](https://ci.elytradev.com/job/elytra/job/voodoo/job/master/)
+download a voodoo jar from the [buildserver](https://ci.elytradev.com/job/elytra/job/Voodoo/job/master/)
 
 ## Building CotM
 
