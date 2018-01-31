@@ -2,12 +2,12 @@ name: Center of the Multiverse
 title: Center of the Multiverse
 version: 2.0.2.2
 mcVersion: 1.12.2
-validMcVersions: [1.12.1, '1.12']
 forge: 2604
 mods:
 #==========#
 # Defaults #
 #==========#
+  validMcVersions: [1.12.1, '1.12']
   doOptionals: false
   releaseTypes: [ alpha, beta, release ]
   jenkinsUrl: https://ci.elytradev.com
