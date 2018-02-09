@@ -204,7 +204,7 @@ mods:
   - Tails
   - TamModized
   - Terraqueous
-  - '[ANGRY PIXEL] The Betweenlands Mod'
+  - "[ANGRY PIXEL] The Betweenlands Mod"
   - The One Wrench (All in One Edition)
   - Thermal Cultivation
   - Unlimited Chisel Works
@@ -229,6 +229,9 @@ mods:
     # unascribed
     - job: elytra/GlassHearts/1.12
       name: GlassHearts
+      
+    - job: elytra/FruitPhone/1.12
+      name: FruitPhone
 
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
@@ -310,8 +313,9 @@ mods:
 #============#
   - side: CLIENT
     entries:
-      # dmillerw
+  # dmillerw
     - MineMenu
+    
     - JourneyMap
     - AppleSkin
     - BetterFps
