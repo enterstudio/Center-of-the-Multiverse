@@ -2,7 +2,7 @@ name: Center of the Multiverse
 title: Center of the Multiverse
 version: 2.0.2.5
 mcVersion: 1.12.2
-forge: 2611
+forge: latest
 mods:
 #==========#
 # Defaults #
@@ -50,7 +50,7 @@ mods:
   - Better Advancements
   
   # Portablejim
-  - "Better Builder's Wands"
+  #- "Better Builder's Wands"
   
   # Nuchaz
   - BiblioCraft
@@ -84,7 +84,6 @@ mods:
   - Cooking for Blockheads
   - Crafting Tweaks
   - Waystones
-  - TrashSlot
   
   # ZLainSama
   - Cosmetic Armor Reworked
@@ -116,7 +115,6 @@ mods:
   - Extra Utilities
   - Fairy Lights
   - Farming for Blockheads
-  - Flux Networks
   - Forestry
   - FTB Utilities
   - MrCrayfish's Furniture Mod
@@ -149,7 +147,6 @@ mods:
   - MagicBooks2
   - Magic Feather
   - MalisisDoors
-
   - Mob Grinding Utils
   - ModTweaker
   - More Bees
@@ -165,6 +162,7 @@ mods:
 
   # keridos
   - OpenModularTurrets
+  - OMLib
   
   # team_otg
   - Biome Bundle
