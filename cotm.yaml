@@ -227,10 +227,10 @@ mods:
       name: Engination
 
     # unascribed
-    - job: elytra/GlassHearts/1.12
+    - job: elytra/GlassHearts/1.12.1
       name: GlassHearts
       
-    - job: elytra/FruitPhone/1.12
+    - job: elytra/FruitPhone/1.12.2
       name: FruitPhone
 
     - job: elytra/ProbeDataProvider/1.12
