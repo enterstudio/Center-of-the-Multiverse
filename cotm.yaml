@@ -105,6 +105,7 @@ mods:
   - Embers
   - Enchiridion
   - Ender Storage 1.8.+
+  - EnderTanks
   - Environmental Tech
   - ET Lunar [Environmental Tech Addon]
   - EverlastingAbilities
@@ -120,13 +121,17 @@ mods:
   - MrCrayfish's Furniture Mod
   - Gendustry
   - Grappling Hook Mod
-  - GraveStone Mod
+# - GraveStone Mod
   - Hardcore Revival
   - HelpFixer
   - Hwyla
   - Initial Inventory
   - Inventory Tweaks
   - Iron Chests
+# - Blood Magic
+  - Redstone Paste
+  - MmmMmmMmmMmm
+  - Inventory Pets
 
   # copygirl
   - Wearable Backpacks
