@@ -90,7 +90,6 @@ mods:
   
   # jaredlll08
   - CraftTweaker
-  - "Bailey's Dailies"
   - Diamond Glass
 
   #Dimensional Doors
@@ -108,7 +107,6 @@ mods:
   - EnderTanks
   - Environmental Tech
   - ET Lunar [Environmental Tech Addon]
-  - EverlastingAbilities
   - Exchangers
   - Extra Alchemy
   - Extra Bit Manipulation
@@ -128,7 +126,6 @@ mods:
   - Initial Inventory
   - Inventory Tweaks
   - Iron Chests
-# - Blood Magic
   - Redstone Paste
   - MmmMmmMmmMmm
   - Inventory Pets
@@ -171,8 +168,6 @@ mods:
   
   # team_otg
   - Biome Bundle
-  - "OTG: Skylands"
-  - "OTG: The Void"
 
   - Packing Tape
   - Pam's HarvestCraft
@@ -265,10 +260,24 @@ mods:
     #  name: "Tinkers Construct" # fake the name to satisfy dependencies
 
   - Tinkers Construct
-
+  - Tinkers' Tool Leveling
+  
+  - Improvable Skills 3
+  
+  - LightningCraft
+  
+  - Sky Islands
+  
+  - ReWIRED
+  
   - The Spotlight Mod
   - TickProfiler
-  - Tinkers' Tool Leveling
+  - Good Ol' Currency
+  - Extreme Reactors
+  
+  - Paintings ++
+  - Painting Selection Gui Revamped
+
   - Tool Belt
   - TorchMaster
   - Totemic
@@ -294,8 +303,11 @@ mods:
   # CenturianFox13
   - Wolf Armor and Storage
   
-  # Ipsis
-  - Woot
+  - Soulus
+  - Garbage Bins
+  
+  - Land Manager
+  - Sit
   
   # TehNut
   - Xtones
@@ -304,9 +316,9 @@ mods:
     name: Nutrition
     provider: DIRECT
 
-  - "Level Up!"
-
   - Fast Leaf Decay
+  
+  - Unlimited Chisel Works - Botany
 
 #============#
 # Clientside #
