@@ -1,21 +1,5 @@
 [
   {
-    "item": "charset:laser_crystal"
-  },
-  {
-    "item": "charset:light_jar"
-  },
-  {
-    "minMeta": 1,
-    "item": "charset:laser_reflector",
-    "maxMeta": 7
-  },
-  {
-    "minMeta": 9,
-    "item": "charset:laser_reflector",
-    "maxMeta": 15
-  },
-  {
     "item": "minecraft:wool"
   },
   {
