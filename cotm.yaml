@@ -235,10 +235,6 @@ mods:
     
     - job: elytra/Teckle/1.12
       name: Teckle
-      
-    # capitalthree
-    - job: elytra/LingeringLoot/master
-      name: LingeringLoot
         
     # asie     
     - job: CharsetMC/Charset/1.12
@@ -254,15 +250,10 @@ mods:
     name: CharsetPatches
     template: https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar
 
-    # - job: capitalthree/TinkeredConstructer/master
-    #  name: "Tinkers Construct" # fake the name to satisfy dependencies
-
   - Tinkers Construct
   - Tinkers' Tool Leveling
   
   - Improvable Skills 3
-  
-  - Sky Islands
   
   - ReWIRED
   
