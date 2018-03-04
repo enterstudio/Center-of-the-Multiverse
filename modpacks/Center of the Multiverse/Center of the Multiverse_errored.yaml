@@ -1,8 +1,8 @@
 ---
 name: "Center of the Multiverse"
 title: "Center of the Multiverse"
-version: "2.0.2.5"
-forge: "latest"
+version: "2.0.3"
+forge: "2611"
 mcVersion: "1.12.2"
 userFiles:
   include:
@@ -14,31 +14,14 @@ launch:
   - "-Dfml.ignoreInvalidMinecraftCertificates=true"
 mods:
   releaseTypes:
-  - "release"
-  - "alpha"
-  - "beta"
+  - "RELEASE"
+  - "ALPHA"
+  - "BETA"
   validMcVersions:
   - "1.12.1"
   - "1.12"
   jenkinsUrl: "https://ci.elytradev.com"
   entries:
-  - provider: "DIRECT"
-    name: "Robotic Parts"
-    description: "Unofficial 1.12.2 port of Cyberware by Flaxbeard"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/roboticparts"
-    packageType: "mod"
-    id: 283377
-    fileId: 2529497
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2529/497/cyberware-1.12.2-0.2.10.8.jar"
-    fileName: "cyberware-1.12.2-0.2.10.8.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Dynamic Sword Skills"
     description: "Is vanilla Minecraft combat too boring for you? Fear not, Dynamic\
@@ -46,15 +29,15 @@ mods:
       \ devastating attacks on your enemies! "
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/dynamic-sword-skills"
     dependencies:
-      required:
+      REQUIRED:
       - "SwordSkillsAPI"
-    packageType: "mod"
+    packageType: "MOD"
     id: 226360
     fileId: 2504915
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -65,13 +48,13 @@ mods:
     name: "Aether Legacy"
     description: "The official Aether I port"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/aether-legacy"
-    packageType: "mod"
+    packageType: "MOD"
     id: 255308
     fileId: 2520541
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -79,19 +62,37 @@ mods:
     fileName: "aether_legacy-1.12.2-v2.0.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
+    name: "Glacidus"
+    description: "A frozen alien world on top, but underground... lies a different\
+      \ story."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/glacidus"
+    packageType: "MOD"
+    id: 286530
+    fileId: 2526260
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2526/260/glacidus-1.12.2-v1.0.jar"
+    fileName: "glacidus-1.12.2-v1.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
     name: "Akashic Tome"
     description: "The Book of Books. Store every documentation book in one."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/akashic-tome"
     dependencies:
-      required:
+      REQUIRED:
       - "AutoRegLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 250577
     fileId: 2476494
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -103,18 +104,18 @@ mods:
     description: "An innovative natural magic themed tech mod"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/botania"
     dependencies:
-      required:
+      REQUIRED:
       - "Baubles"
-      optional:
+      OPTIONAL:
       - "Quark"
       - "Albedo"
-    packageType: "mod"
+    packageType: "MOD"
     id: 225643
     fileId: 2524591
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -126,32 +127,32 @@ mods:
     description: "A Healing based Magic Mod"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/angel-of-vengeance"
     dependencies:
-      required:
+      REQUIRED:
       - "TamModized"
-    packageType: "mod"
+    packageType: "MOD"
     id: 266138
-    fileId: 2525673
+    fileId: 2535645
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2525/673/AoV-1.12-0.8.6.jar"
-    fileName: "AoV-1.12-0.8.6.jar"
+    url: "https://files.forgecdn.net/files/2535/645/AoV-1.12-0.8.12.jar"
+    fileName: "AoV-1.12-0.8.12.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Architect"
     description: "Large scale building made fun again."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/architect"
-    packageType: "mod"
+    packageType: "MOD"
     id: 264874
     fileId: 2444355
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -163,13 +164,13 @@ mods:
     description: "Adds ore embedded in bedrock, each block yielding a large number\
       \ of ore, and a machine to harvest them automatically."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/bedrockores"
-    packageType: "mod"
+    packageType: "MOD"
     id: 275083
     fileId: 2526145
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -180,13 +181,13 @@ mods:
     name: "Armor Stand Configurator"
     description: "Adds a GUI to let you pose your armor stands"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/armor-stand-configurator"
-    packageType: "mod"
+    packageType: "MOD"
     id: 266043
     fileId: 2455545
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -197,13 +198,13 @@ mods:
     name: "Combined Potions"
     description: "Craft potions and tipped arrows together to combine their effects"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/combined-potions"
-    packageType: "mod"
+    packageType: "MOD"
     id: 262420
     fileId: 2460171
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -214,13 +215,13 @@ mods:
     name: "Astral Sorcery"
     description: "Magic mod that uses the power of stars and constellations"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/astral-sorcery"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241721
     fileId: 2523583
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -231,13 +232,13 @@ mods:
     name: "Baubles"
     description: "An addon module and API for Thaumcraft "
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/baubles"
-    packageType: "mod"
+    packageType: "MOD"
     id: 227083
     fileId: 2518667
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -249,13 +250,13 @@ mods:
     description: "Successor to BetterAchievements for the new advancements system\
       \ in minecraft 1.12+"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/better-advancements"
-    packageType: "mod"
+    packageType: "MOD"
     id: 272515
     fileId: 2504151
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -263,16 +264,33 @@ mods:
     fileName: "BetterAdvancements-1.12.2-0.0.5.17.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
+    name: "Better Builder's Wands"
+    description: "An attempt to make a nicer-to-use builder's wand"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands"
+    packageType: "MOD"
+    id: 238403
+    fileId: 2443194
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2443/194/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
+    fileName: "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
     name: "BiblioCraft"
     description: "Bookcases, armor stands, shelves and so much more!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/bibliocraft"
-    packageType: "mod"
+    packageType: "MOD"
     id: 228027
     fileId: 2456043
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -284,15 +302,15 @@ mods:
     description: "Various expansions for Forestry adding new bees and trees"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/binnies-mods"
     dependencies:
-      required:
+      REQUIRED:
       - "Forestry"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223525
     fileId: 2520129
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -304,59 +322,59 @@ mods:
     description: "Adds a variety of new arrows, including fire arrows, dye arrows,\
       \ bomb arrows, and more!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/bullseye"
-    packageType: "mod"
+    packageType: "MOD"
     id: 247395
-    fileId: 2478834
+    fileId: 2536904
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2478/834/Bullseye-1.12-3.0.3.jar"
-    fileName: "Bullseye-1.12-3.0.3.jar"
+    url: "https://files.forgecdn.net/files/2536/904/Bullseye-1.12.2-3.0.4.jar"
+    fileName: "Bullseye-1.12.2-3.0.4.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Chisel"
     description: "A builder's best friend."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/chisel"
     dependencies:
-      required:
+      REQUIRED:
       - "ConnectedTexturesMod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 235279
-    fileId: 2516679
+    fileId: 2535884
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2516/679/Chisel-MC1.12-0.1.1.26.jar"
-    fileName: "Chisel-MC1.12-0.1.1.26.jar"
+    url: "https://files.forgecdn.net/files/2535/884/Chisel-MC1.12.2-0.2.0.31.jar"
+    fileName: "Chisel-MC1.12.2-0.2.0.31.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Chisels & Bits"
     description: "Create endless custom decorations using in game materials."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/chisels-bits"
     dependencies:
-      optional:
+      OPTIONAL:
       - "Just Enough Items (JEI)"
       - "MCMultiPart"
-    packageType: "mod"
+    packageType: "MOD"
     id: 231095
-    fileId: 2527411
+    fileId: 2532622
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2527/411/chiselsandbits-14.13.jar"
-    fileName: "chiselsandbits-14.13.jar"
+    url: "https://files.forgecdn.net/files/2532/622/chiselsandbits-14.14.jar"
+    fileName: "chiselsandbits-14.14.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "ChocoCraft"
@@ -364,13 +382,13 @@ mods:
       \ coloured mob types with different attributes in their grown-up and juvenile\
       \ form."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/chococraft"
-    packageType: "mod"
+    packageType: "MOD"
     id: 225280
     fileId: 2473983
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -382,15 +400,15 @@ mods:
     description: "Clumps XP orbs together to reduce lag"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/clumps"
     dependencies:
-      required:
+      REQUIRED:
       - "B.A.S.E"
-    packageType: "mod"
+    packageType: "MOD"
     id: 256717
     fileId: 2458862
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -402,13 +420,13 @@ mods:
     description: "Allows attachment of elytras to chestplates and includes an elytra\
       \ bauble for Baubles"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/colytra"
-    packageType: "mod"
+    packageType: "MOD"
     id: 280200
     fileId: 2512874
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -420,35 +438,37 @@ mods:
     description: "Adds sleeping bags and hammocks for portability and daytime napping\
       \ without setting a new spawn. Comes in 16 different colors!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/comforts"
-    packageType: "mod"
+    packageType: "MOD"
     id: 276951
-    fileId: 2523141
+    fileId: 2534172
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2523/141/comforts-1.12.2-1.1.0.1.jar"
-    fileName: "comforts-1.12.2-1.1.0.1.jar"
+    url: "https://files.forgecdn.net/files/2534/172/comforts-1.12.2-1.1.0.2.jar"
+    fileName: "comforts-1.12.2-1.1.0.2.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Compacter"
     description: "Rapidly compacts items that can be crafted in 2x2 or 3x3 pattern"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/compacter"
     dependencies:
-      required:
+      REQUIRED:
       - "BdLib"
-      optional:
+      OPTIONAL:
       - "Industrial Craft"
-    packageType: "mod"
+      - "TESLA"
+      - "Redstone Flux"
+    packageType: "MOD"
     id: 231549
     fileId: 2490045
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -461,16 +481,18 @@ mods:
       \ you can make with what you currently have in your inventory."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads"
     dependencies:
-      optional:
+      OPTIONAL:
       - "Pam's HarvestCraft"
       - "Extra Food"
-    packageType: "mod"
+      - "Food Expansion"
+      - "More Foods"
+    packageType: "MOD"
     id: 231484
     fileId: 2503873
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -482,13 +504,13 @@ mods:
     description: "Allows you to rotate, balance or clear the crafting matrix by the\
       \ press of a button, in any (supported) crafting window."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 233071
     fileId: 2489633
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -500,13 +522,13 @@ mods:
     description: "Teleport back to activated waystones. For Survival, Adventure or\
       \ Servers."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/waystones"
-    packageType: "mod"
+    packageType: "MOD"
     id: 245755
     fileId: 2513625
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -518,13 +540,13 @@ mods:
     description: "This mod allows you to wear two sets of armor, one for display,\
       \ one for function."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked"
-    packageType: "mod"
+    packageType: "MOD"
     id: 237307
     fileId: 2481744
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -535,60 +557,42 @@ mods:
     name: "CraftTweaker"
     description: "A continuation of MineTweaker originally by StanH"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/crafttweaker"
-    packageType: "mod"
+    packageType: "MOD"
     id: 239197
-    fileId: 2527454
+    fileId: 2535188
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2527/454/CraftTweaker2-1.12-4.1.2.jar"
-    fileName: "CraftTweaker2-1.12-4.1.2.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Bailey's Dailies"
-    description: "Daily quests for hunting, gathering, and exploring the wonderful\
-      \ world of Minecraft."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/baileys-dailies"
-    packageType: "mod"
-    id: 250529
-    fileId: 2523152
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2523/152/dailies-1.12.2-6.jar"
-    fileName: "dailies-1.12.2-6.jar"
+    url: "https://files.forgecdn.net/files/2535/188/CraftTweaker2-1.12-4.1.5.jar"
+    fileName: "CraftTweaker2-1.12-4.1.5.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Diamond Glass"
     description: "Glass made with Diamonds with the Attributes of Obsidian"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/diamond-glass"
-    packageType: "mod"
+    packageType: "MOD"
     id: 270959
-    fileId: 2482055
+    fileId: 2531305
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2482/55/diamondglass-1.12.2-1.5.0.10.jar"
-    fileName: "diamondglass-1.12.2-1.5.0.10.jar"
+    url: "https://files.forgecdn.net/files/2531/305/diamondglass-1.12.2-1.6.0.11.jar"
+    fileName: "diamondglass-1.12.2-1.6.0.11.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Dimensional Doors"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -599,13 +603,13 @@ mods:
     name: "The Disenchanter Mod"
     description: "A small Mod adding a block to disenchant Items"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/the-disenchanter-mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 245769
     fileId: 2490587
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -613,16 +617,39 @@ mods:
     fileName: "disenchanter-[1.12]1.5.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
+    name: "Draconic Evolution"
+    description: "Draconic Evolution is a mod that adds some extremely expensive high\
+      \ tier items to the game. "
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution"
+    dependencies:
+      REQUIRED:
+      - "Brandon's Core"
+      - "CodeChicken Lib 1.8.+"
+      - "Redstone Flux"
+    packageType: "MOD"
+    id: 223565
+    fileId: 2535360
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2535/360/Draconic-Evolution-1.12-2.3.10.284-universal.jar"
+    fileName: "Draconic-Evolution-1.12-2.3.10.284-universal.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
     name: "Doggy Talents"
     description: "Talents, new models, new AI, beds and more!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/doggy-talents"
-    packageType: "mod"
+    packageType: "MOD"
     id: 271050
     fileId: 2507106
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -630,57 +657,34 @@ mods:
     fileName: "DoggyTalents-1.12-1.14.2.314-universal.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "Draconic Evolution"
-    description: "Draconic Evolution is a mod that adds some extremely expensive high\
-      \ tier items to the game. "
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/draconic-evolution"
-    dependencies:
-      required:
-      - "Brandon's Core"
-      - "CodeChicken Lib 1.8.+"
-      - "Redstone Flux"
-    packageType: "mod"
-    id: 223565
-    fileId: 2517088
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2517/88/Draconic-Evolution-1.12-2.3.8.279-universal.jar"
-    fileName: "Draconic-Evolution-1.12-2.3.8.279-universal.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Dynamic Surroundings"
     description: "Adds a variety of sound and visual effects to improve your Minecraft\
       \ experience"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238891
-    fileId: 2529271
+    fileId: 2536945
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2529/271/DynamicSurroundings-1.12.2-3.4.9.3.jar"
-    fileName: "DynamicSurroundings-1.12.2-3.4.9.3.jar"
+    url: "https://files.forgecdn.net/files/2536/945/DynamicSurroundings-1.12.2-3.4.9.6.jar"
+    fileName: "DynamicSurroundings-1.12.2-3.4.9.6.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Embers"
     description: "A Dwarven-Themed Magitech Mod"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/embers"
-    packageType: "mod"
+    packageType: "MOD"
     id: 251918
     fileId: 2495586
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -692,13 +696,13 @@ mods:
     description: "Custom Books with pictures, recipes for modpack makers. As well\
       \ as a library for storing and reading modded books. "
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/enchiridion"
-    packageType: "mod"
+    packageType: "MOD"
     id: 76612
     fileId: 2498022
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -710,15 +714,15 @@ mods:
     description: "linked color coded ender chests"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8"
     dependencies:
-      required:
+      REQUIRED:
       - "CodeChicken Lib 1.8.+"
-    packageType: "mod"
+    packageType: "MOD"
     id: 245174
     fileId: 2509842
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -726,40 +730,20 @@ mods:
     fileName: "EnderStorage-1.12.2-2.4.2.126-universal.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "EnderTanks"
-    description: "EnderTanks"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/endertanks"
-    dependencies:
-      required:
-      - "ShetiPhianCore"
-    packageType: "mod"
-    id: 59613
-    fileId: 2502310
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2502/310/endertanks-1.12.0-1.6.3.jar"
-    fileName: "endertanks-1.12.0-1.6.3.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Environmental Tech"
     description: "A Tech mod filled with lots of multiblock machines. All machines\
       \ run off or generate RF Energy."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/environmental-tech"
     dependencies:
-      required:
+      REQUIRED:
       - "ValkyrieLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 245453
     fileId: 2523929
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -771,16 +755,16 @@ mods:
     description: "Generate energy from the moon!!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/et-lunar-environmental-tech-addon"
     dependencies:
-      required:
+      REQUIRED:
       - "Environmental Tech"
       - "ValkyrieLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 253565
     fileId: 2523930
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -788,77 +772,64 @@ mods:
     fileName: "etlunar-1.12.2-2.0.7a.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "EverlastingAbilities"
-    description: "Discover, share and conquer abilities that stick."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/everlastingabilities"
-    dependencies:
-      required:
-      - "Cyclops Core"
-    packageType: "mod"
-    id: 248353
-    fileId: 2510886
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2510/886/EverlastingAbilities-1.12.2-1.3.9.jar"
-    fileName: "EverlastingAbilities-1.12.2-1.3.9.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Exchangers"
     description: "Block Exchangers for 1.10+, inspired by EnderTech Exchangers and\
       \ better than ever!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/exchangers"
     dependencies:
-      optional:
+      OPTIONAL:
       - "Ender IO"
-    packageType: "mod"
+      - "Thermal Expansion"
+      - "Immersive Engineering"
+      - "Mekanism"
+      - "Redstone Flux"
+    packageType: "MOD"
     id: 270183
-    fileId: 2519378
+    fileId: 2537408
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2519/378/Exchangers-1.12.2-2.6.2.jar"
-    fileName: "Exchangers-1.12.2-2.6.2.jar"
+    url: "https://files.forgecdn.net/files/2537/408/Exchangers-1.12.2-2.7.1.jar"
+    fileName: "Exchangers-1.12.2-2.7.1.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Extra Alchemy"
     description: "A handful of Vanilla-friendly new potions"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/extra-alchemy"
-    packageType: "mod"
+    dependencies:
+      OPTIONAL:
+      - "NoMoreGlowingPots"
+    packageType: "MOD"
     id: 247357
-    fileId: 2525604
+    fileId: 2533895
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2525/604/extraalchemy-0.3.7.1-release.jar"
-    fileName: "extraalchemy-0.3.7.1-release.jar"
+    url: "https://files.forgecdn.net/files/2533/895/extraalchemy-0.3.8.1-release.jar"
+    fileName: "extraalchemy-0.3.8.1-release.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Extra Bit Manipulation"
     description: "Adds extra in-world bit manipulation to the Chisels & Bits mod."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/extra-bit-manipulation"
     dependencies:
-      required:
+      REQUIRED:
       - "Chisels & Bits"
-    packageType: "mod"
+    packageType: "MOD"
     id: 240959
     fileId: 2475985
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -870,15 +841,15 @@ mods:
     description: "Additional Minecart Rails."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/extra-rails"
     dependencies:
-      required:
+      REQUIRED:
       - "ShadowMC"
-    packageType: "mod"
+    packageType: "MOD"
     id: 247665
     fileId: 2441517
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -889,30 +860,30 @@ mods:
     name: "Extra Utilities"
     description: "Just a bunch of useful things"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
-    packageType: "mod"
+    packageType: "MOD"
     id: 225561
-    fileId: 2524524
+    fileId: 2531075
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2524/524/extrautils2-1.12-1.7.3.jar"
-    fileName: "extrautils2-1.12-1.7.3.jar"
+    url: "https://files.forgecdn.net/files/2531/75/extrautils2-1.12-1.7.4.jar"
+    fileName: "extrautils2-1.12-1.7.4.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Fairy Lights"
     description: "This mod adds decorative string lights."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/fairy-lights"
-    packageType: "mod"
+    packageType: "MOD"
     id: 233342
     fileId: 2513426
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -924,13 +895,13 @@ mods:
     description: "Adds a seed market with a search bar and a scrolling grid, and more\
       \ farming utilities."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads"
-    packageType: "mod"
+    packageType: "MOD"
     id: 261924
     fileId: 2468274
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -942,18 +913,18 @@ mods:
     description: "Bringing bees, butterflies and more trees. as well as eco-friendly\
       \ energy production and mail to Minecraft."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/forestry"
-    packageType: "mod"
+    packageType: "MOD"
     id: 59751
-    fileId: 2527731
+    fileId: 2532388
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2527/731/forestry_1.12.2-5.8.0.242.jar"
-    fileName: "forestry_1.12.2-5.8.0.242.jar"
+    url: "https://files.forgecdn.net/files/2532/388/forestry_1.12.2-5.8.0.250.jar"
+    fileName: "forestry_1.12.2-5.8.0.250.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "FTB Utilities"
@@ -962,15 +933,15 @@ mods:
       \ configuration utilities, world borders, guide system and many other features..."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities"
     dependencies:
-      required:
+      REQUIRED:
       - "FTBLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 237102
     fileId: 2505842
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -982,18 +953,27 @@ mods:
     description: "This mod adds in over 40 unique pieces of furniture for you to decorate\
       \ your house with. "
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 55438
     fileId: 2512843
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
     url: "https://files.forgecdn.net/files/2512/843/furniture-4.1.5-1.12.2.jar"
     fileName: "furniture-4.1.5-1.12.2.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MrCrayfish's Device Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Gendustry"
@@ -1001,17 +981,22 @@ mods:
       \ (Forestry addon)"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/gendustry"
     dependencies:
-      required:
+      REQUIRED:
       - "Forestry"
-      optional:
+      - "BdLib"
+      OPTIONAL:
       - "Buildcraft"
-    packageType: "mod"
+      - "CoFH Core"
+      - "Waila"
+      - "Just Enough Items (JEI)"
+      - "TESLA"
+    packageType: "MOD"
     id: 70492
     fileId: 2516215
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1022,13 +1007,13 @@ mods:
     name: "Grappling Hook Mod"
     description: "A mod which adds grappling hooks"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238911
     fileId: 2452847
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1040,13 +1025,13 @@ mods:
     description: "Help your friends back up after they die (if you can make it in\
       \ time)"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/hardcore-revival"
-    packageType: "mod"
+    packageType: "MOD"
     id: 274036
     fileId: 2513493
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1057,13 +1042,13 @@ mods:
     name: "HelpFixer"
     description: "Fixes the /help command"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/helpfixer"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223797
     fileId: 2479308
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1075,13 +1060,13 @@ mods:
     description: "Hwyla (Here's What You're Looking At) is a UI improvement mod aimed\
       \ at providing block information directly in-game. It is also a fork of Waila."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/hwyla"
-    packageType: "mod"
+    packageType: "MOD"
     id: 253449
     fileId: 2506337
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1093,16 +1078,16 @@ mods:
     description: "Allows you to set an Initial Inventory for a player using ZenScript"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/initial-inventory"
     dependencies:
-      required:
+      REQUIRED:
       - "CraftTweaker"
       - "MTLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 253230
     fileId: 2465617
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1114,13 +1099,13 @@ mods:
     description: "Tweaks to inventory handling for ease of use, including sorting\
       \ and automatic replacement of broken tools or exhausted stacks of items."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223094
     fileId: 2514356
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1131,39 +1116,30 @@ mods:
     name: "Iron Chests"
     description: "Iron Chest mod"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/iron-chests"
-    packageType: "mod"
+    packageType: "MOD"
     id: 228756
-    fileId: 2487724
+    fileId: 2533664
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2487/724/ironchest-1.12.2-7.0.34.820.jar"
-    fileName: "ironchest-1.12.2-7.0.34.820.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - name: "Blood Magic"
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
+    url: "https://files.forgecdn.net/files/2533/664/ironchest-1.12.2-7.0.40.824.jar"
+    fileName: "ironchest-1.12.2-7.0.40.824.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Redstone Paste"
     description: "Adds a paste form of redstone, which can stick to various surfaces."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/redstone-paste"
-    packageType: "mod"
+    packageType: "MOD"
     id: 67508
     fileId: 2477676
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1171,16 +1147,52 @@ mods:
     fileName: "redstonepaste-mc1.12-1.7.5.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
+    name: "MmmMmmMmmMmm"
+    description: "Test Dummies that show damage dealt and can be equipped with armor"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"
+    packageType: "MOD"
+    id: 225738
+    fileId: 2503041
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2503/41/MmmMmmMmmMmm-1.12-1.14.jar"
+    fileName: "MmmMmmMmmMmm-1.12-1.14.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Inventory Pets"
+    description: "Inventory Pets are living animated creatures that exist in your\
+      \ inventory and give you amazing special effects, drops, buffs, utilities, defenses,\
+      \ and weapons in exchange for care and feeding."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/inventory-pets"
+    packageType: "MOD"
+    id: 229380
+    fileId: 2526545
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2526/545/inventorypets-1.12-1.4.9.9b.jar"
+    fileName: "inventorypets-1.12-1.4.9.9b.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
     name: "Wearable Backpacks"
     description: "Minecraft mod which adds beautiful, balanced backpacks"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 257572
     fileId: 2525511
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1192,58 +1204,58 @@ mods:
     description: "Just A Ore Processing Compatibility Attempt"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/jaopca"
     dependencies:
-      required:
+      REQUIRED:
       - "WrapUp"
-    packageType: "mod"
+    packageType: "MOD"
     id: 266936
-    fileId: 2526319
+    fileId: 2537284
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2526/319/JAOPCA-1.12.2-2.2.6.71.jar"
-    fileName: "JAOPCA-1.12.2-2.2.6.71.jar"
+    url: "https://files.forgecdn.net/files/2537/284/JAOPCA-1.12.2-2.2.6.77.jar"
+    fileName: "JAOPCA-1.12.2-2.2.6.77.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Just Enough HarvestCraft (JEHC)"
     description: "Just Enough Items (JEI) integration for Pam's HarvestCraft."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-harvestcraft"
     dependencies:
-      required:
+      REQUIRED:
       - "Pam's HarvestCraft"
       - "Just Enough Items (JEI)"
-    packageType: "mod"
+    packageType: "MOD"
     id: 267939
-    fileId: 2482075
+    fileId: 2537441
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2482/75/jehc-1.12-1.3.1.jar"
-    fileName: "jehc-1.12-1.3.1.jar"
+    url: "https://files.forgecdn.net/files/2537/441/JEHC-1.12.2-1.4.1.0.jar"
+    fileName: "JEHC-1.12.2-1.4.1.0.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Just Enough Items (JEI)"
     description: "View Items and Recipes"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/jei"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238222
-    fileId: 2529179
+    fileId: 2536307
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2529/179/jei_1.12.2-4.8.5.151.jar"
-    fileName: "jei_1.12.2-4.8.5.151.jar"
+    url: "https://files.forgecdn.net/files/2536/307/jei_1.12.2-4.8.5.159.jar"
+    fileName: "jei_1.12.2-4.8.5.159.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "JEI Bees"
@@ -1251,16 +1263,16 @@ mods:
       \ trees and butterflies."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/jei-bees"
     dependencies:
-      required:
+      REQUIRED:
       - "Forestry"
       - "Just Enough Items (JEI)"
-    packageType: "mod"
+    packageType: "MOD"
     id: 248370
     fileId: 2490058
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1271,13 +1283,13 @@ mods:
     name: "Just Enough Torches (JET)"
     description: "Adds various torches for various materials."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-torches-jet"
-    packageType: "mod"
+    packageType: "MOD"
     id: 273028
     fileId: 2528998
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1289,13 +1301,13 @@ mods:
     description: "Register custom dimensions to the game and/or use per-world gamerules,\
       \ time, weather etc."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-dimensions"
-    packageType: "mod"
+    packageType: "MOD"
     id: 254317
     fileId: 2514591
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1303,36 +1315,16 @@ mods:
     fileName: "justenoughdimensions-1.12.2-1.6.0-dev.20171225.032648.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "Just Enough Resources (JER)"
-    description: "A JEI addon that adds mob drops, ore gen, .."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer"
-    dependencies:
-      required:
-      - "Just Enough Items (JEI)"
-    packageType: "mod"
-    id: 240630
-    fileId: 2523823
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2523/823/JustEnoughResources-1.12.2-0.8.7.41.jar"
-    fileName: "JustEnoughResources-1.12.2-0.8.7.41.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "KleeSlabs"
     description: "Allows only breaking one half of a double slab."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/kleeslabs"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241895
     fileId: 2443462
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1345,15 +1337,15 @@ mods:
       \ Thaumcraft and other mods."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/magic-bees"
     dependencies:
-      required:
+      REQUIRED:
       - "Forestry"
-    packageType: "mod"
+    packageType: "MOD"
     id: 65764
     fileId: 2517686
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1364,13 +1356,13 @@ mods:
     name: "MagicBooks2"
     description: "A rewrite and continuation of MagicBooks! New mechanics!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/magicbooks2"
-    packageType: "mod"
+    packageType: "MOD"
     id: 278571
     fileId: 2501927
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1382,15 +1374,15 @@ mods:
     description: "Creative flight that doesn't ruin exploration"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/magic-feather"
     dependencies:
-      required:
+      REQUIRED:
       - "CookieCore"
-    packageType: "mod"
+    packageType: "MOD"
     id: 284745
     fileId: 2526155
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1403,15 +1395,15 @@ mods:
       \ of possibilities!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/malisisdoors"
     dependencies:
-      required:
+      REQUIRED:
       - "MalisisCore"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223891
     fileId: 2526674
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1422,13 +1414,13 @@ mods:
     name: "Mob Grinding Utils"
     description: "A Mod that adds fun ways to make mob farms"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils"
-    packageType: "mod"
+    packageType: "MOD"
     id: 254241
     fileId: 2496911
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1442,32 +1434,32 @@ mods:
       \ their own crafting mechanics"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/modtweaker"
     dependencies:
-      required:
+      REQUIRED:
       - "MTLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 220954
-    fileId: 2514559
+    fileId: 2531342
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2514/559/modtweaker-4.0.6.jar"
-    fileName: "modtweaker-4.0.6.jar"
+    url: "https://files.forgecdn.net/files/2531/342/modtweaker-4.0.7.jar"
+    fileName: "modtweaker-4.0.7.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "More Bees"
     description: "Adds More Bees to Forestry"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/more-bees"
-    packageType: "mod"
+    packageType: "MOD"
     id: 250226
     fileId: 2506997
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1478,13 +1470,13 @@ mods:
     name: "More Shearables"
     description: "Shear Pigs, Cows and Chickens!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/more-shearables"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241805
     fileId: 2457644
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1496,15 +1488,15 @@ mods:
     description: "Natura"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/natura"
     dependencies:
-      required:
+      REQUIRED:
       - "Mantle"
-    packageType: "mod"
+    packageType: "MOD"
     id: 74120
     fileId: 2519128
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1516,13 +1508,13 @@ mods:
     description: "Nature's Compass is a utility item that allows you to search for\
       \ a biome's location anywhere in the world and view information about it."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/natures-compass"
-    packageType: "mod"
+    packageType: "MOD"
     id: 252848
     fileId: 2513221
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1534,13 +1526,13 @@ mods:
     description: "NetherEx is a Nether overhaul mod for Minecraft. It adds in new\
       \ biomes, structures, mobs, and more!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/netherex"
-    packageType: "mod"
+    packageType: "MOD"
     id: 248039
     fileId: 2506216
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1552,13 +1544,13 @@ mods:
     description: "Ensures correct destinations when travelling back and forth through\
       \ Nether Portals in Multiplayer."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/netherportalfix"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241160
     fileId: 2489643
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1569,30 +1561,30 @@ mods:
     name: "stimmedcow : NoMoreRecipeConflict"
     description: "Switch between conflicting craft recipes"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/stimmedcow-nomorerecipeconflict"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238123
-    fileId: 2475232
+    fileId: 2529891
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2475/232/NoMoreRecipeConflict-0.9(1.12).jar"
-    fileName: "NoMoreRecipeConflict-0.9(1.12).jar"
+    url: "https://files.forgecdn.net/files/2529/891/NoMoreRecipeConflict-0.10(1.12.2).jar"
+    fileName: "NoMoreRecipeConflict-0.10(1.12.2).jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "NotEnoughIDs"
     description: "Extends hardcoded block id limit"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/notenoughids"
-    packageType: "mod"
+    packageType: "MOD"
     id: 235107
     fileId: 2483500
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1603,13 +1595,13 @@ mods:
     name: "OpenComputers"
     description: "Modular, persistent, programmable computers and robots."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/opencomputers"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223008
     fileId: 2508602
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1621,20 +1613,20 @@ mods:
     description: "Random collection of blocks. Some of which aren't blocks at all."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/openblocks"
     dependencies:
-      required:
+      REQUIRED:
       - "OpenModsLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 228816
-    fileId: 2525232
+    fileId: 2530225
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2525/232/OpenBlocks-1.12.2-1.7.5.jar"
-    fileName: "OpenBlocks-1.12.2-1.7.5.jar"
+    url: "https://files.forgecdn.net/files/2530/225/OpenBlocks-1.12.2-1.7.6.jar"
+    fileName: "OpenBlocks-1.12.2-1.7.6.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "OpenModularTurrets"
@@ -1642,15 +1634,17 @@ mods:
       \ and general manly security measures!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/openmodularturrets"
     dependencies:
-      optional:
+      OPTIONAL:
       - "Open Modular Passive Defense"
-    packageType: "mod"
+      REQUIRED:
+      - "OMLib"
+    packageType: "MOD"
     id: 224663
     fileId: 2527839
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1662,16 +1656,16 @@ mods:
     description: "Library for Open Modular * Mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/omlib"
     dependencies:
-      optional:
+      OPTIONAL:
       - "OpenModularTurrets"
       - "Open Modular Passive Defense"
-    packageType: "mod"
+    packageType: "MOD"
     id: 254334
     fileId: 2527820
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1684,15 +1678,15 @@ mods:
       \ (OTG)"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/biome-bundle"
     dependencies:
-      required:
+      REQUIRED:
       - "Open Terrain Generator (OTG)"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241542
     fileId: 2505277
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1700,58 +1694,16 @@ mods:
     fileName: "Biome_Bundle-1.12.2-v6.1.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "OTG: Skylands"
-    description: "A Skylands world generator with interconnected floating islands\
-      \ and void below. Watch your step! For use with Open Terrain Generator."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/otg-skylands"
-    dependencies:
-      required:
-      - "Open Terrain Generator (OTG)"
-    packageType: "mod"
-    id: 265901
-    fileId: 2486111
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2486/111/OTG-Skylands-1.12.2-v5.jar"
-    fileName: "OTG-Skylands-1.12.2-v5.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "OTG: The Void"
-    description: "A void world with a single floating island at spawn. For use with\
-      \ Open Terrain Generator."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/otg-the-void"
-    dependencies:
-      required:
-      - "Open Terrain Generator (OTG)"
-    packageType: "mod"
-    id: 265903
-    fileId: 2486113
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2486/113/OTG-Void-1.12.2-v4.jar"
-    fileName: "OTG-Void-1.12.2-v4.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Packing Tape"
     description: "A small mod that lets you move things around."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/packing-tape"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238659
     fileId: 2448178
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1763,31 +1715,31 @@ mods:
     description: "A farming mod that adds 60+ new crops, 36 new fruit trees, 17 new\
       \ fish, simple beekeeping, and over 1100 new foods and items!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft"
-    packageType: "mod"
+    packageType: "MOD"
     id: 221857
-    fileId: 2527142
+    fileId: 2533991
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2527/142/Pam's HarvestCraft 1.12.2o.jar"
-    fileName: "Pam's HarvestCraft 1.12.2o.jar"
+    url: "https://files.forgecdn.net/files/2533/991/Pam's HarvestCraft 1.12.2q.jar"
+    fileName: "Pam's HarvestCraft 1.12.2q.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Passthrough Signs"
     description: "Simple mod that, right-clicking on a wall sign, interacts with the\
       \ block it's attached to"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/passthrough-signs"
-    packageType: "mod"
+    packageType: "MOD"
     id: 224633
     fileId: 2494712
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1799,35 +1751,35 @@ mods:
     description: "Make decks, bridges, mineshafts or even wooden coasters"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/platforms"
     dependencies:
-      required:
+      REQUIRED:
       - "ShetiPhianCore"
-    packageType: "mod"
+    packageType: "MOD"
     id: 244786
-    fileId: 2522977
+    fileId: 2533246
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2522/977/platforms-1.12.0-1.4.3b.jar"
-    fileName: "platforms-1.12.0-1.4.3b.jar"
+    url: "https://files.forgecdn.net/files/2533/246/platforms-1.12.0-1.4.4.jar"
+    fileName: "platforms-1.12.0-1.4.4.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Psi"
     description: "Psionic Spellcasting Instruments"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/psi"
     dependencies:
-      required:
+      REQUIRED:
       - "AutoRegLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241665
     fileId: 2499167
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1840,15 +1792,15 @@ mods:
       \ things that improve the vanilla minecraft experience."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/quark"
     dependencies:
-      required:
+      REQUIRED:
       - "AutoRegLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 243121
     fileId: 2523813
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1859,49 +1811,49 @@ mods:
     name: "Random Things"
     description: "Random Things adds various miscellaneous items and blocks to minecraft"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/random-things"
-    packageType: "mod"
+    packageType: "MOD"
     id: 59816
-    fileId: 2521025
+    fileId: 2532432
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2521/25/RandomThings-MC1.12.2-4.1.2.jar"
-    fileName: "RandomThings-MC1.12.2-4.1.2.jar"
+    url: "https://files.forgecdn.net/files/2532/432/RandomThings-MC1.12.2-4.1.3.jar"
+    fileName: "RandomThings-MC1.12.2-4.1.3.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "RandomTweaks"
     description: "A bunch of miscellaneous vanilla-compatible tweaks for Minecraft,\
       \ such as sound system reloading and a time of day overlay."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/randomtweaks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 258205
-    fileId: 2524027
+    fileId: 2530517
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2524/27/randomtweaks-1.12.2-1.17.0.0.jar"
-    fileName: "randomtweaks-1.12.2-1.17.0.0.jar"
+    url: "https://files.forgecdn.net/files/2530/517/randomtweaks-1.12.2-1.17.0.1.jar"
+    fileName: "randomtweaks-1.12.2-1.17.0.1.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Ranged Pumps"
     description: "Ranged Pumps is a simple mod that adds a pump that pumps liquids\
       \ in a range"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ranged-pumps"
-    packageType: "mod"
+    packageType: "MOD"
     id: 247496
     fileId: 2441326
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1914,15 +1866,15 @@ mods:
       \ - Fully customizable"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/recurrent-complex"
     dependencies:
-      required:
+      REQUIRED:
       - "IvToolkit"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223150
     fileId: 2516761
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1935,15 +1887,15 @@ mods:
       \ Armor and Tools to make your adventuring Fluxtastic!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal"
     dependencies:
-      required:
+      REQUIRED:
       - "CoFH Core"
-    packageType: "mod"
+    packageType: "MOD"
     id: 70631
     fileId: 2518221
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1954,13 +1906,13 @@ mods:
     name: "Redstone Flux"
     description: "Redstone Flux API - Energy Transfer in Minecraft."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/redstone-flux"
-    packageType: "mod"
+    packageType: "MOD"
     id: 270789
     fileId: 2448933
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1971,13 +1923,13 @@ mods:
     name: "Refined Storage"
     description: "An elegant solution to your hoarding problem."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/refined-storage"
-    packageType: "mod"
+    packageType: "MOD"
     id: 243076
     fileId: 2515440
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -1989,15 +1941,15 @@ mods:
     description: "An addon mod for Refined Storage."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons"
     dependencies:
-      required:
+      REQUIRED:
       - "Refined Storage"
-    packageType: "mod"
+    packageType: "MOD"
     id: 272302
     fileId: 2488705
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2008,18 +1960,18 @@ mods:
     name: "Reliquary v1.3"
     description: "Many magical items to help you in your minecraft world"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241319
-    fileId: 2527103
+    fileId: 2536361
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2527/103/Reliquary-1.12.2-1.3.4.733.jar"
-    fileName: "Reliquary-1.12.2-1.3.4.733.jar"
+    url: "https://files.forgecdn.net/files/2536/361/Reliquary-1.12.2-1.3.4.753.jar"
+    fileName: "Reliquary-1.12.2-1.3.4.753.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "RFTools"
@@ -2027,34 +1979,36 @@ mods:
       \ crafter, monitor, scanner, ...)"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/rftools"
     dependencies:
-      required:
+      REQUIRED:
       - "McJtyLib"
-      optional:
+      OPTIONAL:
       - "The One Probe"
-    packageType: "mod"
+      - "Interaction Wheel"
+      - "Redstone Flux"
+    packageType: "MOD"
     id: 224641
-    fileId: 2525541
+    fileId: 2535639
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2525/541/rftools-1.12-7.27.jar"
-    fileName: "rftools-1.12-7.27.jar"
+    url: "https://files.forgecdn.net/files/2535/639/rftools-1.12-7.30.jar"
+    fileName: "rftools-1.12-7.30.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Roguelike Dungeons"
     description: "Randomized dungeons, loot and spawners"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons"
-    packageType: "mod"
+    packageType: "MOD"
     id: 221585
     fileId: 2492586
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2065,13 +2019,13 @@ mods:
     name: "Roots"
     description: "A druidic nature-magic mod."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/roots"
-    packageType: "mod"
+    packageType: "MOD"
     id: 246183
     fileId: 2510836
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2083,13 +2037,13 @@ mods:
     description: "Ever wanted to build a rope bridge to an inaccessible area? With\
       \ Rope Bridge, you can!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/rope-bridge"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238050
     fileId: 2465994
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2100,30 +2054,30 @@ mods:
     name: "Rustic"
     description: "A Medieval Expansion Mod"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/rustic"
-    packageType: "mod"
+    packageType: "MOD"
     id: 256141
-    fileId: 2524614
+    fileId: 2535889
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2524/614/rustic-0.4.8.jar"
-    fileName: "rustic-0.4.8.jar"
+    url: "https://files.forgecdn.net/files/2535/889/rustic-0.4.10.jar"
+    fileName: "rustic-0.4.10.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Scannable"
     description: "One scanner to find them, and with eye candy bind them."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/scannable"
-    packageType: "mod"
+    packageType: "MOD"
     id: 266784
     fileId: 2485237
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2135,15 +2089,15 @@ mods:
     description: "Mod that adds OpenTTD/Factorio style signaling and more!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/signals"
     dependencies:
-      optional:
+      OPTIONAL:
       - "In-Game Wiki Mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 245824
     fileId: 2522706
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2155,16 +2109,16 @@ mods:
     description: "All the Sponges! Also can be used with OpenBlocks!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/simple-sponge"
     dependencies:
-      optional:
+      OPTIONAL:
       - "OpenBlocks"
       - "Redstone Flux"
-    packageType: "mod"
+    packageType: "MOD"
     id: 269141
     fileId: 2528670
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2176,13 +2130,13 @@ mods:
     description: "Simple Teleporters adds a craftable teleporter block to quickly\
       \ travel your world!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/simple-teleporters"
-    packageType: "mod"
+    packageType: "MOD"
     id: 241588
     fileId: 2512726
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2193,13 +2147,13 @@ mods:
     name: "Spartan Shields"
     description: "Shield Mod for Minecraft"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/spartan-shields"
-    packageType: "mod"
+    packageType: "MOD"
     id: 252239
     fileId: 2528265
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2211,36 +2165,36 @@ mods:
     description: "Interactive compartment storage for your workshops."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers"
     dependencies:
-      required:
+      REQUIRED:
       - "Chameleon"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223852
-    fileId: 2522494
+    fileId: 2536306
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2522/494/StorageDrawers-1.12.2-5.3.4.jar"
-    fileName: "StorageDrawers-1.12.2-5.3.4.jar"
+    url: "https://files.forgecdn.net/files/2536/306/StorageDrawers-1.12.2-5.3.5.jar"
+    fileName: "StorageDrawers-1.12.2-5.3.5.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Storage Drawers Extras"
     description: "A unified wood styles addon pack for Storage Drawers"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/storage-drawers-extras"
     dependencies:
-      required:
+      REQUIRED:
       - "Storage Drawers"
       - "Chameleon"
-    packageType: "mod"
+    packageType: "MOD"
     id: 254879
     fileId: 2443623
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2252,15 +2206,15 @@ mods:
     description: "A bunch of different tails, ears and wings to enhance your character!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tails"
     dependencies:
-      embedded:
+      EMBEDDED:
       - "FoxLib"
-    packageType: "mod"
+    packageType: "MOD"
     id: 223584
     fileId: 2445532
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2271,76 +2225,55 @@ mods:
     name: "TamModized"
     description: "Library used by Tamaized's mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tammodized"
-    packageType: "mod"
+    packageType: "MOD"
     id: 251733
-    fileId: 2482183
+    fileId: 2536023
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2482/183/TamModized-1.12.1-0.15.3.jar"
-    fileName: "TamModized-1.12.1-0.15.3.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Terraqueous"
-    description: "Fruit Trees/Vines/Plants, Cloud Blocks, Flowers, Doodads, Pergola,\
-      \ Tools"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/terraqueous"
-    dependencies:
-      required:
-      - "ShetiPhianCore"
-    packageType: "mod"
-    id: 244870
-    fileId: 2517841
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2517/841/terraqueous-1.12.0-1.4.8.jar"
-    fileName: "terraqueous-1.12.0-1.4.8.jar"
+    url: "https://files.forgecdn.net/files/2536/23/TamModized-1.12.1-0.15.5.jar"
+    fileName: "TamModized-1.12.1-0.15.5.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "[ANGRY PIXEL] The Betweenlands Mod"
     description: "Introducing the Betweenlands, a dark and hostile environment..."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/angry-pixel-the-betweenlands-mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 243363
-    fileId: 2529098
+    fileId: 2537479
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2529/98/TheBetweenlands-3.3.0-universal.jar"
-    fileName: "TheBetweenlands-3.3.0-universal.jar"
+    url: "https://files.forgecdn.net/files/2537/479/TheBetweenlands-3.3.1-universal.jar"
+    fileName: "TheBetweenlands-3.3.1-universal.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "The One Wrench (All in One Edition)"
     description: "Successor to NHAVE's OmniWrench"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tow"
     dependencies:
-      required:
+      REQUIRED:
       - "NHAVE's Core"
-    packageType: "mod"
+    packageType: "MOD"
     id: 224053
-    fileId: 2528447
+    fileId: 2534368
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2528/447/TheOneWrench-1.12-2.0.3.jar"
-    fileName: "TheOneWrench-1.12-2.0.3.jar"
+    url: "https://files.forgecdn.net/files/2534/368/TheOneWrench-1.12.2-2.1.2.jar"
+    fileName: "TheOneWrench-1.12.2-2.1.2.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Thermal Cultivation"
@@ -2348,16 +2281,16 @@ mods:
       \ activities!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/thermal-cultivation"
     dependencies:
-      required:
+      REQUIRED:
       - "CoFH Core"
       - "Thermal Foundation"
-    packageType: "mod"
+    packageType: "MOD"
     id: 271835
     fileId: 2518223
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2368,13 +2301,13 @@ mods:
     name: "Unlimited Chisel Works"
     description: "Generated Chisel variants for modded blocks"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/unlimited-chisel-works"
-    packageType: "mod"
+    packageType: "MOD"
     id: 278493
     fileId: 2522227
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2382,22 +2315,474 @@ mods:
     fileName: "UnlimitedChiselWorks-0.1.10.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
+    name: "Tinkers Construct"
+    description: "Modify all the things, then do it again!"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
+    dependencies:
+      REQUIRED:
+      - "Mantle"
+    packageType: "MOD"
+    id: 74072
+    fileId: 2530200
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2530/200/TConstruct-1.12.2-2.9.1.65.jar"
+    fileName: "TConstruct-1.12.2-2.9.1.65.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Tinkers' Tool Leveling"
+    description: "Use tools. Get modifiers."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling"
+    dependencies:
+      REQUIRED:
+      - "Tinkers Construct"
+      - "Mantle"
+    packageType: "MOD"
+    id: 250957
+    fileId: 2507887
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2507/887/TinkerToolLeveling-1.12-1.0.3.jar"
+    fileName: "TinkerToolLeveling-1.12-1.0.3.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "The Spotlight Mod"
+    description: "Highly configurable beacon"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/the-spotlight-mod"
+    packageType: "MOD"
+    id: 268037
+    fileId: 2495296
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2495/296/TheSpotlightMod-1.2.0.101-mc1.12.2-universal.jar"
+    fileName: "TheSpotlightMod-1.2.0.101-mc1.12.2-universal.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "TickProfiler"
+    description: "Profiling tool for server admins"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tickprofiler"
+    packageType: "MOD"
+    id: 270330
+    fileId: 2536494
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2536/494/TickProfiler-1.12-0.0.4.jar"
+    fileName: "TickProfiler-1.12-0.0.4.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Good Ol' Currency"
+    description: "Adds currency and many other things to help create an economy in\
+      \ minecraft"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/good-ol-currency"
+    packageType: "MOD"
+    id: 254346
+    fileId: 2531974
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2531/974/Currency-1.12.0-1.3.1.jar"
+    fileName: "Currency-1.12.0-1.3.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Extreme Reactors"
+    description: "This is a port of the Big Reactors mod by Erogenous Beef to the\
+      \ current Minecraft versions "
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/extreme-reactors"
+    dependencies:
+      OPTIONAL:
+      - "TESLA"
+      REQUIRED:
+      - "ZeroCore"
+    packageType: "MOD"
+    id: 250277
+    fileId: 2525278
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2525/278/ExtremeReactors-1.12.2-0.4.5.46.jar"
+    fileName: "ExtremeReactors-1.12.2-0.4.5.46.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "ZeroCore"
+    description: "Utility mod and multiblock API"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/zerocore"
+    packageType: "MOD"
+    id: 247921
+    fileId: 2482156
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2482/156/zerocore-1.12-0.1.1.0.jar"
+    fileName: "zerocore-1.12-0.1.1.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Paintings ++"
+    description: "Add from 70 up to 300 Paintings to your game !"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/paintings"
+    packageType: "MOD"
+    id: 252042
+    fileId: 2524743
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2524/743/paintings-1.12.2-3.3.0.0.jar"
+    fileName: "paintings-1.12.2-3.3.0.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Painting Selection Gui Revamped"
+    description: "Choose your painting from a gui !"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/painting-selection-gui-revamped"
+    packageType: "MOD"
+    id: 252043
+    fileId: 2524727
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2524/727/paintingselgui-PSG Revamed-1.12.2-1.1.0.1.jar"
+    fileName: "paintingselgui-PSG Revamed-1.12.2-1.1.0.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Tool Belt"
+    description: "A utility belt that holds your tools"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tool-belt"
+    packageType: "MOD"
+    id: 260262
+    fileId: 2461671
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2461/671/ToolBelt-1.12.0-1.7.1.jar"
+    fileName: "ToolBelt-1.12.0-1.7.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "TorchMaster"
+    description: "Adds a special torch which prevents mob spawning in a configurable\
+      \ radius"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/torchmaster"
+    packageType: "MOD"
+    id: 254268
+    fileId: 2489361
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2489/361/torchmaster_1.12.2-1.6.1.53.jar"
+    fileName: "torchmaster_1.12.2-1.6.1.53.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Totemic"
+    description: "A mod with a focus on Totems, music and nature"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/totemic"
+    packageType: "MOD"
+    id: 237541
+    fileId: 2533938
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2533/938/Totemic-1.12.2-0.10.2.jar"
+    fileName: "Totemic-1.12.2-0.10.2.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Robotic Parts"
+    description: "Unofficial 1.12.2 port of Cyberware by Flaxbeard"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/roboticparts"
+    packageType: "MOD"
+    id: 283377
+    fileId: 2532729
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2532/729/cyberware-1.12.2-0.2.10.10.jar"
+    fileName: "cyberware-1.12.2-0.2.10.10.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "ReWIRED"
+    description: "Companion Mod for Robotic Parts/Cyberware"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/rewired"
+    dependencies:
+      OPTIONAL:
+      - "ConnectedTexturesMod"
+      REQUIRED:
+      - "Robotic Parts"
+    packageType: "MOD"
+    id: 285550
+    fileId: 2530581
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2530/581/ReWIRED-1.0.3.jar"
+    fileName: "ReWIRED-1.0.3.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Soulus"
+    description: "You must sift through the ashes of the dead to restore life to the\
+      \ world."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/soulus"
+    packageType: "MOD"
+    id: 283615
+    fileId: 2532473
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2532/473/Soulus-1.12.2-3.4.0-a39bafc.jar"
+    fileName: "Soulus-1.12.2-3.4.0-a39bafc.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Garbage Bins"
+    description: "Simple trashcans for items and fluids."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/trashcans-reborn"
+    packageType: "MOD"
+    id: 286710
+    fileId: 2529016
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2529/16/garbagebins-1.1.0.jar"
+    fileName: "garbagebins-1.1.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Land Manager"
+    description: "Manage custom sized protected areas of the world and allocate them\
+      \ to players!"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/land-manager"
+    packageType: "MOD"
+    id: 286284
+    fileId: 2525291
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2525/291/landmanager-1.12.2-1.0.1.jar"
+    fileName: "landmanager-1.12.2-1.0.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Sit"
+    description: "Allows you to sit on slabs and stairs."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/sit"
+    packageType: "MOD"
+    id: 278717
+    fileId: 2533371
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2533/371/sit-1.12.x-v1.1.jar"
+    fileName: "sit-1.12.x-v1.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Fast Leaf Decay"
+    description: "Makes leaves decay faster when a tree is cut down."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+    packageType: "MOD"
+    id: 230976
+    fileId: 2463272
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2463/272/FastLeafDecay-v14.jar"
+    fileName: "FastLeafDecay-v14.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Unlimited Chisel Works - Botany"
+    description: "Botany addon for Unlimited Chisel Works"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/unlimited-chisel-works-botany"
+    dependencies:
+      REQUIRED:
+      - "Binnie's Mods"
+      - "Unlimited Chisel Works"
+    packageType: "MOD"
+    id: 282877
+    fileId: 2522228
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2522/228/UnlimitedChiselWorks-Botany-0.1.2.jar"
+    fileName: "UnlimitedChiselWorks-Botany-0.1.2.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Blood Magic"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Improvable Skills 3"
+    description: "Technically it's Player Stats"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/improvable-skills"
+    dependencies:
+      REQUIRED:
+      - "Hammer Core"
+    packageType: "MOD"
+    id: 252902
+    fileId: 2534980
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2534/980/ImprovableSkills_1.12.2-3.2.1r.jar"
+    fileName: "ImprovableSkills_1.12.2-3.2.1r.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Unloader"
+    description: "Unloader is a small utility mod that unloads dimensions that aren't\
+      \ in use."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/unloader"
+    packageType: "MOD"
+    id: 286230
+    fileId: 2534509
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2534/509/unloader-1.0.1.jar"
+    fileName: "unloader-1.0.1.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Animania"
+    description: "Animania is an immersive mod that replaces and improves the passive\
+      \ animals in Minecraft, adding multiple breeds, proper genders, new behaviors,\
+      \ and several new species."
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/animania"
+    dependencies:
+      REQUIRED:
+      - "CraftStudio API"
+    packageType: "MOD"
+    id: 261199
+    fileId: 2533072
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2533/72/animania-1.12.2-1.4.6.jar"
+    fileName: "animania-1.12.2-1.4.6.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "ColorfulWater"
+    description: "Water, but colorful. Oh my!"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/colorfulwater"
+    packageType: "MOD"
+    id: 283346
+    fileId: 2532613
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2532/613/ColoredWater-1.12.2-b37.jar"
+    fileName: "ColoredWater-1.12.2-b37.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
     name: "Thermal Dynamics"
     description: "Thermal gets Dynamic! Adds ducts - transportation for Redstone Flux,\
       \ Fluids, and Items!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics"
     dependencies:
-      required:
+      REQUIRED:
       - "CoFH Core"
       - "Thermal Foundation"
       - "CodeChicken Lib 1.8.+"
-    packageType: "mod"
+    packageType: "MOD"
     id: 227443
     fileId: 2518224
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2410,17 +2795,17 @@ mods:
       \ blend of magic and technology!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/thermalexpansion"
     dependencies:
-      required:
+      REQUIRED:
       - "CoFH Core"
       - "Thermal Foundation"
       - "CodeChicken Lib 1.8.+"
-    packageType: "mod"
+    packageType: "MOD"
     id: 69163
     fileId: 2520117
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2430,9 +2815,9 @@ mods:
   - provider: "DIRECT"
     name: "foamfix"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     version: "0.9.2"
     validMcVersions:
     - "1.12.1"
@@ -2446,9 +2831,9 @@ mods:
   - provider: "DIRECT"
     name: "CharsetPatches"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     version: "0.1.4"
     validMcVersions:
     - "1.12.1"
@@ -2459,151 +2844,24 @@ mods:
     updateJson: "https://asie.pl/files/minecraft/update/charsetpatches.json"
     template: "https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar"
   - provider: "DIRECT"
-    name: "Tinkers Construct"
-    description: "Modify all the things, then do it again!"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
-    dependencies:
-      required:
-      - "Mantle"
-    packageType: "mod"
-    id: 74072
-    fileId: 2518400
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2518/400/TConstruct-1.12.2-2.9.0.55.jar"
-    fileName: "TConstruct-1.12.2-2.9.0.55.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "The Spotlight Mod"
-    description: "Highly configurable beacon"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/the-spotlight-mod"
-    packageType: "mod"
-    id: 268037
-    fileId: 2495296
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2495/296/TheSpotlightMod-1.2.0.101-mc1.12.2-universal.jar"
-    fileName: "TheSpotlightMod-1.2.0.101-mc1.12.2-universal.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "TickProfiler"
-    description: "Profiling tool for server admins"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tickprofiler"
-    packageType: "mod"
-    id: 270330
-    fileId: 2514812
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2514/812/TickProfiler-1.12-0.0.2.jar"
-    fileName: "TickProfiler-1.12-0.0.2.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Tinkers' Tool Leveling"
-    description: "Use tools. Get modifiers."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling"
-    dependencies:
-      required:
-      - "Tinkers Construct"
-      - "Mantle"
-    packageType: "mod"
-    id: 250957
-    fileId: 2507887
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2507/887/TinkerToolLeveling-1.12-1.0.3.jar"
-    fileName: "TinkerToolLeveling-1.12-1.0.3.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Tool Belt"
-    description: "A utility belt that holds your tools"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/tool-belt"
-    packageType: "mod"
-    id: 260262
-    fileId: 2461671
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2461/671/ToolBelt-1.12.0-1.7.1.jar"
-    fileName: "ToolBelt-1.12.0-1.7.1.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "TorchMaster"
-    description: "Adds a special torch which prevents mob spawning in a configurable\
-      \ radius"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/torchmaster"
-    packageType: "mod"
-    id: 254268
-    fileId: 2489361
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2489/361/torchmaster_1.12.2-1.6.1.53.jar"
-    fileName: "torchmaster_1.12.2-1.6.1.53.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Totemic"
-    description: "A mod with a focus on Totems, music and nature"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/totemic"
-    packageType: "mod"
-    id: 237541
-    fileId: 2527189
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2527/189/Totemic-1.12.2-0.10.1.jar"
-    fileName: "Totemic-1.12.2-0.10.1.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "The Twilight Forest"
     description: "A realm basked in mystery and eerie twilight, you will overpower\
       \ terrifying creatures and secure the adventure of a lifetime; in the Twilight\
       \ Forest."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest"
     dependencies:
-      optional:
+      OPTIONAL:
       - "Tinkers Construct"
       - "Chisel"
       - "Just Enough Items (JEI)"
       - "ConnectedTexturesMod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 227639
     fileId: 2528109
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2614,13 +2872,13 @@ mods:
     name: "Upsizer Mod"
     description: "Upsize the max stack size of Minecraft items in all inventories"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/upsizer-mod"
-    packageType: "mod"
+    packageType: "MOD"
     id: 237514
     fileId: 2519662
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2632,13 +2890,13 @@ mods:
     description: "Nullifiers for getting rid of those useless items, fluids, and energy.\
       \  Also includes an item similar to the dev/null."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/useful-nullifiers"
-    packageType: "mod"
+    packageType: "MOD"
     id: 247408
     fileId: 2444884
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2649,13 +2907,13 @@ mods:
     name: "ViesCraft - Airships!"
     description: "Airships through the eyes of Viesis!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/viescraft-airships"
-    packageType: "mod"
+    packageType: "MOD"
     id: 246795
     fileId: 2515257
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2663,37 +2921,19 @@ mods:
     fileName: "ViesCraft-1.12.2-5.6.1.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "Villager Market"
-    description: "Villager Market block that shows the trades for all the villagers\
-      \ around"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/villager-market"
-    packageType: "mod"
-    id: 261505
-    fileId: 2448240
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2448/240/villagermarket-0.2-HF.jar"
-    fileName: "villagermarket-0.2-HF.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Wearables"
     description: "Fancy, customizable, functional armor"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/wearables"
     dependencies:
-      required:
+      REQUIRED:
       - "LLibrary"
-    packageType: "mod"
+    packageType: "MOD"
     id: 265774
     fileId: 2484011
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2701,112 +2941,41 @@ mods:
     fileName: "wearables-1.1.3.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
-    name: "Wolf Armor and Storage"
-    description: "Adds armors and storage for wolves!"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/wolf-armor-and-storage"
-    packageType: "mod"
-    id: 253689
-    fileId: 2484803
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2484/803/wolfarmor-1.12.2-2.1.0.24-RELEASE.jar"
-    fileName: "wolfarmor-1.12.2-2.1.0.24-RELEASE.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Woot"
-    description: "Build your own mob factory"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/woot"
-    dependencies:
-      required:
-      - "Guide-API"
-    packageType: "mod"
-    id: 244049
-    fileId: 2524852
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2524/852/woot-1.12.2-0.0.8.jar"
-    fileName: "woot-1.12.2-0.0.8.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
     name: "Xtones"
     description: "An \"official\" port of Ztones"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/xtones"
-    packageType: "mod"
+    packageType: "MOD"
     id: 257573
-    fileId: 2502661
+    fileId: 2531411
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://files.forgecdn.net/files/2502/661/Xtones-1.12-1.0.7-10.jar"
-    fileName: "Xtones-1.12-1.0.7-10.jar"
+    url: "https://files.forgecdn.net/files/2531/411/Xtones-1.12-1.0.8-11.jar"
+    fileName: "Xtones-1.12-1.0.8-11.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Nutrition"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.6.0.jar"
-    fileName: "Nutrition-1.12.2-2.6.0.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Level Up!"
-    description: "Feel like your experience is worth something"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/level-up"
-    packageType: "mod"
-    id: 251136
-    fileId: 2521327
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2521/327/Level Up! 2-1.1.15-1.12.jar"
-    fileName: "Level Up! 2-1.1.15-1.12.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-  - provider: "DIRECT"
-    name: "Fast Leaf Decay"
-    description: "Makes leaves decay faster when a tree is cut down."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
-    packageType: "mod"
-    id: 230976
-    fileId: 2463272
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://files.forgecdn.net/files/2463/272/FastLeafDecay-v14.jar"
-    fileName: "FastLeafDecay-v14.jar"
+    url: "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.8.0.jar"
+    fileName: "Nutrition-1.12.2-2.8.0.jar"
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Thermionics"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/Thermionics/job/master/40/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2819,9 +2988,9 @@ mods:
     name: "ThermionicsWorld"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/ThermionicsWorld/job/master/13/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2834,9 +3003,9 @@ mods:
     name: "Engination"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/Engination/job/master/7/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2847,26 +3016,41 @@ mods:
     buildNumber: 7
   - provider: "DIRECT"
     name: "GlassHearts"
-    websiteUrl: "https://ci.elytradev.com/job/elytra/job/GlassHearts/job/1.12/2/"
+    websiteUrl: "https://ci.elytradev.com/job/elytra/job/GlassHearts/job/1.12.1/9/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://ci.elytradev.com/job/elytra/job/GlassHearts/job/1.12/2/artifact/build/libs/GlassHearts-1.12-1.0.62.jar"
-    fileName: "GlassHearts-1.12-1.0.62.jar"
+    url: "https://ci.elytradev.com/job/elytra/job/GlassHearts/job/1.12.1/9/artifact/build/libs/GlassHearts-1.12.1-1.0.70.jar"
+    fileName: "GlassHearts-1.12.1-1.0.70.jar"
     jenkinsUrl: "https://ci.elytradev.com"
-    job: "elytra/GlassHearts/1.12"
-    buildNumber: 2
+    job: "elytra/GlassHearts/1.12.1"
+    buildNumber: 9
+  - provider: "DIRECT"
+    name: "FruitPhone"
+    websiteUrl: "https://ci.elytradev.com/job/elytra/job/FruitPhone/job/1.12.2/4/"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://ci.elytradev.com/job/elytra/job/FruitPhone/job/1.12.2/4/artifact/build/libs/FruitPhone-1.12.2-2.83.jar"
+    fileName: "FruitPhone-1.12.2-2.83.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/FruitPhone/1.12.2"
+    buildNumber: 4
   - provider: "DIRECT"
     name: "ProbeDataProvider"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/ProbeDataProvider/job/1.12/2/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2879,9 +3063,9 @@ mods:
     name: "ArchitectureCraft"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/ArchitectureCraft/job/1.12/63/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2894,9 +3078,9 @@ mods:
     name: "Teckle"
     websiteUrl: "https://ci.elytradev.com/job/elytra/job/Teckle/job/1.12/145/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2906,47 +3090,53 @@ mods:
     job: "elytra/Teckle/1.12"
     buildNumber: 145
   - provider: "DIRECT"
-    name: "LingeringLoot"
-    websiteUrl: "https://ci.elytradev.com/job/elytra/job/LingeringLoot/job/master/45/"
-    releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
-    validMcVersions:
-    - "1.12.1"
-    - "1.12"
-    url: "https://ci.elytradev.com/job/elytra/job/LingeringLoot/job/master/45/artifact/build/libs/LingeringLoot-1.12.2-4.2.jar"
-    fileName: "LingeringLoot-1.12.2-4.2.jar"
-    jenkinsUrl: "https://ci.elytradev.com"
-    job: "elytra/LingeringLoot/master"
-    buildNumber: 45
-  - provider: "DIRECT"
     name: "Charset"
-    websiteUrl: "https://ci.elytradev.com/job/CharsetMC/job/Charset/job/1.12/164/"
+    websiteUrl: "https://ci.elytradev.com/job/CharsetMC/job/Charset/job/1.12/201/"
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
-    url: "https://ci.elytradev.com/job/CharsetMC/job/Charset/job/1.12/164/artifact/build/libs/Charset-0.5.0.164.jar"
-    fileName: "Charset-0.5.0.164.jar"
+    url: "https://ci.elytradev.com/job/CharsetMC/job/Charset/job/1.12/201/artifact/build/libs/Charset-0.5.0.201-full.jar"
+    fileName: "Charset-0.5.0.201-full.jar"
     jenkinsUrl: "https://ci.elytradev.com"
     job: "CharsetMC/Charset/1.12"
-    buildNumber: 164
+    buildNumber: 201
+  - provider: "DIRECT"
+    name: "Just Enough Resources (JER)"
+    description: "A JEI addon that adds mob drops, ore gen, .."
+    side: "CLIENT"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer"
+    dependencies:
+      REQUIRED:
+      - "Just Enough Items (JEI)"
+    packageType: "MOD"
+    id: 240630
+    fileId: 2523823
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "https://files.forgecdn.net/files/2523/823/JustEnoughResources-1.12.2-0.8.7.41.jar"
+    fileName: "JustEnoughResources-1.12.2-0.8.7.41.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "MineMenu"
     description: "Mine Menu - Radial menu, 'nuff said"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/minemenu"
-    packageType: "mod"
+    packageType: "MOD"
     id: 222378
     fileId: 2497593
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2959,15 +3149,17 @@ mods:
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/journeymap"
     dependencies:
-      optional:
+      OPTIONAL:
       - "JourneyMap Tools"
-    packageType: "mod"
+      EMBEDDED:
+      - "JourneyMap API"
+    packageType: "MOD"
     id: 32274
     fileId: 2498312
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2979,13 +3171,13 @@ mods:
     description: "Adds some useful information about food/hunger to the HUD"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/appleskin"
-    packageType: "mod"
+    packageType: "MOD"
     id: 248787
     fileId: 2496585
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -2997,13 +3189,13 @@ mods:
     description: "Performance Improvements"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/betterfps"
-    packageType: "mod"
+    packageType: "MOD"
     id: 229876
     fileId: 2483393
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3015,13 +3207,13 @@ mods:
     description: "Replace the vanilla nausea effect with something less headache inducing"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/nonausea"
-    packageType: "mod"
+    packageType: "MOD"
     id: 226035
     fileId: 2432422
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3034,13 +3226,13 @@ mods:
       \ building."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/better-placement"
-    packageType: "mod"
+    packageType: "MOD"
     id: 278406
     fileId: 2481852
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3052,13 +3244,13 @@ mods:
     description: "There, I fixed Minecraft for you."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/client-tweaks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 251407
     fileId: 2458010
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3070,13 +3262,13 @@ mods:
     description: "Adds a search bar to the Key-Bindings menu"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/controlling"
-    packageType: "mod"
+    packageType: "MOD"
     id: 250398
     fileId: 2522248
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3088,13 +3280,13 @@ mods:
     description: "Allows you to modify the main menu using a simple json file"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu"
-    packageType: "mod"
+    packageType: "MOD"
     id: 226406
     fileId: 2482584
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3108,13 +3300,13 @@ mods:
       \ mod .cfg file."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/default-options"
-    packageType: "mod"
+    packageType: "MOD"
     id: 232131
     fileId: 2513607
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3126,13 +3318,13 @@ mods:
     description: "Simply shows the durability of tools/armor on your screen."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/durability-show"
-    packageType: "mod"
+    packageType: "MOD"
     id: 226099
     fileId: 2432683
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3144,13 +3336,13 @@ mods:
     description: "Allows minecraft to run in fullscreen windowed mode"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/fullscreen-windowed-borderless-for-minecraft"
-    packageType: "mod"
+    packageType: "MOD"
     id: 227441
     fileId: 2456007
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3163,13 +3355,13 @@ mods:
       \ the mouse wheel"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/item-scroller"
-    packageType: "mod"
+    packageType: "MOD"
     id: 242064
     fileId: 2434598
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3182,15 +3374,15 @@ mods:
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/jei-integration"
     dependencies:
-      required:
+      REQUIRED:
       - "Just Enough Items (JEI)"
-    packageType: "mod"
+    packageType: "MOD"
     id: 265917
     fileId: 2491927
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3202,13 +3394,13 @@ mods:
     description: "A small tool to make finding and fixing key conflicts a lot easier."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/keyboard-wizard"
-    packageType: "mod"
+    packageType: "MOD"
     id: 262366
     fileId: 2493196
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3220,13 +3412,13 @@ mods:
     description: "Minecraft mod that shows an ItemStack's mod name on its tooltip."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238747
     fileId: 2486868
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3239,13 +3431,13 @@ mods:
       \ functions to the usual mouse buttons."
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks"
-    packageType: "mod"
+    packageType: "MOD"
     id: 60089
     fileId: 2462627
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3257,13 +3449,13 @@ mods:
     description: "Minimalistic Functional Unit Frames for the modern Minecrafter"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/neat"
-    packageType: "mod"
+    packageType: "MOD"
     id: 238372
     fileId: 2436376
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3276,13 +3468,13 @@ mods:
       \ invalidates"
     side: "CLIENT"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/reauth"
-    packageType: "mod"
+    packageType: "MOD"
     id: 237701
     fileId: 2491161
     releaseTypes:
-    - "release"
-    - "alpha"
-    - "beta"
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
     validMcVersions:
     - "1.12.1"
     - "1.12"
@@ -3291,14 +3483,14 @@ mods:
     jenkinsUrl: "https://ci.elytradev.com"
   - provider: "DIRECT"
     name: "Minecraft Forge"
-    url: "http://files.minecraftforge.net/maven/net/minecraftforge/forge//1.12.2-14.23.2.2613/forge-1.12.2-14.23.2.2613-installer.jar"
-    fileName: "forge-1.12.2-14.23.2.2613-installer.jar"
+    url: "http://files.minecraftforge.net/maven/net/minecraftforge/forge//1.12.2-14.23.2.2611/forge-1.12.2-14.23.2.2611-installer.jar"
+    fileName: "forge-1.12.2-14.23.2.2611-installer.jar"
   - provider: "DIRECT"
     name: "SwordSkillsAPI"
     description: "Common API for DSS and ZSS provides intercompatibility for third\
       \ party mod developers"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/swordskillsapi"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 281029
     fileId: 2497376
@@ -3308,7 +3500,7 @@ mods:
     name: "AutoRegLib"
     description: "A library to ease menial tasks in mod development."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/autoreglib"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 250363
     fileId: 2497562
@@ -3318,7 +3510,7 @@ mods:
     name: "ConnectedTexturesMod"
     description: "A resource pack extension library"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ctm"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 267602
     fileId: 2519601
@@ -3328,7 +3520,7 @@ mods:
     name: "B.A.S.E"
     description: "Main Library for The Acronym Coders Mod Projects"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/b-a-s-e"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 246996
     fileId: 2528688
@@ -3338,7 +3530,7 @@ mods:
     name: "BdLib"
     description: "A library of generic code for my other mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/bdlib"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 70496
     fileId: 2518031
@@ -3350,62 +3542,43 @@ mods:
       \ on"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/brandons-core"
     dependencies:
-      required:
+      REQUIRED:
       - "CodeChicken Lib 1.8.+"
-    packageType: "mod"
+      - "Redstone Flux"
+    packageType: "MOD"
     transient: true
     id: 231382
-    fileId: 2514752
-    url: "https://files.forgecdn.net/files/2514/752/BrandonsCore-1.12-2.3.7.140-universal.jar"
-    fileName: "BrandonsCore-1.12-2.3.7.140-universal.jar"
+    fileId: 2530025
+    url: "https://files.forgecdn.net/files/2530/25/BrandonsCore-1.12-2.4.0.152-universal.jar"
+    fileName: "BrandonsCore-1.12-2.4.0.152-universal.jar"
   - provider: "DIRECT"
     name: "CodeChicken Lib 1.8.+"
     description: "Contains various tools to make modding easier."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 242818
     fileId: 2509819
     url: "https://files.forgecdn.net/files/2509/819/CodeChickenLib-1.12.2-3.1.5.331-universal.jar"
     fileName: "CodeChickenLib-1.12.2-3.1.5.331-universal.jar"
   - provider: "DIRECT"
-    name: "ShetiPhianCore"
-    description: "Required for ShetiPhians Mods"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/shetiphiancore"
-    packageType: "mod"
-    transient: true
-    id: 71738
-    fileId: 2522314
-    url: "https://files.forgecdn.net/files/2522/314/shetiphiancore-1.12.0-3.5.6.jar"
-    fileName: "shetiphiancore-1.12.0-3.5.6.jar"
-  - provider: "DIRECT"
     name: "ValkyrieLib"
     description: "Library for all of ValkyrieofNight's Mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/valkyrielib"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 245480
     fileId: 2523925
     url: "https://files.forgecdn.net/files/2523/925/valkyrielib-1.12.2-2.0.7a.jar"
     fileName: "valkyrielib-1.12.2-2.0.7a.jar"
   - provider: "DIRECT"
-    name: "Cyclops Core"
-    description: "Coremod for EvilCraft, Integrated Dynamics and others."
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cyclops-core"
-    packageType: "mod"
-    transient: true
-    id: 232758
-    fileId: 2528617
-    url: "https://files.forgecdn.net/files/2528/617/CyclopsCore-1.12.2-0.11.3.jar"
-    fileName: "CyclopsCore-1.12.2-0.11.3.jar"
-  - provider: "DIRECT"
     name: "ShadowMC"
     description: "A library mod required by all of my other mods."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/shadowmc"
     dependencies:
-      required:
+      REQUIRED:
       - "Shadowfacts' Forgelin"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 226780
     fileId: 2441500
@@ -3416,7 +3589,7 @@ mods:
     description: "FTBLib is a library mod that is used for all of our mods. Allows\
       \ editing some configs ingame, multiple modes within the same pack, etc."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ftblib"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 237167
     fileId: 2505841
@@ -3427,19 +3600,19 @@ mods:
     description: "Library files for Minetweaker Addons"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mtlib"
     dependencies:
-      required:
+      REQUIRED:
       - "CraftTweaker"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 253211
-    fileId: 2491141
-    url: "https://files.forgecdn.net/files/2491/141/MTLib-3.0.1.jar"
-    fileName: "MTLib-3.0.1.jar"
+    fileId: 2531339
+    url: "https://files.forgecdn.net/files/2531/339/MTLib-3.0.2.jar"
+    fileName: "MTLib-3.0.2.jar"
   - provider: "DIRECT"
     name: "WrapUp"
     description: "A simple library to wrap up initialization stages."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/wrapup"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 275153
     fileId: 2486198
@@ -3449,7 +3622,7 @@ mods:
     name: "CookieCore"
     description: "Lib for ephys' mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cookiecore"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 222908
     fileId: 2525823
@@ -3459,7 +3632,7 @@ mods:
     name: "MalisisCore"
     description: "Framework over Forge."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/malisiscore"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 223896
     fileId: 2526670
@@ -3469,7 +3642,7 @@ mods:
     name: "Mantle"
     description: "Shared code for Forge mods"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mantle"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 74924
     fileId: 2474052
@@ -3479,7 +3652,7 @@ mods:
     name: "OpenModsLib"
     description: "Common base used by OpenBlocks and OpenPeripheral"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/openmodslib"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 228815
     fileId: 2525230
@@ -3490,18 +3663,28 @@ mods:
     description: "An advanced world generator for Forge or Spigot which allows you\
       \ to generate any world you like without any Java knowledge."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/open-terrain-generator"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 265894
-    fileId: 2513685
-    url: "https://files.forgecdn.net/files/2513/685/OpenTerrainGenerator-1.12.2 -\
-      \ v4.jar"
-    fileName: "OpenTerrainGenerator-1.12.2 - v4.jar"
+    fileId: 2530367
+    url: "https://files.forgecdn.net/files/2530/367/OpenTerrainGenerator-1.12.2 -\
+      \ v5.jar"
+    fileName: "OpenTerrainGenerator-1.12.2 - v5.jar"
+  - provider: "DIRECT"
+    name: "ShetiPhianCore"
+    description: "Required for ShetiPhians Mods"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/shetiphiancore"
+    packageType: "MOD"
+    transient: true
+    id: 71738
+    fileId: 2522314
+    url: "https://files.forgecdn.net/files/2522/314/shetiphiancore-1.12.0-3.5.6.jar"
+    fileName: "shetiphiancore-1.12.0-3.5.6.jar"
   - provider: "DIRECT"
     name: "IvToolkit"
     description: "Versatile mod framework"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/ivtoolkit"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 224535
     fileId: 2443253
@@ -3513,9 +3696,11 @@ mods:
       \ really cool stuff on its own!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cofhcore"
     dependencies:
-      embedded:
+      EMBEDDED:
       - "CoFH Lib"
-    packageType: "mod"
+      REQUIRED:
+      - "Redstone Flux"
+    packageType: "MOD"
     transient: true
     id: 69162
     fileId: 2519297
@@ -3526,19 +3711,20 @@ mods:
     description: "Companion mod for all mods by McJty (RFTools, Deep Resonance)"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/mcjtylib"
     dependencies:
-      optional:
+      OPTIONAL:
       - "The One Probe"
-    packageType: "mod"
+      - "Redstone Flux"
+    packageType: "MOD"
     transient: true
     id: 233105
-    fileId: 2523982
-    url: "https://files.forgecdn.net/files/2523/982/mcjtylib-1.12-2.6.3.jar"
-    fileName: "mcjtylib-1.12-2.6.3.jar"
+    fileId: 2535637
+    url: "https://files.forgecdn.net/files/2535/637/mcjtylib-1.12-2.6.5.jar"
+    fileName: "mcjtylib-1.12-2.6.5.jar"
   - provider: "DIRECT"
     name: "Chameleon"
     description: "A shared code and render library."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/chameleon"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 230497
     fileId: 2450900
@@ -3548,51 +3734,62 @@ mods:
     name: "NHAVE's Core"
     description: "The core containing common functions used by my mods."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/nhaves-core"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 233718
-    fileId: 2527537
-    url: "https://files.forgecdn.net/files/2527/537/NHCore-1.12-4.0.1.jar"
-    fileName: "NHCore-1.12-4.0.1.jar"
+    fileId: 2532626
+    url: "https://files.forgecdn.net/files/2532/626/NHCore-1.12-4.0.3.jar"
+    fileName: "NHCore-1.12-4.0.3.jar"
   - provider: "DIRECT"
     name: "Thermal Foundation"
     description: "The Foundation of a Thermally Expanding World!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation"
     dependencies:
-      required:
+      REQUIRED:
       - "CoFH Core"
       - "CoFH World"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 222880
     fileId: 2518222
     url: "https://files.forgecdn.net/files/2518/222/ThermalFoundation-1.12.2-2.3.10.6-universal.jar"
     fileName: "ThermalFoundation-1.12.2-2.3.10.6-universal.jar"
   - provider: "DIRECT"
+    name: "Hammer Core"
+    description: "Core used by all of Pengu's Mods. Provides most of utilities anybody\
+      \ needs including multipart"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/hammer-core"
+    packageType: "MOD"
+    transient: true
+    id: 247401
+    fileId: 2537352
+    url: "https://files.forgecdn.net/files/2537/352/HammerCore-1.12.2-1.9.7.0.jar"
+    fileName: "HammerCore-1.12.2-1.9.7.0.jar"
+  - provider: "DIRECT"
+    name: "CraftStudio API"
+    description: "API to export models and animations in Minecraft !"
+    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/craftstudio-api"
+    packageType: "MOD"
+    transient: true
+    id: 268704
+    fileId: 2480954
+    url: "https://files.forgecdn.net/files/2480/954/CraftStudio-1.0.0.93-mc1.12-alpha.jar"
+    fileName: "CraftStudio-1.0.0.93-mc1.12-alpha.jar"
+  - provider: "DIRECT"
     name: "LLibrary"
     description: "The lightweight Minecraft modding library"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/llibrary"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 243298
     fileId: 2504999
     url: "https://files.forgecdn.net/files/2504/999/llibrary-1.7.9-1.12.2.jar"
     fileName: "llibrary-1.7.9-1.12.2.jar"
   - provider: "DIRECT"
-    name: "Guide-API"
-    description: "Simple library mod for in-game guide creation"
-    websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/guide-api"
-    packageType: "mod"
-    transient: true
-    id: 228832
-    fileId: 2466858
-    url: "https://files.forgecdn.net/files/2466/858/Guide-API-1.12-2.1.4-57.jar"
-    fileName: "Guide-API-1.12-2.1.4-57.jar"
-  - provider: "DIRECT"
     name: "Shadowfacts' Forgelin"
     description: "My fork of Emberwalker's Forgelin, with some sprinkles on top."
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/shadowfacts-forgelin"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 248453
     fileId: 2505090
@@ -3602,7 +3799,7 @@ mods:
     name: "CoFH World"
     description: "Customizable and powerful world generation!"
     websiteUrl: "https://www.curseforge.com/minecraft/mc-mods/cofh-world"
-    packageType: "mod"
+    packageType: "MOD"
     transient: true
     id: 271384
     fileId: 2513671

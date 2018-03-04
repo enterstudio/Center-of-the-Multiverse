@@ -1,6 +1,6 @@
 name: Center of the Multiverse
 title: Center of the Multiverse
-version: 2.0.3
+version: 2.0.4
 mcVersion: 1.12.2
 forge: 2611
 mods:
@@ -90,11 +90,45 @@ mods:
   # jaredlll08
   - CraftTweaker
   - Diamond Glass
-
-  #Dimensional Doors
-  - url: http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.6-b.180.jar
-    name: Dimensional Doors
-    provider: DIRECT
+  
+  # copygirl
+  - Wearable Backpacks
+  
+  # TheLMiffy1111
+  - JAOPCA
+  - Just Enough HarvestCraft (JEHC)
+  
+  # mezz
+  - Just Enough Items (JEI)
+  
+  # keridos
+  - OpenModularTurrets
+  - OMLib
+  
+  # team_otg
+  - Biome Bundle
+  
+  # Benimatic
+  - The Twilight Forest
+  
+  # The_Wabbit
+  - Upsizer Mod
+  
+  # Bartz24
+  - Useful Nullifiers
+  
+  # Viesis
+  - "ViesCraft - Airships!"
+  
+  # gegy1000, JurassicAlien_KOC_owner
+  - Wearables
+  
+  # TehNut
+  - Xtones
+  
+  # Team CoFH
+  - Thermal Dynamics
+  - Thermal Expansion
 
   - The Disenchanter Mod
   - Draconic Evolution
@@ -127,17 +161,6 @@ mods:
   - Redstone Paste
   - MmmMmmMmmMmm
   - Inventory Pets
-
-  # copygirl
-  - Wearable Backpacks
-  
-  # TheLMiffy1111
-  - JAOPCA
-  - Just Enough HarvestCraft (JEHC)
-  
-  # mezz
-  - Just Enough Items (JEI)
-
   - JEI Bees
   - Just Enough Torches (JET)
   - Just Enough Dimensions
@@ -158,14 +181,6 @@ mods:
   - NotEnoughIDs
   - OpenComputers
   - OpenBlocks
-
-  # keridos
-  - OpenModularTurrets
-  - OMLib
-  
-  # team_otg
-  - Biome Bundle
-
   - Packing Tape
   - Pam's HarvestCraft
   - Passthrough Signs
@@ -225,13 +240,10 @@ mods:
   - Animania
   - ColorfulWater
   
-  # Team CoFH
-  - Thermal Dynamics
-  - Thermal Expansion
-  
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
     entries:
+    
     # Falkreon
     - job: elytra/Thermionics/master
       name: Thermionics
@@ -273,26 +285,14 @@ mods:
     name: CharsetPatches
     template: https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar
 
-  # Benimatic
-  - The Twilight Forest
-  
-  # The_Wabbit
-  - Upsizer Mod
-  
-  # Bartz24
-  - Useful Nullifiers
-  
-  # Viesis
-  - "ViesCraft - Airships!"
-  
-  # gegy1000, JurassicAlien_KOC_owner
-  - Wearables
-  
-  # TehNut
-  - Xtones
-
+   #Nutrition
   - url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.8.0.jar
     name: Nutrition
+    provider: DIRECT
+    
+   #Dimensional Doors
+  - url: http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.6-b.180.jar
+    name: Dimensional Doors
     provider: DIRECT
 
 #============#
