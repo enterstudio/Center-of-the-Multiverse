@@ -1,0 +1,3846 @@
+[main] INFO voodoo.builder.Builder - path: C:\Users\chris\Documents\GitHub\Center-of-the-Multiverse\cotm.yaml
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering prepareDependencies to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveDependencies to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setName to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setDescription to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setWebsiteUrl to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setUrl to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFileName to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setPackageType to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setTargetPath to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering cacheRelpath to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering prepareDownload to voodoo.builder.provider.CurseProviderThing@146dfe6
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFileName to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setName to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setTargetPath to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering cacheRelpath to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering writeUrlTxt to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering download to voodoo.builder.provider.DirectProviderThing@e57b96d
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering validate to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFileName to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setName to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setTargetPath to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering download to voodoo.builder.provider.LocalProviderThing@d62fe5b
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setBuildNumber to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setName to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setWebsiteUrl to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setUrl to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFileName to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering cacheRelpath to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering prepareDownload to voodoo.builder.provider.JenkinsProviderThing@5bf8fa12
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering finalze to voodoo.builder.provider.DummyProviderThing@1921ad94
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setFeatureName to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postSetName to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering checkDuplicate to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering postResolveDependencies to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveProvides to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveFeatureDependencies to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveOptional to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setCachePath to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolvePath to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering resolveTargetFilePath to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setName to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setVersion to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering setUrl to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.provider.ProviderThingy - registering prepareDownload to voodoo.builder.provider.UpdateJsonProviderThing@33308786
+[main] INFO voodoo.builder.data.Modpack - ---
+name: "Center of the Multiverse"
+title: "Center of the Multiverse"
+version: "2.0.4"
+forge: "2611"
+mcVersion: "1.12.2"
+userFiles:
+  include:
+  - "options.txt"
+  - "optionsshaders.txt"
+  exclude: []
+launch:
+  flags:
+  - "-Dfml.ignoreInvalidMinecraftCertificates=true"
+mods:
+  releaseTypes:
+  - "RELEASE"
+  - "ALPHA"
+  - "BETA"
+  validMcVersions:
+  - "1.12.1"
+  - "1.12"
+  jenkinsUrl: "https://ci.elytradev.com"
+  entries:
+  - name: "Dynamic Sword Skills"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Aether Legacy"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Glacidus"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Akashic Tome"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Botania"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Angel of Vengeance"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Architect"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Bedrock Ores"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Armor Stand Configurator"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Combined Potions"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Astral Sorcery"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Baubles"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Advancements"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Builder's Wands"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "BiblioCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Binnie's Mods"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Bullseye"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Chisel"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Chisels & Bits"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ChocoCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Clumps"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Colytra"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Comforts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Compacter"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Cooking for Blockheads"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Crafting Tweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Waystones"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Cosmetic Armor Reworked"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "CraftTweaker"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Diamond Glass"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Wearable Backpacks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JAOPCA"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough HarvestCraft (JEHC)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Items (JEI)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenModularTurrets"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OMLib"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Biome Bundle"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Twilight Forest"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Upsizer Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Useful Nullifiers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ViesCraft - Airships!"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Wearables"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Xtones"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Dynamics"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Expansion"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Disenchanter Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Draconic Evolution"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Doggy Talents"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Dynamic Surroundings"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Embers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Enchiridion"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Ender Storage 1.8.+"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Environmental Tech"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ET Lunar [Environmental Tech Addon]"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Exchangers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Alchemy"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Bit Manipulation"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Rails"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Utilities"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fairy Lights"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Farming for Blockheads"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Forestry"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "FTB Utilities"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MrCrayfish's Furniture Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MrCrayfish's Device Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Gendustry"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Grappling Hook Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Hardcore Revival"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "HelpFixer"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Hwyla"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Initial Inventory"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Inventory Tweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Iron Chests"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Paste"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MmmMmmMmmMmm"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Inventory Pets"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JEI Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Torches (JET)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Dimensions"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "KleeSlabs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Magic Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MagicBooks2"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Magic Feather"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MalisisDoors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mob Grinding Utils"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ModTweaker"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "More Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "More Shearables"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Natura"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Nature's Compass"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NetherEx"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NetherPortalFix"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "stimmedcow : NoMoreRecipeConflict"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NotEnoughIDs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenComputers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenBlocks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Packing Tape"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Pam's HarvestCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Passthrough Signs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Platforms"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Psi"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Quark"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Random Things"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "RandomTweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Ranged Pumps"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Recurrent Complex"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Arsenal"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Flux"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Refined Storage"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Refined Storage Addons"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Reliquary v1.3"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "RFTools"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Roguelike Dungeons"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Roots"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Rope Bridge"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Rustic"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Scannable"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Signals"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Simple Sponge"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Simple Teleporters"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Spartan Shields"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Storage Drawers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Storage Drawers Extras"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tails"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TamModized"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "[ANGRY PIXEL] The Betweenlands Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The One Wrench (All in One Edition)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Cultivation"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unlimited Chisel Works"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tinkers Construct"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tinkers' Tool Leveling"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Spotlight Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TickProfiler"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Good Ol' Currency"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extreme Reactors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ZeroCore"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Paintings ++"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Painting Selection Gui Revamped"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tool Belt"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TorchMaster"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Totemic"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Robotic Parts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ReWIRED"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Soulus"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Garbage Bins"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Land Manager"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Sit"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fast Leaf Decay"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unlimited Chisel Works - Botany"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Blood Magic "
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Improvable Skills 3"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unloader"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Animania"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ColorfulWater"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "JSON"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    updateJson: "https://asie.pl/files/minecraft/update/foamfix.json"
+    updateChannel: "latest"
+    template: "https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar"
+  - provider: "JSON"
+    name: "CharsetPatches"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    updateJson: "https://asie.pl/files/minecraft/update/charsetpatches.json"
+    template: "https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar"
+  - provider: "DIRECT"
+    name: "Nutrition"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.8.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Dimensional Doors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.6-b.180.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "JENKINS"
+    name: "Thermionics"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Thermionics/master"
+  - provider: "JENKINS"
+    name: "ThermionicsWorld"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ThermionicsWorld/master"
+  - provider: "JENKINS"
+    name: "Engination"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Engination/master"
+  - provider: "JENKINS"
+    name: "GlassHearts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/GlassHearts/1.12.1"
+  - provider: "JENKINS"
+    name: "FruitPhone"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/FruitPhone/1.12.2"
+  - provider: "JENKINS"
+    name: "ProbeDataProvider"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ProbeDataProvider/1.12"
+  - provider: "JENKINS"
+    name: "ArchitectureCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ArchitectureCraft/1.12"
+  - provider: "JENKINS"
+    name: "Teckle"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Teckle/1.12"
+  - provider: "JENKINS"
+    name: "Charset"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "CharsetMC/Charset/1.12"
+  - name: "Just Enough Resources (JER)"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MineMenu"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JourneyMap"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "AppleSkin"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "BetterFps"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NoNausea"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Placement"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Client Tweaks"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Controlling"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Custom Main Menu"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Default Options"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Durability Show"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fullscreen Windowed (Borderless) for Minecraft"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Item Scroller"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JEI Integration"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Keyboard Wizard"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mod Name Tooltip"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mouse Tweaks"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Neat"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ReAuth"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+
+[main] INFO voodoo.util.Directories - Using Windows directories
+[main] INFO voodoo.builder.Builder - forge
+[main] INFO voodoo.builder.Builder - ---
+name: "Center of the Multiverse"
+title: "Center of the Multiverse"
+version: "2.0.4"
+forge: "2611"
+mcVersion: "1.12.2"
+userFiles:
+  include:
+  - "options.txt"
+  - "optionsshaders.txt"
+  exclude: []
+launch:
+  flags:
+  - "-Dfml.ignoreInvalidMinecraftCertificates=true"
+mods:
+  releaseTypes:
+  - "RELEASE"
+  - "ALPHA"
+  - "BETA"
+  validMcVersions:
+  - "1.12.1"
+  - "1.12"
+  jenkinsUrl: "https://ci.elytradev.com"
+  entries:
+  - name: "Dynamic Sword Skills"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Aether Legacy"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Glacidus"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Akashic Tome"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Botania"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Angel of Vengeance"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Architect"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Bedrock Ores"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Armor Stand Configurator"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Combined Potions"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Astral Sorcery"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Baubles"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Advancements"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Builder's Wands"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "BiblioCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Binnie's Mods"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Bullseye"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Chisel"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Chisels & Bits"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ChocoCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Clumps"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Colytra"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Comforts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Compacter"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Cooking for Blockheads"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Crafting Tweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Waystones"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Cosmetic Armor Reworked"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "CraftTweaker"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Diamond Glass"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Wearable Backpacks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JAOPCA"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough HarvestCraft (JEHC)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Items (JEI)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenModularTurrets"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OMLib"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Biome Bundle"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Twilight Forest"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Upsizer Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Useful Nullifiers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ViesCraft - Airships!"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Wearables"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Xtones"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Dynamics"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Expansion"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Disenchanter Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Draconic Evolution"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Doggy Talents"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Dynamic Surroundings"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Embers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Enchiridion"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Ender Storage 1.8.+"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Environmental Tech"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ET Lunar [Environmental Tech Addon]"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Exchangers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Alchemy"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Bit Manipulation"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Rails"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extra Utilities"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fairy Lights"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Farming for Blockheads"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Forestry"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "FTB Utilities"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MrCrayfish's Furniture Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MrCrayfish's Device Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Gendustry"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Grappling Hook Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Hardcore Revival"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "HelpFixer"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Hwyla"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Initial Inventory"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Inventory Tweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Iron Chests"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Paste"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MmmMmmMmmMmm"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Inventory Pets"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JEI Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Torches (JET)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Just Enough Dimensions"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "KleeSlabs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Magic Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MagicBooks2"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Magic Feather"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MalisisDoors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mob Grinding Utils"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ModTweaker"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "More Bees"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "More Shearables"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Natura"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Nature's Compass"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NetherEx"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NetherPortalFix"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "stimmedcow : NoMoreRecipeConflict"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NotEnoughIDs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenComputers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "OpenBlocks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Packing Tape"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Pam's HarvestCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Passthrough Signs"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Platforms"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Psi"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Quark"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Random Things"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "RandomTweaks"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Ranged Pumps"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Recurrent Complex"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Arsenal"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Redstone Flux"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Refined Storage"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Refined Storage Addons"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Reliquary v1.3"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "RFTools"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Roguelike Dungeons"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Roots"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Rope Bridge"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Rustic"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Scannable"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Signals"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Simple Sponge"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Simple Teleporters"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Spartan Shields"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Storage Drawers"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Storage Drawers Extras"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tails"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TamModized"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "[ANGRY PIXEL] The Betweenlands Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The One Wrench (All in One Edition)"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Thermal Cultivation"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unlimited Chisel Works"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tinkers Construct"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tinkers' Tool Leveling"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "The Spotlight Mod"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TickProfiler"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Good Ol' Currency"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Extreme Reactors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ZeroCore"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Paintings ++"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Painting Selection Gui Revamped"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Tool Belt"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "TorchMaster"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Totemic"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Robotic Parts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ReWIRED"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Soulus"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Garbage Bins"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Land Manager"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Sit"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fast Leaf Decay"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unlimited Chisel Works - Botany"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Blood Magic "
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Improvable Skills 3"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Unloader"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Animania"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ColorfulWater"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "JSON"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    updateJson: "https://asie.pl/files/minecraft/update/foamfix.json"
+    updateChannel: "latest"
+    template: "https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar"
+  - provider: "JSON"
+    name: "CharsetPatches"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    updateJson: "https://asie.pl/files/minecraft/update/charsetpatches.json"
+    template: "https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar"
+  - provider: "DIRECT"
+    name: "Nutrition"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.8.0.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Dimensional Doors"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    url: "http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.6-b.180.jar"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "JENKINS"
+    name: "Thermionics"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Thermionics/master"
+  - provider: "JENKINS"
+    name: "ThermionicsWorld"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ThermionicsWorld/master"
+  - provider: "JENKINS"
+    name: "Engination"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Engination/master"
+  - provider: "JENKINS"
+    name: "GlassHearts"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/GlassHearts/1.12.1"
+  - provider: "JENKINS"
+    name: "FruitPhone"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/FruitPhone/1.12.2"
+  - provider: "JENKINS"
+    name: "ProbeDataProvider"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ProbeDataProvider/1.12"
+  - provider: "JENKINS"
+    name: "ArchitectureCraft"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/ArchitectureCraft/1.12"
+  - provider: "JENKINS"
+    name: "Teckle"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "elytra/Teckle/1.12"
+  - provider: "JENKINS"
+    name: "Charset"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+    job: "CharsetMC/Charset/1.12"
+  - name: "Just Enough Resources (JER)"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "MineMenu"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JourneyMap"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "AppleSkin"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "BetterFps"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "NoNausea"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Better Placement"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Client Tweaks"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Controlling"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Custom Main Menu"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Default Options"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Durability Show"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Fullscreen Windowed (Borderless) for Minecraft"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Item Scroller"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "JEI Integration"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Keyboard Wizard"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mod Name Tooltip"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Mouse Tweaks"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "Neat"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - name: "ReAuth"
+    side: "CLIENT"
+    releaseTypes:
+    - "RELEASE"
+    - "ALPHA"
+    - "BETA"
+    validMcVersions:
+    - "1.12.1"
+    - "1.12"
+    jenkinsUrl: "https://ci.elytradev.com"
+  - provider: "DIRECT"
+    name: "Minecraft Forge"
+    url: "http://files.minecraftforge.net/maven/net/minecraftforge/forge//1.12.2-14.23.2.2611/forge-1.12.2-14.23.2.2611-installer.jar"
+    fileName: "forge-1.12.2-14.23.2.2611-installer.jar"
+
+[main] INFO voodoo.builder.Builder - processing entries run: 1
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Dynamic Sword Skills
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Aether Legacy
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Glacidus
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Akashic Tome
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Botania
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Angel of Vengeance
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Architect
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Bedrock Ores
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Armor Stand Configurator
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Combined Potions
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Astral Sorcery
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Baubles
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Better Advancements
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Better Builder's Wands
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set BiblioCraft
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Binnie's Mods
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Bullseye
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Chisel
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Chisels & Bits
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ChocoCraft
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Clumps
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Colytra
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Comforts
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Compacter
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Cooking for Blockheads
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Crafting Tweaks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Waystones
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Cosmetic Armor Reworked
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set CraftTweaker
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Diamond Glass
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Wearable Backpacks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set JAOPCA
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Just Enough HarvestCraft (JEHC)
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Just Enough Items (JEI)
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set OpenModularTurrets
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set OMLib
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Biome Bundle
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set The Twilight Forest
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Upsizer Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Useful Nullifiers
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ViesCraft - Airships!
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Wearables
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Xtones
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Thermal Dynamics
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Thermal Expansion
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set The Disenchanter Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Draconic Evolution
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Doggy Talents
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Dynamic Surroundings
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Embers
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Enchiridion
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Ender Storage 1.8.+
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Environmental Tech
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ET Lunar [Environmental Tech Addon]
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Exchangers
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Extra Alchemy
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Extra Bit Manipulation
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Extra Rails
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Extra Utilities
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Fairy Lights
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Farming for Blockheads
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Forestry
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set FTB Utilities
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MrCrayfish's Furniture Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MrCrayfish's Device Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Gendustry
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Grappling Hook Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Hardcore Revival
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set HelpFixer
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Hwyla
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Initial Inventory
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Inventory Tweaks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Iron Chests
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Redstone Paste
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MmmMmmMmmMmm
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Inventory Pets
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set JEI Bees
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Just Enough Torches (JET)
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Just Enough Dimensions
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set KleeSlabs
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Magic Bees
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MagicBooks2
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Magic Feather
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MalisisDoors
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Mob Grinding Utils
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ModTweaker
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set More Bees
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set More Shearables
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Natura
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Nature's Compass
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set NetherEx
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set NetherPortalFix
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set stimmedcow : NoMoreRecipeConflict
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set NotEnoughIDs
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set OpenComputers
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set OpenBlocks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Packing Tape
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Pam's HarvestCraft
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Passthrough Signs
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Platforms
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Psi
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Quark
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Random Things
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set RandomTweaks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Ranged Pumps
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Recurrent Complex
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Redstone Arsenal
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Redstone Flux
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Refined Storage
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Refined Storage Addons
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Reliquary v1.3
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set RFTools
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Roguelike Dungeons
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Roots
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Rope Bridge
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Rustic
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Scannable
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Signals
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Simple Sponge
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Simple Teleporters
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Spartan Shields
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Storage Drawers
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Storage Drawers Extras
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Tails
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set TamModized
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set [ANGRY PIXEL] The Betweenlands Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set The One Wrench (All in One Edition)
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Thermal Cultivation
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Unlimited Chisel Works
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Tinkers Construct
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Tinkers' Tool Leveling
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set The Spotlight Mod
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set TickProfiler
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Good Ol' Currency
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Extreme Reactors
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ZeroCore
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Paintings ++
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Painting Selection Gui Revamped
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Tool Belt
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set TorchMaster
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Totemic
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Robotic Parts
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ReWIRED
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Soulus
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Garbage Bins
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Land Manager
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Sit
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Fast Leaf Decay
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Unlimited Chisel Works - Botany
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Blood Magic 
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Improvable Skills 3
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Unloader
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Animania
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ColorfulWater
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement postSetName is not fulfilled by all entries, missing: [Entry(provider=JSON, name=, comment=, description=, feature=null, side=BOTH, websiteUrl=, provides={}, dependencies={}, optional=false, packageType=NONE, internal=EntryInternal(cachePath=, cacheRelpath=, done=false, urlTxtDone=false, basePath=src, targetPath=, targetFilePath=, path=, filePath=, resolvedOptionals=false, resolvedDependencies=false), transient=false, id=-1, fileId=-1, releaseTypes=[RELEASE, ALPHA, BETA], curseFileNameRegex=.*(?<!-deobf\.jar)$, version=, validMcVersions=[1.12.1, 1.12], doOptionals=false, url=, urlTxt=true, fileName=, jenkinsUrl=https://ci.elytradev.com, job=, buildNumber=-1, jenkinsFileNameRegex=.*(?<!-sources\.jar)(?<!-api\.jar)(?<!-deobf\.jar)(?<!-lib\.jar)(?<!-slim\.jar)$, fileSrc=, updateJson=https://asie.pl/files/minecraft/update/foamfix.json, updateChannel=latest, template=https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar, entries=[]), CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement postResolveDependencies is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, Entry(provider=JSON, name=, comment=, description=, feature=null, side=BOTH, websiteUrl=, provides={}, dependencies={}, optional=false, packageType=NONE, internal=EntryInternal(cachePath=, cacheRelpath=, done=false, urlTxtDone=false, basePath=src, targetPath=, targetFilePath=, path=, filePath=, resolvedOptionals=false, resolvedDependencies=false), transient=false, id=-1, fileId=-1, releaseTypes=[RELEASE, ALPHA, BETA], curseFileNameRegex=.*(?<!-deobf\.jar)$, version=, validMcVersions=[1.12.1, 1.12], doOptionals=false, url=, urlTxt=true, fileName=, jenkinsUrl=https://ci.elytradev.com, job=, buildNumber=-1, jenkinsFileNameRegex=.*(?<!-sources\.jar)(?<!-api\.jar)(?<!-deobf\.jar)(?<!-lib\.jar)(?<!-slim\.jar)$, fileSrc=, updateJson=https://asie.pl/files/minecraft/update/foamfix.json, updateChannel=latest, template=https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar, entries=[]), CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement resolveProvides is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, Entry(provider=JSON, name=, comment=, description=, feature=null, side=BOTH, websiteUrl=, provides={}, dependencies={}, optional=false, packageType=NONE, internal=EntryInternal(cachePath=, cacheRelpath=, done=false, urlTxtDone=false, basePath=src, targetPath=, targetFilePath=, path=, filePath=, resolvedOptionals=false, resolvedDependencies=false), transient=false, id=-1, fileId=-1, releaseTypes=[RELEASE, ALPHA, BETA], curseFileNameRegex=.*(?<!-deobf\.jar)$, version=, validMcVersions=[1.12.1, 1.12], doOptionals=false, url=, urlTxt=true, fileName=, jenkinsUrl=https://ci.elytradev.com, job=, buildNumber=-1, jenkinsFileNameRegex=.*(?<!-sources\.jar)(?<!-api\.jar)(?<!-deobf\.jar)(?<!-lib\.jar)(?<!-slim\.jar)$, fileSrc=, updateJson=https://asie.pl/files/minecraft/update/foamfix.json, updateChannel=latest, template=https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar, entries=[]), CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement resolveFeatureDependencies is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, Entry(provider=JSON, name=, comment=, description=, feature=null, side=BOTH, websiteUrl=, provides={}, dependencies={}, optional=false, packageType=NONE, internal=EntryInternal(cachePath=, cacheRelpath=, done=false, urlTxtDone=false, basePath=src, targetPath=, targetFilePath=, path=, filePath=, resolvedOptionals=false, resolvedDependencies=false), transient=false, id=-1, fileId=-1, releaseTypes=[RELEASE, ALPHA, BETA], curseFileNameRegex=.*(?<!-deobf\.jar)$, version=, validMcVersions=[1.12.1, 1.12], doOptionals=false, url=, urlTxt=true, fileName=, jenkinsUrl=https://ci.elytradev.com, job=, buildNumber=-1, jenkinsFileNameRegex=.*(?<!-sources\.jar)(?<!-api\.jar)(?<!-deobf\.jar)(?<!-lib\.jar)(?<!-slim\.jar)$, fileSrc=, updateJson=https://asie.pl/files/minecraft/update/foamfix.json, updateChannel=latest, template=https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar, entries=[]), CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set CharsetPatches
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Nutrition
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Dimensional Doors
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Thermionics
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ThermionicsWorld
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Engination
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set GlassHearts
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set FruitPhone
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ProbeDataProvider
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ArchitectureCraft
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Teckle
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Charset
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Just Enough Resources (JER)
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set MineMenu
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set JourneyMap
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set AppleSkin
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set BetterFps
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set NoNausea
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Better Placement
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Client Tweaks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Controlling
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Custom Main Menu
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Default Options
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Durability Show
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Fullscreen Windowed (Borderless) for Minecraft
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Item Scroller
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set JEI Integration
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Keyboard Wizard
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Mod Name Tooltip
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Mouse Tweaks
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Neat
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set ReAuth
+[main] INFO voodoo.builder.provider.ProviderThingy - run after name is set Minecraft Forge
+[main] INFO voodoo.builder.Builder - processing entries run: 2
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement postSetName is not fulfilled by all entries, missing: [foamfix]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement postResolveDependencies is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, foamfix, CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement resolveProvides is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, foamfix, CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+[main] WARN voodoo.builder.provider.ProviderThingy - requirement resolveFeatureDependencies is not fulfilled by all entries, missing: [Dynamic Sword Skills, Aether Legacy, Glacidus, Akashic Tome, Botania, Angel of Vengeance, Architect, Bedrock Ores, Armor Stand Configurator, Combined Potions, Astral Sorcery, Baubles, Better Advancements, Better Builder's Wands, BiblioCraft, Binnie's Mods, Bullseye, Chisel, Chisels & Bits, ChocoCraft, Clumps, Colytra, Comforts, Compacter, Cooking for Blockheads, Crafting Tweaks, Waystones, Cosmetic Armor Reworked, CraftTweaker, Diamond Glass, Wearable Backpacks, JAOPCA, Just Enough HarvestCraft (JEHC), Just Enough Items (JEI), OpenModularTurrets, OMLib, Biome Bundle, The Twilight Forest, Upsizer Mod, Useful Nullifiers, ViesCraft - Airships!, Wearables, Xtones, Thermal Dynamics, Thermal Expansion, The Disenchanter Mod, Draconic Evolution, Doggy Talents, Dynamic Surroundings, Embers, Enchiridion, Ender Storage 1.8.+, Environmental Tech, ET Lunar [Environmental Tech Addon], Exchangers, Extra Alchemy, Extra Bit Manipulation, Extra Rails, Extra Utilities, Fairy Lights, Farming for Blockheads, Forestry, FTB Utilities, MrCrayfish's Furniture Mod, MrCrayfish's Device Mod, Gendustry, Grappling Hook Mod, Hardcore Revival, HelpFixer, Hwyla, Initial Inventory, Inventory Tweaks, Iron Chests, Redstone Paste, MmmMmmMmmMmm, Inventory Pets, JEI Bees, Just Enough Torches (JET), Just Enough Dimensions, KleeSlabs, Magic Bees, MagicBooks2, Magic Feather, MalisisDoors, Mob Grinding Utils, ModTweaker, More Bees, More Shearables, Natura, Nature's Compass, NetherEx, NetherPortalFix, stimmedcow : NoMoreRecipeConflict, NotEnoughIDs, OpenComputers, OpenBlocks, Packing Tape, Pam's HarvestCraft, Passthrough Signs, Platforms, Psi, Quark, Random Things, RandomTweaks, Ranged Pumps, Recurrent Complex, Redstone Arsenal, Redstone Flux, Refined Storage, Refined Storage Addons, Reliquary v1.3, RFTools, Roguelike Dungeons, Roots, Rope Bridge, Rustic, Scannable, Signals, Simple Sponge, Simple Teleporters, Spartan Shields, Storage Drawers, Storage Drawers Extras, Tails, TamModized, [ANGRY PIXEL] The Betweenlands Mod, The One Wrench (All in One Edition), Thermal Cultivation, Unlimited Chisel Works, Tinkers Construct, Tinkers' Tool Leveling, The Spotlight Mod, TickProfiler, Good Ol' Currency, Extreme Reactors, ZeroCore, Paintings ++, Painting Selection Gui Revamped, Tool Belt, TorchMaster, Totemic, Robotic Parts, ReWIRED, Soulus, Garbage Bins, Land Manager, Sit, Fast Leaf Decay, Unlimited Chisel Works - Botany, Blood Magic , Improvable Skills 3, Unloader, Animania, ColorfulWater, foamfix, CharsetPatches, Nutrition, Dimensional Doors, Thermionics, ThermionicsWorld, Engination, GlassHearts, FruitPhone, ProbeDataProvider, ArchitectureCraft, Teckle, Charset, Just Enough Resources (JER), MineMenu, JourneyMap, AppleSkin, BetterFps, NoNausea, Better Placement, Client Tweaks, Controlling, Custom Main Menu, Default Options, Durability Show, Fullscreen Windowed (Borderless) for Minecraft, Item Scroller, JEI Integration, Keyboard Wizard, Mod Name Tooltip, Mouse Tweaks, Neat, ReAuth, Minecraft Forge]
+Exception in thread "main" java.lang.ExceptionInInitializerError
+	at voodoo.builder.provider.CurseProviderThing$2.invoke(Curse.kt:28)
+	at voodoo.builder.provider.CurseProviderThing$2.invoke(Curse.kt:19)
+	at voodoo.builder.provider.ProviderThingy.process(ProviderThingy.kt:193)
+	at voodoo.builder.BuilderKt.process(Builder.kt:175)
+	at voodoo.builder.BuilderKt$main$1.invoke(Builder.kt:59)
+	at voodoo.builder.BuilderKt$main$1.invoke(Builder.kt)
+	at com.xenomachina.argparser.SystemExitExceptionKt.mainBody(SystemExitException.kt:74)
+	at com.xenomachina.argparser.SystemExitExceptionKt.mainBody$default(SystemExitException.kt:72)
+	at voodoo.builder.BuilderKt.main(Builder.kt:31)
+	at voodoo.MainKt.main(Main.kt:18)
+Caused by: com.fasterxml.jackson.module.kotlin.MissingKotlinParameterException: Instantiation of [simple type, class voodoo.builder.curse.GameVersionLatestFile] value failed for JSON property gameVesion due to missing (therefore NULL) value for creator parameter gameVesion which is a non-nullable type
+ at [Source: (StringReader); line: 53, column: 7] (through reference chain: java.util.ArrayList[0]->voodoo.builder.curse.AddOn["gameVersionLatestFiles"]->java.util.ArrayList[0]->voodoo.builder.curse.GameVersionLatestFile["gameVesion"])
+	at com.fasterxml.jackson.module.kotlin.KotlinValueInstantiator.createFromObjectWith(KotlinValueInstantiator.kt:54)
+	at com.fasterxml.jackson.databind.deser.impl.PropertyBasedCreator.build(PropertyBasedCreator.java:195)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:488)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1280)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:529)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:528)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:417)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1280)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4001)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3011)
+	at voodoo.builder.curse.CurseUtil.getAddonData(CurseUtil.kt:181)
+	at voodoo.builder.curse.CurseUtil.<clinit>(CurseUtil.kt:28)
+	... 10 more
