@@ -2,7 +2,7 @@ name: Center of the Multiverse
 title: Center of the Multiverse
 version: 2.0.3
 mcVersion: 1.12.2
-forge: latest
+forge: 2611
 mods:
 #==========#
 # Defaults #
@@ -17,13 +17,12 @@ mods:
 #===========#
   entries:
 
-  - Robotic Parts
-
   # coolAlias
   - Dynamic Sword Skills
 
   # moddinglegacy
   - Aether Legacy
+  - Glacidus
 
   # Vazkii
   - Akashic Tome
@@ -50,7 +49,7 @@ mods:
   - Better Advancements
   
   # Portablejim
-  #- "Better Builder's Wands"
+  - "Better Builder's Wands"
   
   # Nuchaz
   - BiblioCraft
@@ -104,7 +103,6 @@ mods:
   - Embers
   - Enchiridion
   - Ender Storage 1.8.+
-  - EnderTanks
   - Environmental Tech
   - ET Lunar [Environmental Tech Addon]
   - Exchangers
@@ -117,6 +115,7 @@ mods:
   - Forestry
   - FTB Utilities
   - MrCrayfish's Furniture Mod
+  - MrCrayfish's Device Mod
   - Gendustry
   - Grappling Hook Mod
   - Hardcore Revival
@@ -142,7 +141,6 @@ mods:
   - JEI Bees
   - Just Enough Torches (JET)
   - Just Enough Dimensions
-  - Just Enough Resources (JER)
   - KleeSlabs
   - Magic Bees
   - MagicBooks2
@@ -201,6 +199,31 @@ mods:
   - The One Wrench (All in One Edition)
   - Thermal Cultivation
   - Unlimited Chisel Works
+  - Tinkers Construct
+  - Tinkers' Tool Leveling
+  - The Spotlight Mod
+  - TickProfiler
+  - Good Ol' Currency
+  - Extreme Reactors
+  - ZeroCore
+  - Paintings ++
+  - Painting Selection Gui Revamped
+  - Tool Belt
+  - TorchMaster
+  - Totemic
+  - Robotic Parts
+  - ReWIRED
+  - Soulus
+  - Garbage Bins
+  - Land Manager
+  - Sit
+  - Fast Leaf Decay
+  - Unlimited Chisel Works - Botany
+  - Blood Magic
+  - Improvable Skills 3
+  - Unloader
+  - Animania
+  - ColorfulWater
   
   # Team CoFH
   - Thermal Dynamics
@@ -250,26 +273,6 @@ mods:
     name: CharsetPatches
     template: https://asie.pl/files/mods/Charset/CharsetPatches-{version}.jar
 
-  - Tinkers Construct
-  - Tinkers' Tool Leveling
-  
-  - Improvable Skills 3
-  
-  - ReWIRED
-  
-  - The Spotlight Mod
-  - TickProfiler
-  - Good Ol' Currency
-  - Extreme Reactors
-  - ZeroCore
-  
-  - Paintings ++
-  - Painting Selection Gui Revamped
-
-  - Tool Belt
-  - TorchMaster
-  - Totemic
-
   # Benimatic
   - The Twilight Forest
   
@@ -282,20 +285,8 @@ mods:
   # Viesis
   - "ViesCraft - Airships!"
   
-  # Face of Cat
-  - Villager Market
-  
   # gegy1000, JurassicAlien_KOC_owner
   - Wearables
-  
-  # CenturianFox13
-  - Wolf Armor and Storage
-  
-  - Soulus
-  - Garbage Bins
-  
-  - Land Manager
-  - Sit
   
   # TehNut
   - Xtones
@@ -304,16 +295,12 @@ mods:
     name: Nutrition
     provider: DIRECT
 
-  - Fast Leaf Decay
-  
-  - Unlimited Chisel Works - Botany
-
 #============#
 # Clientside #
 #============#
   - side: CLIENT
     entries:
-  # dmillerw
+    - Just Enough Resources (JER)
     - MineMenu
     - JourneyMap
     - AppleSkin
