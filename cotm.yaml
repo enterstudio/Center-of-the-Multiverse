@@ -231,7 +231,7 @@ mods:
   - Fast Leaf Decay
   - Unlimited Chisel Works - Botany
   - "Blood Magic "
-  - Improvable Skills 3
+  #- Improvable Skills 3 (issue submitted)
   - Unloader
   - Animania
   - ColorfulWater
@@ -292,7 +292,7 @@ mods:
     provider: DIRECT
     
    #Better Builder's Wands
-  - url: http://centerofthemultiverse.net/launcher/dist/BetterBuildersWands-1.11-0.11.1.239+9162f74.jar
+  - url: http://centerofthemultiverse.net/launcher/dist/BetterBuildersWands.jar
     name: Better Builder's Wands
     provider: DIRECT
 
