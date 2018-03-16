@@ -123,7 +123,6 @@ mods:
   
   # ValkyrieofNight
   - Environmental Tech
-  - Environmental Materials
   
   # Mr_Crayfish
   - MrCrayfish's Gun Mod
@@ -234,8 +233,6 @@ mods:
   - The Erebus
   - chunkgen
   - Construct's Armory
-  - Paragliders
-  - Dynamic Trees
   - MatterLink
   
   - provider: JENKINS
@@ -291,9 +288,9 @@ mods:
     provider: DIRECT
     
    #Dimensional Doors
-  - url: http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.7-b-1.233.jar
-    name: Dimensional Doors
-    provider: DIRECT
+  #- url: http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.7-b-1.233.jar
+  #  name: Dimensional Doors
+  #  provider: DIRECT
     
    #Better Builder's Wands
   - url: http://centerofthemultiverse.net/launcher/dist/BetterBuildersWands.jar
