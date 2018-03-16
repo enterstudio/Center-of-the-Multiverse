@@ -342,5 +342,8 @@
       "minecraft:red_glazed_terracotta",
       "minecraft:black_glazed_terracotta"
     ]
+  },
+  {
+    "item": "charset:logic_gate"
   }
 ]

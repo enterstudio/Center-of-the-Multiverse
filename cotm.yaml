@@ -125,9 +125,9 @@ mods:
   - Environmental Tech
   
   # Mr_Crayfish
-  - MrCrayfish's Gun Mod
-  - MrCrayfish's Furniture Mod
-  #- MrCrayfish's Device Mod
+  #- MrCrayfish's Gun Mod (in review / removed)
+  - "MrCrayfish's Furniture Mod"
+  #- "MrCrayfish's Device Mod" (direct DL)
 
   - The Disenchanter Mod
   - Draconic Evolution
@@ -232,7 +232,6 @@ mods:
   - ColorfulWater
   - The Erebus
   - chunkgen
-  - Construct's Armory
   - MatterLink
   
   - provider: JENKINS
@@ -264,11 +263,6 @@ mods:
       name: ArchitectureCraft
         
     # asie     
-   
-  - provider: JSON
-    updateJson: https://asie.pl/files/minecraft/update/foamfix.json # resolves `name = foamfix` too
-    updateChannel: latest # default == reommended
-    template: https://unascribed.com/foamfix/FoamFix-1.12.2-{version}-Anarchy.jar
     
   - Charset Lib
   - Charset Tweaks
@@ -282,10 +276,15 @@ mods:
   - Charset Storage - Locks
   - CharsetPatches
   
+   #FoamFix
+  #- url: https://unascribed.com/foamfix/FoamFix-1.12.2-0.9.4-Anarchy.jar
+  # name: FoamFix
+  # provider: DIRECT
+  
    #Nutrition
-  - url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.9.0.jar
-    name: Nutrition
-    provider: DIRECT
+  #- url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.9.0.jar
+  #  name: Nutrition
+  #  provider: DIRECT
     
    #Dimensional Doors
   #- url: http://centerofthemultiverse.net/launcher/dist/Dimdoors-3.0.7-b-1.233.jar
@@ -293,15 +292,20 @@ mods:
   #  provider: DIRECT
     
    #Better Builder's Wands
-  - url: http://centerofthemultiverse.net/launcher/dist/BetterBuildersWands.jar
-    name: Better Builder's Wands
-    provider: DIRECT
+  #- url: http://centerofthemultiverse.net/launcher/dist/BetterBuildersWands.jar
+  #  name: Better Builder's Wands
+  #  provider: DIRECT
   
    #MrCrayfish's Device Mod
-  - url: http://centerofthemultiverse.net/launcher/dist/device-mod-0.3.0-1.12.2.jar
-    name: MrCrayfish's Device Mod
-    provider: DIRECT    
-
+  #- url: http://centerofthemultiverse.net/launcher/dist/device-mod-0.3.0-1.12.2.jar
+  #  name: MrCrayfish's Device Mod
+  #  provider: DIRECT
+    
+    #Construct's Armory
+  #- url: http://centerofthemultiverse.net/launcher/dist/conarm-1.12.2-0.0.8-a.jar
+  #  name: Construct's Armory
+  #  provider: DIRECT
+    
   
 #============#
 # Clientside #
