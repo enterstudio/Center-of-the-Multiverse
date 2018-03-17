@@ -256,8 +256,12 @@ mods:
     provider: DIRECT
   
   #Testing
+  
+  # - MrCrayfish's Device Mod
+    - id: 283055
+      name: MrCrayfish's Device Mod
+    
   - Better Builder's Wands
-  - MrCrayfish's Device Mod
   - Construct's Armory
   - Dimensional Doors
   
