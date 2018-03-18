@@ -263,7 +263,7 @@ mods:
     
   - Better Builder's Wands
   - Construct's Armory
-  - Dimensional Doors
+  - Dimensional Doors.
   
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
