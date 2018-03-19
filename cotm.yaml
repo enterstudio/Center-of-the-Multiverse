@@ -1,13 +1,12 @@
 name: Center of the Multiverse
 title: Center of the Multiverse
-version: 2.1.1
+version: 2.1.1.2
 mcVersion: 1.12.2
 forge: 2611
 mods:
 #==========#
 # Defaults #
 #==========#
-
   validMcVersions: [1.12.1, '1.12']
   doOptionals: false
   releaseTypes: [ alpha, beta, release ]
@@ -17,7 +16,6 @@ mods:
 # Core Pack #
 #===========#
   entries:
-
   # moddinglegacy
   - Aether Legacy
 
@@ -229,7 +227,6 @@ mods:
   - Unloader
   - ColorfulWater
   - The Erebus
-  - chunkgen
   - MatterLink
   
   # asie     
@@ -298,21 +295,37 @@ mods:
     - Just Enough HarvestCraft (JEHC)
     - Just Enough Resources (JER)
     - MineMenu
-    - JourneyMap
     - AppleSkin
     - BetterFps
     - NoNausea
     - Better Placement
-    - Client Tweaks
     - Controlling
     - Custom Main Menu
     - Default Options
     - Durability Show
     - Fullscreen Windowed (Borderless) for Minecraft
-    - Item Scroller
     - JEI Integration
     - Keyboard Wizard
     - Mod Name Tooltip
-    - Mouse Tweaks
     - Neat
     - ReAuth
+    
+ #=======================#
+ # Clientside - Optional #
+ #=======================#
+    - name: Fancy Block Particles
+      feature:
+        selected: true
+      # recommendation: starred / avoid
+    - name: JourneyMap
+      feature:
+        selected: true
+    - name: Client Tweaks
+      feature:
+        selected: true
+    - name: Item Scroller
+      feature:
+        selected: true
+    - name: Mouse Tweaks
+      feature:
+        selected: true
