@@ -248,7 +248,7 @@ mods:
     provider: DIRECT
   
   #Nutrition
-  - url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.9.0.jar
+  - url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-3.0.0.jar
     name: Nutrition
     provider: DIRECT
     
