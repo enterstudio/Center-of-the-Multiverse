@@ -1,6 +1,6 @@
 name: Center of the Multiverse
 title: Center of the Multiverse
-version: 2.1.1.2
+version: 2.1.0.3
 mcVersion: 1.12.2
 forge: 2611
 mods:
@@ -251,6 +251,12 @@ mods:
   - url: http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-2.9.0.jar
     name: Nutrition
     provider: DIRECT
+    
+  # Player's Sampler 
+  - url: http://files.player.to/sampler-1.73.jar  
+    name: Player's Sampler
+    provider: DIRECT
+
 
   # - MrCrayfish's Device Mod
   - id: 283055
