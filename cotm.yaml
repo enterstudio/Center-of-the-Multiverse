@@ -1,6 +1,6 @@
 name: Center of the Multiverse
 title: Center of the Multiverse
-version: 2.1.0.3
+version: 2.1.1
 mcVersion: 1.12.2
 forge: 2611
 mods:
@@ -11,7 +11,7 @@ mods:
   doOptionals: false
   releaseTypes: [ alpha, beta, release ]
   jenkinsUrl: https://ci.elytradev.com
-
+  
 #===========#
 # Core Pack #
 #===========#
@@ -69,6 +69,7 @@ mods:
   
   # BlayTheNinth
   - Cooking for Blockheads
+  - Farming for Blockheads
   - Crafting Tweaks
   - Waystones
   
@@ -113,6 +114,7 @@ mods:
   # Team CoFH
   - Thermal Dynamics
   - Thermal Expansion
+  - Thermal Cultivation
   
   # McJTY
   - RFTools
@@ -124,7 +126,14 @@ mods:
   
   # Mr_Crayfish
   - "MrCrayfish's Furniture Mod"
+ #- MrCrayfish's Device Mod
+  - id: 283055
+    name: MrCrayfish's Device Mod
 
+  # zabi94
+  - Extra Alchemy
+  - NoMoreGlowingPots
+    
   - The Disenchanter Mod
   - Draconic Evolution
   - Dynamic Surroundings
@@ -132,12 +141,9 @@ mods:
   - Enchiridion
   - Ender Storage 1.8.+
   - Exchangers
-  - Extra Alchemy
   - Extra Bit Manipulation
-  - Extra Rails
   - Extra Utilities
   - Fairy Lights
-  - Farming for Blockheads
   - Forestry
   - FTB Utilities
   - FTBLib
@@ -156,7 +162,6 @@ mods:
   - Just Enough Dimensions
   - KleeSlabs
   - Magic Bees
-  - MagicBooks2
   - Magic Feather
   - MalisisDoors
   - Mob Grinding Utils
@@ -184,24 +189,19 @@ mods:
   - Redstone Arsenal
   - Redstone Flux
   - Refined Storage
-  - Refined Storage Addons
   - Reliquary v1.3
   - Roguelike Dungeons
   - Roots
   - Rope Bridge
   - Rustic
   - Scannable
-  - Signals
   - Simple Sponge
-  - Simple Teleporters
   - Spartan Shields
   - Storage Drawers
   - Storage Drawers Extras
   - Tails
   - TamModized
   - "[ANGRY PIXEL] The Betweenlands Mod"
-  - The One Wrench (All in One Edition)
-  - Thermal Cultivation
   - Unlimited Chisel Works
   - Tinkers Construct
   - Tinkers' Tool Leveling
@@ -222,12 +222,18 @@ mods:
   - Land Manager
   - Sit
   - Fast Leaf Decay
-  - Unlimited Chisel Works - Botany
   - "Blood Magic "
+  - Unlimited Chisel Works - Botany
   - Unloader
   - ColorfulWater
   - The Erebus
-  - MatterLink
+  - Construct's Armory
+  - 'Dimensional Doors.'
+  - Simple Void World
+  - Yoyos
+  - MultiBeds
+  - "IKWID (I Know What I'm Doing)"
+  - Clear Water
   
   # asie     
   - Charset Lib
@@ -256,14 +262,6 @@ mods:
   - url: http://files.player.to/sampler-1.73.jar  
     name: Player's Sampler
     provider: DIRECT
-
-
-  # - MrCrayfish's Device Mod
-  - id: 283055
-    name: MrCrayfish's Device Mod
-    
-  - Construct's Armory
-  - 'Dimensional Doors.'
   
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
@@ -329,9 +327,9 @@ mods:
     - name: Client Tweaks
       feature:
         selected: true
-    - name: Item Scroller
+    - name: Mouse Tweaks
       feature:
         selected: true
-    - name: Mouse Tweaks
+    - name: "World Handler - Command GUI"
       feature:
         selected: true
