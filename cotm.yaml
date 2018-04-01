@@ -3,7 +3,7 @@
 #===========#
   name: Center of the Multiverse
   title: Center of the Multiverse
-  version: 2.1.1.1
+  version: 2.1.2
   mcVersion: 1.12.2
   forge: 2611
 
@@ -37,9 +37,6 @@
     # Vazkii
     - Akashic Tome
     - Botania
-
-    # Tamaized
-    - Angel of Vengeance
 
     # Sangar
     - Architect
@@ -133,7 +130,6 @@
 
     # McJTY
     - RFTools
-    - RFTools Power
     - RFTools Dimensions
 
     # ValkyrieofNight
@@ -312,7 +308,6 @@
       entries:
       - Just Enough HarvestCraft (JEHC)
       - Just Enough Resources (JER)
-      - MineMenu
       - AppleSkin
       - BetterFps
       - NoNausea
@@ -334,10 +329,11 @@
       - name: Fancy Block Particles
         feature:
           selected: true
-        # recommendation: starred / avoid
+          recommendation: starred
       - name: JourneyMap
         feature:
           selected: true
+          recommendation: starred
       - name: Client Tweaks
         feature:
           selected: true
@@ -347,3 +343,6 @@
       - name: "World Handler - Command GUI"
         feature:
           selected: true
+      - name: MineMenu
+        feature:
+          selected: false
