@@ -1,5 +1,5 @@
 {
-  "name" : "Center of the Multiverse",
+  "name" : "cotm",
   "title" : "Center of the Multiverse",
   "mcVersion" : "1.12.2",
   "forge" : 2611,
@@ -12,7 +12,7 @@
     "exclude" : [ ]
   },
   "localDir" : "local",
-  "minecraftDir" : "Center of the Multiverse",
+  "minecraftDir" : "src",
   "entries" : [ {
     "provider" : "CURSE",
     "name" : "Aether Legacy",
@@ -800,7 +800,7 @@
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
-    "url" : "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-3.0.0.jar"
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.1.0/Nutrition-1.12.2-3.1.0.jar"
   }, {
     "provider" : "DIRECT",
     "name" : "Player's Sampler",
@@ -1076,15 +1076,13 @@
   "features" : [ {
     "entries" : [ "Fancy Block Particles" ],
     "properties" : {
-      "name" : "Fancy Block Particles",
-      "recommendation" : "starred"
+      "name" : "Fancy Block Particles"
     },
     "files" : { }
   }, {
     "entries" : [ "JourneyMap" ],
     "properties" : {
-      "name" : "JourneyMap",
-      "recommendation" : "starred"
+      "name" : "JourneyMap"
     },
     "files" : { }
   }, {
@@ -1108,8 +1106,7 @@
   }, {
     "entries" : [ "MineMenu" ],
     "properties" : {
-      "name" : "MineMenu",
-      "selected" : false
+      "name" : "MineMenu"
     },
     "files" : { }
   } ]
