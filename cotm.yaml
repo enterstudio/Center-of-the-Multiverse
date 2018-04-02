@@ -18,13 +18,13 @@
 #===========#
 # Core Pack #
 #===========#
-  mods:
+  root:
 #==============#
 # Version Info #
 #==============#
     validMcVersions: [1.12.1, '1.12']
-    doOptionals: false
-    releaseTypes: [ alpha, beta, release ]
+    curseOptionalDependencies: false
+    curseReleaseTypes: [ alpha, beta, release ]
     jenkinsUrl: https://ci.elytradev.com
 
 #==============#
@@ -137,9 +137,7 @@
 
     # Mr_Crayfish
     - "MrCrayfish's Furniture Mod"
-   #- MrCrayfish's Device Mod
-    - id: 283055
-      name: MrCrayfish's Device Mod
+    - "MrCrayfish's Device Mod"
 
     # zabi94
     - Extra Alchemy
@@ -212,7 +210,7 @@
     - Storage Drawers Extras
     - Tails
     - TamModized
-    - "[ANGRY PIXEL] The Betweenlands Mod"
+    - "[ANGRY PIXEL] The Betweenlands"
     - Unlimited Chisel Works
     - Tinkers Construct
     - Tinkers' Tool Leveling

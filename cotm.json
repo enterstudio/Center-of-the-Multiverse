@@ -1,0 +1,1739 @@
+{
+  "name" : "Center of the Multiverse",
+  "title" : "Center of the Multiverse",
+  "version" : "2.1.2",
+  "mcVersion" : "1.12.2",
+  "forge" : "2611",
+  "forgeBuild" : 2611,
+  "curseMetaUrl" : "https://cursemeta.dries007.net",
+  "launch" : {
+    "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
+  },
+  "userFiles" : {
+    "include" : [ "options.txt", "config/dsurround/dsurround.cfg" ],
+    "exclude" : [ ]
+  },
+  "entries" : [ {
+    "provider" : "CURSE",
+    "name" : "Aether Legacy",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Akashic Tome",
+    "dependencies" : {
+      "REQUIRED" : [ "AutoRegLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Botania",
+    "dependencies" : {
+      "OPTIONAL" : [ "Quark", "Albedo" ],
+      "REQUIRED" : [ "Baubles" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Architect",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Bedrock Ores",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Astral Sorcery",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Baubles",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Advancements",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "BiblioCraft",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Binnie's Mods",
+    "dependencies" : {
+      "REQUIRED" : [ "Forestry" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Bullseye",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chisel",
+    "dependencies" : {
+      "REQUIRED" : [ "ConnectedTexturesMod" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chisels & Bits",
+    "dependencies" : {
+      "OPTIONAL" : [ "Just Enough Items (JEI)", "MCMultiPart" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ChocoCraft",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Clumps",
+    "dependencies" : {
+      "REQUIRED" : [ "B.A.S.E" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Colytra",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Comforts",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Compacter",
+    "dependencies" : {
+      "REQUIRED" : [ "BdLib" ],
+      "OPTIONAL" : [ "Industrial Craft", "Redstone Flux", "TESLA" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Cooking for Blockheads",
+    "dependencies" : {
+      "OPTIONAL" : [ "Pam's HarvestCraft", "Extra Food", "Food Expansion", "More Foods" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Farming for Blockheads",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Crafting Tweaks",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Waystones",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Cosmetic Armor Reworked",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "CraftTweaker",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Diamond Glass",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wearable Backpacks",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "JAOPCA",
+    "dependencies" : {
+      "REQUIRED" : [ "WrapUp" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Items (JEI)",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenModularTurrets",
+    "dependencies" : {
+      "OPTIONAL" : [ "Open Modular Passive Defense" ],
+      "REQUIRED" : [ "OMLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "OMLib",
+    "dependencies" : {
+      "OPTIONAL" : [ "OpenModularTurrets", "Open Modular Passive Defense" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "The Twilight Forest",
+    "dependencies" : {
+      "OPTIONAL" : [ "Tinkers Construct", "Chisel", "Just Enough Items (JEI)", "ConnectedTexturesMod" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Upsizer Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Useful Nullifiers",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ViesCraft - Airships!",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wearables",
+    "dependencies" : {
+      "REQUIRED" : [ "LLibrary" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Xtones",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Dynamics",
+    "dependencies" : {
+      "REQUIRED" : [ "CoFH Core", "Thermal Foundation", "CodeChicken Lib 1.8.+" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Expansion",
+    "dependencies" : {
+      "REQUIRED" : [ "CoFH Core", "Thermal Foundation", "CodeChicken Lib 1.8.+" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Cultivation",
+    "dependencies" : {
+      "REQUIRED" : [ "CoFH Core", "Thermal Foundation" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools",
+    "dependencies" : {
+      "REQUIRED" : [ "McJtyLib" ],
+      "OPTIONAL" : [ "The One Probe", "Interaction Wheel", "Redstone Flux" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools Dimensions",
+    "dependencies" : {
+      "OPTIONAL" : [ "The One Probe", "Redstone Flux" ],
+      "REQUIRED" : [ "RFTools", "McJtyLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Environmental Tech",
+    "dependencies" : {
+      "OPTIONAL" : [ "ValkyrieCompat" ],
+      "REQUIRED" : [ "ValkyrieLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MrCrayfish's Furniture Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MrCrayfish's Device Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Alchemy",
+    "dependencies" : {
+      "OPTIONAL" : [ "NoMoreGlowingPots" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "NoMoreGlowingPots",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "The Disenchanter Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Draconic Evolution",
+    "dependencies" : {
+      "REQUIRED" : [ "Redstone Flux", "Brandon's Core", "CodeChicken Lib 1.8.+" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Embers",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Enchiridion",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ender Storage 1.8.+",
+    "dependencies" : {
+      "REQUIRED" : [ "CodeChicken Lib 1.8.+" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Exchangers",
+    "dependencies" : {
+      "OPTIONAL" : [ "Ender IO", "Thermal Expansion", "Immersive Engineering", "Mekanism", "Redstone Flux" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Bit Manipulation",
+    "dependencies" : {
+      "REQUIRED" : [ "Chisels & Bits" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extra Utilities",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fairy Lights",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Forestry",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "FTB Utilities",
+    "dependencies" : {
+      "REQUIRED" : [ "FTBLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "FTBLib",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Gendustry",
+    "dependencies" : {
+      "REQUIRED" : [ "BdLib", "Forestry" ],
+      "OPTIONAL" : [ "Buildcraft", "CoFH Core", "Just Enough Items (JEI)", "TESLA", "Waila" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Grappling Hook Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "HelpFixer",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Hwyla",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Initial Inventory",
+    "dependencies" : {
+      "REQUIRED" : [ "CraftTweaker", "MTLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Inventory Tweaks",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Iron Chests",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Redstone Paste",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MmmMmmMmmMmm",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Inventory Pets",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Bees",
+    "dependencies" : {
+      "REQUIRED" : [ "Forestry", "Just Enough Items (JEI)" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Torches (JET)",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Dimensions",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "KleeSlabs",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Magic Bees",
+    "dependencies" : {
+      "REQUIRED" : [ "Forestry" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Magic Feather",
+    "dependencies" : {
+      "REQUIRED" : [ "CookieCore" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MalisisDoors",
+    "dependencies" : {
+      "REQUIRED" : [ "MalisisCore" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mob Grinding Utils",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ModTweaker",
+    "dependencies" : {
+      "REQUIRED" : [ "MTLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "More Bees",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "More Shearables",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Natura",
+    "dependencies" : {
+      "REQUIRED" : [ "Mantle" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Nature's Compass",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "NetherEx",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "NetherPortalFix",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "stimmedcow : NoMoreRecipeConflict",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "NotEnoughIDs",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenComputers",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenBlocks",
+    "dependencies" : {
+      "REQUIRED" : [ "OpenModsLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Packing Tape",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Pam's HarvestCraft",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Passthrough Signs",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Platforms",
+    "dependencies" : {
+      "REQUIRED" : [ "ShetiPhianCore" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Psi",
+    "dependencies" : {
+      "REQUIRED" : [ "AutoRegLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Quark",
+    "dependencies" : {
+      "REQUIRED" : [ "AutoRegLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Random Things",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "RandomTweaks",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ranged Pumps",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Recurrent Complex",
+    "dependencies" : {
+      "REQUIRED" : [ "IvToolkit" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Redstone Arsenal",
+    "dependencies" : {
+      "REQUIRED" : [ "CoFH Core" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Redstone Flux",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Refined Storage",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Reliquary v1.3",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Roguelike Dungeons",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Roots",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Rope Bridge",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Rustic",
+    "dependencies" : {
+      "OPTIONAL" : [ "Dynamic Trees", "CraftTweaker", "Just Enough Items (JEI)", "Forestry" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Scannable",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Simple Sponge",
+    "dependencies" : {
+      "OPTIONAL" : [ "OpenBlocks", "Redstone Flux" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Spartan Shields",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Storage Drawers",
+    "dependencies" : {
+      "REQUIRED" : [ "Chameleon" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Storage Drawers Extras",
+    "dependencies" : {
+      "REQUIRED" : [ "Chameleon", "Storage Drawers" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tails",
+    "dependencies" : {
+      "EMBEDDED" : [ "FoxLib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "TamModized",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "[ANGRY PIXEL] The Betweenlands",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unlimited Chisel Works",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tinkers Construct",
+    "dependencies" : {
+      "REQUIRED" : [ "Mantle" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tinkers' Tool Leveling",
+    "dependencies" : {
+      "REQUIRED" : [ "Mantle", "Tinkers Construct" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "The Spotlight Mod",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "TickProfiler",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Good Ol' Currency",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Extreme Reactors",
+    "dependencies" : {
+      "REQUIRED" : [ "ZeroCore" ],
+      "OPTIONAL" : [ "TESLA" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ZeroCore",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Paintings ++",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Painting Selection Gui Revamped",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Tool Belt",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "TorchMaster",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Totemic",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Robotic Parts",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ReWIRED",
+    "dependencies" : {
+      "OPTIONAL" : [ "ConnectedTexturesMod" ],
+      "REQUIRED" : [ "Robotic Parts" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Woot",
+    "dependencies" : {
+      "REQUIRED" : [ "Guide-API" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Garbage Bins",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Land Manager",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Sit",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fast Leaf Decay",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Blood Magic ",
+    "dependencies" : {
+      "REQUIRED" : [ "Guide-API" ],
+      "OPTIONAL" : [ "Hwyla", "Just Enough Items (JEI)" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unlimited Chisel Works - Botany",
+    "dependencies" : {
+      "REQUIRED" : [ "Binnie's Mods", "Unlimited Chisel Works" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unloader",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ColorfulWater",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "The Erebus",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Construct's Armory",
+    "dependencies" : {
+      "REQUIRED" : [ "Tinkers Construct", "Mantle" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dimensional Doors.",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Simple Void World",
+    "dependencies" : {
+      "REQUIRED" : [ "Reborn Core" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Yoyos",
+    "dependencies" : {
+      "OPTIONAL" : [ "Tinkers Construct", "PlusTiC", "Moar Tinkers" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MultiBeds",
+    "dependencies" : {
+      "REQUIRED" : [ "ShetiPhianCore" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "IKWID (I Know What I'm Doing)",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Lib",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tweaks",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Storage - Barrels",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Storage - Tanks",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Block Carrying",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tablet",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Crafting",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Transport - Carts and Rails",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Audio",
+    "dependencies" : {
+      "OPTIONAL" : [ "MCMultiPart", "NotEnoughCodecs" ],
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Storage - Locks",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "CharsetPatches",
+    "dependencies" : {
+      "REQUIRED" : [ "Charset Lib" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "FoamFix",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "url" : "https://unascribed.com/foamfix/FoamFix-1.12.2-0.9.4-Anarchy.jar",
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Nutrition",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "url" : "http://centerofthemultiverse.net/launcher/dist/Nutrition-1.12.2-3.0.0.jar",
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Player's Sampler",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "url" : "http://files.player.to/sampler-1.73.jar",
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Thermionics",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/Thermionics/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ThermionicsWorld",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ThermionicsWorld/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Engination",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/Engination/master"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "GlassHearts",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/GlassHearts/1.12.1"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "FruitPhone",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/FruitPhone/1.12.2"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ProbeDataProvider",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ProbeDataProvider/1.12"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "ArchitectureCraft",
+    "optional" : false,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/ArchitectureCraft/1.12"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough HarvestCraft (JEHC)",
+    "side" : "CLIENT",
+    "dependencies" : {
+      "REQUIRED" : [ "Just Enough Items (JEI)", "Pam's HarvestCraft" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Resources (JER)",
+    "side" : "CLIENT",
+    "dependencies" : {
+      "REQUIRED" : [ "Just Enough Items (JEI)" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "AppleSkin",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "BetterFps",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "NoNausea",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Placement",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Controlling",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Custom Main Menu",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Default Options",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Durability Show",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fullscreen Windowed (Borderless) for Minecraft",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Integration",
+    "side" : "CLIENT",
+    "dependencies" : {
+      "REQUIRED" : [ "Just Enough Items (JEI)" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Keyboard Wizard",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mod Name Tooltip",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Neat",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "ReAuth",
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fancy Block Particles",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "JourneyMap",
+    "feature" : {
+      "selected" : true,
+      "recommendation" : "starred"
+    },
+    "side" : "CLIENT",
+    "dependencies" : {
+      "OPTIONAL" : [ "JourneyMap Tools" ],
+      "EMBEDDED" : [ "JourneyMap API" ]
+    },
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Client Tweaks",
+    "feature" : {
+      "selected" : true
+    },
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mouse Tweaks",
+    "feature" : {
+      "selected" : true
+    },
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "World Handler - Command GUI",
+    "feature" : {
+      "selected" : true
+    },
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "MineMenu",
+    "feature" : {
+      "selected" : false
+    },
+    "side" : "CLIENT",
+    "optional" : true,
+    "validMcVersions" : [ "1.12.1", "1.12" ],
+    "curseReleaseTypes" : [ "RELEASE", "ALPHA", "BETA" ],
+    "jenkinsUrl" : "https://ci.elytradev.com"
+  }, {
+    "provider" : "CURSE",
+    "name" : "AutoRegLib",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "ConnectedTexturesMod",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "B.A.S.E",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "BdLib",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "WrapUp",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "LLibrary",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "CoFH Core",
+    "dependencies" : {
+      "EMBEDDED" : [ "CoFH Lib" ],
+      "REQUIRED" : [ "Redstone Flux" ]
+    },
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thermal Foundation",
+    "dependencies" : {
+      "REQUIRED" : [ "CoFH Core", "CoFH World" ]
+    },
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "CodeChicken Lib 1.8.+",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "McJtyLib",
+    "dependencies" : {
+      "OPTIONAL" : [ "The One Probe", "Redstone Flux" ]
+    },
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "ValkyrieLib",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Brandon's Core",
+    "dependencies" : {
+      "REQUIRED" : [ "Redstone Flux", "CodeChicken Lib 1.8.+" ]
+    },
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "MTLib",
+    "dependencies" : {
+      "REQUIRED" : [ "CraftTweaker" ]
+    },
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "CookieCore",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "MalisisCore",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mantle",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenModsLib",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "ShetiPhianCore",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "IvToolkit",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chameleon",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Guide-API",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "Reborn Core",
+    "optional" : true,
+    "transient" : true
+  }, {
+    "provider" : "CURSE",
+    "name" : "CoFH World",
+    "optional" : true,
+    "transient" : true
+  } ],
+  "localDir" : "local",
+  "minecraftDir" : "Center of the Multiverse"
+}
