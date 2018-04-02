@@ -223,8 +223,7 @@ root:
   - Paintings ++
   - Painting Selection Gui Revamped
   - Tool Belt
-  - TorchMaster
-  - Totemic
+  - TorchMaster 
   - Robotic Parts
   - ReWIRED
   - Woot
@@ -243,6 +242,8 @@ root:
   - Yoyos
   - MultiBeds
   - "IKWID (I Know What I'm Doing)"
+  - "Bad Wither No Cookie - Reloaded"
+  - Ender IO
 
   # asie
   - Charset Lib
@@ -256,12 +257,10 @@ root:
   - Charset Audio
   - Charset Storage - Locks
   - CharsetPatches
+  - FoamFix for Minecraft
 
   - provider: DIRECT
-    entries: 
-    # FoamFix
-    - url: https://unascribed.com/foamfix/FoamFix-1.12.2-0.9.4-Anarchy.jar
-      name: FoamFix
+
 
     # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.1.0/Nutrition-1.12.2-3.1.0.jar
@@ -306,6 +305,7 @@ root:
     entries:
     - Just Enough HarvestCraft (JEHC)
     - Just Enough Resources (JER)
+    - JEI Integration
     - AppleSkin
     - BetterFps
     - NoNausea
@@ -315,11 +315,11 @@ root:
     - Default Options
     - Durability Show
     - Fullscreen Windowed (Borderless) for Minecraft
-    - JEI Integration
     - Keyboard Wizard
     - Mod Name Tooltip
     - Neat
     - ReAuth
+    - TipTheScales
 
   #=======================#
   # Clientside - Optional #
@@ -328,8 +328,13 @@ root:
         selected: true
         recommendation: starred
       entries:
-      - Fancy Block Particles
       - JourneyMap
+
+    - feature:
+        selected: false
+        recommendation: starred
+      entries:
+      - Fancy Block Particles
 
     - feature:
         selected: true
@@ -337,4 +342,12 @@ root:
       - Client Tweaks
       - Mouse Tweaks
       - "World Handler - Command GUI"
+
+    - feature:
+        selected: false
+      entries:
       - MineMenu
+      - ItemZoom
+      - Mob Dismemberment
+      - Chunk Animator
+      - "RPG-Hud"
