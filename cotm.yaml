@@ -328,45 +328,45 @@ root:
         recommendation: starred
       entries:
 
-        name: JourneyMap
-        description: "You know what this is."
+        - name: JourneyMap
+          description: "You know what this is."
 
     - feature:
         selected: false
         recommendation: starred
       entries:
         
-        name: Fancy Block Particles
-        description: "Adds some flair to particle effects and animations. Highly configurable, but can cause client lag."
+        - name: Fancy Block Particles
+          description: "Adds some flair to particle effects and animations. Highly configurable, but can cause client lag."
 
     - feature:
         selected: true
       entries:
 
-        name: Client Tweaks
-        description: "Client Tweaks"
+        - name: Client Tweaks
+          description: "Client Tweaks"
 
-        name: Mouse Tweaks
-        description: "Mouse Tweaks"
+        - name: Mouse Tweaks
+          description: "Mouse Tweaks"
 
-        name: "World Handler - Command GUI"
-        description: "World Handler"
+        - name: "World Handler - Command GUI"
+          description: "World Handler"
 
     - feature:
         selected: false
       entries:
 
-        name: MineMenu
-        description: "Radial menu that can be used for command/keyboard shortcuts."
+        - name: MineMenu
+          description: "Radial menu that can be used for command/keyboard shortcuts."
 
-        name: ItemZoom
-        description: "Item Zoom"
+        - name: ItemZoom
+          description: "Item Zoom"
 
-        name: Mob Dismemberment
-        description: "Gibtastic!"
+        - name: Mob Dismemberment
+          description: "Gibtastic!"
 
-        name: Chunk Animator
-        description: "Makes chunks load in an amusing way. Can cause lag."
+        - name: Chunk Animator
+          description: "Makes chunks load in an amusing way. Can cause lag."
 
-        name: RPG-Hud
-        description: "Highly configureable hud when you really feel like you need more stuff on screen."
+        - name: RPG-Hud
+          description: "Highly configureable hud when you really feel like you need more stuff on screen."
