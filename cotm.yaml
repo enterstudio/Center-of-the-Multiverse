@@ -20,7 +20,6 @@ userFiles:
 # Core Pack #
 #===========#
 root:
-
 #==============#
 # Version Info #
 #==============#
@@ -244,6 +243,7 @@ root:
   - "IKWID (I Know What I'm Doing)"
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
+  - Sampler
 
   # asie
   - Charset Lib
@@ -259,17 +259,15 @@ root:
   - CharsetPatches
   - FoamFix for Minecraft
 
+  # Direct Downloads
   - provider: DIRECT
-
-
-    # Nutrition
+    entries:
+  
+  # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.1.0/Nutrition-1.12.2-3.1.0.jar
       name: Nutrition
 
-    # Player's Sampler
-    - url: http://files.player.to/sampler-1.73.jar
-      name: Player's Sampler
-
+  # Jenkins Downloads      
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
     entries:

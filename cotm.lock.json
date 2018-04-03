@@ -257,7 +257,7 @@
     "provider" : "CURSE",
     "name" : "Dynamic Surroundings",
     "projectID" : 238891,
-    "fileID" : 2546039
+    "fileID" : 2547833
   }, {
     "provider" : "CURSE",
     "name" : "Embers",
@@ -645,11 +645,6 @@
     "fileID" : 2489361
   }, {
     "provider" : "CURSE",
-    "name" : "Totemic",
-    "projectID" : 237541,
-    "fileID" : 2533938
-  }, {
-    "provider" : "CURSE",
     "name" : "Robotic Parts",
     "projectID" : 283377,
     "fileID" : 2532729
@@ -740,9 +735,24 @@
     "fileID" : 2469710
   }, {
     "provider" : "CURSE",
+    "name" : "Bad Wither No Cookie - Reloaded",
+    "projectID" : 261251,
+    "fileID" : 2496784
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ender IO",
+    "projectID" : 64578,
+    "fileID" : 2547475
+  }, {
+    "provider" : "CURSE",
+    "name" : "Sampler",
+    "projectID" : 289242,
+    "fileID" : 2536015
+  }, {
+    "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2546888
+    "fileID" : 2547890
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -794,17 +804,14 @@
     "projectID" : 278527,
     "fileID" : 2520203
   }, {
-    "provider" : "DIRECT",
-    "name" : "FoamFix",
-    "url" : "https://unascribed.com/foamfix/FoamFix-1.12.2-0.9.4-Anarchy.jar"
+    "provider" : "CURSE",
+    "name" : "FoamFix for Minecraft",
+    "projectID" : 278494,
+    "fileID" : 2545218
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
     "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.1.0/Nutrition-1.12.2-3.1.0.jar"
-  }, {
-    "provider" : "DIRECT",
-    "name" : "Player's Sampler",
-    "url" : "http://files.player.to/sampler-1.73.jar"
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -859,6 +866,11 @@
     "fileID" : 2523823
   }, {
     "provider" : "CURSE",
+    "name" : "JEI Integration",
+    "projectID" : 265917,
+    "fileID" : 2491927
+  }, {
+    "provider" : "CURSE",
     "name" : "AppleSkin",
     "projectID" : 248787,
     "fileID" : 2496585
@@ -904,11 +916,6 @@
     "fileID" : 2456007
   }, {
     "provider" : "CURSE",
-    "name" : "JEI Integration",
-    "projectID" : 265917,
-    "fileID" : 2491927
-  }, {
-    "provider" : "CURSE",
     "name" : "Keyboard Wizard",
     "projectID" : 262366,
     "fileID" : 2493196
@@ -929,14 +936,19 @@
     "fileID" : 2491161
   }, {
     "provider" : "CURSE",
-    "name" : "Fancy Block Particles",
-    "projectID" : 254441,
-    "fileID" : 2540722
+    "name" : "TipTheScales",
+    "projectID" : 282313,
+    "fileID" : 2519158
   }, {
     "provider" : "CURSE",
     "name" : "JourneyMap",
     "projectID" : 32274,
     "fileID" : 2498312
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fancy Block Particles",
+    "projectID" : 254441,
+    "fileID" : 2540722
   }, {
     "provider" : "CURSE",
     "name" : "Client Tweaks",
@@ -957,6 +969,26 @@
     "name" : "MineMenu",
     "projectID" : 222378,
     "fileID" : 2497593
+  }, {
+    "provider" : "CURSE",
+    "name" : "ItemZoom",
+    "projectID" : 261725,
+    "fileID" : 2463740
+  }, {
+    "provider" : "CURSE",
+    "name" : "Mob Dismemberment",
+    "projectID" : 229067,
+    "fileID" : 2487081
+  }, {
+    "provider" : "CURSE",
+    "name" : "Chunk Animator",
+    "projectID" : 236484,
+    "fileID" : 2432424
+  }, {
+    "provider" : "CURSE",
+    "name" : "RPG-Hud",
+    "projectID" : 235670,
+    "fileID" : 2483068
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -1069,6 +1101,16 @@
     "fileID" : 2545247
   }, {
     "provider" : "CURSE",
+    "name" : "EnderCore",
+    "projectID" : 231868,
+    "fileID" : 2547411
+  }, {
+    "provider" : "CURSE",
+    "name" : "iChunUtil",
+    "projectID" : 229060,
+    "fileID" : 2510760
+  }, {
+    "provider" : "CURSE",
     "name" : "CoFH World",
     "projectID" : 271384,
     "fileID" : 2513671
@@ -1076,13 +1118,15 @@
   "features" : [ {
     "entries" : [ "Fancy Block Particles" ],
     "properties" : {
-      "name" : "Fancy Block Particles"
+      "name" : "Fancy Block Particles",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
     "entries" : [ "JourneyMap" ],
     "properties" : {
-      "name" : "JourneyMap"
+      "name" : "JourneyMap",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
@@ -1107,6 +1151,34 @@
     "entries" : [ "MineMenu" ],
     "properties" : {
       "name" : "MineMenu"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "ItemZoom" ],
+    "properties" : {
+      "name" : "ItemZoom",
+      "selected" : false
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Mob Dismemberment", "iChunUtil" ],
+    "properties" : {
+      "name" : "Mob Dismemberment",
+      "selected" : false
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Chunk Animator" ],
+    "properties" : {
+      "name" : "Chunk Animator",
+      "selected" : false
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "RPG-Hud" ],
+    "properties" : {
+      "name" : "RPG-Hud",
+      "selected" : false
     },
     "files" : { }
   } ]
