@@ -328,7 +328,6 @@ root:
         recommendation: starred
       entries:
 
-      - JourneyMap
         name: JourneyMap
         description: "You know what this is."
 
@@ -337,7 +336,6 @@ root:
         recommendation: starred
       entries:
         
-      - Fancy Block Particles
         name: Fancy Block Particles
         description: "Adds some flair to particle effects and animations. Highly configurable, but can cause client lag."
 
@@ -345,38 +343,30 @@ root:
         selected: true
       entries:
 
-      - Client Tweaks
         name: Client Tweaks
         description: "Client Tweaks"
 
-      - Mouse Tweaks
         name: Mouse Tweaks
         description: "Mouse Tweaks"
 
-      - "World Handler - Command GUI"
-        name: World Handler
+        name: "World Handler - Command GUI"
         description: "World Handler"
 
     - feature:
         selected: false
       entries:
 
-      - MineMenu
         name: MineMenu
         description: "Radial menu that can be used for command/keyboard shortcuts."
 
-      - ItemZoom
         name: ItemZoom
         description: "Item Zoom"
 
-      - Mob Dismemberment
         name: Mob Dismemberment
         description: "Gibtastic!"
 
-      - Chunk Animator
         name: Chunk Animator
         description: "Makes chunks load in an amusing way. Can cause lag."
 
-      - "RPG-Hud"
         name: RPG-Hud
         description: "Highly configureable hud when you really feel like you need more stuff on screen."
