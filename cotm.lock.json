@@ -52,7 +52,7 @@
     "provider" : "CURSE",
     "name" : "Better Advancements",
     "projectID" : 272515,
-    "fileID" : 2546368
+    "fileID" : 2548921
   }, {
     "provider" : "CURSE",
     "name" : "BiblioCraft",
@@ -62,7 +62,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2545841
+    "fileID" : 2548826
   }, {
     "provider" : "CURSE",
     "name" : "Bullseye",
@@ -97,7 +97,7 @@
     "provider" : "CURSE",
     "name" : "Comforts",
     "projectID" : 276951,
-    "fileID" : 2534172
+    "fileID" : 2548579
   }, {
     "provider" : "CURSE",
     "name" : "Compacter",
@@ -297,17 +297,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2546678
+    "fileID" : 2548931
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2541125
+    "fileID" : 2548713
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2541122
+    "fileID" : 2548712
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -582,7 +582,7 @@
     "provider" : "CURSE",
     "name" : "[ANGRY PIXEL] The Betweenlands",
     "projectID" : 243363,
-    "fileID" : 2547165
+    "fileID" : 2548656
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
@@ -647,7 +647,7 @@
     "provider" : "CURSE",
     "name" : "Robotic Parts",
     "projectID" : 283377,
-    "fileID" : 2532729
+    "fileID" : 2548729
   }, {
     "provider" : "CURSE",
     "name" : "ReWIRED",
@@ -707,7 +707,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2545141
+    "fileID" : 2548180
   }, {
     "provider" : "CURSE",
     "name" : "Dimensional Doors.",
@@ -748,6 +748,11 @@
     "name" : "Sampler",
     "projectID" : 289242,
     "fileID" : 2536015
+  }, {
+    "provider" : "CURSE",
+    "name" : "Millénaire",
+    "projectID" : 270871,
+    "fileID" : 2548950
   }, {
     "provider" : "CURSE",
     "name" : "Charset Lib",
@@ -807,7 +812,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2545218
+    "fileID" : 2548754
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
@@ -944,6 +949,11 @@
     "name" : "JourneyMap",
     "projectID" : 32274,
     "fileID" : 2498312
+  }, {
+    "provider" : "CURSE",
+    "name" : "SmoothWater",
+    "projectID" : 286352,
+    "fileID" : 2537363
   }, {
     "provider" : "CURSE",
     "name" : "Fancy Block Particles",
@@ -1098,7 +1108,7 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2545247
+    "fileID" : 2548853
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
@@ -1116,69 +1126,90 @@
     "fileID" : 2513671
   } ],
   "features" : [ {
-    "entries" : [ "Fancy Block Particles" ],
+    "entries" : [ "JourneyMap" ],
     "properties" : {
-      "name" : "Fancy Block Particles",
+      "name" : "JourneyMap",
+      "description" : "You know what this is.",
       "recommendation" : "starred"
     },
     "files" : { }
   }, {
-    "entries" : [ "JourneyMap" ],
+    "entries" : [ "Fancy Block Particles" ],
     "properties" : {
-      "name" : "JourneyMap",
+      "name" : "Fancy Block Particles",
+      "selected" : false,
+      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
       "recommendation" : "starred"
     },
     "files" : { }
   }, {
     "entries" : [ "Client Tweaks" ],
     "properties" : {
-      "name" : "Client Tweaks"
+      "name" : "Client Tweaks",
+      "description" : "Client Tweaks"
     },
     "files" : { }
   }, {
     "entries" : [ "Mouse Tweaks" ],
     "properties" : {
-      "name" : "Mouse Tweaks"
+      "name" : "Mouse Tweaks",
+      "description" : "Mouse Tweaks"
     },
     "files" : { }
   }, {
     "entries" : [ "World Handler - Command GUI" ],
     "properties" : {
-      "name" : "World Handler - Command GUI"
+      "name" : "World Handler - Command GUI",
+      "description" : "World Handler"
     },
     "files" : { }
   }, {
     "entries" : [ "MineMenu" ],
     "properties" : {
-      "name" : "MineMenu"
+      "name" : "MineMenu",
+      "selected" : false,
+      "description" : "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
     },
     "files" : { }
   }, {
     "entries" : [ "ItemZoom" ],
     "properties" : {
       "name" : "ItemZoom",
-      "selected" : false
+      "selected" : false,
+      "description" : "Item Zoom"
     },
     "files" : { }
   }, {
     "entries" : [ "Mob Dismemberment", "iChunUtil" ],
     "properties" : {
       "name" : "Mob Dismemberment",
-      "selected" : false
+      "selected" : false,
+      "description" : "Gibtastic! Probably laggy."
     },
     "files" : { }
   }, {
     "entries" : [ "Chunk Animator" ],
     "properties" : {
       "name" : "Chunk Animator",
-      "selected" : false
+      "selected" : false,
+      "description" : "Makes chunks load in an amusing way. Can/will cause lag."
     },
     "files" : { }
   }, {
     "entries" : [ "RPG-Hud" ],
     "properties" : {
       "name" : "RPG-Hud",
-      "selected" : false
+      "selected" : false,
+      "description" : "Highly configureable HUD when you really feel like you need more stuff on screen."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "SmoothWater" ],
+    "properties" : {
+      "name" : "SmoothWater",
+      "selected" : false,
+      "description" : "Makes the surface of water nicer, better underwater lighting, can cost FPS.",
+      "recommendation" : "starred"
     },
     "files" : { }
   } ]

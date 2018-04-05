@@ -336,8 +336,11 @@ root:
         recommendation: starred
       entries:
         
+        - name: SmoothWater
+          description: "Makes the surface of water nicer, better underwater lighting, can cost FPS."
+
         - name: Fancy Block Particles
-          description: "Adds some flair to particle effects and animations. Highly configurable, but can cause client lag."
+          description: "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes."
 
     - feature:
         selected: true
@@ -357,16 +360,16 @@ root:
       entries:
 
         - name: MineMenu
-          description: "Radial menu that can be used for command/keyboard shortcuts."
+          description: "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
 
         - name: ItemZoom
           description: "Item Zoom"
 
         - name: Mob Dismemberment
-          description: "Gibtastic!"
+          description: "Gibtastic! Probably laggy."
 
         - name: Chunk Animator
-          description: "Makes chunks load in an amusing way. Can cause lag."
+          description: "Makes chunks load in an amusing way. Can/will cause lag."
 
         - name: RPG-Hud
-          description: "Highly configureable hud when you really feel like you need more stuff on screen."
+          description: "Highly configureable HUD when you really feel like you need more stuff on screen."
