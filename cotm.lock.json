@@ -2,7 +2,7 @@
   "name" : "cotm",
   "title" : "Center of the Multiverse",
   "mcVersion" : "1.12.2",
-  "forge" : 2611,
+  "forge" : 2654,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
@@ -1126,19 +1126,18 @@
     "fileID" : 2513671
   } ],
   "features" : [ {
-    "entries" : [ "JourneyMap" ],
+    "entries" : [ "Fancy Block Particles" ],
     "properties" : {
-      "name" : "JourneyMap",
-      "description" : "You know what this is.",
+      "name" : "Fancy Block Particles",
+      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
       "recommendation" : "starred"
     },
     "files" : { }
   }, {
-    "entries" : [ "Fancy Block Particles" ],
+    "entries" : [ "JourneyMap" ],
     "properties" : {
-      "name" : "Fancy Block Particles",
-      "selected" : false,
-      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
+      "name" : "JourneyMap",
+      "description" : "You know what this is.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1167,7 +1166,6 @@
     "entries" : [ "MineMenu" ],
     "properties" : {
       "name" : "MineMenu",
-      "selected" : false,
       "description" : "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
     },
     "files" : { }
