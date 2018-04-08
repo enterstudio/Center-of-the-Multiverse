@@ -1,5 +1,5 @@
 {
-  "name" : "cotm",
+  "name" : "CotM-2.1.2",
   "title" : "Center of the Multiverse",
   "mcVersion" : "1.12.2",
   "forge" : 2654,
@@ -8,8 +8,8 @@
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
   "userFiles" : {
-    "include" : [ "options.txt", "config/dsurround/dsurround.cfg" ],
-    "exclude" : [ ]
+    "include" : [ "options.txt", "optionsshaders.txt" ],
+    "exclude" : [ "config/dsurround/dsurround.cfg", "options.txt" ]
   },
   "localDir" : "local",
   "minecraftDir" : "src",
@@ -62,7 +62,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2548826
+    "fileID" : 2549141
   }, {
     "provider" : "CURSE",
     "name" : "Bullseye",
@@ -112,7 +112,7 @@
     "provider" : "CURSE",
     "name" : "Farming for Blockheads",
     "projectID" : 261924,
-    "fileID" : 2468274
+    "fileID" : 2549222
   }, {
     "provider" : "CURSE",
     "name" : "Crafting Tweaks",
@@ -157,12 +157,12 @@
     "provider" : "CURSE",
     "name" : "OpenModularTurrets",
     "projectID" : 224663,
-    "fileID" : 2527839
+    "fileID" : 2549787
   }, {
     "provider" : "CURSE",
     "name" : "OMLib",
     "projectID" : 254334,
-    "fileID" : 2527820
+    "fileID" : 2549771
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -197,12 +197,12 @@
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
     "projectID" : 227443,
-    "fileID" : 2518224
+    "fileID" : 2549542
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
     "projectID" : 69163,
-    "fileID" : 2520117
+    "fileID" : 2549865
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Cultivation",
@@ -212,12 +212,12 @@
     "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
-    "fileID" : 2545144
+    "fileID" : 2549092
   }, {
     "provider" : "CURSE",
     "name" : "RFTools Dimensions",
     "projectID" : 240950,
-    "fileID" : 2530525
+    "fileID" : 2549121
   }, {
     "provider" : "CURSE",
     "name" : "Environmental Tech",
@@ -253,11 +253,6 @@
     "name" : "Draconic Evolution",
     "projectID" : 223565,
     "fileID" : 2535360
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dynamic Surroundings",
-    "projectID" : 238891,
-    "fileID" : 2547833
   }, {
     "provider" : "CURSE",
     "name" : "Embers",
@@ -297,7 +292,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2548931
+    "fileID" : 2549144
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -372,7 +367,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2542955
+    "fileID" : 2549772
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -402,7 +397,7 @@
     "provider" : "CURSE",
     "name" : "ModTweaker",
     "projectID" : 220954,
-    "fileID" : 2542884
+    "fileID" : 2548987
   }, {
     "provider" : "CURSE",
     "name" : "More Bees",
@@ -487,7 +482,7 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2538044
+    "fileID" : 2549507
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
@@ -507,7 +502,7 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2518221
+    "fileID" : 2549396
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
@@ -682,7 +677,7 @@
     "provider" : "CURSE",
     "name" : "Blood Magic ",
     "projectID" : 224791,
-    "fileID" : 2536268
+    "fileID" : 2549602
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works - Botany",
@@ -757,7 +752,7 @@
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2547890
+    "fileID" : 2549421
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -862,143 +857,177 @@
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough HarvestCraft (JEHC)",
+    "side" : "CLIENT",
     "projectID" : 267939,
     "fileID" : 2543885
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough Resources (JER)",
+    "side" : "CLIENT",
     "projectID" : 240630,
     "fileID" : 2523823
   }, {
     "provider" : "CURSE",
     "name" : "JEI Integration",
+    "side" : "CLIENT",
     "projectID" : 265917,
     "fileID" : 2491927
   }, {
     "provider" : "CURSE",
     "name" : "AppleSkin",
+    "side" : "CLIENT",
     "projectID" : 248787,
     "fileID" : 2496585
   }, {
     "provider" : "CURSE",
     "name" : "BetterFps",
+    "side" : "CLIENT",
     "projectID" : 229876,
     "fileID" : 2483393
   }, {
     "provider" : "CURSE",
     "name" : "NoNausea",
+    "side" : "CLIENT",
     "projectID" : 226035,
     "fileID" : 2432422
   }, {
     "provider" : "CURSE",
     "name" : "Better Placement",
+    "side" : "CLIENT",
     "projectID" : 278406,
     "fileID" : 2481852
   }, {
     "provider" : "CURSE",
     "name" : "Controlling",
+    "side" : "CLIENT",
     "projectID" : 250398,
     "fileID" : 2522248
   }, {
     "provider" : "CURSE",
     "name" : "Custom Main Menu",
+    "side" : "CLIENT",
     "projectID" : 226406,
     "fileID" : 2482584
   }, {
     "provider" : "CURSE",
     "name" : "Default Options",
+    "side" : "CLIENT",
     "projectID" : 232131,
-    "fileID" : 2513607
+    "fileID" : 2549234
   }, {
     "provider" : "CURSE",
     "name" : "Durability Show",
+    "side" : "CLIENT",
     "projectID" : 226099,
     "fileID" : 2432683
   }, {
     "provider" : "CURSE",
     "name" : "Fullscreen Windowed (Borderless) for Minecraft",
+    "side" : "CLIENT",
     "projectID" : 227441,
     "fileID" : 2456007
   }, {
     "provider" : "CURSE",
     "name" : "Keyboard Wizard",
+    "side" : "CLIENT",
     "projectID" : 262366,
     "fileID" : 2493196
   }, {
     "provider" : "CURSE",
     "name" : "Mod Name Tooltip",
+    "side" : "CLIENT",
     "projectID" : 238747,
     "fileID" : 2486868
   }, {
     "provider" : "CURSE",
     "name" : "Neat",
+    "side" : "CLIENT",
     "projectID" : 238372,
     "fileID" : 2436376
   }, {
     "provider" : "CURSE",
     "name" : "ReAuth",
+    "side" : "CLIENT",
     "projectID" : 237701,
     "fileID" : 2491161
   }, {
     "provider" : "CURSE",
     "name" : "TipTheScales",
+    "side" : "CLIENT",
     "projectID" : 282313,
     "fileID" : 2519158
   }, {
     "provider" : "CURSE",
     "name" : "JourneyMap",
+    "side" : "CLIENT",
     "projectID" : 32274,
     "fileID" : 2498312
   }, {
     "provider" : "CURSE",
     "name" : "SmoothWater",
+    "side" : "CLIENT",
     "projectID" : 286352,
     "fileID" : 2537363
   }, {
     "provider" : "CURSE",
     "name" : "Fancy Block Particles",
+    "side" : "CLIENT",
     "projectID" : 254441,
     "fileID" : 2540722
   }, {
     "provider" : "CURSE",
     "name" : "Client Tweaks",
+    "side" : "CLIENT",
     "projectID" : 251407,
     "fileID" : 2544119
   }, {
     "provider" : "CURSE",
     "name" : "Mouse Tweaks",
+    "side" : "CLIENT",
     "projectID" : 60089,
     "fileID" : 2462627
   }, {
     "provider" : "CURSE",
     "name" : "World Handler - Command GUI",
+    "side" : "CLIENT",
     "projectID" : 228970,
     "fileID" : 2533019
   }, {
     "provider" : "CURSE",
     "name" : "MineMenu",
+    "side" : "CLIENT",
     "projectID" : 222378,
     "fileID" : 2497593
   }, {
     "provider" : "CURSE",
     "name" : "ItemZoom",
+    "side" : "CLIENT",
     "projectID" : 261725,
     "fileID" : 2463740
   }, {
     "provider" : "CURSE",
     "name" : "Mob Dismemberment",
+    "side" : "CLIENT",
     "projectID" : 229067,
     "fileID" : 2487081
   }, {
     "provider" : "CURSE",
     "name" : "Chunk Animator",
+    "side" : "CLIENT",
     "projectID" : 236484,
     "fileID" : 2432424
   }, {
     "provider" : "CURSE",
     "name" : "RPG-Hud",
+    "side" : "CLIENT",
     "projectID" : 235670,
     "fileID" : 2483068
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "side" : "CLIENT",
+    "projectID" : 238891,
+    "fileID" : 2547833
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -1033,12 +1062,12 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2519297
+    "fileID" : 2549394
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2518222
+    "fileID" : 2549411
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
@@ -1117,6 +1146,7 @@
   }, {
     "provider" : "CURSE",
     "name" : "iChunUtil",
+    "side" : "CLIENT",
     "projectID" : 229060,
     "fileID" : 2510760
   }, {
@@ -1126,18 +1156,29 @@
     "fileID" : 2513671
   } ],
   "features" : [ {
-    "entries" : [ "Fancy Block Particles" ],
+    "entries" : [ "JourneyMap" ],
     "properties" : {
-      "name" : "Fancy Block Particles",
-      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
+      "name" : "JourneyMap",
+      "selected" : true,
+      "description" : "You know what this is.",
       "recommendation" : "starred"
     },
     "files" : { }
   }, {
-    "entries" : [ "JourneyMap" ],
+    "entries" : [ "SmoothWater" ],
     "properties" : {
-      "name" : "JourneyMap",
-      "description" : "You know what this is.",
+      "name" : "SmoothWater",
+      "selected" : false,
+      "description" : "Makes the surface of water nicer, better underwater lighting, can cost FPS.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Fancy Block Particles" ],
+    "properties" : {
+      "name" : "Fancy Block Particles",
+      "selected" : false,
+      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1145,6 +1186,7 @@
     "entries" : [ "Client Tweaks" ],
     "properties" : {
       "name" : "Client Tweaks",
+      "selected" : true,
       "description" : "Client Tweaks"
     },
     "files" : { }
@@ -1152,6 +1194,7 @@
     "entries" : [ "Mouse Tweaks" ],
     "properties" : {
       "name" : "Mouse Tweaks",
+      "selected" : true,
       "description" : "Mouse Tweaks"
     },
     "files" : { }
@@ -1159,6 +1202,7 @@
     "entries" : [ "World Handler - Command GUI" ],
     "properties" : {
       "name" : "World Handler - Command GUI",
+      "selected" : true,
       "description" : "World Handler"
     },
     "files" : { }
@@ -1166,6 +1210,7 @@
     "entries" : [ "MineMenu" ],
     "properties" : {
       "name" : "MineMenu",
+      "selected" : false,
       "description" : "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
     },
     "files" : { }
@@ -1202,12 +1247,11 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "SmoothWater" ],
+    "entries" : [ "Dynamic Surroundings" ],
     "properties" : {
-      "name" : "SmoothWater",
+      "name" : "Dynamic Surroundings",
       "selected" : false,
-      "description" : "Makes the surface of water nicer, better underwater lighting, can cost FPS.",
-      "recommendation" : "starred"
+      "description" : "Quite nice, kinda buggy. Causes crashes."
     },
     "files" : { }
   } ]
