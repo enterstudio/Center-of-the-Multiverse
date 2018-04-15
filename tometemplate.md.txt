@@ -1,0 +1,3 @@
+**[modName]**
+**By:** [authors]
+**Project Page:** [projectPage]

@@ -1,15 +1,16 @@
 {
-  "name" : "CotM-2.1.2",
+  "name" : "cotm",
   "title" : "Center of the Multiverse",
+  "version" : "2.1.3",
   "mcVersion" : "1.12.2",
-  "forge" : 2654,
+  "forge" : 2655,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
   "userFiles" : {
-    "include" : [ "options.txt", "optionsshaders.txt" ],
-    "exclude" : [ "config/dsurround/dsurround.cfg", "options.txt" ]
+    "include" : [ ],
+    "exclude" : [ "config/dsurround/dsurround.cfg" ]
   },
   "localDir" : "local",
   "minecraftDir" : "src",
@@ -62,7 +63,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2549141
+    "fileID" : 2551929
   }, {
     "provider" : "CURSE",
     "name" : "Bullseye",
@@ -152,7 +153,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2536307
+    "fileID" : 2551962
   }, {
     "provider" : "CURSE",
     "name" : "OpenModularTurrets",
@@ -210,6 +211,11 @@
     "fileID" : 2518223
   }, {
     "provider" : "CURSE",
+    "name" : "Thermal Innovation",
+    "projectID" : 291737,
+    "fileID" : 2549439
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2549092
@@ -237,7 +243,7 @@
     "provider" : "CURSE",
     "name" : "Extra Alchemy",
     "projectID" : 247357,
-    "fileID" : 2541389
+    "fileID" : 2551085
   }, {
     "provider" : "CURSE",
     "name" : "NoMoreGlowingPots",
@@ -260,11 +266,6 @@
     "fileID" : 2495586
   }, {
     "provider" : "CURSE",
-    "name" : "Enchiridion",
-    "projectID" : 76612,
-    "fileID" : 2498022
-  }, {
-    "provider" : "CURSE",
     "name" : "Ender Storage 1.8.+",
     "projectID" : 245174,
     "fileID" : 2509842
@@ -282,7 +283,7 @@
     "provider" : "CURSE",
     "name" : "Extra Utilities",
     "projectID" : 225561,
-    "fileID" : 2542275
+    "fileID" : 2550371
   }, {
     "provider" : "CURSE",
     "name" : "Fairy Lights",
@@ -292,17 +293,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2549144
+    "fileID" : 2551917
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2548713
+    "fileID" : 2551349
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2548712
+    "fileID" : 2551149
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -337,7 +338,7 @@
     "provider" : "CURSE",
     "name" : "Iron Chests",
     "projectID" : 228756,
-    "fileID" : 2533664
+    "fileID" : 2550378
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Paste",
@@ -355,11 +356,6 @@
     "fileID" : 2526545
   }, {
     "provider" : "CURSE",
-    "name" : "JEI Bees",
-    "projectID" : 248370,
-    "fileID" : 2490058
-  }, {
-    "provider" : "CURSE",
     "name" : "Just Enough Torches (JET)",
     "projectID" : 273028,
     "fileID" : 2528998
@@ -367,7 +363,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2549772
+    "fileID" : 2550878
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -487,7 +483,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2537786
+    "fileID" : 2550987
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -517,7 +513,7 @@
     "provider" : "CURSE",
     "name" : "Reliquary v1.3",
     "projectID" : 241319,
-    "fileID" : 2538537
+    "fileID" : 2550326
   }, {
     "provider" : "CURSE",
     "name" : "Roguelike Dungeons",
@@ -577,7 +573,7 @@
     "provider" : "CURSE",
     "name" : "[ANGRY PIXEL] The Betweenlands",
     "projectID" : 243363,
-    "fileID" : 2548656
+    "fileID" : 2550498
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
@@ -702,12 +698,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2548180
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dimensional Doors.",
-    "projectID" : 284876,
-    "fileID" : 2535189
+    "fileID" : 2551274
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -725,11 +716,6 @@
     "fileID" : 2481686
   }, {
     "provider" : "CURSE",
-    "name" : "IKWID (I Know What I'm Doing)",
-    "projectID" : 271492,
-    "fileID" : 2469710
-  }, {
-    "provider" : "CURSE",
     "name" : "Bad Wither No Cookie - Reloaded",
     "projectID" : 261251,
     "fileID" : 2496784
@@ -737,7 +723,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2547475
+    "fileID" : 2551553
   }, {
     "provider" : "CURSE",
     "name" : "Sampler",
@@ -747,12 +733,32 @@
     "provider" : "CURSE",
     "name" : "Millénaire",
     "projectID" : 270871,
-    "fileID" : 2548950
+    "fileID" : 2551474
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Sword Skills",
+    "projectID" : 226360,
+    "fileID" : 2504915
+  }, {
+    "provider" : "CURSE",
+    "name" : "Hunting Dimension",
+    "projectID" : 283235,
+    "fileID" : 2551258
+  }, {
+    "provider" : "CURSE",
+    "name" : "Electroblob's Wizardry",
+    "projectID" : 265642,
+    "fileID" : 2551732
+  }, {
+    "provider" : "CURSE",
+    "name" : "Enchiridion",
+    "projectID" : 76612,
+    "fileID" : 2498022
   }, {
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2549421
+    "fileID" : 2550006
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -762,7 +768,7 @@
     "provider" : "CURSE",
     "name" : "Charset Storage - Barrels",
     "projectID" : 284529,
-    "fileID" : 2536967
+    "fileID" : 2550003
   }, {
     "provider" : "CURSE",
     "name" : "Charset Storage - Tanks",
@@ -782,7 +788,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2544889
+    "fileID" : 2550002
   }, {
     "provider" : "CURSE",
     "name" : "Charset Transport - Carts and Rails",
@@ -792,7 +798,7 @@
     "provider" : "CURSE",
     "name" : "Charset Audio",
     "projectID" : 284580,
-    "fileID" : 2546889
+    "fileID" : 2550005
   }, {
     "provider" : "CURSE",
     "name" : "Charset Storage - Locks",
@@ -807,7 +813,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2548754
+    "fileID" : 2550790
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
@@ -856,6 +862,24 @@
     "buildNumber" : 63
   }, {
     "provider" : "CURSE",
+    "name" : "IKWID (I Know What I'm Doing)",
+    "side" : "CLIENT",
+    "projectID" : 271492,
+    "fileID" : 2469710
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wawla - What Are We Looking At",
+    "side" : "CLIENT",
+    "projectID" : 224712,
+    "fileID" : 2541610
+  }, {
+    "provider" : "CURSE",
+    "name" : "Waila Harvestability",
+    "side" : "CLIENT",
+    "projectID" : 79287,
+    "fileID" : 2481605
+  }, {
+    "provider" : "CURSE",
     "name" : "Just Enough HarvestCraft (JEHC)",
     "side" : "CLIENT",
     "projectID" : 267939,
@@ -868,10 +892,22 @@
     "fileID" : 2523823
   }, {
     "provider" : "CURSE",
+    "name" : "Tinker's JEI",
+    "side" : "CLIENT",
+    "projectID" : 291786,
+    "fileID" : 2549634
+  }, {
+    "provider" : "CURSE",
     "name" : "JEI Integration",
     "side" : "CLIENT",
     "projectID" : 265917,
     "fileID" : 2491927
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Bees",
+    "side" : "CLIENT",
+    "projectID" : 248370,
+    "fileID" : 2490058
   }, {
     "provider" : "CURSE",
     "name" : "AppleSkin",
@@ -958,6 +994,19 @@
     "fileID" : 2519158
   }, {
     "provider" : "CURSE",
+    "name" : "CleanView",
+    "side" : "CLIENT",
+    "projectID" : 226889,
+    "fileID" : 2533542
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unity",
+    "folder" : "resourcepacks",
+    "side" : "CLIENT",
+    "projectID" : 222097,
+    "fileID" : 2547422
+  }, {
+    "provider" : "CURSE",
     "name" : "JourneyMap",
     "side" : "CLIENT",
     "projectID" : 32274,
@@ -991,7 +1040,7 @@
     "name" : "World Handler - Command GUI",
     "side" : "CLIENT",
     "projectID" : 228970,
-    "fileID" : 2533019
+    "fileID" : 2551452
   }, {
     "provider" : "CURSE",
     "name" : "MineMenu",
@@ -1107,7 +1156,7 @@
     "provider" : "CURSE",
     "name" : "Mantle",
     "projectID" : 74924,
-    "fileID" : 2474052
+    "fileID" : 2550550
   }, {
     "provider" : "CURSE",
     "name" : "OpenModsLib",
@@ -1137,12 +1186,22 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2548853
+    "fileID" : 2551407
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
     "fileID" : 2547411
+  }, {
+    "provider" : "CURSE",
+    "name" : "SwordSkillsAPI",
+    "projectID" : 281029,
+    "fileID" : 2497376
+  }, {
+    "provider" : "CURSE",
+    "name" : "Bookshelf",
+    "projectID" : 228525,
+    "fileID" : 2550837
   }, {
     "provider" : "CURSE",
     "name" : "iChunUtil",
@@ -1251,7 +1310,7 @@
     "properties" : {
       "name" : "Dynamic Surroundings",
       "selected" : false,
-      "description" : "Quite nice, kinda buggy. Causes crashes."
+      "description" : "Quite nice, has a lot of configurable features."
     },
     "files" : { }
   } ]

@@ -1,11 +1,11 @@
 #===========#
 # Pack Info #
 #===========#
-name: CotM-2.1.2
+name: cotm
 title: Center of the Multiverse
-version: 2.1.2.2
+version: 2.1.3
 mcVersion: 1.12.2
-forge: 2654
+forge: 2655
 minecraftDir: src
 
 #================#
@@ -13,9 +13,10 @@ minecraftDir: src
 #================#
 userFiles:
 
+  include: []
+
   exclude:
   - "config/dsurround/dsurround.cfg"
-  - options.txt
    
 #===========#
 # Core Pack #
@@ -31,6 +32,11 @@ root:
 #==============#
 # Pack Content #
 #==============#
+
+#======#
+# Mods #
+#======#
+
   entries:
   # moddinglegacy
   - Aether Legacy
@@ -128,6 +134,7 @@ root:
   - Thermal Dynamics
   - Thermal Expansion
   - Thermal Cultivation
+  - Thermal Innovation
 
   # McJTY
   - RFTools
@@ -147,7 +154,6 @@ root:
   - The Disenchanter Mod
   - Draconic Evolution
   - Embers
-  - Enchiridion
   - Ender Storage 1.8.+
   - Exchangers
   - Extra Bit Manipulation
@@ -166,7 +172,6 @@ root:
   - Redstone Paste
   - MmmMmmMmmMmm
   - Inventory Pets
-  - JEI Bees
   - Just Enough Torches (JET)
   - Just Enough Dimensions
   - KleeSlabs
@@ -236,15 +241,17 @@ root:
   - ColorfulWater
   - The Erebus
   - Construct's Armory
-  - 'Dimensional Doors.'
   - Simple Void World
   - Yoyos
   - MultiBeds
-  - "IKWID (I Know What I'm Doing)"
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
   - Sampler
   - "Millénaire"
+  - Dynamic Sword Skills
+  - Hunting Dimension
+  - Electroblob's Wizardry
+  - Enchiridion
 
   # asie
   - Charset Lib
@@ -302,9 +309,14 @@ root:
 #============#
   - side: CLIENT
     entries:
+    - "IKWID (I Know What I'm Doing)"
+    - Wawla - What Are We Looking At
+    - Waila Harvestability
     - Just Enough HarvestCraft (JEHC)
     - Just Enough Resources (JER)
+    - Tinker's JEI
     - JEI Integration
+    - JEI Bees
     - AppleSkin
     - BetterFps
     - NoNausea
@@ -319,10 +331,18 @@ root:
     - Neat
     - ReAuth
     - TipTheScales
+    - CleanView
+    
+ #========================#
+ # Clientside - Resources #
+ #========================#
+  
+    - name: Unity
+      side: CLIENT
 
-  #=======================#
-  # Clientside - Optional #
-  #=======================#
+ #=======================#
+ # Clientside - Optional #
+ #=======================#
     - feature:
         selected: true
         recommendation: starred
@@ -375,4 +395,4 @@ root:
           description: "Highly configureable HUD when you really feel like you need more stuff on screen."
           
         - name: Dynamic Surroundings
-          description: "Quite nice, kinda buggy. Causes crashes."
+          description: "Quite nice, has a lot of configurable features."
