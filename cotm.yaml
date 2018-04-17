@@ -102,9 +102,6 @@ root:
   # copygirl
   - Wearable Backpacks
 
-  # TheLMiffy1111
-  - JAOPCA
-
   # mezz
   - Just Enough Items (JEI)
 
@@ -164,7 +161,6 @@ root:
   - FTBLib
   - Gendustry
   - Grappling Hook Mod
-  - HelpFixer
   - Hwyla
   - Initial Inventory
   - Inventory Tweaks
@@ -206,7 +202,6 @@ root:
   - Reliquary v1.3
   - Roguelike Dungeons
   - Roots
-  - Rope Bridge
   - Rustic
   - Scannable
   - Simple Sponge
@@ -220,7 +215,6 @@ root:
   - Tinkers Construct
   - Tinkers' Tool Leveling
   - The Spotlight Mod
-  - TickProfiler
   - Good Ol' Currency
   - Extreme Reactors
   - ZeroCore
@@ -237,7 +231,6 @@ root:
   - Fast Leaf Decay
   - "Blood Magic "
   - Unlimited Chisel Works - Botany
-  - Unloader
   - ColorfulWater
   - The Erebus
   - Construct's Armory
@@ -251,7 +244,6 @@ root:
   - Dynamic Sword Skills
   - Hunting Dimension
   - Electroblob's Wizardry
-  - Enchiridion
 
   # asie
   - Charset Lib
@@ -290,6 +282,9 @@ root:
     - job: elytra/Engination/master
       name: Engination
 
+    - job: elytra/MagicArsenal/master
+      name: Magic Arsenal
+
     # unascribed
     - job: elytra/GlassHearts/1.12.1
       name: GlassHearts
@@ -303,6 +298,20 @@ root:
     # Darkevilmac
     - job: elytra/ArchitectureCraft/1.12
       name: ArchitectureCraft
+
+#============#
+# Serverside #
+#============#
+  - side: SERVER
+    entries:
+    - TickProfiler
+    - Unloader
+
+    - job: elytra/MatterLink/master
+      name: MatterLink
+
+    - job: elytra/BTFU
+      name: BTFU
 
 #============#
 # Clientside #
@@ -336,7 +345,7 @@ root:
  #========================#
  # Clientside - Resources #
  #========================#
-  
+    # Unity Resource Pack
     - name: Unity
       side: CLIENT
 
