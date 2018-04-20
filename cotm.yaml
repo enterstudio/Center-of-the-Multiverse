@@ -234,6 +234,7 @@ root:
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
   - Sampler
+  - Morpheus
 
   # In Testing
   - Electroblob's Wizardry
@@ -334,15 +335,12 @@ root:
     - Neat
     - ReAuth
     - CleanView
+    - Vise
 
   # Jenkins Downloads      
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
     entries:
-
-    # unascribed
-    - job: elytra/Vise/1.12.2
-      name: Vise
     
  #========================#
  # Clientside - Resources #
