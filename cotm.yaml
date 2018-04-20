@@ -336,11 +336,6 @@ root:
     - ReAuth
     - CleanView
     - Vise
-
-  # Jenkins Downloads      
-  - provider: JENKINS
-    jenkinsUrl: https://ci.elytradev.com
-    entries:
     
  #========================#
  # Clientside - Resources #
