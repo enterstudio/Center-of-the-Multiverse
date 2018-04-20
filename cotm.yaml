@@ -90,7 +90,6 @@ root:
   - Cooking for Blockheads
   - Farming for Blockheads
   - Crafting Tweaks
-  - Waystones
 
   # ZLainSama
   - Cosmetic Armor Reworked
@@ -137,9 +136,6 @@ root:
   - RFTools
   - RFTools Dimensions
 
-  # ValkyrieofNight
-  - Environmental Tech
-
   # Mr_Crayfish
   - "MrCrayfish's Furniture Mod"
   - "MrCrayfish's Device Mod"
@@ -149,7 +145,6 @@ root:
   - NoMoreGlowingPots
 
   - The Disenchanter Mod
-  - Draconic Evolution
   - Embers
   - Ender Storage 1.8.+
   - Exchangers
@@ -240,10 +235,13 @@ root:
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
   - Sampler
-  - "Millénaire"
-  - Dynamic Sword Skills
+
+  # In Testing  
   - Hunting Dimension
   - Electroblob's Wizardry
+  - Improvable Skills 3
+  - Portality
+  # /In Testing
 
   # asie
   - Charset Lib
@@ -304,14 +302,12 @@ root:
 #============#
   - side: SERVER
     entries:
+    - "BTFU continuous rsync incremental backup"
     - TickProfiler
     - Unloader
 
     - job: elytra/MatterLink/master
       name: MatterLink
-
-    - job: elytra/BTFU
-      name: BTFU
 
 #============#
 # Clientside #
@@ -339,8 +335,16 @@ root:
     - Mod Name Tooltip
     - Neat
     - ReAuth
-    - TipTheScales
     - CleanView
+
+  # Jenkins Downloads      
+  - provider: JENKINS
+    jenkinsUrl: https://ci.elytradev.com
+    entries:
+
+    # unascribed
+    - job: elytra/Vise/1.12.1
+      name: Vise
     
  #========================#
  # Clientside - Resources #
