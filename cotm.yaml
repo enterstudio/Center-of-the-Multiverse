@@ -341,7 +341,7 @@ root:
     entries:
 
     # unascribed
-    - job: elytra/Vise/1.12.1
+    - job: elytra/Vise/1.12.2
       name: Vise
     
  #========================#
