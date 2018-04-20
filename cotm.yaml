@@ -389,9 +389,6 @@ root:
         - name: ItemZoom
           description: "Item Zoom"
 
-        - name: Mob Dismemberment
-          description: "Gibtastic! Probably laggy."
-
         - name: Chunk Animator
           description: "Makes chunks load in an amusing way. Can/will cause lag."
 

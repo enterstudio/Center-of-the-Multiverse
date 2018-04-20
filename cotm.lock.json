@@ -121,11 +121,6 @@
     "fileID" : 2543365
   }, {
     "provider" : "CURSE",
-    "name" : "Waystones",
-    "projectID" : 245755,
-    "fileID" : 2545165
-  }, {
-    "provider" : "CURSE",
     "name" : "Cosmetic Armor Reworked",
     "projectID" : 237307,
     "fileID" : 2481744
@@ -146,14 +141,9 @@
     "fileID" : 2525511
   }, {
     "provider" : "CURSE",
-    "name" : "JAOPCA",
-    "projectID" : 266936,
-    "fileID" : 2539941
-  }, {
-    "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2551962
+    "fileID" : 2553175
   }, {
     "provider" : "CURSE",
     "name" : "OpenModularTurrets",
@@ -203,12 +193,7 @@
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
     "projectID" : 69163,
-    "fileID" : 2549865
-  }, {
-    "provider" : "CURSE",
-    "name" : "Thermal Cultivation",
-    "projectID" : 271835,
-    "fileID" : 2518223
+    "fileID" : 2552624
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Innovation",
@@ -224,11 +209,6 @@
     "name" : "RFTools Dimensions",
     "projectID" : 240950,
     "fileID" : 2549121
-  }, {
-    "provider" : "CURSE",
-    "name" : "Environmental Tech",
-    "projectID" : 245453,
-    "fileID" : 2546309
   }, {
     "provider" : "CURSE",
     "name" : "MrCrayfish's Furniture Mod",
@@ -254,11 +234,6 @@
     "name" : "The Disenchanter Mod",
     "projectID" : 245769,
     "fileID" : 2543811
-  }, {
-    "provider" : "CURSE",
-    "name" : "Draconic Evolution",
-    "projectID" : 223565,
-    "fileID" : 2535360
   }, {
     "provider" : "CURSE",
     "name" : "Embers",
@@ -293,7 +268,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2551917
+    "fileID" : 2553517
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -314,11 +289,6 @@
     "name" : "Grappling Hook Mod",
     "projectID" : 238911,
     "fileID" : 2452847
-  }, {
-    "provider" : "CURSE",
-    "name" : "HelpFixer",
-    "projectID" : 223797,
-    "fileID" : 2479308
   }, {
     "provider" : "CURSE",
     "name" : "Hwyla",
@@ -388,7 +358,7 @@
     "provider" : "CURSE",
     "name" : "Mob Grinding Utils",
     "projectID" : 254241,
-    "fileID" : 2546803
+    "fileID" : 2553604
   }, {
     "provider" : "CURSE",
     "name" : "ModTweaker",
@@ -526,11 +496,6 @@
     "fileID" : 2510836
   }, {
     "provider" : "CURSE",
-    "name" : "Rope Bridge",
-    "projectID" : 238050,
-    "fileID" : 2465994
-  }, {
-    "provider" : "CURSE",
     "name" : "Rustic",
     "projectID" : 256141,
     "fileID" : 2545348
@@ -578,7 +543,7 @@
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
     "projectID" : 278493,
-    "fileID" : 2522227
+    "fileID" : 2552136
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
@@ -594,11 +559,6 @@
     "name" : "The Spotlight Mod",
     "projectID" : 268037,
     "fileID" : 2495296
-  }, {
-    "provider" : "CURSE",
-    "name" : "TickProfiler",
-    "projectID" : 270330,
-    "fileID" : 2536494
   }, {
     "provider" : "CURSE",
     "name" : "Good Ol' Currency",
@@ -648,7 +608,7 @@
     "provider" : "CURSE",
     "name" : "Woot",
     "projectID" : 244049,
-    "fileID" : 2542390
+    "fileID" : 2553203
   }, {
     "provider" : "CURSE",
     "name" : "Garbage Bins",
@@ -679,11 +639,6 @@
     "name" : "Unlimited Chisel Works - Botany",
     "projectID" : 282877,
     "fileID" : 2522228
-  }, {
-    "provider" : "CURSE",
-    "name" : "Unloader",
-    "projectID" : 286230,
-    "fileID" : 2534509
   }, {
     "provider" : "CURSE",
     "name" : "ColorfulWater",
@@ -723,7 +678,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2551553
+    "fileID" : 2552714
   }, {
     "provider" : "CURSE",
     "name" : "Sampler",
@@ -731,19 +686,9 @@
     "fileID" : 2536015
   }, {
     "provider" : "CURSE",
-    "name" : "Millénaire",
-    "projectID" : 270871,
-    "fileID" : 2551474
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dynamic Sword Skills",
-    "projectID" : 226360,
-    "fileID" : 2504915
-  }, {
-    "provider" : "CURSE",
-    "name" : "Hunting Dimension",
-    "projectID" : 283235,
-    "fileID" : 2551258
+    "name" : "Morpheus",
+    "projectID" : 69118,
+    "fileID" : 2432272
   }, {
     "provider" : "CURSE",
     "name" : "Electroblob's Wizardry",
@@ -751,14 +696,19 @@
     "fileID" : 2551732
   }, {
     "provider" : "CURSE",
-    "name" : "Enchiridion",
-    "projectID" : 76612,
-    "fileID" : 2498022
+    "name" : "Improvable Skills 3",
+    "projectID" : 252902,
+    "fileID" : 2552093
+  }, {
+    "provider" : "CURSE",
+    "name" : "Portality",
+    "projectID" : 291493,
+    "fileID" : 2550191
   }, {
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2550006
+    "fileID" : 2553012
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -768,7 +718,7 @@
     "provider" : "CURSE",
     "name" : "Charset Storage - Barrels",
     "projectID" : 284529,
-    "fileID" : 2550003
+    "fileID" : 2552685
   }, {
     "provider" : "CURSE",
     "name" : "Charset Storage - Tanks",
@@ -788,7 +738,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2550002
+    "fileID" : 2553011
   }, {
     "provider" : "CURSE",
     "name" : "Charset Transport - Carts and Rails",
@@ -798,7 +748,7 @@
     "provider" : "CURSE",
     "name" : "Charset Audio",
     "projectID" : 284580,
-    "fileID" : 2550005
+    "fileID" : 2552684
   }, {
     "provider" : "CURSE",
     "name" : "Charset Storage - Locks",
@@ -838,6 +788,12 @@
     "buildNumber" : 7
   }, {
     "provider" : "JENKINS",
+    "name" : "Magic Arsenal",
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/MagicArsenal/master",
+    "buildNumber" : 20
+  }, {
+    "provider" : "JENKINS",
     "name" : "GlassHearts",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/GlassHearts/1.12.1",
@@ -862,6 +818,30 @@
     "buildNumber" : 63
   }, {
     "provider" : "CURSE",
+    "name" : "BTFU continuous rsync incremental backup",
+    "side" : "SERVER",
+    "projectID" : 246105,
+    "fileID" : 2535073
+  }, {
+    "provider" : "CURSE",
+    "name" : "TickProfiler",
+    "side" : "SERVER",
+    "projectID" : 270330,
+    "fileID" : 2536494
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unloader",
+    "side" : "SERVER",
+    "projectID" : 286230,
+    "fileID" : 2534509
+  }, {
+    "provider" : "CURSE",
+    "name" : "MatterLink",
+    "side" : "SERVER",
+    "projectID" : 287323,
+    "fileID" : 2552149
+  }, {
+    "provider" : "CURSE",
     "name" : "IKWID (I Know What I'm Doing)",
     "side" : "CLIENT",
     "projectID" : 271492,
@@ -871,7 +851,7 @@
     "name" : "Wawla - What Are We Looking At",
     "side" : "CLIENT",
     "projectID" : 224712,
-    "fileID" : 2541610
+    "fileID" : 2552608
   }, {
     "provider" : "CURSE",
     "name" : "Waila Harvestability",
@@ -988,16 +968,16 @@
     "fileID" : 2491161
   }, {
     "provider" : "CURSE",
-    "name" : "TipTheScales",
-    "side" : "CLIENT",
-    "projectID" : 282313,
-    "fileID" : 2519158
-  }, {
-    "provider" : "CURSE",
     "name" : "CleanView",
     "side" : "CLIENT",
     "projectID" : 226889,
     "fileID" : 2533542
+  }, {
+    "provider" : "CURSE",
+    "name" : "Vise",
+    "side" : "CLIENT",
+    "projectID" : 292437,
+    "fileID" : 2553433
   }, {
     "provider" : "CURSE",
     "name" : "Unity",
@@ -1055,12 +1035,6 @@
     "fileID" : 2463740
   }, {
     "provider" : "CURSE",
-    "name" : "Mob Dismemberment",
-    "side" : "CLIENT",
-    "projectID" : 229067,
-    "fileID" : 2487081
-  }, {
-    "provider" : "CURSE",
     "name" : "Chunk Animator",
     "side" : "CLIENT",
     "projectID" : 236484,
@@ -1099,11 +1073,6 @@
     "fileID" : 2518031
   }, {
     "provider" : "CURSE",
-    "name" : "WrapUp",
-    "projectID" : 275153,
-    "fileID" : 2486198
-  }, {
-    "provider" : "CURSE",
     "name" : "LLibrary",
     "projectID" : 243298,
     "fileID" : 2504999
@@ -1116,7 +1085,7 @@
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2549411
+    "fileID" : 2552625
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
@@ -1127,16 +1096,6 @@
     "name" : "McJtyLib",
     "projectID" : 233105,
     "fileID" : 2543038
-  }, {
-    "provider" : "CURSE",
-    "name" : "ValkyrieLib",
-    "projectID" : 245480,
-    "fileID" : 2546308
-  }, {
-    "provider" : "CURSE",
-    "name" : "Brandon's Core",
-    "projectID" : 231382,
-    "fileID" : 2530025
   }, {
     "provider" : "CURSE",
     "name" : "MTLib",
@@ -1191,23 +1150,18 @@
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
-    "fileID" : 2547411
+    "fileID" : 2552598
   }, {
     "provider" : "CURSE",
-    "name" : "SwordSkillsAPI",
-    "projectID" : 281029,
-    "fileID" : 2497376
+    "name" : "Hammer Core",
+    "projectID" : 247401,
+    "fileID" : 2551869
   }, {
     "provider" : "CURSE",
-    "name" : "Bookshelf",
-    "projectID" : 228525,
-    "fileID" : 2550837
-  }, {
-    "provider" : "CURSE",
-    "name" : "iChunUtil",
-    "side" : "CLIENT",
-    "projectID" : 229060,
-    "fileID" : 2510760
+    "name" : "Shadowfacts' Forgelin",
+    "side" : "SERVER",
+    "projectID" : 248453,
+    "fileID" : 2505090
   }, {
     "provider" : "CURSE",
     "name" : "CoFH World",
@@ -1279,14 +1233,6 @@
       "name" : "ItemZoom",
       "selected" : false,
       "description" : "Item Zoom"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Mob Dismemberment", "iChunUtil" ],
-    "properties" : {
-      "name" : "Mob Dismemberment",
-      "selected" : false,
-      "description" : "Gibtastic! Probably laggy."
     },
     "files" : { }
   }, {
