@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.3
+version: 2.1.3.1
 mcVersion: 1.12.2
 forge: 2655
 minecraftDir: src
