@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.3.1",
+  "version" : "2.1.3.2",
   "mcVersion" : "1.12.2",
   "forge" : 2655,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -28,7 +28,7 @@
     "provider" : "CURSE",
     "name" : "Botania",
     "projectID" : 225643,
-    "fileID" : 2524591
+    "fileID" : 2554929
   }, {
     "provider" : "CURSE",
     "name" : "Architect",
@@ -128,7 +128,7 @@
     "provider" : "CURSE",
     "name" : "CraftTweaker",
     "projectID" : 239197,
-    "fileID" : 2539947
+    "fileID" : 2554607
   }, {
     "provider" : "CURSE",
     "name" : "Diamond Glass",
@@ -338,7 +338,7 @@
     "provider" : "CURSE",
     "name" : "KleeSlabs",
     "projectID" : 241895,
-    "fileID" : 2545152
+    "fileID" : 2554835
   }, {
     "provider" : "CURSE",
     "name" : "Magic Bees",
@@ -653,7 +653,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2554452
+    "fileID" : 2554611
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -763,7 +763,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2550790
+    "fileID" : 2554668
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
