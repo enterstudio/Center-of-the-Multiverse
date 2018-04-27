@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.3.2",
+  "version" : "2.1.3.3",
   "mcVersion" : "1.12.2",
   "forge" : 2655,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -10,7 +10,7 @@
   },
   "userFiles" : {
     "include" : [ ],
-    "exclude" : [ "config/dsurround/dsurround.cfg" ]
+    "exclude" : [ "config/dsurround/dsurround.cfg", "options.txt" ]
   },
   "localDir" : "local",
   "minecraftDir" : "src",
@@ -43,7 +43,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2523583
+    "fileID" : 2555383
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
@@ -143,7 +143,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2554301
+    "fileID" : 2555892
   }, {
     "provider" : "CURSE",
     "name" : "OpenModularTurrets",
@@ -158,7 +158,7 @@
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
     "projectID" : 227639,
-    "fileID" : 2528109
+    "fileID" : 2555837
   }, {
     "provider" : "CURSE",
     "name" : "Upsizer Mod",
@@ -188,17 +188,17 @@
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
     "projectID" : 227443,
-    "fileID" : 2549542
+    "fileID" : 2555320
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
     "projectID" : 69163,
-    "fileID" : 2552624
+    "fileID" : 2555868
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Innovation",
     "projectID" : 291737,
-    "fileID" : 2549439
+    "fileID" : 2555321
   }, {
     "provider" : "CURSE",
     "name" : "RFTools",
@@ -453,7 +453,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2550987
+    "fileID" : 2555263
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -468,7 +468,7 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2549396
+    "fileID" : 2555865
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
@@ -538,7 +538,7 @@
     "provider" : "CURSE",
     "name" : "[ANGRY PIXEL] The Betweenlands",
     "projectID" : 243363,
-    "fileID" : 2550498
+    "fileID" : 2555385
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
@@ -633,7 +633,7 @@
     "provider" : "CURSE",
     "name" : "Blood Magic ",
     "projectID" : 224791,
-    "fileID" : 2554403
+    "fileID" : 2555782
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works - Botany",
@@ -664,11 +664,6 @@
     "name" : "Yoyos",
     "projectID" : 262692,
     "fileID" : 2536187
-  }, {
-    "provider" : "CURSE",
-    "name" : "MultiBeds",
-    "projectID" : 244858,
-    "fileID" : 2481686
   }, {
     "provider" : "CURSE",
     "name" : "Bad Wither No Cookie - Reloaded",
@@ -706,6 +701,11 @@
     "fileID" : 2550191
   }, {
     "provider" : "CURSE",
+    "name" : "Thaumcraft",
+    "projectID" : 223628,
+    "fileID" : 2555599
+  }, {
+    "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
     "fileID" : 2554342
@@ -714,16 +714,6 @@
     "name" : "Charset Tweaks",
     "projectID" : 285363,
     "fileID" : 2554035
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Storage - Barrels",
-    "projectID" : 284529,
-    "fileID" : 2554338
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Storage - Tanks",
-    "projectID" : 284530,
-    "fileID" : 2554339
   }, {
     "provider" : "CURSE",
     "name" : "Charset Block Carrying",
@@ -739,11 +729,6 @@
     "name" : "Charset Crafting",
     "projectID" : 287664,
     "fileID" : 2554341
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Transport - Carts and Rails",
-    "projectID" : 284581,
-    "fileID" : 2554036
   }, {
     "provider" : "CURSE",
     "name" : "Charset Audio",
@@ -763,7 +748,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2554668
+    "fileID" : 2555017
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
@@ -791,7 +776,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 25
+    "buildNumber" : 26
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -803,7 +788,7 @@
     "name" : "FruitPhone",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/FruitPhone/1.12.2",
-    "buildNumber" : 4
+    "buildNumber" : 5
   }, {
     "provider" : "JENKINS",
     "name" : "ProbeDataProvider",
@@ -870,12 +855,6 @@
     "side" : "CLIENT",
     "projectID" : 240630,
     "fileID" : 2523823
-  }, {
-    "provider" : "CURSE",
-    "name" : "Tinker's JEI",
-    "side" : "CLIENT",
-    "projectID" : 291786,
-    "fileID" : 2549634
   }, {
     "provider" : "CURSE",
     "name" : "JEI Integration",
@@ -1017,12 +996,6 @@
     "fileID" : 2462627
   }, {
     "provider" : "CURSE",
-    "name" : "World Handler - Command GUI",
-    "side" : "CLIENT",
-    "projectID" : 228970,
-    "fileID" : 2551452
-  }, {
-    "provider" : "CURSE",
     "name" : "MineMenu",
     "side" : "CLIENT",
     "projectID" : 222378,
@@ -1033,24 +1006,6 @@
     "side" : "CLIENT",
     "projectID" : 261725,
     "fileID" : 2463740
-  }, {
-    "provider" : "CURSE",
-    "name" : "Chunk Animator",
-    "side" : "CLIENT",
-    "projectID" : 236484,
-    "fileID" : 2432424
-  }, {
-    "provider" : "CURSE",
-    "name" : "RPG-Hud",
-    "side" : "CLIENT",
-    "projectID" : 235670,
-    "fileID" : 2483068
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dynamic Surroundings",
-    "side" : "CLIENT",
-    "projectID" : 238891,
-    "fileID" : 2547833
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -1078,19 +1033,14 @@
     "fileID" : 2504999
   }, {
     "provider" : "CURSE",
-    "name" : "CoFH Core",
-    "projectID" : 69162,
-    "fileID" : 2549394
+    "name" : "CodeChicken Lib 1.8.+",
+    "projectID" : 242818,
+    "fileID" : 2555141
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2552625
-  }, {
-    "provider" : "CURSE",
-    "name" : "CodeChicken Lib 1.8.+",
-    "projectID" : 242818,
-    "fileID" : 2540351
+    "fileID" : 2555318
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",
@@ -1133,6 +1083,11 @@
     "fileID" : 2443253
   }, {
     "provider" : "CURSE",
+    "name" : "CoFH Core",
+    "projectID" : 69162,
+    "fileID" : 2555317
+  }, {
+    "provider" : "CURSE",
     "name" : "Chameleon",
     "projectID" : 230497,
     "fileID" : 2450900
@@ -1173,7 +1128,7 @@
     "properties" : {
       "name" : "JourneyMap",
       "selected" : true,
-      "description" : "You know what this is.",
+      "description" : "You know what this is. Only disable if you really need to save RAM or don't like minimaps.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1181,8 +1136,8 @@
     "entries" : [ "SmoothWater" ],
     "properties" : {
       "name" : "SmoothWater",
-      "selected" : false,
-      "description" : "Makes the surface of water nicer, better underwater lighting, can cost FPS.",
+      "selected" : true,
+      "description" : "Makes the surface of water nicer, better underwater lighting, can cost some FPS.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1200,7 +1155,7 @@
     "properties" : {
       "name" : "Client Tweaks",
       "selected" : true,
-      "description" : "Client Tweaks"
+      "description" : "Various client related fixes and tweaks, all in a handy menu."
     },
     "files" : { }
   }, {
@@ -1208,15 +1163,7 @@
     "properties" : {
       "name" : "Mouse Tweaks",
       "selected" : true,
-      "description" : "Mouse Tweaks"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "World Handler - Command GUI" ],
-    "properties" : {
-      "name" : "World Handler - Command GUI",
-      "selected" : true,
-      "description" : "World Handler"
+      "description" : "Add extra mouse gestures for inventories and crafting grids."
     },
     "files" : { }
   }, {
@@ -1232,31 +1179,7 @@
     "properties" : {
       "name" : "ItemZoom",
       "selected" : false,
-      "description" : "Item Zoom"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Chunk Animator" ],
-    "properties" : {
-      "name" : "Chunk Animator",
-      "selected" : false,
-      "description" : "Makes chunks load in an amusing way. Can/will cause lag."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "RPG-Hud" ],
-    "properties" : {
-      "name" : "RPG-Hud",
-      "selected" : false,
-      "description" : "Highly configureable HUD when you really feel like you need more stuff on screen."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Dynamic Surroundings" ],
-    "properties" : {
-      "name" : "Dynamic Surroundings",
-      "selected" : false,
-      "description" : "Quite nice, has a lot of configurable features."
+      "description" : "Check this if you like to get a closer look at item textures."
     },
     "files" : { }
   } ]

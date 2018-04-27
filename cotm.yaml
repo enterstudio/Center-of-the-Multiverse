@@ -17,6 +17,7 @@ userFiles:
 
   exclude:
   - "config/dsurround/dsurround.cfg"
+  - "options.txt"
    
 #===========#
 # Core Pack #
