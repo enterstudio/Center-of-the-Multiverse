@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.3.3
+version: 2.1.4
 mcVersion: 1.12.2
 forge: 2655
 minecraftDir: src
@@ -39,8 +39,6 @@ root:
 #======#
 
   entries:
-  # moddinglegacy
-  - Aether Legacy
 
   # Vazkii
   - Akashic Tome
@@ -155,7 +153,6 @@ root:
   - FTB Utilities
   - FTBLib
   - Gendustry
-  - Grappling Hook Mod
   - Hwyla
   - Initial Inventory
   - Inventory Tweaks
@@ -241,6 +238,7 @@ root:
   - Improvable Skills 3
   - Portality
   - Thaumcraft
+  - The Aether II
   # /In Testing
 
   # asie
@@ -349,6 +347,9 @@ root:
         recommendation: starred
       entries:
 
+        - name: Dynamic Surroundings
+          description: "Quite nice, has a lot of configurable features. Includes light-level overlay."
+
         - name: JourneyMap
           description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
 
@@ -361,7 +362,10 @@ root:
       entries:
 
         - name: Fancy Block Particles
-          description: "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes."
+          description: "Adds some flair to particle effects and animations. Highly configurable, costs fps."
+
+        - name: Better Foliage
+          description: "Adds a lot of texture to the world. That said, can be quite resource heavy."
 
     - feature:
         selected: true
@@ -378,7 +382,7 @@ root:
       entries:
 
         - name: MineMenu
-          description: "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
+          description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
 
         - name: ItemZoom
           description: "Check this if you like to get a closer look at item textures."
