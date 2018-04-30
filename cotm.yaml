@@ -63,9 +63,6 @@ root:
   # Binnie
   - "Binnie's Mods"
 
-  # Glitchfiend, Forstride
-  - Bullseye
-
   # chiselTeam
   - Chisel
 
@@ -103,10 +100,6 @@ root:
   # mezz
   - Just Enough Items (JEI)
 
-  # keridos
-  - OpenModularTurrets
-  - OMLib
-
   # Benimatic
   - The Twilight Forest
 
@@ -119,12 +112,6 @@ root:
   # Viesis
   - "ViesCraft - Airships!"
 
-  # gegy1000, JurassicAlien_KOC_owner
-  - Wearables
-
-  # TehNut
-  - Xtones
-
   # Team CoFH
   - Thermal Dynamics
   - Thermal Expansion
@@ -136,11 +123,21 @@ root:
 
   # Mr_Crayfish
   - "MrCrayfish's Furniture Mod"
-  - "MrCrayfish's Device Mod"
 
   # zabi94
   - Extra Alchemy
   - NoMoreGlowingPots
+
+  # asie
+  - Charset Lib
+  - Charset Tweaks
+  - Charset Block Carrying
+  - Charset Tablet
+  - Charset Crafting
+  - Charset Audio
+  - Charset Storage - Locks
+  - CharsetPatches
+  - FoamFix for Minecraft
 
   - The Disenchanter Mod
   - Embers
@@ -239,18 +236,8 @@ root:
   - Portality
   - Thaumcraft
   - The Aether II
+  - Zetta Industries
   # /In Testing
-
-  # asie
-  - Charset Lib
-  - Charset Tweaks
-  - Charset Block Carrying
-  - Charset Tablet
-  - Charset Crafting
-  - Charset Audio
-  - Charset Storage - Locks
-  - CharsetPatches
-  - FoamFix for Minecraft
 
   # Direct Downloads
   - provider: DIRECT
