@@ -191,7 +191,6 @@ root:
   - Reliquary v1.3
   - Roguelike Dungeons
   - Roots
-  - Rustic
   - Scannable
   - Simple Sponge
   - Spartan Shields
@@ -334,9 +333,6 @@ root:
         recommendation: starred
       entries:
 
-        - name: Dynamic Surroundings
-          description: "Quite nice, has a lot of configurable features. Includes light-level overlay."
-
         - name: JourneyMap
           description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
 
@@ -353,6 +349,9 @@ root:
 
         - name: Better Foliage
           description: "Adds a lot of texture to the world. That said, can be quite resource heavy."
+
+        - name: Dynamic Surroundings
+          description: "Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
 
     - feature:
         selected: true
@@ -373,3 +372,6 @@ root:
 
         - name: ItemZoom
           description: "Check this if you like to get a closer look at item textures."
+
+        - name: Light Level Overlay Reloaded
+          description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
