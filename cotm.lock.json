@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.3.3",
+  "version" : "2.1.4",
   "mcVersion" : "1.12.2",
   "forge" : 2655,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -15,11 +15,6 @@
   "localDir" : "local",
   "minecraftDir" : "src",
   "entries" : [ {
-    "provider" : "CURSE",
-    "name" : "Aether Legacy",
-    "projectID" : 255308,
-    "fileID" : 2553665
-  }, {
     "provider" : "CURSE",
     "name" : "Akashic Tome",
     "projectID" : 250577,
@@ -43,17 +38,12 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2555383
+    "fileID" : 2556379
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
     "projectID" : 227083,
     "fileID" : 2518667
-  }, {
-    "provider" : "CURSE",
-    "name" : "Better Advancements",
-    "projectID" : 272515,
-    "fileID" : 2548921
   }, {
     "provider" : "CURSE",
     "name" : "BiblioCraft",
@@ -63,12 +53,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2551929
-  }, {
-    "provider" : "CURSE",
-    "name" : "Bullseye",
-    "projectID" : 247395,
-    "fileID" : 2540366
+    "fileID" : 2555953
   }, {
     "provider" : "CURSE",
     "name" : "Chisel",
@@ -98,7 +83,7 @@
     "provider" : "CURSE",
     "name" : "Comforts",
     "projectID" : 276951,
-    "fileID" : 2548579
+    "fileID" : 2558204
   }, {
     "provider" : "CURSE",
     "name" : "Compacter",
@@ -114,11 +99,6 @@
     "name" : "Farming for Blockheads",
     "projectID" : 261924,
     "fileID" : 2549222
-  }, {
-    "provider" : "CURSE",
-    "name" : "Crafting Tweaks",
-    "projectID" : 233071,
-    "fileID" : 2543365
   }, {
     "provider" : "CURSE",
     "name" : "Cosmetic Armor Reworked",
@@ -143,17 +123,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2555892
-  }, {
-    "provider" : "CURSE",
-    "name" : "OpenModularTurrets",
-    "projectID" : 224663,
-    "fileID" : 2549787
-  }, {
-    "provider" : "CURSE",
-    "name" : "OMLib",
-    "projectID" : 254334,
-    "fileID" : 2549771
+    "fileID" : 2557695
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -176,29 +146,19 @@
     "fileID" : 2515257
   }, {
     "provider" : "CURSE",
-    "name" : "Wearables",
-    "projectID" : 265774,
-    "fileID" : 2484011
-  }, {
-    "provider" : "CURSE",
-    "name" : "Xtones",
-    "projectID" : 257573,
-    "fileID" : 2531411
-  }, {
-    "provider" : "CURSE",
     "name" : "Thermal Dynamics",
     "projectID" : 227443,
-    "fileID" : 2555320
+    "fileID" : 2556768
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
     "projectID" : 69163,
-    "fileID" : 2555868
+    "fileID" : 2556802
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Innovation",
     "projectID" : 291737,
-    "fileID" : 2555321
+    "fileID" : 2556453
   }, {
     "provider" : "CURSE",
     "name" : "RFTools",
@@ -216,11 +176,6 @@
     "fileID" : 2545210
   }, {
     "provider" : "CURSE",
-    "name" : "MrCrayfish's Device Mod",
-    "projectID" : 283055,
-    "fileID" : 2540978
-  }, {
-    "provider" : "CURSE",
     "name" : "Extra Alchemy",
     "projectID" : 247357,
     "fileID" : 2551085
@@ -229,6 +184,51 @@
     "name" : "NoMoreGlowingPots",
     "projectID" : 286348,
     "fileID" : 2525341
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Lib",
+    "projectID" : 284523,
+    "fileID" : 2554342
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tweaks",
+    "projectID" : 285363,
+    "fileID" : 2554035
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Block Carrying",
+    "projectID" : 284654,
+    "fileID" : 2554039
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Tablet",
+    "projectID" : 285310,
+    "fileID" : 2544892
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Crafting",
+    "projectID" : 287664,
+    "fileID" : 2554341
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Audio",
+    "projectID" : 284580,
+    "fileID" : 2554042
+  }, {
+    "provider" : "CURSE",
+    "name" : "Charset Storage - Locks",
+    "projectID" : 285358,
+    "fileID" : 2554340
+  }, {
+    "provider" : "CURSE",
+    "name" : "CharsetPatches",
+    "projectID" : 278527,
+    "fileID" : 2520203
+  }, {
+    "provider" : "CURSE",
+    "name" : "FoamFix for Minecraft",
+    "projectID" : 278494,
+    "fileID" : 2555017
   }, {
     "provider" : "CURSE",
     "name" : "The Disenchanter Mod",
@@ -248,7 +248,7 @@
     "provider" : "CURSE",
     "name" : "Exchangers",
     "projectID" : 270183,
-    "fileID" : 2537408
+    "fileID" : 2558022
   }, {
     "provider" : "CURSE",
     "name" : "Extra Bit Manipulation",
@@ -268,7 +268,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2553517
+    "fileID" : 2557972
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -284,11 +284,6 @@
     "name" : "Gendustry",
     "projectID" : 70492,
     "fileID" : 2516215
-  }, {
-    "provider" : "CURSE",
-    "name" : "Grappling Hook Mod",
-    "projectID" : 238911,
-    "fileID" : 2452847
   }, {
     "provider" : "CURSE",
     "name" : "Hwyla",
@@ -333,7 +328,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2550878
+    "fileID" : 2557595
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -453,7 +448,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2555263
+    "fileID" : 2557073
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -468,7 +463,7 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2555865
+    "fileID" : 2556769
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
@@ -494,11 +489,6 @@
     "name" : "Roots",
     "projectID" : 246183,
     "fileID" : 2510836
-  }, {
-    "provider" : "CURSE",
-    "name" : "Rustic",
-    "projectID" : 256141,
-    "fileID" : 2545348
   }, {
     "provider" : "CURSE",
     "name" : "Scannable",
@@ -548,7 +538,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2530200
+    "fileID" : 2558118
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
@@ -578,7 +568,7 @@
     "provider" : "CURSE",
     "name" : "Paintings ++",
     "projectID" : 252042,
-    "fileID" : 2524743
+    "fileID" : 2556684
   }, {
     "provider" : "CURSE",
     "name" : "Painting Selection Gui Revamped",
@@ -593,7 +583,7 @@
     "provider" : "CURSE",
     "name" : "TorchMaster",
     "projectID" : 254268,
-    "fileID" : 2489361
+    "fileID" : 2558000
   }, {
     "provider" : "CURSE",
     "name" : "Robotic Parts",
@@ -608,7 +598,7 @@
     "provider" : "CURSE",
     "name" : "Woot",
     "projectID" : 244049,
-    "fileID" : 2553203
+    "fileID" : 2557991
   }, {
     "provider" : "CURSE",
     "name" : "Garbage Bins",
@@ -706,53 +696,18 @@
     "fileID" : 2555599
   }, {
     "provider" : "CURSE",
-    "name" : "Charset Lib",
-    "projectID" : 284523,
-    "fileID" : 2554342
+    "name" : "The Aether II",
+    "projectID" : 223796,
+    "fileID" : 2557555
   }, {
     "provider" : "CURSE",
-    "name" : "Charset Tweaks",
-    "projectID" : 285363,
-    "fileID" : 2554035
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Block Carrying",
-    "projectID" : 284654,
-    "fileID" : 2554039
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Tablet",
-    "projectID" : 285310,
-    "fileID" : 2544892
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Crafting",
-    "projectID" : 287664,
-    "fileID" : 2554341
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Audio",
-    "projectID" : 284580,
-    "fileID" : 2554042
-  }, {
-    "provider" : "CURSE",
-    "name" : "Charset Storage - Locks",
-    "projectID" : 285358,
-    "fileID" : 2554340
-  }, {
-    "provider" : "CURSE",
-    "name" : "CharsetPatches",
-    "projectID" : 278527,
-    "fileID" : 2520203
-  }, {
-    "provider" : "CURSE",
-    "name" : "FoamFix for Minecraft",
-    "projectID" : 278494,
-    "fileID" : 2555017
+    "name" : "Zetta Industries",
+    "projectID" : 278475,
+    "fileID" : 2536420
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
-    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.1.0/Nutrition-1.12.2-3.1.0.jar"
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar"
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -836,7 +791,7 @@
     "name" : "Wawla - What Are We Looking At",
     "side" : "CLIENT",
     "projectID" : 224712,
-    "fileID" : 2552608
+    "fileID" : 2557776
   }, {
     "provider" : "CURSE",
     "name" : "Waila Harvestability",
@@ -959,6 +914,18 @@
     "fileID" : 2553433
   }, {
     "provider" : "CURSE",
+    "name" : "Crafting Tweaks",
+    "side" : "CLIENT",
+    "projectID" : 233071,
+    "fileID" : 2543365
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Advancements",
+    "side" : "CLIENT",
+    "projectID" : 272515,
+    "fileID" : 2556887
+  }, {
+    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
     "side" : "CLIENT",
@@ -981,7 +948,19 @@
     "name" : "Fancy Block Particles",
     "side" : "CLIENT",
     "projectID" : 254441,
-    "fileID" : 2540722
+    "fileID" : 2556522
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Foliage",
+    "side" : "CLIENT",
+    "projectID" : 228529,
+    "fileID" : 2478147
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "side" : "CLIENT",
+    "projectID" : 238891,
+    "fileID" : 2556333
   }, {
     "provider" : "CURSE",
     "name" : "Client Tweaks",
@@ -1008,9 +987,15 @@
     "fileID" : 2463740
   }, {
     "provider" : "CURSE",
+    "name" : "Light Level Overlay Reloaded",
+    "side" : "CLIENT",
+    "projectID" : 226670,
+    "fileID" : 2436231
+  }, {
+    "provider" : "CURSE",
     "name" : "AutoRegLib",
     "projectID" : 250363,
-    "fileID" : 2544276
+    "fileID" : 2557287
   }, {
     "provider" : "CURSE",
     "name" : "ConnectedTexturesMod",
@@ -1028,11 +1013,6 @@
     "fileID" : 2518031
   }, {
     "provider" : "CURSE",
-    "name" : "LLibrary",
-    "projectID" : 243298,
-    "fileID" : 2504999
-  }, {
-    "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
     "projectID" : 242818,
     "fileID" : 2555141
@@ -1040,7 +1020,7 @@
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2555318
+    "fileID" : 2556452
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",
@@ -1085,7 +1065,7 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2555317
+    "fileID" : 2556447
   }, {
     "provider" : "CURSE",
     "name" : "Chameleon",
@@ -1105,12 +1085,17 @@
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
-    "fileID" : 2552598
+    "fileID" : 2555366
   }, {
     "provider" : "CURSE",
     "name" : "Hammer Core",
     "projectID" : 247401,
-    "fileID" : 2554118
+    "fileID" : 2558141
+  }, {
+    "provider" : "CURSE",
+    "name" : "Orbis API",
+    "projectID" : 292627,
+    "fileID" : 2557551
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1146,7 +1131,25 @@
     "properties" : {
       "name" : "Fancy Block Particles",
       "selected" : false,
-      "description" : "Adds some flair to particle effects and animations. Highly configurable, but can cause FPS spikes.",
+      "description" : "Adds some flair to particle effects and animations. Highly configurable, costs fps.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Better Foliage" ],
+    "properties" : {
+      "name" : "Better Foliage",
+      "selected" : false,
+      "description" : "Adds a lot of texture to the world. That said, can be quite resource heavy.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Dynamic Surroundings" ],
+    "properties" : {
+      "name" : "Dynamic Surroundings",
+      "selected" : false,
+      "description" : "Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1171,7 +1174,7 @@
     "properties" : {
       "name" : "MineMenu",
       "selected" : false,
-      "description" : "Radial menu that can be used for command/keyboard shortcuts. Not default because random keybinds cannot be added to radial menu."
+      "description" : "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
     },
     "files" : { }
   }, {
@@ -1180,6 +1183,14 @@
       "name" : "ItemZoom",
       "selected" : false,
       "description" : "Check this if you like to get a closer look at item textures."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Light Level Overlay Reloaded" ],
+    "properties" : {
+      "name" : "Light Level Overlay Reloaded",
+      "selected" : false,
+      "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings."
     },
     "files" : { }
   } ]
