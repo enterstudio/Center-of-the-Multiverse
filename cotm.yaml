@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.4.1
+version: 2.1.4
 mcVersion: 1.12.2
 forge: 2655
 minecraftDir: src
@@ -16,6 +16,7 @@ userFiles:
   include: []
 
   exclude:
+  - "config/dsurround/dsurround.cfg"
   - "options.txt"
    
 #===========#
@@ -161,6 +162,7 @@ root:
   - Mob Grinding Utils
   - ModTweaker
   - More Bees
+  - More Shearables
   - Natura
   - Nature's Compass
   - NetherEx
@@ -197,6 +199,7 @@ root:
   - Tinkers Construct
   - Tinkers' Tool Leveling
   - The Spotlight Mod
+  - Good Ol' Currency
   - Extreme Reactors
   - ZeroCore
   - Paintings ++
@@ -238,10 +241,6 @@ root:
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar
       name: Nutrition
-
-  # Better Builder's Wands
-    - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
-      name: Better Builder's Wands
 
   # Jenkins Downloads      
   - provider: JENKINS
@@ -346,10 +345,13 @@ root:
       entries:
 
         - name: Fancy Block Particles
-          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+          description: "Adds some flair to particle effects and animations. Highly configurable, costs fps."
+
+        - name: Better Foliage
+          description: "Adds a lot of texture to the world. That said, can be quite resource heavy."
 
         - name: Dynamic Surroundings
-          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+          description: "Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
 
     - feature:
         selected: true
