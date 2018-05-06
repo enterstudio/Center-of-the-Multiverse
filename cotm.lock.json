@@ -1,16 +1,16 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.4",
+  "version" : "2.1.4.2",
   "mcVersion" : "1.12.2",
-  "forge" : 2655,
+  "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
   "userFiles" : {
     "include" : [ ],
-    "exclude" : [ "config/dsurround/dsurround.cfg", "options.txt" ]
+    "exclude" : [ "options.txt" ]
   },
   "localDir" : "local",
   "minecraftDir" : "src",
@@ -122,13 +122,14 @@
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
+    "side" : "CLIENT",
     "projectID" : 238222,
     "fileID" : 2557695
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
     "projectID" : 227639,
-    "fileID" : 2555837
+    "fileID" : 2558640
   }, {
     "provider" : "CURSE",
     "name" : "Upsizer Mod",
@@ -267,18 +268,19 @@
   }, {
     "provider" : "CURSE",
     "name" : "Forestry",
+    "side" : "CLIENT",
     "projectID" : 59751,
-    "fileID" : 2557972
+    "fileID" : 2558321
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2551349
+    "fileID" : 2558553
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2551149
+    "fileID" : 2558552
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -287,6 +289,7 @@
   }, {
     "provider" : "CURSE",
     "name" : "Hwyla",
+    "side" : "CLIENT",
     "projectID" : 253449,
     "fileID" : 2545475
   }, {
@@ -366,11 +369,6 @@
     "fileID" : 2506997
   }, {
     "provider" : "CURSE",
-    "name" : "More Shearables",
-    "projectID" : 241805,
-    "fileID" : 2457644
-  }, {
-    "provider" : "CURSE",
     "name" : "Natura",
     "projectID" : 74120,
     "fileID" : 2553697
@@ -417,6 +415,7 @@
   }, {
     "provider" : "CURSE",
     "name" : "Pam's HarvestCraft",
+    "side" : "CLIENT",
     "projectID" : 221857,
     "fileID" : 2545718
   }, {
@@ -448,7 +447,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2557073
+    "fileID" : 2558566
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -538,22 +537,17 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2558118
+    "fileID" : 2558698
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
     "projectID" : 250957,
-    "fileID" : 2507887
+    "fileID" : 2558689
   }, {
     "provider" : "CURSE",
     "name" : "The Spotlight Mod",
     "projectID" : 268037,
     "fileID" : 2495296
-  }, {
-    "provider" : "CURSE",
-    "name" : "Good Ol' Currency",
-    "projectID" : 254346,
-    "fileID" : 2541644
   }, {
     "provider" : "CURSE",
     "name" : "Extreme Reactors",
@@ -623,7 +617,7 @@
     "provider" : "CURSE",
     "name" : "Blood Magic ",
     "projectID" : 224791,
-    "fileID" : 2555782
+    "fileID" : 2558387
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works - Botany",
@@ -663,7 +657,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2552714
+    "fileID" : 2558622
   }, {
     "provider" : "CURSE",
     "name" : "Sampler",
@@ -693,12 +687,7 @@
     "provider" : "CURSE",
     "name" : "Thaumcraft",
     "projectID" : 223628,
-    "fileID" : 2555599
-  }, {
-    "provider" : "CURSE",
-    "name" : "The Aether II",
-    "projectID" : 223796,
-    "fileID" : 2557555
+    "fileID" : 2558648
   }, {
     "provider" : "CURSE",
     "name" : "Zetta Industries",
@@ -708,6 +697,10 @@
     "provider" : "DIRECT",
     "name" : "Nutrition",
     "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Better Builder's Wands",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -731,7 +724,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 26
+    "buildNumber" : 29
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -923,7 +916,7 @@
     "name" : "Better Advancements",
     "side" : "CLIENT",
     "projectID" : 272515,
-    "fileID" : 2556887
+    "fileID" : 2558614
   }, {
     "provider" : "CURSE",
     "name" : "Unity",
@@ -951,16 +944,10 @@
     "fileID" : 2556522
   }, {
     "provider" : "CURSE",
-    "name" : "Better Foliage",
-    "side" : "CLIENT",
-    "projectID" : 228529,
-    "fileID" : 2478147
-  }, {
-    "provider" : "CURSE",
     "name" : "Dynamic Surroundings",
     "side" : "CLIENT",
     "projectID" : 238891,
-    "fileID" : 2556333
+    "fileID" : 2558747
   }, {
     "provider" : "CURSE",
     "name" : "Client Tweaks",
@@ -1015,7 +1002,7 @@
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
     "projectID" : 242818,
-    "fileID" : 2555141
+    "fileID" : 2558563
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
@@ -1093,11 +1080,6 @@
     "fileID" : 2558141
   }, {
     "provider" : "CURSE",
-    "name" : "Orbis API",
-    "projectID" : 292627,
-    "fileID" : 2557551
-  }, {
-    "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
     "side" : "SERVER",
     "projectID" : 248453,
@@ -1131,16 +1113,7 @@
     "properties" : {
       "name" : "Fancy Block Particles",
       "selected" : false,
-      "description" : "Adds some flair to particle effects and animations. Highly configurable, costs fps.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Better Foliage" ],
-    "properties" : {
-      "name" : "Better Foliage",
-      "selected" : false,
-      "description" : "Adds a lot of texture to the world. That said, can be quite resource heavy.",
+      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1149,7 +1122,7 @@
     "properties" : {
       "name" : "Dynamic Surroundings",
       "selected" : false,
-      "description" : "Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
+      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
       "recommendation" : "starred"
     },
     "files" : { }
