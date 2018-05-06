@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.4.2",
+  "version" : "2.1.4.3",
   "mcVersion" : "1.12.2",
   "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -122,7 +122,6 @@
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
-    "side" : "CLIENT",
     "projectID" : 238222,
     "fileID" : 2557695
   }, {
@@ -268,7 +267,6 @@
   }, {
     "provider" : "CURSE",
     "name" : "Forestry",
-    "side" : "CLIENT",
     "projectID" : 59751,
     "fileID" : 2558321
   }, {
@@ -289,7 +287,6 @@
   }, {
     "provider" : "CURSE",
     "name" : "Hwyla",
-    "side" : "CLIENT",
     "projectID" : 253449,
     "fileID" : 2545475
   }, {
@@ -361,7 +358,7 @@
     "provider" : "CURSE",
     "name" : "ModTweaker",
     "projectID" : 220954,
-    "fileID" : 2548987
+    "fileID" : 2558895
   }, {
     "provider" : "CURSE",
     "name" : "More Bees",
@@ -415,7 +412,6 @@
   }, {
     "provider" : "CURSE",
     "name" : "Pam's HarvestCraft",
-    "side" : "CLIENT",
     "projectID" : 221857,
     "fileID" : 2545718
   }, {
