@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.4.3
+version: 2.1.4.4
 mcVersion: 1.12.2
 forge: 2678
 minecraftDir: src
@@ -227,21 +227,13 @@ root:
   - Improvable Skills 3
   - Portality
   - Thaumcraft
-  #- The Aether II
+  - The Aether II
   - Zetta Industries
   # /In Testing
 
   # Direct Downloads
   - provider: DIRECT
     entries:
-
-    # Aether II
-    #- url: https://centerofthemultiverse.net/launcher/mirror/aether_ii-1.12.2-1.0.2.jar
-    #  name: AetherII
-
-    # Orbis API
-    #- url: https://centerofthemultiverse.net/launcher/mirror/orbis_api-1.12.2-1.0.2.jar
-    #  name: OrbisAPI
   
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar
