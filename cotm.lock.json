@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.4.3",
+  "version" : "2.1.5",
   "mcVersion" : "1.12.2",
   "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -38,7 +38,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2556379
+    "fileID" : 2559238
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
@@ -53,7 +53,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2555953
+    "fileID" : 2559039
   }, {
     "provider" : "CURSE",
     "name" : "Chisel",
@@ -83,7 +83,7 @@
     "provider" : "CURSE",
     "name" : "Comforts",
     "projectID" : 276951,
-    "fileID" : 2558204
+    "fileID" : 2560487
   }, {
     "provider" : "CURSE",
     "name" : "Compacter",
@@ -128,7 +128,7 @@
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
     "projectID" : 227639,
-    "fileID" : 2558640
+    "fileID" : 2528109
   }, {
     "provider" : "CURSE",
     "name" : "Upsizer Mod",
@@ -188,7 +188,7 @@
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2554342
+    "fileID" : 2559210
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -208,7 +208,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2554341
+    "fileID" : 2559209
   }, {
     "provider" : "CURSE",
     "name" : "Charset Audio",
@@ -228,7 +228,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2555017
+    "fileID" : 2559212
   }, {
     "provider" : "CURSE",
     "name" : "The Disenchanter Mod",
@@ -268,7 +268,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2558321
+    "fileID" : 2560843
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -413,12 +413,12 @@
     "provider" : "CURSE",
     "name" : "Pam's HarvestCraft",
     "projectID" : 221857,
-    "fileID" : 2545718
+    "fileID" : 2560919
   }, {
     "provider" : "CURSE",
     "name" : "Passthrough Signs",
     "projectID" : 224633,
-    "fileID" : 2494712
+    "fileID" : 2559247
   }, {
     "provider" : "CURSE",
     "name" : "Platforms",
@@ -438,12 +438,12 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2549507
+    "fileID" : 2559649
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2558566
+    "fileID" : 2560111
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -473,7 +473,7 @@
     "provider" : "CURSE",
     "name" : "Reliquary v1.3",
     "projectID" : 241319,
-    "fileID" : 2550326
+    "fileID" : 2560360
   }, {
     "provider" : "CURSE",
     "name" : "Roguelike Dungeons",
@@ -573,7 +573,7 @@
     "provider" : "CURSE",
     "name" : "TorchMaster",
     "projectID" : 254268,
-    "fileID" : 2558000
+    "fileID" : 2560361
   }, {
     "provider" : "CURSE",
     "name" : "Robotic Parts",
@@ -633,7 +633,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2554611
+    "fileID" : 2560856
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -666,6 +666,11 @@
     "fileID" : 2432272
   }, {
     "provider" : "CURSE",
+    "name" : "Waystones",
+    "projectID" : 245755,
+    "fileID" : 2559127
+  }, {
+    "provider" : "CURSE",
     "name" : "Electroblob's Wizardry",
     "projectID" : 265642,
     "fileID" : 2551732
@@ -686,9 +691,24 @@
     "fileID" : 2558648
   }, {
     "provider" : "CURSE",
+    "name" : "The Aether II",
+    "projectID" : 223796,
+    "fileID" : 2559769
+  }, {
+    "provider" : "CURSE",
     "name" : "Zetta Industries",
     "projectID" : 278475,
     "fileID" : 2536420
+  }, {
+    "provider" : "CURSE",
+    "name" : "Corpse Complex",
+    "projectID" : 271605,
+    "fileID" : 2560155
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic Inventory Scanning (Thaumcraft Addon)",
+    "projectID" : 238003,
+    "fileID" : 2559089
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
@@ -720,7 +740,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 29
+    "buildNumber" : 33
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -768,7 +788,7 @@
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2554202
+    "fileID" : 2560368
   }, {
     "provider" : "CURSE",
     "name" : "IKWID (I Know What I'm Doing)",
@@ -789,28 +809,10 @@
     "fileID" : 2481605
   }, {
     "provider" : "CURSE",
-    "name" : "Just Enough HarvestCraft (JEHC)",
-    "side" : "CLIENT",
-    "projectID" : 267939,
-    "fileID" : 2543885
-  }, {
-    "provider" : "CURSE",
-    "name" : "Just Enough Resources (JER)",
-    "side" : "CLIENT",
-    "projectID" : 240630,
-    "fileID" : 2523823
-  }, {
-    "provider" : "CURSE",
     "name" : "JEI Integration",
     "side" : "CLIENT",
     "projectID" : 265917,
     "fileID" : 2491927
-  }, {
-    "provider" : "CURSE",
-    "name" : "JEI Bees",
-    "side" : "CLIENT",
-    "projectID" : 248370,
-    "fileID" : 2490058
   }, {
     "provider" : "CURSE",
     "name" : "AppleSkin",
@@ -855,12 +857,6 @@
     "fileID" : 2549234
   }, {
     "provider" : "CURSE",
-    "name" : "Durability Show",
-    "side" : "CLIENT",
-    "projectID" : 226099,
-    "fileID" : 2432683
-  }, {
-    "provider" : "CURSE",
     "name" : "Fullscreen Windowed (Borderless) for Minecraft",
     "side" : "CLIENT",
     "projectID" : 227441,
@@ -888,7 +884,7 @@
     "name" : "ReAuth",
     "side" : "CLIENT",
     "projectID" : 237701,
-    "fileID" : 2491161
+    "fileID" : 2560638
   }, {
     "provider" : "CURSE",
     "name" : "CleanView",
@@ -934,18 +930,6 @@
     "fileID" : 2537363
   }, {
     "provider" : "CURSE",
-    "name" : "Fancy Block Particles",
-    "side" : "CLIENT",
-    "projectID" : 254441,
-    "fileID" : 2556522
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dynamic Surroundings",
-    "side" : "CLIENT",
-    "projectID" : 238891,
-    "fileID" : 2558747
-  }, {
-    "provider" : "CURSE",
     "name" : "Client Tweaks",
     "side" : "CLIENT",
     "projectID" : 251407,
@@ -974,6 +958,48 @@
     "side" : "CLIENT",
     "projectID" : 226670,
     "fileID" : 2436231
+  }, {
+    "provider" : "CURSE",
+    "name" : "Durability Show",
+    "side" : "CLIENT",
+    "projectID" : 226099,
+    "fileID" : 2432683
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fancy Block Particles",
+    "side" : "CLIENT",
+    "projectID" : 254441,
+    "fileID" : 2556522
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "side" : "CLIENT",
+    "projectID" : 238891,
+    "fileID" : 2558747
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Bees",
+    "side" : "CLIENT",
+    "projectID" : 248370,
+    "fileID" : 2490058
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough HarvestCraft (JEHC)",
+    "side" : "CLIENT",
+    "projectID" : 267939,
+    "fileID" : 2559930
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Resources (JER)",
+    "side" : "CLIENT",
+    "projectID" : 240630,
+    "fileID" : 2523823
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic JEI",
+    "side" : "CLIENT",
+    "projectID" : 285492,
+    "fileID" : 2560613
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -1063,7 +1089,7 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2553850
+    "fileID" : 2559026
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
@@ -1073,7 +1099,12 @@
     "provider" : "CURSE",
     "name" : "Hammer Core",
     "projectID" : 247401,
-    "fileID" : 2558141
+    "fileID" : 2559503
+  }, {
+    "provider" : "CURSE",
+    "name" : "Orbis API",
+    "projectID" : 292627,
+    "fileID" : 2559734
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1101,24 +1132,6 @@
       "name" : "SmoothWater",
       "selected" : true,
       "description" : "Makes the surface of water nicer, better underwater lighting, can cost some FPS.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Fancy Block Particles" ],
-    "properties" : {
-      "name" : "Fancy Block Particles",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Dynamic Surroundings" ],
-    "properties" : {
-      "name" : "Dynamic Surroundings",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1160,6 +1173,62 @@
       "name" : "Light Level Overlay Reloaded",
       "selected" : false,
       "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Durability Show" ],
+    "properties" : {
+      "name" : "Durability Show",
+      "selected" : false,
+      "description" : "Durability Show"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Fancy Block Particles" ],
+    "properties" : {
+      "name" : "Fancy Block Particles",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Dynamic Surroundings" ],
+    "properties" : {
+      "name" : "Dynamic Surroundings",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "JEI Bees", "Forestry", "Just Enough Items (JEI)" ],
+    "properties" : {
+      "name" : "JEI Bees",
+      "selected" : false,
+      "description" : "JEI Bees"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough HarvestCraft (JEHC)", "Just Enough Items (JEI)", "Pam's HarvestCraft" ],
+    "properties" : {
+      "name" : "Just Enough HarvestCraft (JEHC)",
+      "selected" : false,
+      "description" : "Just Enough HarvestCraft (JEHC)"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough Resources (JER)", "Just Enough Items (JEI)" ],
+    "properties" : {
+      "name" : "Just Enough Resources (JER)",
+      "selected" : false,
+      "description" : "Just Enough Resources (JER)"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Thaumic JEI", "Thaumcraft", "Just Enough Items (JEI)", "Baubles" ],
+    "properties" : {
+      "name" : "Thaumic JEI",
+      "selected" : false,
+      "description" : "Thaumic JEI"
     },
     "files" : { }
   } ]

@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.4.4
+version: 2.1.5
 mcVersion: 1.12.2
 forge: 2678
 minecraftDir: src
@@ -221,6 +221,7 @@ root:
   - Ender IO
   - Sampler
   - Morpheus
+  - Waystones
 
   # In Testing
   - Electroblob's Wizardry
@@ -229,6 +230,8 @@ root:
   - Thaumcraft
   - The Aether II
   - Zetta Industries
+  - Corpse Complex
+  - Thaumic Inventory Scanning (Thaumcraft Addon)
   # /In Testing
 
   # Direct Downloads
@@ -295,10 +298,7 @@ root:
     - "IKWID (I Know What I'm Doing)"
     - Wawla - What Are We Looking At
     - Waila Harvestability
-    - Just Enough HarvestCraft (JEHC)
-    - Just Enough Resources (JER)
     - JEI Integration
-    - JEI Bees
     - AppleSkin
     - BetterFps
     - NoNausea
@@ -306,7 +306,6 @@ root:
     - Controlling
     - Custom Main Menu
     - Default Options
-    - Durability Show
     - Fullscreen Windowed (Borderless) for Minecraft
     - Keyboard Wizard
     - Mod Name Tooltip
@@ -341,17 +340,6 @@ root:
           description: "Makes the surface of water nicer, better underwater lighting, can cost some FPS."
 
     - feature:
-        selected: false
-        recommendation: starred
-      entries:
-
-        - name: Fancy Block Particles
-          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
-
-        - name: Dynamic Surroundings
-          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-
-    - feature:
         selected: true
       entries:
 
@@ -373,3 +361,24 @@ root:
 
         - name: Light Level Overlay Reloaded
           description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
+
+        - name: Durability Show
+          description: Durability Show
+
+        - name: Fancy Block Particles
+          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+
+        - name: Dynamic Surroundings
+          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+
+        - name: JEI Bees
+          description: JEI Bees
+
+        - name: Just Enough HarvestCraft (JEHC)
+          description: Just Enough HarvestCraft (JEHC)
+
+        - name: Just Enough Resources (JER)
+          description: Just Enough Resources (JER)
+
+        - name: Thaumic JEI
+          description: Thaumic JEI
