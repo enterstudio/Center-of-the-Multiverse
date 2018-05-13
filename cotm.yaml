@@ -222,24 +222,30 @@ root:
   - Sampler
   - Morpheus
   - Waystones
+  - Aether Legacy
 
   # In Testing
   - Electroblob's Wizardry
   - Improvable Skills 3
   - Portality
   - Thaumcraft
-  - The Aether II
+  #- The Aether II (early alpha very unstable)
   - Zetta Industries
   - Corpse Complex
   - Thaumic Inventory Scanning (Thaumcraft Addon)
+  - Peckish
   # /In Testing
+
+  # Beta Server Reset
+  #- Dregora
+  #- "Open Terrain Generator (OTG)"
 
   # Direct Downloads
   - provider: DIRECT
     entries:
   
   # Nutrition
-    - url: https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar
+    - url: https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar
       name: Nutrition
 
   # Better Builder's Wands
@@ -339,10 +345,6 @@ root:
         - name: SmoothWater
           description: "Makes the surface of water nicer, better underwater lighting, can cost some FPS."
 
-    - feature:
-        selected: true
-      entries:
-
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
 
@@ -363,7 +365,7 @@ root:
           description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
 
         - name: Durability Show
-          description: Durability Show
+          description: Toggle-able item/tool/armor durability HUD
 
         - name: Fancy Block Particles
           description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
@@ -372,13 +374,13 @@ root:
           description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
 
         - name: JEI Bees
-          description: JEI Bees
+          description: JEI Integration for Reorestry/Gendustry Bees.
 
         - name: Just Enough HarvestCraft (JEHC)
-          description: Just Enough HarvestCraft (JEHC)
+          description: JEI Integration for Pam's HarvestCraft.
 
         - name: Just Enough Resources (JER)
-          description: Just Enough Resources (JER)
+          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
 
         - name: Thaumic JEI
-          description: Thaumic JEI
+          description: JEI Integration for Thaumcraft.
