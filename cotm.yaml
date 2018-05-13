@@ -3,7 +3,7 @@
 #===========#
 name: cotm
 title: Center of the Multiverse
-version: 2.1.5
+version: 2.1.5.1
 mcVersion: 1.12.2
 forge: 2678
 minecraftDir: src
@@ -313,7 +313,6 @@ root:
     - Custom Main Menu
     - Default Options
     - Fullscreen Windowed (Borderless) for Minecraft
-    - Keyboard Wizard
     - Mod Name Tooltip
     - Neat
     - ReAuth
@@ -384,3 +383,6 @@ root:
 
         - name: Thaumic JEI
           description: JEI Integration for Thaumcraft.
+
+        - name: Keyboard Wizard
+          description: Visual keybind editor.

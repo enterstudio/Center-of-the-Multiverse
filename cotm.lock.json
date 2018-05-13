@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.5",
+  "version" : "2.1.5.1",
   "mcVersion" : "1.12.2",
   "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -123,12 +123,12 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2557695
+    "fileID" : 2561549
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
     "projectID" : 227639,
-    "fileID" : 2528109
+    "fileID" : 2561393
   }, {
     "provider" : "CURSE",
     "name" : "Upsizer Mod",
@@ -273,12 +273,12 @@
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2558553
+    "fileID" : 2561572
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2558552
+    "fileID" : 2561625
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -533,7 +533,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2558698
+    "fileID" : 2561644
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
@@ -671,6 +671,11 @@
     "fileID" : 2559127
   }, {
     "provider" : "CURSE",
+    "name" : "Aether Legacy",
+    "projectID" : 255308,
+    "fileID" : 2553665
+  }, {
+    "provider" : "CURSE",
     "name" : "Electroblob's Wizardry",
     "projectID" : 265642,
     "fileID" : 2551732
@@ -691,11 +696,6 @@
     "fileID" : 2558648
   }, {
     "provider" : "CURSE",
-    "name" : "The Aether II",
-    "projectID" : 223796,
-    "fileID" : 2559769
-  }, {
-    "provider" : "CURSE",
     "name" : "Zetta Industries",
     "projectID" : 278475,
     "fileID" : 2536420
@@ -710,9 +710,14 @@
     "projectID" : 238003,
     "fileID" : 2559089
   }, {
+    "provider" : "CURSE",
+    "name" : "Peckish",
+    "projectID" : 289309,
+    "fileID" : 2561659
+  }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
-    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar"
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar"
   }, {
     "provider" : "DIRECT",
     "name" : "Better Builder's Wands",
@@ -740,7 +745,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 33
+    "buildNumber" : 36
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -861,12 +866,6 @@
     "side" : "CLIENT",
     "projectID" : 227441,
     "fileID" : 2456007
-  }, {
-    "provider" : "CURSE",
-    "name" : "Keyboard Wizard",
-    "side" : "CLIENT",
-    "projectID" : 262366,
-    "fileID" : 2493196
   }, {
     "provider" : "CURSE",
     "name" : "Mod Name Tooltip",
@@ -999,7 +998,13 @@
     "name" : "Thaumic JEI",
     "side" : "CLIENT",
     "projectID" : 285492,
-    "fileID" : 2560613
+    "fileID" : 2561622
+  }, {
+    "provider" : "CURSE",
+    "name" : "Keyboard Wizard",
+    "side" : "CLIENT",
+    "projectID" : 262366,
+    "fileID" : 2493196
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -1102,11 +1107,6 @@
     "fileID" : 2559503
   }, {
     "provider" : "CURSE",
-    "name" : "Orbis API",
-    "projectID" : 292627,
-    "fileID" : 2559734
-  }, {
-    "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
     "side" : "SERVER",
     "projectID" : 248453,
@@ -1140,7 +1140,8 @@
     "properties" : {
       "name" : "Client Tweaks",
       "selected" : true,
-      "description" : "Various client related fixes and tweaks, all in a handy menu."
+      "description" : "Various client related fixes and tweaks, all in a handy menu.",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
@@ -1148,7 +1149,8 @@
     "properties" : {
       "name" : "Mouse Tweaks",
       "selected" : true,
-      "description" : "Add extra mouse gestures for inventories and crafting grids."
+      "description" : "Add extra mouse gestures for inventories and crafting grids.",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
@@ -1180,7 +1182,7 @@
     "properties" : {
       "name" : "Durability Show",
       "selected" : false,
-      "description" : "Durability Show"
+      "description" : "Toggle-able item/tool/armor durability HUD"
     },
     "files" : { }
   }, {
@@ -1204,7 +1206,7 @@
     "properties" : {
       "name" : "JEI Bees",
       "selected" : false,
-      "description" : "JEI Bees"
+      "description" : "JEI Integration for Reorestry/Gendustry Bees."
     },
     "files" : { }
   }, {
@@ -1212,7 +1214,7 @@
     "properties" : {
       "name" : "Just Enough HarvestCraft (JEHC)",
       "selected" : false,
-      "description" : "Just Enough HarvestCraft (JEHC)"
+      "description" : "JEI Integration for Pam's HarvestCraft."
     },
     "files" : { }
   }, {
@@ -1220,7 +1222,7 @@
     "properties" : {
       "name" : "Just Enough Resources (JER)",
       "selected" : false,
-      "description" : "Just Enough Resources (JER)"
+      "description" : "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
     },
     "files" : { }
   }, {
@@ -1228,7 +1230,15 @@
     "properties" : {
       "name" : "Thaumic JEI",
       "selected" : false,
-      "description" : "Thaumic JEI"
+      "description" : "JEI Integration for Thaumcraft."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Keyboard Wizard" ],
+    "properties" : {
+      "name" : "Keyboard Wizard",
+      "selected" : false,
+      "description" : "Visual keybind editor."
     },
     "files" : { }
   } ]
