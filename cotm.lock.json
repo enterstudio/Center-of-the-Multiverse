@@ -2,6 +2,7 @@
   "name" : "cotm",
   "title" : "Center of the Multiverse",
   "version" : "2.1.5.1",
+  "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -123,7 +124,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2561549
+    "fileID" : 2562124
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -143,7 +144,7 @@
     "provider" : "CURSE",
     "name" : "ViesCraft - Airships!",
     "projectID" : 246795,
-    "fileID" : 2515257
+    "fileID" : 2562331
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
@@ -273,12 +274,12 @@
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2561572
+    "fileID" : 2561796
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2561625
+    "fileID" : 2561795
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -328,12 +329,12 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2557595
+    "fileID" : 2561987
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
     "projectID" : 241895,
-    "fileID" : 2554835
+    "fileID" : 2562131
   }, {
     "provider" : "CURSE",
     "name" : "Magic Bees",
@@ -598,7 +599,7 @@
     "provider" : "CURSE",
     "name" : "Land Manager",
     "projectID" : 286284,
-    "fileID" : 2525291
+    "fileID" : 2562224
   }, {
     "provider" : "CURSE",
     "name" : "Sit",
@@ -633,7 +634,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2560856
+    "fileID" : 2561807
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -745,7 +746,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 36
+    "buildNumber" : 45
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -901,7 +902,7 @@
     "name" : "Crafting Tweaks",
     "side" : "CLIENT",
     "projectID" : 233071,
-    "fileID" : 2543365
+    "fileID" : 2562139
   }, {
     "provider" : "CURSE",
     "name" : "Better Advancements",
@@ -932,7 +933,7 @@
     "name" : "Client Tweaks",
     "side" : "CLIENT",
     "projectID" : 251407,
-    "fileID" : 2544119
+    "fileID" : 2562133
   }, {
     "provider" : "CURSE",
     "name" : "Mouse Tweaks",
@@ -1019,7 +1020,7 @@
     "provider" : "CURSE",
     "name" : "B.A.S.E",
     "projectID" : 246996,
-    "fileID" : 2544345
+    "fileID" : 2561983
   }, {
     "provider" : "CURSE",
     "name" : "BdLib",
@@ -1094,7 +1095,7 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2559026
+    "fileID" : 2562456
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
@@ -1104,7 +1105,7 @@
     "provider" : "CURSE",
     "name" : "Hammer Core",
     "projectID" : 247401,
-    "fileID" : 2559503
+    "fileID" : 2561957
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1202,7 +1203,7 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "JEI Bees", "Forestry", "Just Enough Items (JEI)" ],
+    "entries" : [ "JEI Bees" ],
     "properties" : {
       "name" : "JEI Bees",
       "selected" : false,
@@ -1210,7 +1211,7 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "Just Enough HarvestCraft (JEHC)", "Just Enough Items (JEI)", "Pam's HarvestCraft" ],
+    "entries" : [ "Just Enough HarvestCraft (JEHC)" ],
     "properties" : {
       "name" : "Just Enough HarvestCraft (JEHC)",
       "selected" : false,
@@ -1218,7 +1219,7 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "Just Enough Resources (JER)", "Just Enough Items (JEI)" ],
+    "entries" : [ "Just Enough Resources (JER)" ],
     "properties" : {
       "name" : "Just Enough Resources (JER)",
       "selected" : false,
@@ -1226,7 +1227,7 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "Thaumic JEI", "Thaumcraft", "Just Enough Items (JEI)", "Baubles" ],
+    "entries" : [ "Thaumic JEI" ],
     "properties" : {
       "name" : "Thaumic JEI",
       "selected" : false,

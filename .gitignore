@@ -1,13 +1,11 @@
 *.jar
-data/
 loaders/
 mods/
-.modpacks/
+.curse/
 _upload/
-modpack.json
+.voodoo/
+tome/
 *.zip
-Center of the Multiverse_errored.yaml
-voodoo.log
 
 workspace/
 cotm.json
