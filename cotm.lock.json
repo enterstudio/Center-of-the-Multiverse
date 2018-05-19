@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.5.1",
+  "version" : "2.1.5.2",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2678,
@@ -144,7 +144,7 @@
     "provider" : "CURSE",
     "name" : "ViesCraft - Airships!",
     "projectID" : 246795,
-    "fileID" : 2562331
+    "fileID" : 2563103
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
@@ -269,7 +269,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2560843
+    "fileID" : 2562681
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -534,7 +534,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2561644
+    "fileID" : 2563033
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
@@ -634,7 +634,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2561807
+    "fileID" : 2563063
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -746,7 +746,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 45
+    "buildNumber" : 48
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
