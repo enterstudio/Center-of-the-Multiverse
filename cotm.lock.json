@@ -1,7 +1,8 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.4.3",
+  "version" : "2.1.5.2",
+  "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2678,
   "curseMetaUrl" : "https://cursemeta.dries007.net",
@@ -38,7 +39,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2556379
+    "fileID" : 2559238
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
@@ -53,7 +54,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2555953
+    "fileID" : 2559039
   }, {
     "provider" : "CURSE",
     "name" : "Chisel",
@@ -83,7 +84,7 @@
     "provider" : "CURSE",
     "name" : "Comforts",
     "projectID" : 276951,
-    "fileID" : 2558204
+    "fileID" : 2560487
   }, {
     "provider" : "CURSE",
     "name" : "Compacter",
@@ -123,12 +124,12 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2557695
+    "fileID" : 2562124
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
     "projectID" : 227639,
-    "fileID" : 2558640
+    "fileID" : 2561393
   }, {
     "provider" : "CURSE",
     "name" : "Upsizer Mod",
@@ -143,7 +144,7 @@
     "provider" : "CURSE",
     "name" : "ViesCraft - Airships!",
     "projectID" : 246795,
-    "fileID" : 2515257
+    "fileID" : 2563103
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
@@ -188,7 +189,7 @@
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2554342
+    "fileID" : 2559210
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
@@ -208,7 +209,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2554341
+    "fileID" : 2559209
   }, {
     "provider" : "CURSE",
     "name" : "Charset Audio",
@@ -228,7 +229,7 @@
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
     "projectID" : 278494,
-    "fileID" : 2555017
+    "fileID" : 2559212
   }, {
     "provider" : "CURSE",
     "name" : "The Disenchanter Mod",
@@ -268,17 +269,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2558321
+    "fileID" : 2562681
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2558553
+    "fileID" : 2561796
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2558552
+    "fileID" : 2561795
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -328,12 +329,12 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2557595
+    "fileID" : 2561987
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
     "projectID" : 241895,
-    "fileID" : 2554835
+    "fileID" : 2562131
   }, {
     "provider" : "CURSE",
     "name" : "Magic Bees",
@@ -413,12 +414,12 @@
     "provider" : "CURSE",
     "name" : "Pam's HarvestCraft",
     "projectID" : 221857,
-    "fileID" : 2545718
+    "fileID" : 2560919
   }, {
     "provider" : "CURSE",
     "name" : "Passthrough Signs",
     "projectID" : 224633,
-    "fileID" : 2494712
+    "fileID" : 2559247
   }, {
     "provider" : "CURSE",
     "name" : "Platforms",
@@ -438,12 +439,12 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2549507
+    "fileID" : 2559649
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2558566
+    "fileID" : 2560111
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -473,7 +474,7 @@
     "provider" : "CURSE",
     "name" : "Reliquary v1.3",
     "projectID" : 241319,
-    "fileID" : 2550326
+    "fileID" : 2560360
   }, {
     "provider" : "CURSE",
     "name" : "Roguelike Dungeons",
@@ -533,7 +534,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2558698
+    "fileID" : 2563033
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
@@ -573,7 +574,7 @@
     "provider" : "CURSE",
     "name" : "TorchMaster",
     "projectID" : 254268,
-    "fileID" : 2558000
+    "fileID" : 2560361
   }, {
     "provider" : "CURSE",
     "name" : "Robotic Parts",
@@ -598,7 +599,7 @@
     "provider" : "CURSE",
     "name" : "Land Manager",
     "projectID" : 286284,
-    "fileID" : 2525291
+    "fileID" : 2562224
   }, {
     "provider" : "CURSE",
     "name" : "Sit",
@@ -633,7 +634,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2554611
+    "fileID" : 2563063
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -666,6 +667,16 @@
     "fileID" : 2432272
   }, {
     "provider" : "CURSE",
+    "name" : "Waystones",
+    "projectID" : 245755,
+    "fileID" : 2559127
+  }, {
+    "provider" : "CURSE",
+    "name" : "Aether Legacy",
+    "projectID" : 255308,
+    "fileID" : 2553665
+  }, {
+    "provider" : "CURSE",
     "name" : "Electroblob's Wizardry",
     "projectID" : 265642,
     "fileID" : 2551732
@@ -690,9 +701,24 @@
     "projectID" : 278475,
     "fileID" : 2536420
   }, {
+    "provider" : "CURSE",
+    "name" : "Corpse Complex",
+    "projectID" : 271605,
+    "fileID" : 2560155
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic Inventory Scanning (Thaumcraft Addon)",
+    "projectID" : 238003,
+    "fileID" : 2559089
+  }, {
+    "provider" : "CURSE",
+    "name" : "Peckish",
+    "projectID" : 289309,
+    "fileID" : 2561659
+  }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
-    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.2.0/Nutrition-1.12.2-3.2.0.jar"
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar"
   }, {
     "provider" : "DIRECT",
     "name" : "Better Builder's Wands",
@@ -720,7 +746,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 29
+    "buildNumber" : 48
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -768,7 +794,7 @@
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2554202
+    "fileID" : 2560368
   }, {
     "provider" : "CURSE",
     "name" : "IKWID (I Know What I'm Doing)",
@@ -789,28 +815,10 @@
     "fileID" : 2481605
   }, {
     "provider" : "CURSE",
-    "name" : "Just Enough HarvestCraft (JEHC)",
-    "side" : "CLIENT",
-    "projectID" : 267939,
-    "fileID" : 2543885
-  }, {
-    "provider" : "CURSE",
-    "name" : "Just Enough Resources (JER)",
-    "side" : "CLIENT",
-    "projectID" : 240630,
-    "fileID" : 2523823
-  }, {
-    "provider" : "CURSE",
     "name" : "JEI Integration",
     "side" : "CLIENT",
     "projectID" : 265917,
     "fileID" : 2491927
-  }, {
-    "provider" : "CURSE",
-    "name" : "JEI Bees",
-    "side" : "CLIENT",
-    "projectID" : 248370,
-    "fileID" : 2490058
   }, {
     "provider" : "CURSE",
     "name" : "AppleSkin",
@@ -855,22 +863,10 @@
     "fileID" : 2549234
   }, {
     "provider" : "CURSE",
-    "name" : "Durability Show",
-    "side" : "CLIENT",
-    "projectID" : 226099,
-    "fileID" : 2432683
-  }, {
-    "provider" : "CURSE",
     "name" : "Fullscreen Windowed (Borderless) for Minecraft",
     "side" : "CLIENT",
     "projectID" : 227441,
     "fileID" : 2456007
-  }, {
-    "provider" : "CURSE",
-    "name" : "Keyboard Wizard",
-    "side" : "CLIENT",
-    "projectID" : 262366,
-    "fileID" : 2493196
   }, {
     "provider" : "CURSE",
     "name" : "Mod Name Tooltip",
@@ -888,7 +884,7 @@
     "name" : "ReAuth",
     "side" : "CLIENT",
     "projectID" : 237701,
-    "fileID" : 2491161
+    "fileID" : 2560638
   }, {
     "provider" : "CURSE",
     "name" : "CleanView",
@@ -906,7 +902,7 @@
     "name" : "Crafting Tweaks",
     "side" : "CLIENT",
     "projectID" : 233071,
-    "fileID" : 2543365
+    "fileID" : 2562139
   }, {
     "provider" : "CURSE",
     "name" : "Better Advancements",
@@ -934,22 +930,10 @@
     "fileID" : 2537363
   }, {
     "provider" : "CURSE",
-    "name" : "Fancy Block Particles",
-    "side" : "CLIENT",
-    "projectID" : 254441,
-    "fileID" : 2556522
-  }, {
-    "provider" : "CURSE",
-    "name" : "Dynamic Surroundings",
-    "side" : "CLIENT",
-    "projectID" : 238891,
-    "fileID" : 2558747
-  }, {
-    "provider" : "CURSE",
     "name" : "Client Tweaks",
     "side" : "CLIENT",
     "projectID" : 251407,
-    "fileID" : 2544119
+    "fileID" : 2562133
   }, {
     "provider" : "CURSE",
     "name" : "Mouse Tweaks",
@@ -976,6 +960,54 @@
     "fileID" : 2436231
   }, {
     "provider" : "CURSE",
+    "name" : "Durability Show",
+    "side" : "CLIENT",
+    "projectID" : 226099,
+    "fileID" : 2432683
+  }, {
+    "provider" : "CURSE",
+    "name" : "Fancy Block Particles",
+    "side" : "CLIENT",
+    "projectID" : 254441,
+    "fileID" : 2556522
+  }, {
+    "provider" : "CURSE",
+    "name" : "Dynamic Surroundings",
+    "side" : "CLIENT",
+    "projectID" : 238891,
+    "fileID" : 2558747
+  }, {
+    "provider" : "CURSE",
+    "name" : "JEI Bees",
+    "side" : "CLIENT",
+    "projectID" : 248370,
+    "fileID" : 2490058
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough HarvestCraft (JEHC)",
+    "side" : "CLIENT",
+    "projectID" : 267939,
+    "fileID" : 2559930
+  }, {
+    "provider" : "CURSE",
+    "name" : "Just Enough Resources (JER)",
+    "side" : "CLIENT",
+    "projectID" : 240630,
+    "fileID" : 2523823
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumic JEI",
+    "side" : "CLIENT",
+    "projectID" : 285492,
+    "fileID" : 2561622
+  }, {
+    "provider" : "CURSE",
+    "name" : "Keyboard Wizard",
+    "side" : "CLIENT",
+    "projectID" : 262366,
+    "fileID" : 2493196
+  }, {
+    "provider" : "CURSE",
     "name" : "AutoRegLib",
     "projectID" : 250363,
     "fileID" : 2557287
@@ -988,7 +1020,7 @@
     "provider" : "CURSE",
     "name" : "B.A.S.E",
     "projectID" : 246996,
-    "fileID" : 2544345
+    "fileID" : 2561983
   }, {
     "provider" : "CURSE",
     "name" : "BdLib",
@@ -1063,7 +1095,7 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2553850
+    "fileID" : 2562456
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
@@ -1073,7 +1105,7 @@
     "provider" : "CURSE",
     "name" : "Hammer Core",
     "projectID" : 247401,
-    "fileID" : 2558141
+    "fileID" : 2561957
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1105,29 +1137,12 @@
     },
     "files" : { }
   }, {
-    "entries" : [ "Fancy Block Particles" ],
-    "properties" : {
-      "name" : "Fancy Block Particles",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Dynamic Surroundings" ],
-    "properties" : {
-      "name" : "Dynamic Surroundings",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
     "entries" : [ "Client Tweaks" ],
     "properties" : {
       "name" : "Client Tweaks",
       "selected" : true,
-      "description" : "Various client related fixes and tweaks, all in a handy menu."
+      "description" : "Various client related fixes and tweaks, all in a handy menu.",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
@@ -1135,7 +1150,8 @@
     "properties" : {
       "name" : "Mouse Tweaks",
       "selected" : true,
-      "description" : "Add extra mouse gestures for inventories and crafting grids."
+      "description" : "Add extra mouse gestures for inventories and crafting grids.",
+      "recommendation" : "starred"
     },
     "files" : { }
   }, {
@@ -1160,6 +1176,70 @@
       "name" : "Light Level Overlay Reloaded",
       "selected" : false,
       "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Durability Show" ],
+    "properties" : {
+      "name" : "Durability Show",
+      "selected" : false,
+      "description" : "Toggle-able item/tool/armor durability HUD"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Fancy Block Particles" ],
+    "properties" : {
+      "name" : "Fancy Block Particles",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Dynamic Surroundings" ],
+    "properties" : {
+      "name" : "Dynamic Surroundings",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "JEI Bees" ],
+    "properties" : {
+      "name" : "JEI Bees",
+      "selected" : false,
+      "description" : "JEI Integration for Reorestry/Gendustry Bees."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough HarvestCraft (JEHC)" ],
+    "properties" : {
+      "name" : "Just Enough HarvestCraft (JEHC)",
+      "selected" : false,
+      "description" : "JEI Integration for Pam's HarvestCraft."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough Resources (JER)" ],
+    "properties" : {
+      "name" : "Just Enough Resources (JER)",
+      "selected" : false,
+      "description" : "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Thaumic JEI" ],
+    "properties" : {
+      "name" : "Thaumic JEI",
+      "selected" : false,
+      "description" : "JEI Integration for Thaumcraft."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Keyboard Wizard" ],
+    "properties" : {
+      "name" : "Keyboard Wizard",
+      "selected" : false,
+      "description" : "Visual keybind editor."
     },
     "files" : { }
   } ]
