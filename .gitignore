@@ -6,6 +6,6 @@ _upload/
 .voodoo/
 tome/
 *.zip
-
+.server/
 workspace/
 cotm.json
