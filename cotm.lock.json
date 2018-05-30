@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.6.3",
+  "version" : "2.1.6.4",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -696,16 +696,6 @@
     "projectID" : 291493,
     "fileID" : 2550191
   }, {
-    "provider" : "CURSE",
-    "name" : "Dregora",
-    "projectID" : 292238,
-    "fileID" : 2558656
-  }, {
-    "provider" : "CURSE",
-    "name" : "Open Terrain Generator (OTG)",
-    "projectID" : 265894,
-    "fileID" : 2542614
-  }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
     "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar"
@@ -1019,7 +1009,7 @@
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2567264
+    "fileID" : 2567555
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",
@@ -1059,7 +1049,7 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2567491
+    "fileID" : 2567553
   }, {
     "provider" : "CURSE",
     "name" : "Chameleon",
