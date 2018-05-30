@@ -16,5 +16,3 @@ if [ ! $? -eq 0 ]; then
     echo "Error in step: Build"
     exit 1
 fi
-
-./deploy_sk.sh

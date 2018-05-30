@@ -4,9 +4,9 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.5.2
+version: 2.1.6.3
 mcVersion: 1.12.2
-forge: 2678
+forge: 2705
 minecraftDir: src
 
 #================#
@@ -102,9 +102,6 @@ root:
   # The_Wabbit
   - Upsizer Mod
 
-  # Bartz24
-  - Useful Nullifiers
-
   # Viesis
   - "ViesCraft - Airships!"
 
@@ -152,7 +149,6 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  - Inventory Pets
   - Just Enough Torches (JET)
   - Just Enough Dimensions
   - KleeSlabs
@@ -183,7 +179,6 @@ root:
   - Redstone Arsenal
   - Redstone Flux
   - Refined Storage
-  - Reliquary v1.3
   - Roguelike Dungeons
   - Roots
   - Scannable
@@ -197,7 +192,6 @@ root:
   - Unlimited Chisel Works
   - Tinkers Construct
   - Tinkers' Tool Leveling
-  - The Spotlight Mod
   - Extreme Reactors
   - ZeroCore
   - Paintings ++
@@ -224,29 +218,27 @@ root:
   - Morpheus
   - Waystones
   - Aether Legacy
-
-  # In Testing
-  - Electroblob's Wizardry
-  - Improvable Skills 3
-  - Portality
   - Thaumcraft
-  #- The Aether II (early alpha very unstable)
-  - Zetta Industries
   - Corpse Complex
   - Thaumic Inventory Scanning (Thaumcraft Addon)
   - Peckish
-  # /In Testing
+  - Electroblob's Wizardry
+  - Reliquary v1.3
+  - CookieCore
 
-  # Beta Server Reset
-  #- Dregora
-  #- "Open Terrain Generator (OTG)"
+  # In Testing
+  - Portality
+  - Dregora
+  - "Open Terrain Generator (OTG)"
+  #- The Aether II (early alpha, very unstable)
+  # /In Testing
 
   # Direct Downloads
   - provider: DIRECT
     entries:
   
   # Nutrition
-    - url: https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar
+    - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
       name: Nutrition
 
   # Better Builder's Wands
@@ -291,7 +283,6 @@ root:
   - side: SERVER
     entries:
     - "BTFU continuous rsync incremental backup"
-    - TickProfiler
     - Unloader
 
     - job: elytra/MatterLink/master
