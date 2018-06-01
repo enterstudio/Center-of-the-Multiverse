@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.6.4",
+  "version" : "2.1.7",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -65,11 +65,6 @@
     "name" : "Chisels & Bits",
     "projectID" : 231095,
     "fileID" : 2563888
-  }, {
-    "provider" : "CURSE",
-    "name" : "ChocoCraft",
-    "projectID" : 225280,
-    "fileID" : 2473983
   }, {
     "provider" : "CURSE",
     "name" : "Clumps",
@@ -269,12 +264,12 @@
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2566378
+    "fileID" : 2568094
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2566050
+    "fileID" : 2568091
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -457,11 +452,6 @@
     "fileID" : 2567260
   }, {
     "provider" : "CURSE",
-    "name" : "Refined Storage",
-    "projectID" : 243076,
-    "fileID" : 2564334
-  }, {
-    "provider" : "CURSE",
     "name" : "Roguelike Dungeons",
     "projectID" : 221585,
     "fileID" : 2492586
@@ -474,7 +464,7 @@
     "provider" : "CURSE",
     "name" : "Scannable",
     "projectID" : 266784,
-    "fileID" : 2566155
+    "fileID" : 2567964
   }, {
     "provider" : "CURSE",
     "name" : "Simple Sponge",
@@ -519,7 +509,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2563033
+    "fileID" : 2568000
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
@@ -587,9 +577,9 @@
     "fileID" : 2533371
   }, {
     "provider" : "CURSE",
-    "name" : "Fast Leaf Decay",
-    "projectID" : 230976,
-    "fileID" : 2463272
+    "name" : "Quick Leaf Decay",
+    "projectID" : 225839,
+    "fileID" : 2469364
   }, {
     "provider" : "CURSE",
     "name" : "Blood Magic ",
@@ -657,11 +647,6 @@
     "fileID" : 2553665
   }, {
     "provider" : "CURSE",
-    "name" : "Thaumcraft",
-    "projectID" : 223628,
-    "fileID" : 2565186
-  }, {
-    "provider" : "CURSE",
     "name" : "Corpse Complex",
     "projectID" : 271605,
     "fileID" : 2560155
@@ -696,6 +681,15 @@
     "projectID" : 291493,
     "fileID" : 2550191
   }, {
+    "provider" : "CURSE",
+    "name" : "DimensionalDoors",
+    "projectID" : 284876,
+    "fileID" : 2558528
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Thaumcraft",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar"
+  }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
     "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar"
@@ -726,7 +720,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 71
+    "buildNumber" : 72
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -745,6 +739,12 @@
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/ProbeDataProvider/1.12",
     "buildNumber" : 2
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Correlated",
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "Correlated2-Dev",
+    "buildNumber" : 104
   }, {
     "provider" : "JENKINS",
     "name" : "ArchitectureCraft",

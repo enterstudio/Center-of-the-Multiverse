@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.6.5
+version: 2.1.7
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -221,11 +221,12 @@ root:
   - Reliquary v1.3
   - CookieCore
 
-  - Thaumcraft
-    version: BETA13
+  #- Thaumcraft
+  #- version: 1.12.2-6.1.BETA13
 
   # In Testing
   - Portality
+  - DimensionalDoors
   #- The Aether II (early alpha, very unstable)
   # /In Testing
 
@@ -233,13 +234,13 @@ root:
   - provider: DIRECT
     entries:
   
+  # Thaumcraft
+    - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
+      name: Thaumcraft 
+
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
-      name: Nutrition
-
-  # Correlated
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.104.jar
-      name: Correlated    
+      name: Nutrition 
 
   # Better Builder's Wands
     - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
@@ -272,6 +273,9 @@ root:
 
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
+
+    - job: Correlated2-Dev
+      name: Correlated
 
     # Darkevilmac
     - job: elytra/ArchitectureCraft/1.12
