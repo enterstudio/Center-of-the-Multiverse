@@ -4,9 +4,9 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.5.2
+version: 2.1.7
 mcVersion: 1.12.2
-forge: 2678
+forge: 2705
 minecraftDir: src
 
 #================#
@@ -66,9 +66,6 @@ root:
   # AlgorithmX2
   - Chisels & Bits
 
-  # clienthax, xalcon
-  - ChocoCraft
-
   # jaredlll08
   - Clumps
 
@@ -101,9 +98,6 @@ root:
 
   # The_Wabbit
   - Upsizer Mod
-
-  # Bartz24
-  - Useful Nullifiers
 
   # Viesis
   - "ViesCraft - Airships!"
@@ -152,7 +146,6 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  - Inventory Pets
   - Just Enough Torches (JET)
   - Just Enough Dimensions
   - KleeSlabs
@@ -182,8 +175,6 @@ root:
   - Recurrent Complex
   - Redstone Arsenal
   - Redstone Flux
-  - Refined Storage
-  - Reliquary v1.3
   - Roguelike Dungeons
   - Roots
   - Scannable
@@ -197,7 +188,6 @@ root:
   - Unlimited Chisel Works
   - Tinkers Construct
   - Tinkers' Tool Leveling
-  - The Spotlight Mod
   - Extreme Reactors
   - ZeroCore
   - Paintings ++
@@ -210,7 +200,7 @@ root:
   - Garbage Bins
   - Land Manager
   - Sit
-  - Fast Leaf Decay
+  - Quick Leaf Decay
   - "Blood Magic "
   - Unlimited Chisel Works - Botany
   - ColorfulWater
@@ -224,30 +214,33 @@ root:
   - Morpheus
   - Waystones
   - Aether Legacy
-
-  # In Testing
-  - Electroblob's Wizardry
-  - Improvable Skills 3
-  - Portality
-  - Thaumcraft
-  #- The Aether II (early alpha very unstable)
-  - Zetta Industries
   - Corpse Complex
   - Thaumic Inventory Scanning (Thaumcraft Addon)
   - Peckish
-  # /In Testing
+  - Electroblob's Wizardry
+  - Reliquary v1.3
+  - CookieCore
 
-  # Beta Server Reset
-  #- Dregora
-  #- "Open Terrain Generator (OTG)"
+  #- Thaumcraft
+  #- version: 1.12.2-6.1.BETA13
+
+  # In Testing
+  - Portality
+  - DimensionalDoors
+  #- The Aether II (early alpha, very unstable)
+  # /In Testing
 
   # Direct Downloads
   - provider: DIRECT
     entries:
   
+  # Thaumcraft
+    - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
+      name: Thaumcraft 
+
   # Nutrition
-    - url: https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar
-      name: Nutrition
+    - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
+      name: Nutrition 
 
   # Better Builder's Wands
     - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
@@ -281,6 +274,9 @@ root:
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
 
+    - job: Correlated2-Dev
+      name: Correlated
+
     # Darkevilmac
     - job: elytra/ArchitectureCraft/1.12
       name: ArchitectureCraft
@@ -291,7 +287,6 @@ root:
   - side: SERVER
     entries:
     - "BTFU continuous rsync incremental backup"
-    - TickProfiler
     - Unloader
 
     - job: elytra/MatterLink/master

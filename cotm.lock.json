@@ -1,11 +1,11 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.5.2",
+  "version" : "2.1.7",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
-  "forge" : 2678,
-  "curseMetaUrl" : "https://cursemeta.dries007.net",
+  "forge" : 2705,
+  "curseMetaUrl" : "https://curse.nikky.moe/api",
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
@@ -49,7 +49,7 @@
     "provider" : "CURSE",
     "name" : "BiblioCraft",
     "projectID" : 228027,
-    "fileID" : 2456043
+    "fileID" : 2565070
   }, {
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
@@ -64,12 +64,7 @@
     "provider" : "CURSE",
     "name" : "Chisels & Bits",
     "projectID" : 231095,
-    "fileID" : 2541267
-  }, {
-    "provider" : "CURSE",
-    "name" : "ChocoCraft",
-    "projectID" : 225280,
-    "fileID" : 2473983
+    "fileID" : 2563888
   }, {
     "provider" : "CURSE",
     "name" : "Clumps",
@@ -94,12 +89,12 @@
     "provider" : "CURSE",
     "name" : "Cooking for Blockheads",
     "projectID" : 231484,
-    "fileID" : 2543356
+    "fileID" : 2565712
   }, {
     "provider" : "CURSE",
     "name" : "Farming for Blockheads",
     "projectID" : 261924,
-    "fileID" : 2549222
+    "fileID" : 2564005
   }, {
     "provider" : "CURSE",
     "name" : "Cosmetic Armor Reworked",
@@ -124,7 +119,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2562124
+    "fileID" : 2566347
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -137,11 +132,6 @@
     "fileID" : 2519662
   }, {
     "provider" : "CURSE",
-    "name" : "Useful Nullifiers",
-    "projectID" : 247408,
-    "fileID" : 2444884
-  }, {
-    "provider" : "CURSE",
     "name" : "ViesCraft - Airships!",
     "projectID" : 246795,
     "fileID" : 2563103
@@ -149,27 +139,27 @@
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
     "projectID" : 227443,
-    "fileID" : 2556768
+    "fileID" : 2567426
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
     "projectID" : 69163,
-    "fileID" : 2556802
+    "fileID" : 2567265
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Innovation",
     "projectID" : 291737,
-    "fileID" : 2556453
+    "fileID" : 2567269
   }, {
     "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
-    "fileID" : 2549092
+    "fileID" : 2567314
   }, {
     "provider" : "CURSE",
     "name" : "RFTools Dimensions",
     "projectID" : 240950,
-    "fileID" : 2549121
+    "fileID" : 2567299
   }, {
     "provider" : "CURSE",
     "name" : "MrCrayfish's Furniture Mod",
@@ -244,7 +234,7 @@
     "provider" : "CURSE",
     "name" : "Ender Storage 1.8.+",
     "projectID" : 245174,
-    "fileID" : 2509842
+    "fileID" : 2566250
   }, {
     "provider" : "CURSE",
     "name" : "Exchangers",
@@ -269,17 +259,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2562681
+    "fileID" : 2567022
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2561796
+    "fileID" : 2568094
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2561795
+    "fileID" : 2568091
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -317,11 +307,6 @@
     "fileID" : 2503041
   }, {
     "provider" : "CURSE",
-    "name" : "Inventory Pets",
-    "projectID" : 229380,
-    "fileID" : 2526545
-  }, {
-    "provider" : "CURSE",
     "name" : "Just Enough Torches (JET)",
     "projectID" : 273028,
     "fileID" : 2528998
@@ -329,7 +314,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2561987
+    "fileID" : 2566498
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -339,7 +324,7 @@
     "provider" : "CURSE",
     "name" : "Magic Bees",
     "projectID" : 65764,
-    "fileID" : 2517686
+    "fileID" : 2566282
   }, {
     "provider" : "CURSE",
     "name" : "Magic Feather",
@@ -439,12 +424,12 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2559649
+    "fileID" : 2565288
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2560111
+    "fileID" : 2565899
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -459,22 +444,12 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2556769
+    "fileID" : 2567270
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
     "projectID" : 270789,
-    "fileID" : 2448933
-  }, {
-    "provider" : "CURSE",
-    "name" : "Refined Storage",
-    "projectID" : 243076,
-    "fileID" : 2554172
-  }, {
-    "provider" : "CURSE",
-    "name" : "Reliquary v1.3",
-    "projectID" : 241319,
-    "fileID" : 2560360
+    "fileID" : 2567260
   }, {
     "provider" : "CURSE",
     "name" : "Roguelike Dungeons",
@@ -489,7 +464,7 @@
     "provider" : "CURSE",
     "name" : "Scannable",
     "projectID" : 266784,
-    "fileID" : 2547298
+    "fileID" : 2567964
   }, {
     "provider" : "CURSE",
     "name" : "Simple Sponge",
@@ -529,22 +504,17 @@
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
     "projectID" : 278493,
-    "fileID" : 2552136
+    "fileID" : 2565232
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
     "projectID" : 74072,
-    "fileID" : 2563033
+    "fileID" : 2568000
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
     "projectID" : 250957,
     "fileID" : 2558689
-  }, {
-    "provider" : "CURSE",
-    "name" : "The Spotlight Mod",
-    "projectID" : 268037,
-    "fileID" : 2495296
   }, {
     "provider" : "CURSE",
     "name" : "Extreme Reactors",
@@ -589,7 +559,7 @@
     "provider" : "CURSE",
     "name" : "Woot",
     "projectID" : 244049,
-    "fileID" : 2557991
+    "fileID" : 2567338
   }, {
     "provider" : "CURSE",
     "name" : "Garbage Bins",
@@ -607,9 +577,9 @@
     "fileID" : 2533371
   }, {
     "provider" : "CURSE",
-    "name" : "Fast Leaf Decay",
-    "projectID" : 230976,
-    "fileID" : 2463272
+    "name" : "Quick Leaf Decay",
+    "projectID" : 225839,
+    "fileID" : 2469364
   }, {
     "provider" : "CURSE",
     "name" : "Blood Magic ",
@@ -634,7 +604,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2563063
+    "fileID" : 2564328
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -654,7 +624,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2558622
+    "fileID" : 2567180
   }, {
     "provider" : "CURSE",
     "name" : "Sampler",
@@ -677,31 +647,6 @@
     "fileID" : 2553665
   }, {
     "provider" : "CURSE",
-    "name" : "Electroblob's Wizardry",
-    "projectID" : 265642,
-    "fileID" : 2551732
-  }, {
-    "provider" : "CURSE",
-    "name" : "Improvable Skills 3",
-    "projectID" : 252902,
-    "fileID" : 2552093
-  }, {
-    "provider" : "CURSE",
-    "name" : "Portality",
-    "projectID" : 291493,
-    "fileID" : 2550191
-  }, {
-    "provider" : "CURSE",
-    "name" : "Thaumcraft",
-    "projectID" : 223628,
-    "fileID" : 2558648
-  }, {
-    "provider" : "CURSE",
-    "name" : "Zetta Industries",
-    "projectID" : 278475,
-    "fileID" : 2536420
-  }, {
-    "provider" : "CURSE",
     "name" : "Corpse Complex",
     "projectID" : 271605,
     "fileID" : 2560155
@@ -716,9 +661,38 @@
     "projectID" : 289309,
     "fileID" : 2561659
   }, {
+    "provider" : "CURSE",
+    "name" : "Electroblob's Wizardry",
+    "projectID" : 265642,
+    "fileID" : 2551732
+  }, {
+    "provider" : "CURSE",
+    "name" : "Reliquary v1.3",
+    "projectID" : 241319,
+    "fileID" : 2560360
+  }, {
+    "provider" : "CURSE",
+    "name" : "CookieCore",
+    "projectID" : 222908,
+    "fileID" : 2525823
+  }, {
+    "provider" : "CURSE",
+    "name" : "Portality",
+    "projectID" : 291493,
+    "fileID" : 2550191
+  }, {
+    "provider" : "CURSE",
+    "name" : "DimensionalDoors",
+    "projectID" : 284876,
+    "fileID" : 2558528
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Thaumcraft",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar"
+  }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
-    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.3.0/Nutrition-1.12.2-3.3.0.jar"
+    "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar"
   }, {
     "provider" : "DIRECT",
     "name" : "Better Builder's Wands",
@@ -740,13 +714,13 @@
     "name" : "Engination",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/Engination/master",
-    "buildNumber" : 7
+    "buildNumber" : 9
   }, {
     "provider" : "JENKINS",
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 48
+    "buildNumber" : 72
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -767,6 +741,12 @@
     "buildNumber" : 2
   }, {
     "provider" : "JENKINS",
+    "name" : "Correlated",
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "Correlated2-Dev",
+    "buildNumber" : 104
+  }, {
+    "provider" : "JENKINS",
     "name" : "ArchitectureCraft",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/ArchitectureCraft/1.12",
@@ -779,22 +759,16 @@
     "fileID" : 2535073
   }, {
     "provider" : "CURSE",
-    "name" : "TickProfiler",
-    "side" : "SERVER",
-    "projectID" : 270330,
-    "fileID" : 2536494
-  }, {
-    "provider" : "CURSE",
     "name" : "Unloader",
     "side" : "SERVER",
     "projectID" : 286230,
-    "fileID" : 2534509
+    "fileID" : 2567366
   }, {
     "provider" : "CURSE",
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2560368
+    "fileID" : 2565383
   }, {
     "provider" : "CURSE",
     "name" : "IKWID (I Know What I'm Doing)",
@@ -957,7 +931,7 @@
     "name" : "Light Level Overlay Reloaded",
     "side" : "CLIENT",
     "projectID" : 226670,
-    "fileID" : 2436231
+    "fileID" : 2563430
   }, {
     "provider" : "CURSE",
     "name" : "Durability Show",
@@ -999,7 +973,7 @@
     "name" : "Thaumic JEI",
     "side" : "CLIENT",
     "projectID" : 285492,
-    "fileID" : 2561622
+    "fileID" : 2566912
   }, {
     "provider" : "CURSE",
     "name" : "Keyboard Wizard",
@@ -1035,22 +1009,17 @@
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
     "projectID" : 222880,
-    "fileID" : 2556452
+    "fileID" : 2567555
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",
     "projectID" : 233105,
-    "fileID" : 2543038
+    "fileID" : 2567259
   }, {
     "provider" : "CURSE",
     "name" : "MTLib",
     "projectID" : 253211,
-    "fileID" : 2539950
-  }, {
-    "provider" : "CURSE",
-    "name" : "CookieCore",
-    "projectID" : 222908,
-    "fileID" : 2525823
+    "fileID" : 2567171
   }, {
     "provider" : "CURSE",
     "name" : "MalisisCore",
@@ -1080,7 +1049,7 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2556447
+    "fileID" : 2567553
   }, {
     "provider" : "CURSE",
     "name" : "Chameleon",
@@ -1095,17 +1064,12 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2562456
+    "fileID" : 2566374
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
-    "fileID" : 2555366
-  }, {
-    "provider" : "CURSE",
-    "name" : "Hammer Core",
-    "projectID" : 247401,
-    "fileID" : 2561957
+    "fileID" : 2567175
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1116,7 +1080,7 @@
     "provider" : "CURSE",
     "name" : "CoFH World",
     "projectID" : 271384,
-    "fileID" : 2513671
+    "fileID" : 2567263
   } ],
   "features" : [ {
     "entries" : [ "JourneyMap" ],

@@ -61,7 +61,7 @@
                         },
                         {
                             "featureType": "ore",
-                            "blockToSpawn": { "blockId": "nex:block_basalt", "meta": 0 },
+                            "blockToSpawn": { "blockId": "quark:basalt", "meta": 0 },
                             "targetBlock": { "blockId": "nex:block_netherrack", "meta": 0 },
                             "size": 24,
                             "rarity": 14,
