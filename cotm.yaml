@@ -18,6 +18,7 @@ userFiles:
 
   exclude:
   - "options.txt"
+  - "quark.cfg"
    
 #===========#
 # Core Pack #
@@ -211,7 +212,6 @@ root:
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
   - Sampler
-  - Morpheus
   - Waystones
   - Aether Legacy
   - Corpse Complex

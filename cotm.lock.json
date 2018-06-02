@@ -444,7 +444,7 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2567270
+    "fileID" : 2568564
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
@@ -519,7 +519,7 @@
     "provider" : "CURSE",
     "name" : "Extreme Reactors",
     "projectID" : 250277,
-    "fileID" : 2545869
+    "fileID" : 2568534
   }, {
     "provider" : "CURSE",
     "name" : "ZeroCore",
@@ -632,11 +632,6 @@
     "fileID" : 2536015
   }, {
     "provider" : "CURSE",
-    "name" : "Morpheus",
-    "projectID" : 69118,
-    "fileID" : 2432272
-  }, {
-    "provider" : "CURSE",
     "name" : "Waystones",
     "projectID" : 245755,
     "fileID" : 2559127
@@ -720,7 +715,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 72
+    "buildNumber" : 73
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -1049,7 +1044,7 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2567553
+    "fileID" : 2568324
   }, {
     "provider" : "CURSE",
     "name" : "Chameleon",
