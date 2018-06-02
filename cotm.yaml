@@ -14,12 +14,10 @@ minecraftDir: src
 #================#
 userFiles:
 
-  include: []
-
-  exclude:
-  - "options.txt"
+  include:
   - "quark.cfg"
-   
+
+  exclude: []
 #===========#
 # Core Pack #
 #===========#
