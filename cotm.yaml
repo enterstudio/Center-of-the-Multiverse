@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.7
+version: 2.1.7.1
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -17,7 +17,9 @@ userFiles:
   include:
   - "quark.cfg"
 
-  exclude: []
+  exclude:
+  - "options.txt"
+
 #===========#
 # Core Pack #
 #===========#
@@ -225,6 +227,8 @@ root:
   # In Testing
   - Portality
   - DimensionalDoors
+  - "Thaumic Additions: Reconstructed"
+  - Stargate Atlantiscraft
   #- The Aether II (early alpha, very unstable)
   # /In Testing
 
@@ -347,6 +351,12 @@ root:
     - feature:
         selected: false
       entries:
+
+        - name: Item Scroller
+          description: Alternative to MouseTweaks
+
+        - name: Xaero's Minimap
+          description: Lightweight alternative to JourneyMap
 
         - name: MineMenu
           description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
