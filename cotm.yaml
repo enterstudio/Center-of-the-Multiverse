@@ -74,9 +74,6 @@ root:
   - Colytra
   - Comforts
 
-  # bdew
-  - Compacter
-
   # BlayTheNinth
   - Cooking for Blockheads
   - Farming for Blockheads
@@ -227,8 +224,9 @@ root:
   # In Testing
   - Portality
   - DimensionalDoors
-  - "Thaumic Additions: Reconstructed"
   - Stargate Atlantiscraft
+  - Practical Logistics 2
+  - Arcane Lamps
   #- The Aether II (early alpha, very unstable)
   # /In Testing
 
@@ -289,7 +287,6 @@ root:
   - side: SERVER
     entries:
     - "BTFU continuous rsync incremental backup"
-    - Unloader
 
     - job: elytra/MatterLink/master
       name: MatterLink
@@ -317,6 +314,7 @@ root:
     - CleanView
     - Vise
     - Crafting Tweaks
+    - Smooth Font
 
     # Way2muchnoise
     - Better Advancements
