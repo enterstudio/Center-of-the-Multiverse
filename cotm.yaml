@@ -395,5 +395,6 @@ root:
         - provider: DIRECT
           entries: 
           - name: Slice
+            folder: resourcepacks
             url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
             description: Resource pack to replace system font with something better.

@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.7",
+  "version" : "2.1.7.1",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -10,7 +10,7 @@
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
   "userFiles" : {
-    "include" : [ ],
+    "include" : [ "quark.cfg" ],
     "exclude" : [ "options.txt" ]
   },
   "localDir" : "local",
@@ -82,11 +82,6 @@
     "fileID" : 2560487
   }, {
     "provider" : "CURSE",
-    "name" : "Compacter",
-    "projectID" : 231549,
-    "fileID" : 2490045
-  }, {
-    "provider" : "CURSE",
     "name" : "Cooking for Blockheads",
     "projectID" : 231484,
     "fileID" : 2565712
@@ -139,7 +134,7 @@
     "provider" : "CURSE",
     "name" : "Thermal Dynamics",
     "projectID" : 227443,
-    "fileID" : 2567426
+    "fileID" : 2569008
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Expansion",
@@ -150,16 +145,6 @@
     "name" : "Thermal Innovation",
     "projectID" : 291737,
     "fileID" : 2567269
-  }, {
-    "provider" : "CURSE",
-    "name" : "RFTools",
-    "projectID" : 224641,
-    "fileID" : 2567314
-  }, {
-    "provider" : "CURSE",
-    "name" : "RFTools Dimensions",
-    "projectID" : 240950,
-    "fileID" : 2567299
   }, {
     "provider" : "CURSE",
     "name" : "MrCrayfish's Furniture Mod",
@@ -264,12 +249,12 @@
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2568094
+    "fileID" : 2568705
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2568091
+    "fileID" : 2568704
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -279,7 +264,7 @@
     "provider" : "CURSE",
     "name" : "Hwyla",
     "projectID" : 253449,
-    "fileID" : 2545475
+    "fileID" : 2568751
   }, {
     "provider" : "CURSE",
     "name" : "Initial Inventory",
@@ -444,7 +429,7 @@
     "provider" : "CURSE",
     "name" : "Redstone Arsenal",
     "projectID" : 70631,
-    "fileID" : 2567270
+    "fileID" : 2568564
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Flux",
@@ -519,12 +504,12 @@
     "provider" : "CURSE",
     "name" : "Extreme Reactors",
     "projectID" : 250277,
-    "fileID" : 2545869
+    "fileID" : 2568534
   }, {
     "provider" : "CURSE",
     "name" : "ZeroCore",
     "projectID" : 247921,
-    "fileID" : 2545939
+    "fileID" : 2568531
   }, {
     "provider" : "CURSE",
     "name" : "Paintings ++",
@@ -604,7 +589,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2564328
+    "fileID" : 2568792
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -624,7 +609,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2567180
+    "fileID" : 2569528
   }, {
     "provider" : "CURSE",
     "name" : "Sampler",
@@ -659,7 +644,7 @@
     "provider" : "CURSE",
     "name" : "Electroblob's Wizardry",
     "projectID" : 265642,
-    "fileID" : 2551732
+    "fileID" : 2569737
   }, {
     "provider" : "CURSE",
     "name" : "Reliquary v1.3",
@@ -672,6 +657,11 @@
     "fileID" : 2525823
   }, {
     "provider" : "CURSE",
+    "name" : "Thaumcraft",
+    "projectID" : 223628,
+    "fileID" : 2569273
+  }, {
+    "provider" : "CURSE",
     "name" : "Portality",
     "projectID" : 291493,
     "fileID" : 2550191
@@ -681,9 +671,30 @@
     "projectID" : 284876,
     "fileID" : 2558528
   }, {
-    "provider" : "DIRECT",
-    "name" : "Thaumcraft",
-    "url" : "https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar"
+    "provider" : "CURSE",
+    "name" : "Stargate Atlantiscraft",
+    "projectID" : 286845,
+    "fileID" : 2567554
+  }, {
+    "provider" : "CURSE",
+    "name" : "Practical Logistics 2",
+    "projectID" : 263048,
+    "fileID" : 2569161
+  }, {
+    "provider" : "CURSE",
+    "name" : "Arcane Lamps",
+    "projectID" : 294604,
+    "fileID" : 2568383
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools",
+    "projectID" : 224641,
+    "fileID" : 2569381
+  }, {
+    "provider" : "CURSE",
+    "name" : "RFTools Dimensions",
+    "projectID" : 240950,
+    "fileID" : 2569383
   }, {
     "provider" : "DIRECT",
     "name" : "Nutrition",
@@ -715,13 +726,13 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 72
+    "buildNumber" : 76
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/GlassHearts/1.12.1",
-    "buildNumber" : 9
+    "buildNumber" : 10
   }, {
     "provider" : "JENKINS",
     "name" : "FruitPhone",
@@ -739,7 +750,7 @@
     "name" : "Correlated",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "Correlated2-Dev",
-    "buildNumber" : 104
+    "buildNumber" : 106
   }, {
     "provider" : "JENKINS",
     "name" : "ArchitectureCraft",
@@ -754,10 +765,10 @@
     "fileID" : 2535073
   }, {
     "provider" : "CURSE",
-    "name" : "Unloader",
+    "name" : "SwingThroughGrass",
     "side" : "SERVER",
-    "projectID" : 286230,
-    "fileID" : 2567366
+    "projectID" : 264353,
+    "fileID" : 2508268
   }, {
     "provider" : "CURSE",
     "name" : "MatterLink",
@@ -775,7 +786,7 @@
     "name" : "Wawla - What Are We Looking At",
     "side" : "CLIENT",
     "projectID" : 224712,
-    "fileID" : 2557776
+    "fileID" : 2569612
   }, {
     "provider" : "CURSE",
     "name" : "Waila Harvestability",
@@ -874,17 +885,16 @@
     "fileID" : 2562139
   }, {
     "provider" : "CURSE",
+    "name" : "Smooth Font",
+    "side" : "CLIENT",
+    "projectID" : 285742,
+    "fileID" : 2555298
+  }, {
+    "provider" : "CURSE",
     "name" : "Better Advancements",
     "side" : "CLIENT",
     "projectID" : 272515,
     "fileID" : 2558614
-  }, {
-    "provider" : "CURSE",
-    "name" : "Unity",
-    "folder" : "resourcepacks",
-    "side" : "CLIENT",
-    "projectID" : 222097,
-    "fileID" : 2547422
   }, {
     "provider" : "CURSE",
     "name" : "JourneyMap",
@@ -909,6 +919,18 @@
     "side" : "CLIENT",
     "projectID" : 60089,
     "fileID" : 2462627
+  }, {
+    "provider" : "CURSE",
+    "name" : "Item Scroller",
+    "side" : "CLIENT",
+    "projectID" : 242064,
+    "fileID" : 2434598
+  }, {
+    "provider" : "CURSE",
+    "name" : "Xaero's Minimap",
+    "side" : "CLIENT",
+    "projectID" : 263420,
+    "fileID" : 2543411
   }, {
     "provider" : "CURSE",
     "name" : "MineMenu",
@@ -968,13 +990,26 @@
     "name" : "Thaumic JEI",
     "side" : "CLIENT",
     "projectID" : 285492,
-    "fileID" : 2566912
+    "fileID" : 2568938
   }, {
     "provider" : "CURSE",
     "name" : "Keyboard Wizard",
     "side" : "CLIENT",
     "projectID" : 262366,
     "fileID" : 2493196
+  }, {
+    "provider" : "CURSE",
+    "name" : "Unity",
+    "folder" : "resourcepacks",
+    "side" : "CLIENT",
+    "projectID" : 222097,
+    "fileID" : 2547422
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Slice",
+    "folder" : "resourcepacks",
+    "side" : "CLIENT",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
   }, {
     "provider" : "CURSE",
     "name" : "AutoRegLib",
@@ -984,17 +1019,12 @@
     "provider" : "CURSE",
     "name" : "ConnectedTexturesMod",
     "projectID" : 267602,
-    "fileID" : 2519601
+    "fileID" : 2568996
   }, {
     "provider" : "CURSE",
     "name" : "B.A.S.E",
     "projectID" : 246996,
     "fileID" : 2561983
-  }, {
-    "provider" : "CURSE",
-    "name" : "BdLib",
-    "projectID" : 70496,
-    "fileID" : 2518031
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
@@ -1007,9 +1037,9 @@
     "fileID" : 2567555
   }, {
     "provider" : "CURSE",
-    "name" : "McJtyLib",
-    "projectID" : 233105,
-    "fileID" : 2567259
+    "name" : "BdLib",
+    "projectID" : 70496,
+    "fileID" : 2518031
   }, {
     "provider" : "CURSE",
     "name" : "MTLib",
@@ -1044,7 +1074,7 @@
     "provider" : "CURSE",
     "name" : "CoFH Core",
     "projectID" : 69162,
-    "fileID" : 2567553
+    "fileID" : 2568324
   }, {
     "provider" : "CURSE",
     "name" : "Chameleon",
@@ -1059,12 +1089,27 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2566374
+    "fileID" : 2569829
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
     "fileID" : 2567175
+  }, {
+    "provider" : "CURSE",
+    "name" : "Sonar Core",
+    "projectID" : 239418,
+    "fileID" : 2569160
+  }, {
+    "provider" : "CURSE",
+    "name" : "MCMultiPart",
+    "projectID" : 239431,
+    "fileID" : 2556409
+  }, {
+    "provider" : "CURSE",
+    "name" : "McJtyLib",
+    "projectID" : 233105,
+    "fileID" : 2569362
   }, {
     "provider" : "CURSE",
     "name" : "Shadowfacts' Forgelin",
@@ -1111,6 +1156,22 @@
       "selected" : true,
       "description" : "Add extra mouse gestures for inventories and crafting grids.",
       "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Item Scroller" ],
+    "properties" : {
+      "name" : "Item Scroller",
+      "selected" : false,
+      "description" : "Alternative to MouseTweaks"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Xaero's Minimap" ],
+    "properties" : {
+      "name" : "Xaero's Minimap",
+      "selected" : false,
+      "description" : "Lightweight alternative to JourneyMap"
     },
     "files" : { }
   }, {
@@ -1199,6 +1260,22 @@
       "name" : "Keyboard Wizard",
       "selected" : false,
       "description" : "Visual keybind editor."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Unity" ],
+    "properties" : {
+      "name" : "Unity",
+      "selected" : false,
+      "description" : "A nice, traditional-style resourcepack with support for many of our mods. Does have some minor visual bugs and is a tad heavy. Remember to apply from the main menu, and not in game!"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Slice" ],
+    "properties" : {
+      "name" : "Slice",
+      "selected" : false,
+      "description" : "Resource pack to replace system font with something better."
     },
     "files" : { }
   } ]
