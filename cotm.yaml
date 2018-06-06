@@ -106,8 +106,11 @@ root:
   - Thermal Innovation
 
   # McJTY
-  - RFTools
-  - RFTools Dimensions
+  - curseReleaseTypes: [ beta, release ]
+    # because alphas are buggy
+    entries:
+    - RFTools
+    - RFTools Dimensions
 
   # Mr_Crayfish
   - "MrCrayfish's Furniture Mod"
