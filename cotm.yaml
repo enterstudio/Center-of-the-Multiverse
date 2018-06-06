@@ -220,9 +220,7 @@ root:
   - Electroblob's Wizardry
   - Reliquary v1.3
   - CookieCore
-
-  #- Thaumcraft
-  #- version: 1.12.2-6.1.BETA13
+  - Thaumcraft
 
   # In Testing
   - Portality
@@ -238,8 +236,8 @@ root:
     entries:
   
   # Thaumcraft
-    - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
-      name: Thaumcraft 
+  #  - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
+  #    name: Thaumcraft 
 
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
@@ -290,6 +288,7 @@ root:
   - side: SERVER
     entries:
     - "BTFU continuous rsync incremental backup"
+    - SwingThroughGrass
 
     - job: elytra/MatterLink/master
       name: MatterLink
@@ -321,13 +320,6 @@ root:
 
     # Way2muchnoise
     - Better Advancements
-
- #========================#
- # Clientside - Resources #
- #========================#
-    # Unity Resource Pack
-    - name: Unity
-      side: CLIENT
 
  #=======================#
  # Clientside - Optional #
@@ -391,3 +383,17 @@ root:
 
         - name: Keyboard Wizard
           description: Visual keybind editor.
+
+ #================#
+ # Resource Packs #
+ #================#
+    # Unity Resource Pack
+        - name: Unity
+          description: "A nice, traditional-style resourcepack with support for many of our mods. Does have some minor visual bugs and is a tad heavy. Remember to apply from the main menu, and not in game!"
+
+    # Slice
+        - provider: DIRECT
+          entries: 
+        - name: Slice
+        - url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
+          description: Resource pack to replace system font with something better.
