@@ -394,6 +394,6 @@ root:
     # Slice
         - provider: DIRECT
           entries: 
-        - name: Slice
-        - url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
-          description: Resource pack to replace system font with something better.
+          - name: Slice
+            url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
+            description: Resource pack to replace system font with something better.
