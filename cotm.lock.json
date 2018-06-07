@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.7.1",
+  "version" : "2.1.7.2",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -499,7 +499,7 @@
     "provider" : "CURSE",
     "name" : "Tinkers' Tool Leveling",
     "projectID" : 250957,
-    "fileID" : 2558689
+    "fileID" : 2570118
   }, {
     "provider" : "CURSE",
     "name" : "Extreme Reactors",
@@ -589,7 +589,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2568792
+    "fileID" : 2570004
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -682,14 +682,9 @@
     "fileID" : 2569161
   }, {
     "provider" : "CURSE",
-    "name" : "Arcane Lamps",
-    "projectID" : 294604,
-    "fileID" : 2568383
-  }, {
-    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
-    "fileID" : 2569381
+    "fileID" : 2569922
   }, {
     "provider" : "CURSE",
     "name" : "RFTools Dimensions",
@@ -750,7 +745,7 @@
     "name" : "Correlated",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "Correlated2-Dev",
-    "buildNumber" : 106
+    "buildNumber" : 108
   }, {
     "provider" : "JENKINS",
     "name" : "ArchitectureCraft",
@@ -1024,7 +1019,7 @@
     "provider" : "CURSE",
     "name" : "B.A.S.E",
     "projectID" : 246996,
-    "fileID" : 2561983
+    "fileID" : 2569953
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",

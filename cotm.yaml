@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.7.1
+version: 2.1.7.2
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -227,7 +227,6 @@ root:
   - DimensionalDoors
   - Stargate Atlantiscraft
   - Practical Logistics 2
-  - Arcane Lamps
   #- The Aether II (early alpha, very unstable)
   # /In Testing
 
