@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.7.2",
+  "version" : "2.1.7.3",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -84,7 +84,7 @@
     "provider" : "CURSE",
     "name" : "Cooking for Blockheads",
     "projectID" : 231484,
-    "fileID" : 2565712
+    "fileID" : 2570612
   }, {
     "provider" : "CURSE",
     "name" : "Farming for Blockheads",
@@ -414,7 +414,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2565899
+    "fileID" : 2570594
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -677,11 +677,6 @@
     "fileID" : 2567554
   }, {
     "provider" : "CURSE",
-    "name" : "Practical Logistics 2",
-    "projectID" : 263048,
-    "fileID" : 2569161
-  }, {
-    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2569922
@@ -721,7 +716,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 76
+    "buildNumber" : 79
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -745,7 +740,7 @@
     "name" : "Correlated",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "Correlated2-Dev",
-    "buildNumber" : 108
+    "buildNumber" : 109
   }, {
     "provider" : "JENKINS",
     "name" : "ArchitectureCraft",
@@ -1019,7 +1014,7 @@
     "provider" : "CURSE",
     "name" : "B.A.S.E",
     "projectID" : 246996,
-    "fileID" : 2569953
+    "fileID" : 2570652
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
@@ -1090,16 +1085,6 @@
     "name" : "EnderCore",
     "projectID" : 231868,
     "fileID" : 2567175
-  }, {
-    "provider" : "CURSE",
-    "name" : "Sonar Core",
-    "projectID" : 239418,
-    "fileID" : 2569160
-  }, {
-    "provider" : "CURSE",
-    "name" : "MCMultiPart",
-    "projectID" : 239431,
-    "fileID" : 2556409
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",

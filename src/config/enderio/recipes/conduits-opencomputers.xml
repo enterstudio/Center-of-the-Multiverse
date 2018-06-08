@@ -25,14 +25,17 @@ XML editor will display that as tooltips when editing this file.
  -->
 
 
-  <recipe name="Filter, Species" required="false">
+
+  <recipe name="Conduit, OpenComputers" required="true">
     <crafting>
-      <grid size="3x1">
-        <item name="forestry:propolis" /><item name="enderio:item_advanced_item_filter" /><item name="forestry:propolis" />
+      <grid>
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
+        <item name="ingotIron" /><item name="ingotIron" /><item name="ingotIron" />
+        <item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" /><item name="CONDUIT_BINDER" />
       </grid>
-      <output name="enderio:item_species_item_filter" />
+      <output name="enderio:item_opencomputers_conduit" amount="8">
+      </output>
     </crafting>
   </recipe>
 
 </enderio:recipes>
- 
