@@ -24,6 +24,17 @@ if [ ! $? -eq 0 ]; then
     exit 1
 fi
 
+
+echo "copying defaultioptions to serverside"
+serverConfig="$DIR/src/config/_SERVER"
+# do not delete the old server config for now, just overwrite all files
+# rm -r $serverConfig
+mkdir -p $serverConfig
+cp -rf "$DIR/src/config/defaultoptions" $serverConfig
+rm "$serverConfig/options.txt"
+rm "$serverConfig/keybindings.txt"
+rm "$serverConfig/servers.dat"
+
 echo "Packing Server"
 java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" server
 if [ ! $? -eq 0 ]; then

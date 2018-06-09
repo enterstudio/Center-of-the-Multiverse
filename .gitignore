@@ -10,3 +10,5 @@ tome/
 .multimc/
 workspace/
 cotm.json
+
+src/config/_SERVER
