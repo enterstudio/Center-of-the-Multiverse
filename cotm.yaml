@@ -15,10 +15,10 @@ minecraftDir: src
 userFiles:
 
   include:
+  - "options.txt"
   - "quark.cfg"
 
-  exclude:
-  - "options.txt"
+  exclude: []
 
 #===========#
 # Core Pack #
