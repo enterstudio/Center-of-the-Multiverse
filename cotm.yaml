@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.7.3
+version: 2.1.7.4
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -194,13 +194,10 @@ root:
   - Paintings ++
   - Painting Selection Gui Revamped
   - Tool Belt
-  - TorchMaster 
+  - TorchMaster
   - Robotic Parts
   - ReWIRED
   - Woot
-  - Garbage Bins
-  - Land Manager
-  - Sit
   - Quick Leaf Decay
   - "Blood Magic "
   - Unlimited Chisel Works - Botany
@@ -232,10 +229,6 @@ root:
   # Direct Downloads
   - provider: DIRECT
     entries:
-  
-  # Thaumcraft
-  #  - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
-  #    name: Thaumcraft 
 
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
