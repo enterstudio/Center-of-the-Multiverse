@@ -129,6 +129,7 @@ root:
   - Charset Storage - Locks
   - CharsetPatches
   - FoamFix for Minecraft
+  - SimpleLogic
 
   - The Disenchanter Mod
   - Embers
@@ -147,7 +148,6 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  - Just Enough Torches (JET)
   - Just Enough Dimensions
   - KleeSlabs
   - Magic Bees
@@ -308,6 +308,7 @@ root:
     - Vise
     - Crafting Tweaks
     - Smooth Font
+    - MAGE
 
     # Way2muchnoise
     - Better Advancements
@@ -322,9 +323,6 @@ root:
 
         - name: JourneyMap
           description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
-
-        - name: SmoothWater
-          description: "Makes the surface of water nicer, better underwater lighting, can cost some FPS."
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
