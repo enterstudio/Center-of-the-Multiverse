@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.7.4
+version: 2.1.8
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -176,7 +176,6 @@ root:
   - RandomTweaks
   - Ranged Pumps
   - Recurrent Complex
-  - Redstone Arsenal
   - Redstone Flux
   - Roguelike Dungeons
   - Roots
