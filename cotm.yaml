@@ -44,6 +44,8 @@ root:
   # Vazkii
   - Akashic Tome
   - Botania
+  - Psi
+  - Quark
 
   # Sangar
   - Architect
@@ -130,6 +132,8 @@ root:
   - CharsetPatches
   - FoamFix for Minecraft
   - SimpleLogic
+  - Unlimited Chisel Works
+  - Unlimited Chisel Works - Botany
 
   - The Disenchanter Mod
   - Embers
@@ -168,8 +172,6 @@ root:
   - Pam's HarvestCraft
   - Passthrough Signs
   - Platforms
-  - Psi
-  - Quark
   - Random Things
   - RandomTweaks
   - Ranged Pumps
@@ -186,7 +188,6 @@ root:
   - Tails
   - TamModized
   - "[ANGRY PIXEL] The Betweenlands"
-  - Unlimited Chisel Works
   - Tinkers Construct
   - Tinkers' Tool Leveling
   - Extreme Reactors
@@ -200,7 +201,6 @@ root:
   - Woot
   - Quick Leaf Decay
   - "Blood Magic "
-  - Unlimited Chisel Works - Botany
   - ColorfulWater
   - The Erebus
   - Construct's Armory
@@ -218,8 +218,10 @@ root:
   - Reliquary v1.3
   - CookieCore
   - Thaumcraft
+  - FastWorkbench
+  - Charset Immersion
 
-  # In Testing
+  # Testing
   - Portality
   - DimensionalDoors
   - Stargate Atlantiscraft
@@ -289,7 +291,7 @@ root:
 #============#
   - side: CLIENT
     entries:
-    - "IKWID (I Know What I'm Doing)"
+    - Toast Control
     - Wawla - What Are We Looking At
     - Waila Harvestability
     - JEI Integration
@@ -308,10 +310,12 @@ root:
     - Vise
     - Crafting Tweaks
     - Smooth Font
-    - MAGE
 
     # Way2muchnoise
     - Better Advancements
+
+    # Testing
+    - Player's Choice
 
  #=======================#
  # Clientside - Optional #
@@ -323,6 +327,9 @@ root:
 
         - name: JourneyMap
           description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
+
+        - name: MAGE
+          description: "Configurable graphics enhancements."
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
