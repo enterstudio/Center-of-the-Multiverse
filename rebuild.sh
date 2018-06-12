@@ -18,14 +18,14 @@ if [ ! $? -eq 0 ]; then
 fi
 
 echo "Packing for SK"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" sk
+java -jar "$DIR/bootstrap-voodoo.jar" pack sk "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack SK"
     exit 1
 fi
 
 echo "Packing Server"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" server
+java -jar "$DIR/bootstrap-voodoo.jar" pack server "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Server"
     exit 1

@@ -18,7 +18,7 @@ if [ ! $? -eq 0 ]; then
 fi
 
 echo "Packing for SK"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" sk
+java -jar "$DIR/bootstrap-voodoo.jar" pack sk "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack SK"
     exit 1
@@ -36,21 +36,21 @@ rm "$serverConfig/keybindings.txt"
 rm "$serverConfig/servers.dat"
 
 echo "Packing Server"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" server
+java -jar "$DIR/bootstrap-voodoo.jar" pack server "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Server"
     exit 1
 fi
 
 echo "Packing MMC Instance"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" mmc
+java -jar "$DIR/bootstrap-voodoo.jar" pack mmc "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack MultiMC"
     exit 1
 fi
 
 echo "Packing Curse"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" curse
+java -jar "$DIR/bootstrap-voodoo.jar" pack curse "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Curse"
     exit 1

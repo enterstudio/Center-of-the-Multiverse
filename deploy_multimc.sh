@@ -4,7 +4,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
 echo "packing mmc instance"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" mmc
+java -jar "$DIR/bootstrap-voodoo.jar" pack mmc "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack MultiMC"
     exit 1
