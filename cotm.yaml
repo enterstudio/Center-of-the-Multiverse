@@ -130,12 +130,12 @@ root:
   - Charset Audio
   - Charset Storage - Locks
   - CharsetPatches
+  - Charset Immersion
   - FoamFix for Minecraft
   - SimpleLogic
   - Unlimited Chisel Works
   - Unlimited Chisel Works - Botany
 
-  - The Disenchanter Mod
   - Embers
   - Ender Storage 1.8.+
   - Exchangers
@@ -218,7 +218,6 @@ root:
   - CookieCore
   - Thaumcraft
   - FastWorkbench
-  - Charset Immersion
 
   # Testing
   - Portality
@@ -238,6 +237,10 @@ root:
   # Better Builder's Wands
     - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
       name: Better Builder's Wands
+
+  # Correlated 2
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.113.jar
+      name: Correlated
 
   # Jenkins Downloads      
   - provider: JENKINS
@@ -267,8 +270,8 @@ root:
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
 
-    - job: Correlated2-Dev
-      name: Correlated
+    #- job: Correlated2-Dev - Jo is private, mirroring now
+    #  name: Correlated
 
     # Darkevilmac
     - job: elytra/ArchitectureCraft/1.12
@@ -319,6 +322,8 @@ root:
  #=======================#
  # Clientside - Optional #
  #=======================#
+
+    # OPT-OUT
     - feature:
         selected: true
         recommendation: starred
@@ -336,6 +341,19 @@ root:
         - name: Mouse Tweaks
           description: "Add extra mouse gestures for inventories and crafting grids."
 
+        - name: Thaumic JEI
+          description: JEI Integration for Thaumcraft.
+
+        - name: JEI Bees
+          description: JEI Integration for Reorestry/Gendustry Bees.
+
+        - name: Just Enough HarvestCraft (JEHC)
+          description: JEI Integration for Pam's HarvestCraft.
+
+        - name: Just Enough Resources (JER)
+          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
+
+    # OPT-IN
     - feature:
         selected: false
       entries:
@@ -363,18 +381,6 @@ root:
 
         - name: Dynamic Surroundings
           description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-
-        - name: JEI Bees
-          description: JEI Integration for Reorestry/Gendustry Bees.
-
-        - name: Just Enough HarvestCraft (JEHC)
-          description: JEI Integration for Pam's HarvestCraft.
-
-        - name: Just Enough Resources (JER)
-          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
-
-        - name: Thaumic JEI
-          description: JEI Integration for Thaumcraft.
 
         - name: Keyboard Wizard
           description: Visual keybind editor.
