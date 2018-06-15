@@ -17,13 +17,25 @@ if [ ! $? -eq 0 ]; then
     exit 1
 fi
 
+echo "Generating credits"
+java -jar "$DIR/bootstrap-voodoo.jar" tome credits "$DIR/cotm.lock.json" "template/credits.md" --sort -o "$DIR/tome/credits.md"
+if [ ! $? -eq 0 ]; then
+    echo "Error in step: tome credits"
+    exit 1
+fi
+
+java -jar "$DIR/bootstrap-voodoo.jar" tome credits "$DIR/cotm.lock.json" "template/modlist.csv" --sort -o "$DIR/tome/modlist.csv"
+if [ ! $? -eq 0 ]; then
+    echo "Error in step: tome modlist"
+    exit 1
+fi
+
 echo "Packing for SK"
 java -jar "$DIR/bootstrap-voodoo.jar" pack sk "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack SK"
     exit 1
 fi
-
 
 echo "copying defaultioptions to serverside"
 serverConfig="$DIR/src/config/_SERVER"
