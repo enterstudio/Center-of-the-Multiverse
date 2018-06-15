@@ -2,7 +2,7 @@
 Authors: {{#authors}}{{toString}}, {{/authors}}
 
 {{#entries}}
-**Icon:** ![{{name}}]({{thumbnail}})
+![{{name}}]({{thumbnail}})
 **{{name}}**  \
 {{#authors}}
 **By:** {{authors}}  \
@@ -11,8 +11,7 @@ Authors: {{#authors}}{{toString}}, {{/authors}}
 **Project Page:** {{projectPage}}  \
 {{/projectPage}}
 {{#curse}}
-**License:** {{license}}  \
-
+**License:** {{license}}
 {{/curse}}
 ___
 {{/entries}}
