@@ -2,7 +2,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
-[ ! -e tome ] && mkdir tome
+mkdir -p tome
 
 echo "Generating credits"
 java -jar "$DIR/bootstrap-voodoo.jar" tome credits "template/credits.md" "$DIR/cotm.lock.json" --sort -o "$DIR/tome/credits.md"
