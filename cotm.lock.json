@@ -847,16 +847,16 @@
     "fileID" : 2555298
   }, {
     "provider" : "CURSE",
-    "name" : "Better Advancements",
-    "side" : "CLIENT",
-    "projectID" : 272515,
-    "fileID" : 2572580
-  }, {
-    "provider" : "CURSE",
     "name" : "Player's Choice",
     "side" : "CLIENT",
     "projectID" : 294419,
     "fileID" : 2572732
+  }, {
+    "provider" : "CURSE",
+    "name" : "Better Advancements",
+    "side" : "CLIENT",
+    "projectID" : 272515,
+    "fileID" : 2572580
   }, {
     "provider" : "CURSE",
     "name" : "JourneyMap",
@@ -963,7 +963,6 @@
     "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
-    "fileName" : "Unity.zip",
     "side" : "CLIENT",
     "projectID" : 222097,
     "fileID" : 2547422
@@ -1081,165 +1080,5 @@
     "projectID" : 271384,
     "fileID" : 2567263
   } ],
-  "features" : [ {
-    "entries" : [ "JourneyMap" ],
-    "properties" : {
-      "name" : "JourneyMap",
-      "selected" : true,
-      "description" : "You know what this is. Only disable if you really need to save RAM or don't like minimaps.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "MAGE" ],
-    "properties" : {
-      "name" : "MAGE",
-      "selected" : true,
-      "description" : "Configurable graphics enhancements.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Client Tweaks" ],
-    "properties" : {
-      "name" : "Client Tweaks",
-      "selected" : true,
-      "description" : "Various client related fixes and tweaks, all in a handy menu.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Mouse Tweaks" ],
-    "properties" : {
-      "name" : "Mouse Tweaks",
-      "selected" : true,
-      "description" : "Add extra mouse gestures for inventories and crafting grids.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Thaumic JEI" ],
-    "properties" : {
-      "name" : "Thaumic JEI",
-      "selected" : true,
-      "description" : "JEI Integration for Thaumcraft.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "JEI Bees" ],
-    "properties" : {
-      "name" : "JEI Bees",
-      "selected" : true,
-      "description" : "JEI Integration for Reorestry/Gendustry Bees.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Just Enough HarvestCraft (JEHC)" ],
-    "properties" : {
-      "name" : "Just Enough HarvestCraft (JEHC)",
-      "selected" : true,
-      "description" : "JEI Integration for Pam's HarvestCraft.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Just Enough Resources (JER)" ],
-    "properties" : {
-      "name" : "Just Enough Resources (JER)",
-      "selected" : true,
-      "description" : "JEI Integration that gives drop-rates for mobs, dungeonloot, etc.",
-      "recommendation" : "starred"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Item Scroller" ],
-    "properties" : {
-      "name" : "Item Scroller",
-      "selected" : false,
-      "description" : "Alternative to MouseTweaks"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Xaero's Minimap" ],
-    "properties" : {
-      "name" : "Xaero's Minimap",
-      "selected" : false,
-      "description" : "Lightweight alternative to JourneyMap"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "MineMenu" ],
-    "properties" : {
-      "name" : "MineMenu",
-      "selected" : false,
-      "description" : "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "ItemZoom" ],
-    "properties" : {
-      "name" : "ItemZoom",
-      "selected" : false,
-      "description" : "Check this if you like to get a closer look at item textures."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Light Level Overlay Reloaded" ],
-    "properties" : {
-      "name" : "Light Level Overlay Reloaded",
-      "selected" : false,
-      "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Durability Show" ],
-    "properties" : {
-      "name" : "Durability Show",
-      "selected" : false,
-      "description" : "Toggle-able item/tool/armor durability HUD"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Fancy Block Particles" ],
-    "properties" : {
-      "name" : "Fancy Block Particles",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Dynamic Surroundings" ],
-    "properties" : {
-      "name" : "Dynamic Surroundings",
-      "selected" : false,
-      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Keyboard Wizard" ],
-    "properties" : {
-      "name" : "Keyboard Wizard",
-      "selected" : false,
-      "description" : "Visual keybind editor."
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Unity" ],
-    "properties" : {
-      "name" : "Unity",
-      "selected" : false,
-      "description" : "A nice, traditional-style resourcepack with support for many of our mods. Does have some minor visual bugs and is a tad heavy. Remember to apply from the main menu, and not in game!"
-    },
-    "files" : { }
-  }, {
-    "entries" : [ "Slice" ],
-    "properties" : {
-      "name" : "Slice",
-      "selected" : false,
-      "description" : "Resource pack to replace system font with something better."
-    },
-    "files" : { }
-  } ]
+  "features" : [ ]
 }

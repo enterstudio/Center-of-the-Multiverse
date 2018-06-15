@@ -6,5 +6,4 @@
 {{#authors}}
 **Author(s):** {{authors}}
 {{/authors}}
-___
 {{/entries}}

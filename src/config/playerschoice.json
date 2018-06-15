@@ -1,13 +1,207 @@
 [
+
   {
-    "id": "example",
-    "name": "Example Mod",
-    "desc": "This is the example for a mod template. id is the mod ID, which needs to be set properly. name and desc are just for display in the GUI. website is optional for a link to the mod\u0027s website. base is whether it should come enabled by default or not.",
-    "website": "https://vazkii.us/",
-    "category": "",
+    "id": "journeymap",
+    "name": "JourneyMap",
+    "desc": "You know what this is. Only disable if you really need to save RAM or don't like minimaps.",
+    "website": "",
+    "category": "Minimap",
+    "group": "map",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "mage",
+    "name": "MAGE",
+    "desc": "Configurable graphics enhancements.",
+    "website": "",
+    "category": "Graphics",
     "group": "",
     "base": true,
     "extraMods": [],
     "copyFiles": []
+  },
+
+  {
+    "id": "clienttweaks",
+    "name": "Client Tweaks",
+    "desc": "Various client related fixes and tweaks, all in a handy menu.",
+    "website": "",
+    "category": "Misc.",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "mousetweaks",
+    "name": "Mouse Tweaks",
+    "desc": "Add extra mouse gestures for inventories and crafting grids.",
+    "website": "",
+    "category": "Mouse",
+    "group": "mouse",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "thaumicjei",
+    "name": "Thaumic JEI",
+    "desc": "JEI Integration for Thaumcraft.",
+    "website": "",
+    "category": "JEI Integrations",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "jeibees",
+    "name": "JEI Bees",
+    "desc": "JEI Integration for Reorestry/Gendustry Bees.",
+    "website": "",
+    "category": "JEI Integrations",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "jehc",
+    "name": "Just Enough HarvestCraft (JEHC)",
+    "desc": "JEI Integration for Pam's HarvestCraft.",
+    "website": "",
+    "category": "JEI Integrations",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "jeresources",
+    "name": "Just Enough Resources (JER)",
+    "desc": "JEI Integration that gives drop-rates for mobs, dungeonloot, etc.",
+    "website": "",
+    "category": "JEI Integrations",
+    "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "itemscroller",
+    "name": "Item Scroller",
+    "desc": "Alternative to MouseTweaks",
+    "website": "",
+    "category": "Mouse",
+    "group": "mouse",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "xaerominimap",
+    "name": "Xaero's Minimap",
+    "desc": "Lightweight alternative to JourneyMap",
+    "website": "",
+    "category": "Minimap",
+    "group": "map",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "minemenu",
+    "name": "MineMenu",
+    "desc": "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu.",
+    "website": "",
+    "category": "HUD",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "itemzoom",
+    "name": "ItemZoom",
+    "desc": "Check this if you like to get a closer look at item textures.",
+    "website": "",
+    "category": "HUD",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "llor",
+    "name": "Light Level Overlay Reloaded",
+    "desc": "Smol light-level overlay if you aren't using Dynamic Surroundings.",
+    "website": "",
+    "category": "HUD",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "durabilityshow",
+    "name": "Durability Show",
+    "desc": "Toggle-able item/tool/armor durability HUD",
+    "website": "",
+    "category": "HUD",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "fbp",
+    "name": "Fancy Block Particles",
+    "desc": "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps.",
+    "website": "",
+    "category": "Graphics",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "dsurround",
+    "name": "Dynamic Surroundings",
+    "desc": "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay.",
+    "website": "",
+    "category": "Graphics",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "keywizard",
+    "name": "Keyboard Wizard",
+    "desc": "Visual keybind editor.",
+    "website": "",
+    "category": "Misc.",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
   }
+
 ]
