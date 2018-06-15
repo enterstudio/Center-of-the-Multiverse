@@ -52,7 +52,7 @@ root:
   - Bedrock Ores
 
   # HellFirePvP
-  - Astral Sorcery
+  #- Astral Sorcery (current release crashing client)
 
   # Azanor
   - Baubles
@@ -171,7 +171,7 @@ root:
   - Passthrough Signs
   - Platforms
   - Random Things
-  - RandomTweaks
+  #- RandomTweaks (current release crashing client, mirroring 2.0.0)
   - Ranged Pumps
   - Recurrent Complex
   - Redstone Flux
@@ -235,8 +235,16 @@ root:
       name: Better Builder's Wands
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.114.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar
       name: Correlated
+
+  # RandomTweaks
+    - url: https://centerofthemultiverse.net/launcher/mirror/randomtweaks-1.12.2-2.0.0.0.jar
+      name: RandomTweaks
+
+  # Astral Sorcery
+    - url: https://centerofthemultiverse.net/launcher/mirror/astralsorcery-1.12.2-1.8.10.jar
+      name: Astral Sorcery
 
   # Jenkins Downloads      
   - provider: JENKINS
@@ -266,7 +274,7 @@ root:
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
 
-    #- job: Correlated2-Dev - Jo is private, mirroring now
+    #- job: Correlated2-Dev - Job is private, mirroring now
     #  name: Correlated
 
     # Darkevilmac

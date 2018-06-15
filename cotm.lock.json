@@ -47,11 +47,6 @@
     "fileID" : 2526145
   }, {
     "provider" : "CURSE",
-    "name" : "Astral Sorcery",
-    "projectID" : 241721,
-    "fileID" : 2572127
-  }, {
-    "provider" : "CURSE",
     "name" : "Baubles",
     "projectID" : 227083,
     "fileID" : 2518667
@@ -412,11 +407,6 @@
     "fileID" : 2565288
   }, {
     "provider" : "CURSE",
-    "name" : "RandomTweaks",
-    "projectID" : 258205,
-    "fileID" : 2571901
-  }, {
-    "provider" : "CURSE",
     "name" : "Ranged Pumps",
     "projectID" : 247496,
     "fileID" : 2441326
@@ -666,7 +656,15 @@
   }, {
     "provider" : "DIRECT",
     "name" : "Correlated",
-    "url" : "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.114.jar"
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "RandomTweaks",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/randomtweaks-1.12.2-2.0.0.0.jar"
+  }, {
+    "provider" : "DIRECT",
+    "name" : "Astral Sorcery",
+    "url" : "https://centerofthemultiverse.net/launcher/mirror/astralsorcery-1.12.2-1.8.10.jar"
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
