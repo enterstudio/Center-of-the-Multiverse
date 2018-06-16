@@ -246,6 +246,10 @@ root:
     - url: https://centerofthemultiverse.net/launcher/mirror/astralsorcery-1.12.2-1.8.10.jar
       name: Astral Sorcery
 
+  # Shadowfacts' Forgelin
+    - url: https://centerofthemultiverse.net/launcher/mirror/Forgelin-1.7.2.jar
+      name: Shadowfacts' Forgelin
+
   # Jenkins Downloads      
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
