@@ -3,7 +3,7 @@
   {
     "id": "journeymap",
     "name": "JourneyMap",
-    "desc": "You know what this is. Only disable if you really need to save RAM or don't like minimaps.",
+    "desc": "Minimap, waypoints, mod integration.",
     "website": "",
     "category": "Minimap",
     "group": "map",
@@ -63,7 +63,7 @@
   {
     "id": "jeibees",
     "name": "JEI Bees",
-    "desc": "JEI Integration for Reorestry/Gendustry Bees.",
+    "desc": "JEI Integration for Forestry/Gendustry Bees.",
     "website": "",
     "category": "JEI Integrations",
     "group": "",
@@ -91,6 +91,18 @@
     "website": "",
     "category": "JEI Integrations",
     "group": "",
+    "base": true,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "neat",
+    "name": "Neat",
+    "desc": "Minimal Health an unit frames. Only disable this if using RPG-HUD or you don't like Neat (for whatever reason)",
+    "website": "",
+    "category": "HUD",
+    "group": "hud",
     "base": true,
     "extraMods": [],
     "copyFiles": []
@@ -199,6 +211,30 @@
     "website": "",
     "category": "Misc.",
     "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "betterfoilage",
+    "name": "Better Foliage",
+    "desc": "WARNING: FPS HOG *use at your own risk* - As the name implies, makes the fauna of the world 'better'.",
+    "website": "",
+    "category": "Graphics",
+    "group": "",
+    "base": false,
+    "extraMods": [],
+    "copyFiles": []
+  },
+
+  {
+    "id": "rpghud",
+    "name": "RPG-HUD",
+    "desc": "Highly configurable HUD, has a bit of a learning curve.",
+    "website": "",
+    "category": "HUD",
+    "group": "hud",
     "base": false,
     "extraMods": [],
     "copyFiles": []

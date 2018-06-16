@@ -52,7 +52,7 @@ root:
   - Bedrock Ores
 
   # HellFirePvP
-  #- Astral Sorcery (current release crashing client)
+  #- Astral Sorcery
   - name: Astral Sorcery
     version: 1.8.10
   
@@ -173,9 +173,7 @@ root:
   - Passthrough Signs
   - Platforms
   - Random Things
-  #- RandomTweaks (current release crashing client)
-  - name: RandomTweaks
-    version: 2.0.0.0
+  - RandomTweaks
   - Ranged Pumps
   - Recurrent Complex
   - Redstone Flux
@@ -279,8 +277,7 @@ root:
 #============#
   - side: SERVER
     entries:
-    - name: Shadowfacts' Forgelin
-      version: 1.7.2
+    - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
 
@@ -305,7 +302,6 @@ root:
     - Default Options
     - Fullscreen Windowed (Borderless) for Minecraft
     - Mod Name Tooltip
-    - Neat
     - ReAuth
     - CleanView
     - Vise
@@ -334,6 +330,9 @@ root:
     - Fancy Block Particles
     - Dynamic Surroundings
     - Keyboard Wizard
+    - Better Foliage
+    - "RPG-Hud"
+    - Neat
 
  #================#
  # Resource Packs #

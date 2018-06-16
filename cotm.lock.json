@@ -5,7 +5,6 @@
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
-  "curseMetaUrl" : "https://curse.nikky.moe/api",
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
@@ -34,7 +33,7 @@
     "provider" : "CURSE",
     "name" : "Quark",
     "projectID" : 243121,
-    "fileID" : 2571996
+    "fileID" : 2573421
   }, {
     "provider" : "CURSE",
     "name" : "Architect",
@@ -74,7 +73,7 @@
     "provider" : "CURSE",
     "name" : "Chisels & Bits",
     "projectID" : 231095,
-    "fileID" : 2563888
+    "fileID" : 2573151
   }, {
     "provider" : "CURSE",
     "name" : "Clumps",
@@ -269,7 +268,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2572852
+    "fileID" : 2573329
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -414,7 +413,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2570594
+    "fileID" : 2572906
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -559,7 +558,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2572146
+    "fileID" : 2573140
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -691,7 +690,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 87
+    "buildNumber" : 89
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -721,7 +720,7 @@
     "name" : "Shadowfacts' Forgelin",
     "side" : "SERVER",
     "projectID" : 248453,
-    "fileID" : 2571478
+    "fileID" : 2573311
   }, {
     "provider" : "CURSE",
     "name" : "BTFU continuous rsync incremental backup",
@@ -818,12 +817,6 @@
     "side" : "CLIENT",
     "projectID" : 238747,
     "fileID" : 2486868
-  }, {
-    "provider" : "CURSE",
-    "name" : "Neat",
-    "side" : "CLIENT",
-    "projectID" : 238372,
-    "fileID" : 2571056
   }, {
     "provider" : "CURSE",
     "name" : "ReAuth",
@@ -970,6 +963,24 @@
     "fileID" : 2493196
   }, {
     "provider" : "CURSE",
+    "name" : "Better Foliage",
+    "side" : "CLIENT",
+    "projectID" : 228529,
+    "fileID" : 2478147
+  }, {
+    "provider" : "CURSE",
+    "name" : "RPG-Hud",
+    "side" : "CLIENT",
+    "projectID" : 235670,
+    "fileID" : 2483068
+  }, {
+    "provider" : "CURSE",
+    "name" : "Neat",
+    "side" : "CLIENT",
+    "projectID" : 238372,
+    "fileID" : 2571056
+  }, {
+    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
     "side" : "CLIENT",
@@ -985,7 +996,7 @@
     "provider" : "CURSE",
     "name" : "AutoRegLib",
     "projectID" : 250363,
-    "fileID" : 2557287
+    "fileID" : 2573417
   }, {
     "provider" : "CURSE",
     "name" : "ConnectedTexturesMod",
