@@ -7,5 +7,10 @@ _upload/
 tome/
 *.zip
 .server/
+.multimc/
+.history/
 workspace/
 cotm.json
+cotm.changelog.md
+
+src/config/_SERVER

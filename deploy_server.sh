@@ -3,8 +3,18 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 cd $DIR
 
+echo "copying defaultioptions to serverside"
+serverConfig="$DIR/src/config/_SERVER"
+# do not delete the old server config for now, just overwrite all files
+mkdir -p $serverConfig/..
+rm -r $serverConfig
+cp -rfT "$DIR/src/config/defaultoptions" $serverConfig
+rm "$serverConfig/options.txt"
+rm "$serverConfig/keybindings.txt"
+rm "$serverConfig/servers.dat"
+
 echo "packing server"
-java -jar "$DIR/bootstrap-voodoo.jar" pack "$DIR/cotm.lock.json" server
+java -jar "$DIR/bootstrap-voodoo.jar" pack server "$DIR/cotm.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Server"
     exit 1

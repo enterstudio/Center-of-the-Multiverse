@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.7
+version: 2.1.8
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -14,11 +14,12 @@ minecraftDir: src
 #================#
 userFiles:
 
-  include: []
-
-  exclude:
+  include:
   - "options.txt"
-   
+  - "quark.cfg"
+
+  exclude: []
+
 #===========#
 # Core Pack #
 #===========#
@@ -43,14 +44,18 @@ root:
   # Vazkii
   - Akashic Tome
   - Botania
+  - Psi
+  - Quark
 
   # Sangar
   - Architect
   - Bedrock Ores
 
   # HellFirePvP
-  - Astral Sorcery
-
+  #- Astral Sorcery
+  - name: Astral Sorcery
+    version: 1.8.10
+  
   # Azanor
   - Baubles
 
@@ -72,9 +77,6 @@ root:
   # TheIllusiveC4
   - Colytra
   - Comforts
-
-  # bdew
-  - Compacter
 
   # BlayTheNinth
   - Cooking for Blockheads
@@ -108,8 +110,11 @@ root:
   - Thermal Innovation
 
   # McJTY
-  - RFTools
-  - RFTools Dimensions
+  - curseReleaseTypes: [ beta, release ]
+    # because alphas are buggy
+    entries:
+    - RFTools
+    - RFTools Dimensions
 
   # Mr_Crayfish
   - "MrCrayfish's Furniture Mod"
@@ -127,9 +132,12 @@ root:
   - Charset Audio
   - Charset Storage - Locks
   - CharsetPatches
+  - Charset Immersion
   - FoamFix for Minecraft
+  - SimpleLogic
+  - Unlimited Chisel Works
+  - Unlimited Chisel Works - Botany
 
-  - The Disenchanter Mod
   - Embers
   - Ender Storage 1.8.+
   - Exchangers
@@ -146,15 +154,12 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  - Just Enough Torches (JET)
   - Just Enough Dimensions
   - KleeSlabs
   - Magic Bees
-  - Magic Feather
   - MalisisDoors
   - Mob Grinding Utils
   - ModTweaker
-  - More Bees
   - Natura
   - Nature's Compass
   - NetherEx
@@ -167,13 +172,10 @@ root:
   - Pam's HarvestCraft
   - Passthrough Signs
   - Platforms
-  - Psi
-  - Quark
   - Random Things
   - RandomTweaks
   - Ranged Pumps
   - Recurrent Complex
-  - Redstone Arsenal
   - Redstone Flux
   - Roguelike Dungeons
   - Roots
@@ -185,7 +187,6 @@ root:
   - Tails
   - TamModized
   - "[ANGRY PIXEL] The Betweenlands"
-  - Unlimited Chisel Works
   - Tinkers Construct
   - Tinkers' Tool Leveling
   - Extreme Reactors
@@ -193,16 +194,12 @@ root:
   - Paintings ++
   - Painting Selection Gui Revamped
   - Tool Belt
-  - TorchMaster 
+  - TorchMaster
   - Robotic Parts
   - ReWIRED
   - Woot
-  - Garbage Bins
-  - Land Manager
-  - Sit
   - Quick Leaf Decay
   - "Blood Magic "
-  - Unlimited Chisel Works - Botany
   - ColorfulWater
   - The Erebus
   - Construct's Armory
@@ -211,7 +208,6 @@ root:
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
   - Sampler
-  - Morpheus
   - Waystones
   - Aether Legacy
   - Corpse Complex
@@ -220,31 +216,26 @@ root:
   - Electroblob's Wizardry
   - Reliquary v1.3
   - CookieCore
-
-  #- Thaumcraft
-  #- version: 1.12.2-6.1.BETA13
-
-  # In Testing
+  - Thaumcraft
+  - FastWorkbench
   - Portality
   - DimensionalDoors
-  #- The Aether II (early alpha, very unstable)
-  # /In Testing
+  - "Better Builder's Wands"
 
+  # Testing
+  #- The Aether II (early alpha, very unstable)
+  
   # Direct Downloads
   - provider: DIRECT
     entries:
-  
-  # Thaumcraft
-    - url: https://centerofthemultiverse.net/launcher/mirror/Thaumcraft-1.12.2-6.1.BETA13.jar
-      name: Thaumcraft 
 
   # Nutrition
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
       name: Nutrition 
 
-  # Better Builder's Wands
-    - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
-      name: Better Builder's Wands
+  # Correlated 2
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar
+      name: Correlated
 
   # Jenkins Downloads      
   - provider: JENKINS
@@ -274,8 +265,8 @@ root:
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
 
-    - job: Correlated2-Dev
-      name: Correlated
+    #- job: Correlated2-Dev - Job is private, mirroring now
+    #  name: Correlated
 
     # Darkevilmac
     - job: elytra/ArchitectureCraft/1.12
@@ -286,8 +277,9 @@ root:
 #============#
   - side: SERVER
     entries:
+    - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
-    - Unloader
+    - SwingThroughGrass
 
     - job: elytra/MatterLink/master
       name: MatterLink
@@ -297,7 +289,7 @@ root:
 #============#
   - side: CLIENT
     entries:
-    - "IKWID (I Know What I'm Doing)"
+    - Toast Control
     - Wawla - What Are We Looking At
     - Waila Harvestability
     - JEI Integration
@@ -310,75 +302,47 @@ root:
     - Default Options
     - Fullscreen Windowed (Borderless) for Minecraft
     - Mod Name Tooltip
-    - Neat
     - ReAuth
     - CleanView
     - Vise
     - Crafting Tweaks
+    - Smooth Font
+    - Player's Choice
 
     # Way2muchnoise
     - Better Advancements
 
- #========================#
- # Clientside - Resources #
- #========================#
+    # Client Mods handled by Player's Choice
+    - JourneyMap
+    - MAGE
+    - Client Tweaks
+    - Mouse Tweaks
+    - Thaumic JEI
+    - JEI Bees
+    - Just Enough HarvestCraft (JEHC)
+    - Just Enough Resources (JER)
+    - Item Scroller
+    - Xaero's Minimap
+    - MineMenu
+    - ItemZoom
+    - Light Level Overlay Reloaded
+    - Durability Show
+    - Fancy Block Particles
+    - Dynamic Surroundings
+    - Keyboard Wizard
+    - Better Foliage
+    - "RPG-Hud"
+    - Neat
+
+ #================#
+ # Resource Packs #
+ #================#
     # Unity Resource Pack
-    - name: Unity
-      side: CLIENT
-
- #=======================#
- # Clientside - Optional #
- #=======================#
-    - feature:
-        selected: true
-        recommendation: starred
-      entries:
-
-        - name: JourneyMap
-          description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
-
-        - name: SmoothWater
-          description: "Makes the surface of water nicer, better underwater lighting, can cost some FPS."
-
-        - name: Client Tweaks
-          description: "Various client related fixes and tweaks, all in a handy menu."
-
-        - name: Mouse Tweaks
-          description: "Add extra mouse gestures for inventories and crafting grids."
-
-    - feature:
-        selected: false
-      entries:
-
-        - name: MineMenu
-          description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
-
-        - name: ItemZoom
-          description: "Check this if you like to get a closer look at item textures."
-
-        - name: Light Level Overlay Reloaded
-          description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
-
-        - name: Durability Show
-          description: Toggle-able item/tool/armor durability HUD
-
-        - name: Fancy Block Particles
-          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
-
-        - name: Dynamic Surroundings
-          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-
-        - name: JEI Bees
-          description: JEI Integration for Reorestry/Gendustry Bees.
-
-        - name: Just Enough HarvestCraft (JEHC)
-          description: JEI Integration for Pam's HarvestCraft.
-
-        - name: Just Enough Resources (JER)
-          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
-
-        - name: Thaumic JEI
-          description: JEI Integration for Thaumcraft.
-
-        - name: Keyboard Wizard
-          description: Visual keybind editor.
+    - Unity
+         
+    # Slice
+    - provider: DIRECT
+      entries: 
+      - name: Slice
+        folder: resourcepacks
+        url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip

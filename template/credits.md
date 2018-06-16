@@ -1,18 +1,9 @@
-{{title}}
-Authors: {{#authors}}{{toString}}, {{/authors}}
+# {{title}}
+**Authors:** {{#authors}}{{toString}}, {{/authors}}
 
 {{#entries}}
-**{{name}}**  \
+<img src="{{thumbnail}}" width=100 style="margin:0;margin-right:16px">[**{{name}}**]({{projectPage}})  \
 {{#authors}}
-**By:** {{authors}}  \
+**Author(s):** {{authors}}
 {{/authors}}
-{{#projectPage}}
-**Project Page:** {{projectPage}}  \
-{{/projectPage}}
-{{#curse}}
-**License:** {{license}}  \
-**Icon:** ![{{name}}]({{thumbnail}})
-
-{{/curse}}
-___
 {{/entries}}
