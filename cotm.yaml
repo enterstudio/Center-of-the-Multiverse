@@ -53,7 +53,9 @@ root:
 
   # HellFirePvP
   #- Astral Sorcery (current release crashing client)
-
+  - name: Astral Sorcery
+    version: 1.8.10
+  
   # Azanor
   - Baubles
 
@@ -171,7 +173,9 @@ root:
   - Passthrough Signs
   - Platforms
   - Random Things
-  #- RandomTweaks (current release crashing client, mirroring 2.0.0)
+  #- RandomTweaks (current release crashing client)
+  - name: RandomTweaks
+    version: 2.0.0.0
   - Ranged Pumps
   - Recurrent Complex
   - Redstone Flux
@@ -218,6 +222,7 @@ root:
   - FastWorkbench
   - Portality
   - DimensionalDoors
+  - "Better Builder's Wands"
 
   # Testing
   #- The Aether II (early alpha, very unstable)
@@ -230,25 +235,9 @@ root:
     - url: https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar
       name: Nutrition 
 
-  # Better Builder's Wands
-    - url: https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
-      name: Better Builder's Wands
-
   # Correlated 2
     - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar
       name: Correlated
-
-  # RandomTweaks
-    - url: https://centerofthemultiverse.net/launcher/mirror/randomtweaks-1.12.2-2.0.0.0.jar
-      name: RandomTweaks
-
-  # Astral Sorcery
-    - url: https://centerofthemultiverse.net/launcher/mirror/astralsorcery-1.12.2-1.8.10.jar
-      name: Astral Sorcery
-
-  # Shadowfacts' Forgelin
-    - url: https://centerofthemultiverse.net/launcher/mirror/Forgelin-1.7.2.jar
-      name: Shadowfacts' Forgelin
 
   # Jenkins Downloads      
   - provider: JENKINS
@@ -290,6 +279,8 @@ root:
 #============#
   - side: SERVER
     entries:
+    - name: Shadowfacts' Forgelin
+      version: 1.7.2
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
 

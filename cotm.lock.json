@@ -47,6 +47,11 @@
     "fileID" : 2526145
   }, {
     "provider" : "CURSE",
+    "name" : "Astral Sorcery",
+    "projectID" : 241721,
+    "fileID" : 2559238
+  }, {
+    "provider" : "CURSE",
     "name" : "Baubles",
     "projectID" : 227083,
     "fileID" : 2518667
@@ -407,6 +412,11 @@
     "fileID" : 2565288
   }, {
     "provider" : "CURSE",
+    "name" : "RandomTweaks",
+    "projectID" : 258205,
+    "fileID" : 2570594
+  }, {
+    "provider" : "CURSE",
     "name" : "Ranged Pumps",
     "projectID" : 247496,
     "fileID" : 2441326
@@ -637,6 +647,11 @@
     "fileID" : 2558528
   }, {
     "provider" : "CURSE",
+    "name" : "Better Builder's Wands",
+    "projectID" : 238403,
+    "fileID" : 2443194
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2572230
@@ -651,20 +666,8 @@
     "url" : "https://github.com/WesCook/Nutrition/releases/download/v3.4.0/Nutrition-1.12.2-3.4.0.jar"
   }, {
     "provider" : "DIRECT",
-    "name" : "Better Builder's Wands",
-    "url" : "https://centerofthemultiverse.net/launcher/mirror/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
-  }, {
-    "provider" : "DIRECT",
     "name" : "Correlated",
     "url" : "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar"
-  }, {
-    "provider" : "DIRECT",
-    "name" : "RandomTweaks",
-    "url" : "https://centerofthemultiverse.net/launcher/mirror/randomtweaks-1.12.2-2.0.0.0.jar"
-  }, {
-    "provider" : "DIRECT",
-    "name" : "Astral Sorcery",
-    "url" : "https://centerofthemultiverse.net/launcher/mirror/astralsorcery-1.12.2-1.8.10.jar"
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -713,6 +716,12 @@
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/ArchitectureCraft/1.12",
     "buildNumber" : 63
+  }, {
+    "provider" : "CURSE",
+    "name" : "Shadowfacts' Forgelin",
+    "side" : "SERVER",
+    "projectID" : 248453,
+    "fileID" : 2571478
   }, {
     "provider" : "CURSE",
     "name" : "BTFU continuous rsync incremental backup",
@@ -1057,12 +1066,6 @@
     "name" : "McJtyLib",
     "projectID" : 233105,
     "fileID" : 2572061
-  }, {
-    "provider" : "CURSE",
-    "name" : "Shadowfacts' Forgelin",
-    "side" : "SERVER",
-    "projectID" : 248453,
-    "fileID" : 2572751
   }, {
     "provider" : "CURSE",
     "name" : "Placebo",
