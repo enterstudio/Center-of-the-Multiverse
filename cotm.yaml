@@ -338,8 +338,9 @@ root:
  # Resource Packs #
  #================#
     # Unity Resource Pack
-    - Unity
-         
+    - name: Unity
+      filename: Unity.zip
+      
     # Slice
     - provider: DIRECT
       entries: 
