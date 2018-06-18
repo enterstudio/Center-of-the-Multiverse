@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8
+version: 2.1.8.1
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -218,9 +218,9 @@ root:
   - CookieCore
   - Thaumcraft
   - FastWorkbench
-  - Portality
   - DimensionalDoors
   - "Better Builder's Wands"
+  - LagGoggles
 
   # Testing
   #- The Aether II (early alpha, very unstable)
@@ -312,31 +312,9 @@ root:
     # Way2muchnoise
     - Better Advancements
 
-    # Client Mods handled by Player's Choice
-    - JourneyMap
-    - MAGE
-    - Client Tweaks
-    - Mouse Tweaks
-    - Thaumic JEI
-    - JEI Bees
-    - Just Enough HarvestCraft (JEHC)
-    - Just Enough Resources (JER)
-    - Item Scroller
-    - Xaero's Minimap
-    - MineMenu
-    - ItemZoom
-    - Light Level Overlay Reloaded
-    - Durability Show
-    - Fancy Block Particles
-    - Dynamic Surroundings
-    - Keyboard Wizard
-    - Better Foliage
-    - "RPG-Hud"
-    - Neat
-
- #================#
- # Resource Packs #
- #================#
+#================#
+# Resource Packs #
+#================#
     # Unity Resource Pack
     - name: Unity
       filename: Unity.zip
@@ -347,3 +325,75 @@ root:
       - name: Slice
         folder: resourcepacks
         url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
+
+#=======================#
+# Clientside - Optional #
+#=======================#
+
+    # OPT-OUT
+    - feature:
+        selected: true
+        recommendation: starred
+      entries:
+
+        - name: JourneyMap
+          description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
+
+        - name: MAGE
+          description: "Configurable graphics enhancements."
+
+        - name: Neat
+          description: Simple Health and Unit Frame
+
+        - name: Client Tweaks
+          description: "Various client related fixes and tweaks, all in a handy menu."
+
+        - name: Mouse Tweaks
+          description: "Add extra mouse gestures for inventories and crafting grids."
+
+        - name: Thaumic JEI
+          description: JEI Integration for Thaumcraft.
+
+        - name: JEI Bees
+          description: JEI Integration for Reorestry/Gendustry Bees.
+
+        - name: Just Enough HarvestCraft (JEHC)
+          description: JEI Integration for Pam's HarvestCraft.
+
+        - name: Just Enough Resources (JER)
+          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
+
+    # OPT-IN
+    - feature:
+        selected: false
+      entries:
+
+        - name: Item Scroller
+          description: Alternative to MouseTweaks
+
+        - name: Xaero's Minimap
+          description: Lightweight alternative to JourneyMap
+
+        - name: MineMenu
+          description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+
+        - name: ItemZoom
+          description: "Check this if you like to get a closer look at item textures."
+
+        - name: Light Level Overlay Reloaded
+          description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
+
+        - name: Durability Show
+          description: Toggle-able item/tool/armor durability HUD
+
+        - name: Fancy Block Particles
+          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+
+        - name: Dynamic Surroundings
+          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+
+        - name: "RPG-Hud"
+          description: Highly configurable HUD - heavier alt to Neat
+
+        - name: Better Foliage
+          description: Very heavy, but very pretty.
