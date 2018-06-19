@@ -221,9 +221,6 @@ root:
   - DimensionalDoors
   - "Better Builder's Wands"
   - LagGoggles
-
-  # Testing
-  #- The Aether II (early alpha, very unstable)
   
   # Direct Downloads
   - provider: DIRECT
@@ -275,6 +272,7 @@ root:
 #============#
 # Serverside #
 #============#
+
   - side: SERVER
     entries:
     - "Shadowfacts' Forgelin"
@@ -287,6 +285,7 @@ root:
 #============#
 # Clientside #
 #============#
+
   - side: CLIENT
     entries:
     - Toast Control
@@ -304,27 +303,11 @@ root:
     - Mod Name Tooltip
     - ReAuth
     - CleanView
-    - Vise
     - Crafting Tweaks
     - Smooth Font
-    - Player's Choice
 
     # Way2muchnoise
     - Better Advancements
-
-#================#
-# Resource Packs #
-#================#
-    # Unity Resource Pack
-    - name: Unity
-      filename: Unity.zip
-      
-    # Slice
-    - provider: DIRECT
-      entries: 
-      - name: Slice
-        folder: resourcepacks
-        url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
 
 #=======================#
 # Clientside - Optional #
@@ -363,6 +346,9 @@ root:
         - name: Just Enough Resources (JER)
           description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
 
+        - name: Vise
+          description: "More granular control over UI/HUD elements."
+
     # OPT-IN
     - feature:
         selected: false
@@ -384,7 +370,7 @@ root:
           description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
 
         - name: Durability Show
-          description: Toggle-able item/tool/armor durability HUD
+          description: "Toggle-able item/tool/armor durability HUD"
 
         - name: Fancy Block Particles
           description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
@@ -393,7 +379,24 @@ root:
           description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
 
         - name: "RPG-Hud"
-          description: Highly configurable HUD - heavier alt to Neat
+          description: "Highly configurable HUD - heavier alt to Neat"
 
         - name: Better Foliage
-          description: Very heavy, but very pretty.
+          description: "Improves the fauna in the world. Very heavy, but very pretty."
+
+#================#
+# Resource Packs #
+#================#
+
+    # Unity Resource Pack
+    - name: Unity
+      filename: Unity.zip
+      description: "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+      
+    # Slice
+    - provider: DIRECT
+      entries: 
+      - name: Slice
+        description: "Custom clinet font based off of Chicago. Made by Falkreon."
+        folder: resourcepacks
+        url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
