@@ -304,7 +304,6 @@ root:
     - ReAuth
     - CleanView
     - Crafting Tweaks
-    - Smooth Font
 
     # Way2muchnoise
     - Better Advancements
@@ -320,13 +319,13 @@ root:
       entries:
 
         - name: JourneyMap
-          description: "You know what this is. Only disable if you really need to save RAM or don't like minimaps."
+          description: "Mod-compatible mini-map."
 
         - name: MAGE
           description: "Configurable graphics enhancements."
 
         - name: Neat
-          description: Simple Health and Unit Frame
+          description: "Simple health and unit frames."
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
@@ -335,19 +334,22 @@ root:
           description: "Add extra mouse gestures for inventories and crafting grids."
 
         - name: Thaumic JEI
-          description: JEI Integration for Thaumcraft.
+          description: "JEI Integration for Thaumcraft."
 
         - name: JEI Bees
-          description: JEI Integration for Reorestry/Gendustry Bees.
+          description: "JEI Integration for Reorestry/Gendustry Bees."
 
         - name: Just Enough HarvestCraft (JEHC)
-          description: JEI Integration for Pam's HarvestCraft.
+          description: "JEI Integration for Pam's HarvestCraft."
 
         - name: Just Enough Resources (JER)
-          description: JEI Integration that gives drop-rates for mobs, dungeonloot, etc.
+          description: "JEI Integration that gives drop-rates for mobs, dungeonloot, etc."
 
         - name: Vise
           description: "More granular control over UI/HUD elements."
+
+        - name: Smooth Font
+          description: "It smoothes fonts."
 
     # OPT-IN
     - feature:
