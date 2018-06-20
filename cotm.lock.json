@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8",
+  "version" : "2.1.8.5",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -63,7 +63,7 @@
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
     "projectID" : 223525,
-    "fileID" : 2559039
+    "fileID" : 2574692
   }, {
     "provider" : "CURSE",
     "name" : "Chisel",
@@ -79,11 +79,6 @@
     "name" : "Clumps",
     "projectID" : 256717,
     "fileID" : 2458862
-  }, {
-    "provider" : "CURSE",
-    "name" : "Colytra",
-    "projectID" : 280200,
-    "fileID" : 2512874
   }, {
     "provider" : "CURSE",
     "name" : "Comforts",
@@ -268,17 +263,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2573329
+    "fileID" : 2574400
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2570799
+    "fileID" : 2574530
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2570798
+    "fileID" : 2574528
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -303,7 +298,7 @@
     "provider" : "CURSE",
     "name" : "Iron Chests",
     "projectID" : 228756,
-    "fileID" : 2550378
+    "fileID" : 2573525
   }, {
     "provider" : "CURSE",
     "name" : "Redstone Paste",
@@ -318,7 +313,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Dimensions",
     "projectID" : 254317,
-    "fileID" : 2566498
+    "fileID" : 2574285
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -408,7 +403,7 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2565288
+    "fileID" : 2574062
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
@@ -478,7 +473,7 @@
     "provider" : "CURSE",
     "name" : "[ANGRY PIXEL] The Betweenlands",
     "projectID" : 243363,
-    "fileID" : 2555385
+    "fileID" : 2574606
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
@@ -573,7 +568,7 @@
     "provider" : "CURSE",
     "name" : "Bad Wither No Cookie - Reloaded",
     "projectID" : 261251,
-    "fileID" : 2496784
+    "fileID" : 2574107
   }, {
     "provider" : "CURSE",
     "name" : "Ender IO",
@@ -636,11 +631,6 @@
     "fileID" : 2568496
   }, {
     "provider" : "CURSE",
-    "name" : "Portality",
-    "projectID" : 291493,
-    "fileID" : 2550191
-  }, {
-    "provider" : "CURSE",
     "name" : "DimensionalDoors",
     "projectID" : 284876,
     "fileID" : 2558528
@@ -651,9 +641,14 @@
     "fileID" : 2443194
   }, {
     "provider" : "CURSE",
+    "name" : "LagGoggles",
+    "projectID" : 283525,
+    "fileID" : 2536205
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
-    "fileID" : 2572230
+    "fileID" : 2574699
   }, {
     "provider" : "CURSE",
     "name" : "RFTools Dimensions",
@@ -690,7 +685,7 @@
     "name" : "Magic Arsenal",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/MagicArsenal/master",
-    "buildNumber" : 89
+    "buildNumber" : 90
   }, {
     "provider" : "JENKINS",
     "name" : "GlassHearts",
@@ -738,13 +733,13 @@
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2565383
+    "fileID" : 2573611
   }, {
     "provider" : "CURSE",
     "name" : "Toast Control",
     "side" : "CLIENT",
     "projectID" : 271740,
-    "fileID" : 2561007
+    "fileID" : 2574517
   }, {
     "provider" : "CURSE",
     "name" : "Wawla - What Are We Looking At",
@@ -831,28 +826,10 @@
     "fileID" : 2533542
   }, {
     "provider" : "CURSE",
-    "name" : "Vise",
-    "side" : "CLIENT",
-    "projectID" : 292437,
-    "fileID" : 2553433
-  }, {
-    "provider" : "CURSE",
     "name" : "Crafting Tweaks",
     "side" : "CLIENT",
     "projectID" : 233071,
     "fileID" : 2562139
-  }, {
-    "provider" : "CURSE",
-    "name" : "Smooth Font",
-    "side" : "CLIENT",
-    "projectID" : 285742,
-    "fileID" : 2555298
-  }, {
-    "provider" : "CURSE",
-    "name" : "Player's Choice",
-    "side" : "CLIENT",
-    "projectID" : 294419,
-    "fileID" : 2572732
   }, {
     "provider" : "CURSE",
     "name" : "Better Advancements",
@@ -871,6 +848,12 @@
     "side" : "CLIENT",
     "projectID" : 287471,
     "fileID" : 2533170
+  }, {
+    "provider" : "CURSE",
+    "name" : "Neat",
+    "side" : "CLIENT",
+    "projectID" : 238372,
+    "fileID" : 2571056
   }, {
     "provider" : "CURSE",
     "name" : "Client Tweaks",
@@ -907,6 +890,18 @@
     "side" : "CLIENT",
     "projectID" : 240630,
     "fileID" : 2523823
+  }, {
+    "provider" : "CURSE",
+    "name" : "Vise",
+    "side" : "CLIENT",
+    "projectID" : 292437,
+    "fileID" : 2553433
+  }, {
+    "provider" : "CURSE",
+    "name" : "Smooth Font",
+    "side" : "CLIENT",
+    "projectID" : 285742,
+    "fileID" : 2555298
   }, {
     "provider" : "CURSE",
     "name" : "Item Scroller",
@@ -957,10 +952,10 @@
     "fileID" : 2571988
   }, {
     "provider" : "CURSE",
-    "name" : "Keyboard Wizard",
+    "name" : "RPG-Hud",
     "side" : "CLIENT",
-    "projectID" : 262366,
-    "fileID" : 2493196
+    "projectID" : 235670,
+    "fileID" : 2483068
   }, {
     "provider" : "CURSE",
     "name" : "Better Foliage",
@@ -969,20 +964,9 @@
     "fileID" : 2478147
   }, {
     "provider" : "CURSE",
-    "name" : "RPG-Hud",
-    "side" : "CLIENT",
-    "projectID" : 235670,
-    "fileID" : 2483068
-  }, {
-    "provider" : "CURSE",
-    "name" : "Neat",
-    "side" : "CLIENT",
-    "projectID" : 238372,
-    "fileID" : 2571056
-  }, {
-    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
+    "fileName" : "Unity.zip",
     "side" : "CLIENT",
     "projectID" : 222097,
     "fileID" : 2547422
@@ -1076,7 +1060,7 @@
     "provider" : "CURSE",
     "name" : "McJtyLib",
     "projectID" : 233105,
-    "fileID" : 2572061
+    "fileID" : 2574696
   }, {
     "provider" : "CURSE",
     "name" : "Placebo",
@@ -1094,5 +1078,200 @@
     "projectID" : 271384,
     "fileID" : 2567263
   } ],
-  "features" : [ ]
+  "features" : [ {
+    "entries" : [ "JourneyMap" ],
+    "properties" : {
+      "name" : "JourneyMap",
+      "selected" : true,
+      "description" : "Mod-compatible mini-map.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "MAGE" ],
+    "properties" : {
+      "name" : "MAGE",
+      "selected" : true,
+      "description" : "Configurable graphics enhancements.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Neat" ],
+    "properties" : {
+      "name" : "Neat",
+      "selected" : true,
+      "description" : "Simple health and unit frames.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Client Tweaks" ],
+    "properties" : {
+      "name" : "Client Tweaks",
+      "selected" : true,
+      "description" : "Various client related fixes and tweaks, all in a handy menu.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Mouse Tweaks" ],
+    "properties" : {
+      "name" : "Mouse Tweaks",
+      "selected" : true,
+      "description" : "Add extra mouse gestures for inventories and crafting grids.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Thaumic JEI" ],
+    "properties" : {
+      "name" : "Thaumic JEI",
+      "selected" : true,
+      "description" : "JEI Integration for Thaumcraft.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "JEI Bees" ],
+    "properties" : {
+      "name" : "JEI Bees",
+      "selected" : true,
+      "description" : "JEI Integration for Reorestry/Gendustry Bees.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough HarvestCraft (JEHC)" ],
+    "properties" : {
+      "name" : "Just Enough HarvestCraft (JEHC)",
+      "selected" : true,
+      "description" : "JEI Integration for Pam's HarvestCraft.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Just Enough Resources (JER)" ],
+    "properties" : {
+      "name" : "Just Enough Resources (JER)",
+      "selected" : true,
+      "description" : "JEI Integration that gives drop-rates for mobs, dungeonloot, etc.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Vise" ],
+    "properties" : {
+      "name" : "Vise",
+      "selected" : true,
+      "description" : "More granular control over UI/HUD elements.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Smooth Font" ],
+    "properties" : {
+      "name" : "Smooth Font",
+      "selected" : true,
+      "description" : "It smoothes fonts.",
+      "recommendation" : "starred"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Item Scroller" ],
+    "properties" : {
+      "name" : "Item Scroller",
+      "selected" : false,
+      "description" : "Alternative to MouseTweaks"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Xaero's Minimap" ],
+    "properties" : {
+      "name" : "Xaero's Minimap",
+      "selected" : false,
+      "description" : "Lightweight alternative to JourneyMap"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "MineMenu" ],
+    "properties" : {
+      "name" : "MineMenu",
+      "selected" : false,
+      "description" : "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "ItemZoom" ],
+    "properties" : {
+      "name" : "ItemZoom",
+      "selected" : false,
+      "description" : "Check this if you like to get a closer look at item textures."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Light Level Overlay Reloaded" ],
+    "properties" : {
+      "name" : "Light Level Overlay Reloaded",
+      "selected" : false,
+      "description" : "Smol light-level overlay if you aren't using Dynamic Surroundings."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Durability Show" ],
+    "properties" : {
+      "name" : "Durability Show",
+      "selected" : false,
+      "description" : "Toggle-able item/tool/armor durability HUD"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Fancy Block Particles" ],
+    "properties" : {
+      "name" : "Fancy Block Particles",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Dynamic Surroundings" ],
+    "properties" : {
+      "name" : "Dynamic Surroundings",
+      "selected" : false,
+      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "RPG-Hud" ],
+    "properties" : {
+      "name" : "RPG-Hud",
+      "selected" : false,
+      "description" : "Highly configurable HUD - heavier alt to Neat"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Better Foliage" ],
+    "properties" : {
+      "name" : "Better Foliage",
+      "selected" : false,
+      "description" : "Improves the fauna in the world. Very heavy, but very pretty."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Unity" ],
+    "properties" : {
+      "name" : "Unity",
+      "selected" : false,
+      "description" : "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Slice" ],
+    "properties" : {
+      "name" : "Slice",
+      "selected" : false,
+      "description" : "Custom clinet font based off of Chicago. Made by Falkreon."
+    },
+    "files" : { }
+  } ]
 }

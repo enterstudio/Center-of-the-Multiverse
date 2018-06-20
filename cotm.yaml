@@ -356,10 +356,10 @@ root:
       entries:
 
         - name: Item Scroller
-          description: Alternative to MouseTweaks
+          description: "Alternative to MouseTweaks"
 
         - name: Xaero's Minimap
-          description: Lightweight alternative to JourneyMap
+          description: "Lightweight alternative to JourneyMap"
 
         - name: MineMenu
           description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
@@ -390,14 +390,14 @@ root:
 #================#
 
     # Unity Resource Pack
-    - name: Unity
-      filename: Unity.zip
-      description: "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
+        - name: Unity
+          filename: Unity.zip
+          description: "Multi-mod compatible resource pack. Very nice, but does have some broken textures here and there."
       
     # Slice
-    - provider: DIRECT
-      entries: 
-      - name: Slice
-        description: "Custom clinet font based off of Chicago. Made by Falkreon."
-        folder: resourcepacks
-        url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
+        - provider: DIRECT
+          entries: 
+          - name: Slice
+            description: "Custom clinet font based off of Chicago. Made by Falkreon."
+            folder: resourcepacks
+            url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
