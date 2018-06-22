@@ -9,7 +9,7 @@
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
   "userFiles" : {
-    "include" : [ "options.txt", "quark.cfg" ],
+    "include" : [ "options.txt", "quark.cfg", "foamfix.cfg" ],
     "exclude" : [ ]
   },
   "localDir" : "local",
@@ -58,7 +58,7 @@
     "provider" : "CURSE",
     "name" : "BiblioCraft",
     "projectID" : 228027,
-    "fileID" : 2565070
+    "fileID" : 2574880
   }, {
     "provider" : "CURSE",
     "name" : "Binnie's Mods",
@@ -1182,7 +1182,7 @@
     "properties" : {
       "name" : "Item Scroller",
       "selected" : false,
-      "description" : "Alternative to MouseTweaks"
+      "description" : "Alternative to MouseTweaks."
     },
     "files" : { }
   }, {
@@ -1190,7 +1190,7 @@
     "properties" : {
       "name" : "Xaero's Minimap",
       "selected" : false,
-      "description" : "Lightweight alternative to JourneyMap"
+      "description" : "Lightweight alternative to JourneyMap."
     },
     "files" : { }
   }, {
@@ -1222,7 +1222,7 @@
     "properties" : {
       "name" : "Durability Show",
       "selected" : false,
-      "description" : "Toggle-able item/tool/armor durability HUD"
+      "description" : "Toggle-able item/tool/armor durability HUD."
     },
     "files" : { }
   }, {
@@ -1230,7 +1230,7 @@
     "properties" : {
       "name" : "Fancy Block Particles",
       "selected" : false,
-      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+      "description" : "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
     },
     "files" : { }
   }, {
@@ -1238,7 +1238,7 @@
     "properties" : {
       "name" : "Dynamic Surroundings",
       "selected" : false,
-      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+      "description" : "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
     },
     "files" : { }
   }, {
@@ -1246,7 +1246,7 @@
     "properties" : {
       "name" : "RPG-Hud",
       "selected" : false,
-      "description" : "Highly configurable HUD - heavier alt to Neat"
+      "description" : "Highly configurable HUD - heavier alt to Neat. (Ouf of box config.)"
     },
     "files" : { }
   }, {
@@ -1254,7 +1254,7 @@
     "properties" : {
       "name" : "Better Foliage",
       "selected" : false,
-      "description" : "Improves the fauna in the world. Very heavy, but very pretty."
+      "description" : "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
     },
     "files" : { }
   }, {
@@ -1270,7 +1270,7 @@
     "properties" : {
       "name" : "Slice",
       "selected" : false,
-      "description" : "Custom clinet font based off of Chicago. Made by Falkreon."
+      "description" : "Custom client font based off of Chicago. Made by Falkreon."
     },
     "files" : { }
   } ]

@@ -357,10 +357,10 @@ root:
       entries:
 
         - name: Item Scroller
-          description: "Alternative to MouseTweaks"
+          description: "Alternative to MouseTweaks."
 
         - name: Xaero's Minimap
-          description: "Lightweight alternative to JourneyMap"
+          description: "Lightweight alternative to JourneyMap."
 
         - name: MineMenu
           description: "Radial menu that can be used for command/keyboard shortcuts. Not selected by default because random keybinds cannot be added to radial menu."
@@ -372,19 +372,19 @@ root:
           description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
 
         - name: Durability Show
-          description: "Toggle-able item/tool/armor durability HUD"
+          description: "Toggle-able item/tool/armor durability HUD."
 
         - name: Fancy Block Particles
-          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+          description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
 
         - name: Dynamic Surroundings
-          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+          description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
 
         - name: "RPG-Hud"
-          description: "Highly configurable HUD - heavier alt to Neat"
+          description: "Highly configurable HUD - heavier alt to Neat. (Ouf of box config.)"
 
         - name: Better Foliage
-          description: "Improves the fauna in the world. Very heavy, but very pretty."
+          description: "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
 
 #================#
 # Resource Packs #
@@ -399,6 +399,7 @@ root:
         - provider: DIRECT
           entries: 
           - name: Slice
-            description: "Custom clinet font based off of Chicago. Made by Falkreon."
+            description: "Custom client font based off of Chicago. Made by Falkreon."
             folder: resourcepacks
             url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
+
