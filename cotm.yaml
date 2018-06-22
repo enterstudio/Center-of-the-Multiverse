@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.5
+version: 2.1.8.6
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -207,7 +207,6 @@ root:
   - Yoyos
   - "Bad Wither No Cookie - Reloaded"
   - Ender IO
-  - Sampler
   - Waystones
   - Aether Legacy
   - Corpse Complex
@@ -220,7 +219,6 @@ root:
   - FastWorkbench
   - DimensionalDoors
   - "Better Builder's Wands"
-  - LagGoggles
   
   # Direct Downloads
   - provider: DIRECT
@@ -278,6 +276,9 @@ root:
     - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
+    - Caliper
+    - LagGoggles
+    - Sampler
 
     - job: elytra/MatterLink/master
       name: MatterLink
@@ -385,6 +386,15 @@ root:
 
         - name: Better Foliage
           description: "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
+
+        - name: Caliper
+          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+        - name: LagGoggles
+          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+        - name: Sampler
+          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
 #================#
 # Resource Packs #
