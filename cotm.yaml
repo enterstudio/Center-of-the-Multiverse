@@ -219,6 +219,7 @@ root:
   - FastWorkbench
   - DimensionalDoors
   - "Better Builder's Wands"
+  - AntiGhost
   
   # Direct Downloads
   - provider: DIRECT
@@ -323,10 +324,10 @@ root:
           description: "Mod-compatible mini-map."
 
         - name: MAGE
-          description: "Configurable graphics enhancements."
+          description: "Configurable graphics enhancements. Highly recomended."
 
         - name: Neat
-          description: "Simple health and unit frames."
+          description: "Simple health and unit frames. (Sometimes mis-reports player health)"
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
@@ -381,20 +382,23 @@ root:
         - name: Dynamic Surroundings
           description: "Caution: Resource heavy. Quite nice, has a lot of configurable features that add immersive sound/visual effects. Includes light-level overlay. (Defaults set to remove some sounds and generally be better.)"
 
-        - name: "RPG-Hud"
-          description: "Highly configurable HUD - heavier alt to Neat. (Ouf of box config.)"
+        - name: RPG-Hud
+          description: "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
 
         - name: Better Foliage
           description: "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
 
+        - name: Keyboard Wizard
+          description: "Visual keybind manager."
+
         - name: Caliper
-          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
         - name: LagGoggles
-          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
         - name: Sampler
-          description: "Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
 #================#
 # Resource Packs #
