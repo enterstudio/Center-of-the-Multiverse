@@ -277,12 +277,28 @@ root:
     - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
-    - Caliper
-    - LagGoggles
-    - Sampler
 
     - job: elytra/MatterLink/master
       name: MatterLink
+
+#===================#
+# Common - Optional #
+#===================#
+
+  - side: BOTH
+    feature:
+      selected: false
+    entries:
+ 
+    - name: Caliper
+      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+    - name: LagGoggles
+      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+    - name: Sampler
+      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
 
 #============#
 # Clientside #
@@ -390,15 +406,6 @@ root:
 
         - name: Keyboard Wizard
           description: "Visual keybind manager."
-
-        - name: Caliper
-          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-
-        - name: LagGoggles
-          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-
-        - name: Sampler
-          description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
 #================#
 # Resource Packs #
