@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.5",
+  "version" : "2.1.8.6",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -78,7 +78,7 @@
     "provider" : "CURSE",
     "name" : "Clumps",
     "projectID" : 256717,
-    "fileID" : 2458862
+    "fileID" : 2575391
   }, {
     "provider" : "CURSE",
     "name" : "Comforts",
@@ -263,7 +263,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2574400
+    "fileID" : 2575264
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -576,11 +576,6 @@
     "fileID" : 2569528
   }, {
     "provider" : "CURSE",
-    "name" : "Sampler",
-    "projectID" : 289242,
-    "fileID" : 2536015
-  }, {
-    "provider" : "CURSE",
     "name" : "Waystones",
     "projectID" : 245755,
     "fileID" : 2559127
@@ -641,9 +636,9 @@
     "fileID" : 2443194
   }, {
     "provider" : "CURSE",
-    "name" : "LagGoggles",
-    "projectID" : 283525,
-    "fileID" : 2536205
+    "name" : "AntiGhost",
+    "projectID" : 273279,
+    "fileID" : 2458392
   }, {
     "provider" : "CURSE",
     "name" : "RFTools",
@@ -734,6 +729,21 @@
     "side" : "SERVER",
     "projectID" : 287323,
     "fileID" : 2573611
+  }, {
+    "provider" : "CURSE",
+    "name" : "Caliper",
+    "projectID" : 266824,
+    "fileID" : 2550118
+  }, {
+    "provider" : "CURSE",
+    "name" : "LagGoggles",
+    "projectID" : 283525,
+    "fileID" : 2536205
+  }, {
+    "provider" : "CURSE",
+    "name" : "Sampler",
+    "projectID" : 289242,
+    "fileID" : 2536015
   }, {
     "provider" : "CURSE",
     "name" : "Toast Control",
@@ -964,6 +974,12 @@
     "fileID" : 2478147
   }, {
     "provider" : "CURSE",
+    "name" : "Keyboard Wizard",
+    "side" : "CLIENT",
+    "projectID" : 262366,
+    "fileID" : 2493196
+  }, {
+    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
     "fileName" : "Unity.zip",
@@ -986,11 +1002,6 @@
     "name" : "ConnectedTexturesMod",
     "projectID" : 267602,
     "fileID" : 2568996
-  }, {
-    "provider" : "CURSE",
-    "name" : "B.A.S.E",
-    "projectID" : 246996,
-    "fileID" : 2571522
   }, {
     "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
@@ -1063,10 +1074,15 @@
     "fileID" : 2574696
   }, {
     "provider" : "CURSE",
+    "name" : "Bookshelf",
+    "projectID" : 228525,
+    "fileID" : 2572825
+  }, {
+    "provider" : "CURSE",
     "name" : "Placebo",
     "side" : "CLIENT",
     "projectID" : 283644,
-    "fileID" : 2558924
+    "fileID" : 2575473
   }, {
     "provider" : "CURSE",
     "name" : "CoFH Core",
@@ -1079,6 +1095,30 @@
     "fileID" : 2567263
   } ],
   "features" : [ {
+    "entries" : [ "Caliper" ],
+    "properties" : {
+      "name" : "Caliper",
+      "selected" : false,
+      "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "LagGoggles" ],
+    "properties" : {
+      "name" : "LagGoggles",
+      "selected" : false,
+      "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Sampler" ],
+    "properties" : {
+      "name" : "Sampler",
+      "selected" : false,
+      "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+    },
+    "files" : { }
+  }, {
     "entries" : [ "JourneyMap" ],
     "properties" : {
       "name" : "JourneyMap",
@@ -1092,7 +1132,7 @@
     "properties" : {
       "name" : "MAGE",
       "selected" : true,
-      "description" : "Configurable graphics enhancements.",
+      "description" : "Configurable graphics enhancements. Highly recomended.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1101,7 +1141,7 @@
     "properties" : {
       "name" : "Neat",
       "selected" : true,
-      "description" : "Simple health and unit frames.",
+      "description" : "Simple health and unit frames. (Sometimes mis-reports player health)",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1246,7 +1286,7 @@
     "properties" : {
       "name" : "RPG-Hud",
       "selected" : false,
-      "description" : "Highly configurable HUD - heavier alt to Neat. (Ouf of box config.)"
+      "description" : "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
     },
     "files" : { }
   }, {
@@ -1255,6 +1295,14 @@
       "name" : "Better Foliage",
       "selected" : false,
       "description" : "Improves the fauna in the world. Very heavy, but very pretty. (Sane defaults set.)"
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Keyboard Wizard" ],
+    "properties" : {
+      "name" : "Keyboard Wizard",
+      "selected" : false,
+      "description" : "Visual keybind manager."
     },
     "files" : { }
   }, {
