@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.6
+version: 2.1.8.7
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -87,6 +87,7 @@ root:
 
   # jaredlll08
   - CraftTweaker
+  - ModTweaker
   - Diamond Glass
 
   # copygirl
@@ -159,7 +160,6 @@ root:
   - Magic Bees
   - MalisisDoors
   - Mob Grinding Utils
-  - ModTweaker
   - Natura
   - Nature's Compass
   - NetherEx
@@ -196,7 +196,6 @@ root:
   - Tool Belt
   - TorchMaster
   - Robotic Parts
-  - ReWIRED
   - Woot
   - Quick Leaf Decay
   - "Blood Magic "
@@ -220,6 +219,8 @@ root:
   - DimensionalDoors
   - "Better Builder's Wands"
   - AntiGhost
+  - Login Shield
+  - Caliper
   
   # Direct Downloads
   - provider: DIRECT
@@ -290,9 +291,6 @@ root:
       selected: false
     entries:
  
-    - name: Caliper
-      description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-
     - name: LagGoggles
       description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
@@ -390,7 +388,7 @@ root:
           description: "Smol light-level overlay if you aren't using Dynamic Surroundings."
 
         - name: Durability Show
-          description: "Toggle-able item/tool/armor durability HUD."
+          description: "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
 
         - name: Fancy Block Particles
           description: "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps. (Defaults set to be less intrusive.)"
@@ -406,6 +404,9 @@ root:
 
         - name: Keyboard Wizard
           description: "Visual keybind manager."
+        
+        - name: Chunk Animator
+          description: "Configurable chunk pop-in animator."
 
 #================#
 # Resource Packs #
