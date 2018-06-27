@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.6",
+  "version" : "2.1.8.7",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -78,7 +78,7 @@
     "provider" : "CURSE",
     "name" : "Clumps",
     "projectID" : 256717,
-    "fileID" : 2575391
+    "fileID" : 2576264
   }, {
     "provider" : "CURSE",
     "name" : "Comforts",
@@ -103,7 +103,12 @@
     "provider" : "CURSE",
     "name" : "CraftTweaker",
     "projectID" : 239197,
-    "fileID" : 2554607
+    "fileID" : 2576160
+  }, {
+    "provider" : "CURSE",
+    "name" : "ModTweaker",
+    "projectID" : 220954,
+    "fileID" : 2558895
   }, {
     "provider" : "CURSE",
     "name" : "Diamond Glass",
@@ -118,7 +123,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2572552
+    "fileID" : 2576171
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -263,7 +268,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2575264
+    "fileID" : 2575851
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -334,11 +339,6 @@
     "name" : "Mob Grinding Utils",
     "projectID" : 254241,
     "fileID" : 2553604
-  }, {
-    "provider" : "CURSE",
-    "name" : "ModTweaker",
-    "projectID" : 220954,
-    "fileID" : 2558895
   }, {
     "provider" : "CURSE",
     "name" : "Natura",
@@ -521,11 +521,6 @@
     "fileID" : 2548729
   }, {
     "provider" : "CURSE",
-    "name" : "ReWIRED",
-    "projectID" : 285550,
-    "fileID" : 2530581
-  }, {
-    "provider" : "CURSE",
     "name" : "Woot",
     "projectID" : 244049,
     "fileID" : 2567338
@@ -641,6 +636,16 @@
     "fileID" : 2458392
   }, {
     "provider" : "CURSE",
+    "name" : "Login Shield",
+    "projectID" : 233255,
+    "fileID" : 2560971
+  }, {
+    "provider" : "CURSE",
+    "name" : "Caliper",
+    "projectID" : 266824,
+    "fileID" : 2550118
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2574699
@@ -728,12 +733,7 @@
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2573611
-  }, {
-    "provider" : "CURSE",
-    "name" : "Caliper",
-    "projectID" : 266824,
-    "fileID" : 2550118
+    "fileID" : 2576442
   }, {
     "provider" : "CURSE",
     "name" : "LagGoggles",
@@ -980,12 +980,18 @@
     "fileID" : 2493196
   }, {
     "provider" : "CURSE",
+    "name" : "Chunk Animator",
+    "side" : "CLIENT",
+    "projectID" : 236484,
+    "fileID" : 2432424
+  }, {
+    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
     "fileName" : "Unity.zip",
     "side" : "CLIENT",
     "projectID" : 222097,
-    "fileID" : 2547422
+    "fileID" : 2576530
   }, {
     "provider" : "DIRECT",
     "name" : "Slice",
@@ -1004,9 +1010,14 @@
     "fileID" : 2568996
   }, {
     "provider" : "CURSE",
+    "name" : "MTLib",
+    "projectID" : 253211,
+    "fileID" : 2567171
+  }, {
+    "provider" : "CURSE",
     "name" : "CodeChicken Lib 1.8.+",
     "projectID" : 242818,
-    "fileID" : 2571070
+    "fileID" : 2575906
   }, {
     "provider" : "CURSE",
     "name" : "Thermal Foundation",
@@ -1017,11 +1028,6 @@
     "name" : "BdLib",
     "projectID" : 70496,
     "fileID" : 2518031
-  }, {
-    "provider" : "CURSE",
-    "name" : "MTLib",
-    "projectID" : 253211,
-    "fileID" : 2567171
   }, {
     "provider" : "CURSE",
     "name" : "MalisisCore",
@@ -1069,14 +1075,14 @@
     "fileID" : 2571470
   }, {
     "provider" : "CURSE",
-    "name" : "McJtyLib",
-    "projectID" : 233105,
-    "fileID" : 2574696
-  }, {
-    "provider" : "CURSE",
     "name" : "Bookshelf",
     "projectID" : 228525,
     "fileID" : 2572825
+  }, {
+    "provider" : "CURSE",
+    "name" : "McJtyLib",
+    "projectID" : 233105,
+    "fileID" : 2574696
   }, {
     "provider" : "CURSE",
     "name" : "Placebo",
@@ -1095,14 +1101,6 @@
     "fileID" : 2567263
   } ],
   "features" : [ {
-    "entries" : [ "Caliper" ],
-    "properties" : {
-      "name" : "Caliper",
-      "selected" : false,
-      "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-    },
-    "files" : { }
-  }, {
     "entries" : [ "LagGoggles" ],
     "properties" : {
       "name" : "LagGoggles",
@@ -1262,7 +1260,7 @@
     "properties" : {
       "name" : "Durability Show",
       "selected" : false,
-      "description" : "Toggle-able item/tool/armor durability HUD."
+      "description" : "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
     },
     "files" : { }
   }, {
@@ -1303,6 +1301,14 @@
       "name" : "Keyboard Wizard",
       "selected" : false,
       "description" : "Visual keybind manager."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Chunk Animator" ],
+    "properties" : {
+      "name" : "Chunk Animator",
+      "selected" : false,
+      "description" : "Configurable chunk pop-in animator."
     },
     "files" : { }
   }, {

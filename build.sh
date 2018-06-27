@@ -11,7 +11,7 @@ if [ ! $? -eq 0 ]; then
 fi
 
 echo "Building Modpack"
-java -jar "$DIR/bootstrap-voodoo.jar" build "$DIR/cotm.json" -o cotm.lock.json --force
+java -jar "$DIR/bootstrap-voodoo.jar" build "$DIR/cotm.json" -o cotm.lock.json --updateAll
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Build"
     exit 1

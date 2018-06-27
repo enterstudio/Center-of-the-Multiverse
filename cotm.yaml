@@ -341,7 +341,7 @@ root:
           description: "Configurable graphics enhancements. Highly recomended."
 
         - name: Neat
-          description: "Simple health and unit frames. (Sometimes mis-reports player health)"
+          description: "Simple health and unit frames."
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
