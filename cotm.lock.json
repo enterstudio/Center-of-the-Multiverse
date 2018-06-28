@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.7",
+  "version" : "2.1.8.8",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -34,6 +34,11 @@
     "name" : "Quark",
     "projectID" : 243121,
     "fileID" : 2573421
+  }, {
+    "provider" : "CURSE",
+    "name" : "Morph-o-Tool",
+    "projectID" : 245287,
+    "fileID" : 2475117
   }, {
     "provider" : "CURSE",
     "name" : "Architect",
@@ -113,12 +118,12 @@
     "provider" : "CURSE",
     "name" : "Diamond Glass",
     "projectID" : 270959,
-    "fileID" : 2547361
+    "fileID" : 2577155
   }, {
     "provider" : "CURSE",
     "name" : "Wearable Backpacks",
     "projectID" : 257572,
-    "fileID" : 2525511
+    "fileID" : 2576699
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
@@ -158,7 +163,7 @@
     "provider" : "CURSE",
     "name" : "MrCrayfish's Furniture Mod",
     "projectID" : 55438,
-    "fileID" : 2545210
+    "fileID" : 2577120
   }, {
     "provider" : "CURSE",
     "name" : "Extra Alchemy",
@@ -243,7 +248,7 @@
     "provider" : "CURSE",
     "name" : "Ender Storage 1.8.+",
     "projectID" : 245174,
-    "fileID" : 2570992
+    "fileID" : 2576657
   }, {
     "provider" : "CURSE",
     "name" : "Exchangers",
@@ -268,7 +273,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2575851
+    "fileID" : 2576897
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -453,7 +458,7 @@
     "provider" : "CURSE",
     "name" : "Storage Drawers",
     "projectID" : 223852,
-    "fileID" : 2545495
+    "fileID" : 2576611
   }, {
     "provider" : "CURSE",
     "name" : "Storage Drawers Extras",
@@ -548,7 +553,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2573140
+    "fileID" : 2576885
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -646,6 +651,11 @@
     "fileID" : 2550118
   }, {
     "provider" : "CURSE",
+    "name" : "Refined Storage",
+    "projectID" : 243076,
+    "fileID" : 2564334
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2574699
@@ -733,7 +743,7 @@
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2576442
+    "fileID" : 2573611
   }, {
     "provider" : "CURSE",
     "name" : "LagGoggles",
@@ -1067,7 +1077,7 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2571278
+    "fileID" : 2577020
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
@@ -1077,7 +1087,7 @@
     "provider" : "CURSE",
     "name" : "Bookshelf",
     "projectID" : 228525,
-    "fileID" : 2572825
+    "fileID" : 2577067
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",
@@ -1139,7 +1149,7 @@
     "properties" : {
       "name" : "Neat",
       "selected" : true,
-      "description" : "Simple health and unit frames. (Sometimes mis-reports player health)",
+      "description" : "Simple health and unit frames.",
       "recommendation" : "starred"
     },
     "files" : { }
@@ -1175,7 +1185,7 @@
     "properties" : {
       "name" : "JEI Bees",
       "selected" : true,
-      "description" : "JEI Integration for Reorestry/Gendustry Bees.",
+      "description" : "JEI Integration for Forestry/Gendustry Bees.",
       "recommendation" : "starred"
     },
     "files" : { }

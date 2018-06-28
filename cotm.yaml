@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.7
+version: 2.1.8.8
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -47,6 +47,7 @@ root:
   - Botania
   - Psi
   - Quark
+  - Morph-o-Tool
 
   # Sangar
   - Architect
@@ -221,6 +222,7 @@ root:
   - AntiGhost
   - Login Shield
   - Caliper
+  - Refined Storage
   
   # Direct Downloads
   - provider: DIRECT
@@ -353,7 +355,7 @@ root:
           description: "JEI Integration for Thaumcraft."
 
         - name: JEI Bees
-          description: "JEI Integration for Reorestry/Gendustry Bees."
+          description: "JEI Integration for Forestry/Gendustry Bees."
 
         - name: Just Enough HarvestCraft (JEHC)
           description: "JEI Integration for Pam's HarvestCraft."
