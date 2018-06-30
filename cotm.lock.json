@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.8",
+  "version" : "2.1.8.9",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2705,
@@ -53,7 +53,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2559238
+    "fileID" : 2573295
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
@@ -178,17 +178,17 @@
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2571334
+    "fileID" : 2577664
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
     "projectID" : 285363,
-    "fileID" : 2571335
+    "fileID" : 2577666
   }, {
     "provider" : "CURSE",
     "name" : "Charset Block Carrying",
     "projectID" : 284654,
-    "fileID" : 2554039
+    "fileID" : 2577667
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tablet",
@@ -198,7 +198,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2559209
+    "fileID" : 2577360
   }, {
     "provider" : "CURSE",
     "name" : "Charset Audio",
@@ -218,7 +218,7 @@
     "provider" : "CURSE",
     "name" : "Charset Immersion",
     "projectID" : 291374,
-    "fileID" : 2570921
+    "fileID" : 2577359
   }, {
     "provider" : "CURSE",
     "name" : "FoamFix for Minecraft",
@@ -228,7 +228,7 @@
     "provider" : "CURSE",
     "name" : "SimpleLogic",
     "projectID" : 289316,
-    "fileID" : 2571300
+    "fileID" : 2577363
   }, {
     "provider" : "CURSE",
     "name" : "Unlimited Chisel Works",
@@ -273,7 +273,7 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2576897
+    "fileID" : 2577456
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
@@ -408,7 +408,7 @@
     "provider" : "CURSE",
     "name" : "Random Things",
     "projectID" : 59816,
-    "fileID" : 2574062
+    "fileID" : 2577320
   }, {
     "provider" : "CURSE",
     "name" : "RandomTweaks",
@@ -478,7 +478,7 @@
     "provider" : "CURSE",
     "name" : "[ANGRY PIXEL] The Betweenlands",
     "projectID" : 243363,
-    "fileID" : 2574606
+    "fileID" : 2577377
   }, {
     "provider" : "CURSE",
     "name" : "Tinkers Construct",
@@ -544,11 +544,6 @@
     "name" : "ColorfulWater",
     "projectID" : 283346,
     "fileID" : 2532613
-  }, {
-    "provider" : "CURSE",
-    "name" : "The Erebus",
-    "projectID" : 220698,
-    "fileID" : 2541546
   }, {
     "provider" : "CURSE",
     "name" : "Construct's Armory",
@@ -740,10 +735,16 @@
     "fileID" : 2508268
   }, {
     "provider" : "CURSE",
+    "name" : "ColorChat",
+    "side" : "SERVER",
+    "projectID" : 221276,
+    "fileID" : 2485852
+  }, {
+    "provider" : "CURSE",
     "name" : "MatterLink",
     "side" : "SERVER",
     "projectID" : 287323,
-    "fileID" : 2573611
+    "fileID" : 2577355
   }, {
     "provider" : "CURSE",
     "name" : "LagGoggles",
@@ -754,6 +755,11 @@
     "name" : "Sampler",
     "projectID" : 289242,
     "fileID" : 2536015
+  }, {
+    "provider" : "CURSE",
+    "name" : "OpenEye",
+    "projectID" : 251457,
+    "fileID" : 2545677
   }, {
     "provider" : "CURSE",
     "name" : "Toast Control",
@@ -867,7 +873,7 @@
     "name" : "MAGE",
     "side" : "CLIENT",
     "projectID" : 287471,
-    "fileID" : 2533170
+    "fileID" : 2577267
   }, {
     "provider" : "CURSE",
     "name" : "Neat",
@@ -996,6 +1002,12 @@
     "fileID" : 2432424
   }, {
     "provider" : "CURSE",
+    "name" : "Faster Ladder Climbing",
+    "side" : "CLIENT",
+    "projectID" : 258881,
+    "fileID" : 2512758
+  }, {
+    "provider" : "CURSE",
     "name" : "Unity",
     "folder" : "resourcepacks",
     "fileName" : "Unity.zip",
@@ -1095,6 +1107,12 @@
     "fileID" : 2574696
   }, {
     "provider" : "CURSE",
+    "name" : "K4Lib",
+    "side" : "SERVER",
+    "projectID" : 224740,
+    "fileID" : 2516105
+  }, {
+    "provider" : "CURSE",
     "name" : "Placebo",
     "side" : "CLIENT",
     "projectID" : 283644,
@@ -1124,6 +1142,14 @@
       "name" : "Sampler",
       "selected" : false,
       "description" : "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "OpenEye" ],
+    "properties" : {
+      "name" : "OpenEye",
+      "selected" : false,
+      "description" : "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
     },
     "files" : { }
   }, {
@@ -1319,6 +1345,14 @@
       "name" : "Chunk Animator",
       "selected" : false,
       "description" : "Configurable chunk pop-in animator."
+    },
+    "files" : { }
+  }, {
+    "entries" : [ "Faster Ladder Climbing" ],
+    "properties" : {
+      "name" : "Faster Ladder Climbing",
+      "selected" : false,
+      "description" : "Helps you control ladder climb speed and allows you to go a bit faster."
     },
     "files" : { }
   }, {
