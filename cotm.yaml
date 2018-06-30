@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.8
+version: 2.1.8.9
 mcVersion: 1.12.2
 forge: 2705
 minecraftDir: src
@@ -36,9 +36,9 @@ root:
 # Pack Content #
 #==============#
 
-#======#
-# Mods #
-#======#
+#===============================#
+# Mods (Core) Client and Server #
+#===============================#
 
   entries:
 
@@ -54,9 +54,7 @@ root:
   - Bedrock Ores
 
   # HellFirePvP
-  #- Astral Sorcery
-  - name: Astral Sorcery
-    version: 1.8.10
+  - Astral Sorcery
   
   # Azanor
   - Baubles
@@ -201,7 +199,7 @@ root:
   - Quick Leaf Decay
   - "Blood Magic "
   - ColorfulWater
-  - The Erebus
+  #- The Erebus (pulled until project proves it isn't dead)
   - Construct's Armory
   - Simple Void World
   - Yoyos
@@ -280,6 +278,7 @@ root:
     - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
+    - ColorChat
 
     - job: elytra/MatterLink/master
       name: MatterLink
@@ -299,6 +298,8 @@ root:
     - name: Sampler
       description: "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
 
+    - name: OpenEye
+      description: "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
 
 #============#
 # Clientside #
@@ -409,6 +410,9 @@ root:
         
         - name: Chunk Animator
           description: "Configurable chunk pop-in animator."
+
+        - name: Faster Ladder Climbing
+          description: "Helps you control ladder climb speed and allows you to go a bit faster."
 
 #================#
 # Resource Packs #
