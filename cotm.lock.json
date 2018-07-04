@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.10",
+  "version" : "2.1.8.11",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2727,
@@ -128,7 +128,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2578835
+    "fileID" : 2579282
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -174,6 +174,11 @@
     "name" : "NoMoreGlowingPots",
     "projectID" : 286348,
     "fileID" : 2525341
+  }, {
+    "provider" : "CURSE",
+    "name" : "Ender IO",
+    "projectID" : 64578,
+    "fileID" : 2569528
   }, {
     "provider" : "CURSE",
     "name" : "Charset Lib",
@@ -319,11 +324,6 @@
     "name" : "MmmMmmMmmMmm",
     "projectID" : 225738,
     "fileID" : 2503041
-  }, {
-    "provider" : "CURSE",
-    "name" : "Just Enough Dimensions",
-    "projectID" : 254317,
-    "fileID" : 2574285
   }, {
     "provider" : "CURSE",
     "name" : "KleeSlabs",
@@ -501,16 +501,6 @@
     "fileID" : 2568531
   }, {
     "provider" : "CURSE",
-    "name" : "Paintings ++",
-    "projectID" : 252042,
-    "fileID" : 2556684
-  }, {
-    "provider" : "CURSE",
-    "name" : "Painting Selection Gui Revamped",
-    "projectID" : 252043,
-    "fileID" : 2524727
-  }, {
-    "provider" : "CURSE",
     "name" : "Tool Belt",
     "projectID" : 260262,
     "fileID" : 2461671
@@ -564,11 +554,6 @@
     "name" : "Bad Wither No Cookie - Reloaded",
     "projectID" : 261251,
     "fileID" : 2574107
-  }, {
-    "provider" : "CURSE",
-    "name" : "Ender IO",
-    "projectID" : 64578,
-    "fileID" : 2579152
   }, {
     "provider" : "CURSE",
     "name" : "Waystones",
@@ -661,6 +646,21 @@
     "fileID" : 2573311
   }, {
     "provider" : "CURSE",
+    "name" : "Catwalks 4",
+    "projectID" : 296851,
+    "fileID" : 2579202
+  }, {
+    "provider" : "CURSE",
+    "name" : "Wall-Jump!",
+    "projectID" : 295319,
+    "fileID" : 2576396
+  }, {
+    "provider" : "CURSE",
+    "name" : "Lumen | Fireflies and companions (previously LightOrbs)",
+    "projectID" : 292908,
+    "fileID" : 2569463
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2574699
@@ -682,7 +682,7 @@
     "name" : "Friendship Bracelet",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/FriendshipBracelet/master",
-    "buildNumber" : 14
+    "buildNumber" : 15
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -1057,6 +1057,11 @@
     "fileID" : 2567555
   }, {
     "provider" : "CURSE",
+    "name" : "EnderCore",
+    "projectID" : 231868,
+    "fileID" : 2578528
+  }, {
+    "provider" : "CURSE",
     "name" : "BdLib",
     "projectID" : 70496,
     "fileID" : 2518031
@@ -1100,11 +1105,6 @@
     "name" : "Reborn Core",
     "projectID" : 237903,
     "fileID" : 2578014
-  }, {
-    "provider" : "CURSE",
-    "name" : "EnderCore",
-    "projectID" : 231868,
-    "fileID" : 2578528
   }, {
     "provider" : "CURSE",
     "name" : "Bookshelf",

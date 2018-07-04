@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.10
+version: 2.1.8.11
 mcVersion: 1.12.2
 forge: 2727
 minecraftDir: src
@@ -123,6 +123,11 @@ root:
   - Extra Alchemy
   - NoMoreGlowingPots
 
+  # CrazyPants
+  # Ender IO
+  - name: Ender IO
+    version: 5.0.26
+
   # asie
   - Charset Lib
   - Charset Tweaks
@@ -154,7 +159,7 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  - Just Enough Dimensions
+  #- Just Enough Dimensions (currently unused)
   - KleeSlabs
   - Magic Bees
   - MalisisDoors
@@ -190,8 +195,6 @@ root:
   - Tinkers' Tool Leveling
   - Extreme Reactors
   - ZeroCore
-  - Paintings ++
-  - Painting Selection Gui Revamped
   - Tool Belt
   - TorchMaster
   - Robotic Parts
@@ -199,12 +202,10 @@ root:
   - Quick Leaf Decay
   - "Blood Magic "
   - ColorfulWater
-  #- The Erebus (pulled until project proves it isn't dead)
   - Construct's Armory
   - Simple Void World
   - Yoyos
   - "Bad Wither No Cookie - Reloaded"
-  - Ender IO
   - Waystones
   - Aether Legacy
   - Corpse Complex
@@ -223,7 +224,15 @@ root:
   - Refined Storage
   - Flopper
   - "Shadowfacts' Forgelin"
-  
+  - Catwalks 4
+  - "Wall-Jump!"
+  - "Lumen | Fireflies and companions (previously LightOrbs)"
+
+  #Pulled due to outstanding issues
+  #- Paintings ++
+  #- Painting Selection Gui Revamped
+  #- The Erebus
+
   # Direct Downloads
   - provider: DIRECT
     entries:
