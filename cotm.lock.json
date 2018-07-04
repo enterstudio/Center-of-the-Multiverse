@@ -1,10 +1,10 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.9",
+  "version" : "2.1.8.10",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
-  "forge" : 2705,
+  "forge" : 2727,
   "launch" : {
     "flags" : [ "-Dfml.ignoreInvalidMinecraftCertificates=true" ]
   },
@@ -53,7 +53,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2573295
+    "fileID" : 2578281
   }, {
     "provider" : "CURSE",
     "name" : "Baubles",
@@ -128,7 +128,7 @@
     "provider" : "CURSE",
     "name" : "Just Enough Items (JEI)",
     "projectID" : 238222,
-    "fileID" : 2576171
+    "fileID" : 2578835
   }, {
     "provider" : "CURSE",
     "name" : "The Twilight Forest",
@@ -178,12 +178,12 @@
     "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2577664
+    "fileID" : 2578010
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
     "projectID" : 285363,
-    "fileID" : 2577666
+    "fileID" : 2577926
   }, {
     "provider" : "CURSE",
     "name" : "Charset Block Carrying",
@@ -198,7 +198,7 @@
     "provider" : "CURSE",
     "name" : "Charset Crafting",
     "projectID" : 287664,
-    "fileID" : 2577360
+    "fileID" : 2578009
   }, {
     "provider" : "CURSE",
     "name" : "Charset Audio",
@@ -343,7 +343,7 @@
     "provider" : "CURSE",
     "name" : "Mob Grinding Utils",
     "projectID" : 254241,
-    "fileID" : 2553604
+    "fileID" : 2578772
   }, {
     "provider" : "CURSE",
     "name" : "Natura",
@@ -413,7 +413,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2572906
+    "fileID" : 2577910
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -548,7 +548,7 @@
     "provider" : "CURSE",
     "name" : "Construct's Armory",
     "projectID" : 287683,
-    "fileID" : 2576885
+    "fileID" : 2578152
   }, {
     "provider" : "CURSE",
     "name" : "Simple Void World",
@@ -568,7 +568,7 @@
     "provider" : "CURSE",
     "name" : "Ender IO",
     "projectID" : 64578,
-    "fileID" : 2569528
+    "fileID" : 2579152
   }, {
     "provider" : "CURSE",
     "name" : "Waystones",
@@ -613,7 +613,7 @@
     "provider" : "CURSE",
     "name" : "Thaumcraft",
     "projectID" : 223628,
-    "fileID" : 2569273
+    "fileID" : 2578520
   }, {
     "provider" : "CURSE",
     "name" : "FastWorkbench",
@@ -651,6 +651,16 @@
     "fileID" : 2564334
   }, {
     "provider" : "CURSE",
+    "name" : "Flopper",
+    "projectID" : 290404,
+    "fileID" : 2544079
+  }, {
+    "provider" : "CURSE",
+    "name" : "Shadowfacts' Forgelin",
+    "projectID" : 248453,
+    "fileID" : 2573311
+  }, {
+    "provider" : "CURSE",
     "name" : "RFTools",
     "projectID" : 224641,
     "fileID" : 2574699
@@ -667,6 +677,12 @@
     "provider" : "DIRECT",
     "name" : "Correlated",
     "url" : "https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar"
+  }, {
+    "provider" : "JENKINS",
+    "name" : "Friendship Bracelet",
+    "jenkinsUrl" : "https://ci.elytradev.com",
+    "job" : "elytra/FriendshipBracelet/master",
+    "buildNumber" : 14
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -715,12 +731,6 @@
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/ArchitectureCraft/1.12",
     "buildNumber" : 63
-  }, {
-    "provider" : "CURSE",
-    "name" : "Shadowfacts' Forgelin",
-    "side" : "SERVER",
-    "projectID" : 248453,
-    "fileID" : 2573311
   }, {
     "provider" : "CURSE",
     "name" : "BTFU continuous rsync incremental backup",
@@ -939,7 +949,7 @@
     "name" : "Xaero's Minimap",
     "side" : "CLIENT",
     "projectID" : 263420,
-    "fileID" : 2543411
+    "fileID" : 2578885
   }, {
     "provider" : "CURSE",
     "name" : "MineMenu",
@@ -1029,7 +1039,7 @@
     "provider" : "CURSE",
     "name" : "ConnectedTexturesMod",
     "projectID" : 267602,
-    "fileID" : 2568996
+    "fileID" : 2578680
   }, {
     "provider" : "CURSE",
     "name" : "MTLib",
@@ -1089,17 +1099,22 @@
     "provider" : "CURSE",
     "name" : "Reborn Core",
     "projectID" : 237903,
-    "fileID" : 2577020
+    "fileID" : 2578014
   }, {
     "provider" : "CURSE",
     "name" : "EnderCore",
     "projectID" : 231868,
-    "fileID" : 2571470
+    "fileID" : 2578528
   }, {
     "provider" : "CURSE",
     "name" : "Bookshelf",
     "projectID" : 228525,
     "fileID" : 2577067
+  }, {
+    "provider" : "CURSE",
+    "name" : "Cyclops Core",
+    "projectID" : 232758,
+    "fileID" : 2563905
   }, {
     "provider" : "CURSE",
     "name" : "McJtyLib",

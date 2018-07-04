@@ -4,9 +4,9 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.9
+version: 2.1.8.10
 mcVersion: 1.12.2
-forge: 2705
+forge: 2727
 minecraftDir: src
 
 #================#
@@ -221,6 +221,8 @@ root:
   - Login Shield
   - Caliper
   - Refined Storage
+  - Flopper
+  - "Shadowfacts' Forgelin"
   
   # Direct Downloads
   - provider: DIRECT
@@ -238,6 +240,10 @@ root:
   - provider: JENKINS
     jenkinsUrl: https://ci.elytradev.com
     entries:
+
+    # b0undrybreaker
+    - job: elytra/FriendshipBracelet/master
+      name: Friendship Bracelet
 
     # Falkreon
     - job: elytra/Thermionics/master
@@ -275,7 +281,6 @@ root:
 
   - side: SERVER
     entries:
-    - "Shadowfacts' Forgelin"
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
     - ColorChat
