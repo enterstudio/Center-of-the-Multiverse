@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.11
+version: 2.1.8.12
 mcVersion: 1.12.2
 forge: 2727
 minecraftDir: src
@@ -55,9 +55,6 @@ root:
 
   # HellFirePvP
   - Astral Sorcery
-  
-  # Azanor
-  - Baubles
 
   # Nuchaz
   - BiblioCraft
@@ -128,6 +125,16 @@ root:
   - name: Ender IO
     version: 5.0.26
 
+  # Subaraki
+  # Paintings ++
+  - name: "Paintings ++"
+    version: 3.3.0.0
+  - Painting Selection Gui Revamped
+
+  # azanor
+  - Thaumcraft
+  - Baubles
+
   # asie
   - Charset Lib
   - Charset Tweaks
@@ -159,7 +166,6 @@ root:
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
-  #- Just Enough Dimensions (currently unused)
   - KleeSlabs
   - Magic Bees
   - MalisisDoors
@@ -214,7 +220,6 @@ root:
   - Electroblob's Wizardry
   - Reliquary v1.3
   - CookieCore
-  - Thaumcraft
   - FastWorkbench
   - DimensionalDoors
   - "Better Builder's Wands"
@@ -227,10 +232,11 @@ root:
   - Catwalks 4
   - "Wall-Jump!"
 
-  #Pulled due to outstanding issues
-  #- Paintings ++
-  #- Painting Selection Gui Revamped
+  # Pulled due to outstanding issues
   #- The Erebus
+
+  # Unused mods
+  #- Just Enough Dimensions
 
   # Direct Downloads
   - provider: DIRECT
@@ -292,9 +298,7 @@ root:
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
     - ColorChat
-
-    - job: elytra/MatterLink/master
-      name: MatterLink
+    - MatterLink
 
 #===================#
 # Common - Optional #

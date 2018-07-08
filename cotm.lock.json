@@ -1,7 +1,7 @@
 {
   "name" : "cotm",
   "title" : "Center of the Multiverse",
-  "version" : "2.1.8.11",
+  "version" : "2.1.8.12",
   "authors" : [ "AnsuzThuriaz", "Falkreon", "NikkyAi" ],
   "mcVersion" : "1.12.2",
   "forge" : 2727,
@@ -53,12 +53,7 @@
     "provider" : "CURSE",
     "name" : "Astral Sorcery",
     "projectID" : 241721,
-    "fileID" : 2578281
-  }, {
-    "provider" : "CURSE",
-    "name" : "Baubles",
-    "projectID" : 227083,
-    "fileID" : 2518667
+    "fileID" : 2579492
   }, {
     "provider" : "CURSE",
     "name" : "BiblioCraft",
@@ -181,14 +176,34 @@
     "fileID" : 2569528
   }, {
     "provider" : "CURSE",
+    "name" : "Paintings ++",
+    "projectID" : 252042,
+    "fileID" : 2524743
+  }, {
+    "provider" : "CURSE",
+    "name" : "Painting Selection Gui Revamped",
+    "projectID" : 252043,
+    "fileID" : 2524727
+  }, {
+    "provider" : "CURSE",
+    "name" : "Thaumcraft",
+    "projectID" : 223628,
+    "fileID" : 2578520
+  }, {
+    "provider" : "CURSE",
+    "name" : "Baubles",
+    "projectID" : 227083,
+    "fileID" : 2518667
+  }, {
+    "provider" : "CURSE",
     "name" : "Charset Lib",
     "projectID" : 284523,
-    "fileID" : 2578010
+    "fileID" : 2580049
   }, {
     "provider" : "CURSE",
     "name" : "Charset Tweaks",
     "projectID" : 285363,
-    "fileID" : 2577926
+    "fileID" : 2580051
   }, {
     "provider" : "CURSE",
     "name" : "Charset Block Carrying",
@@ -258,7 +273,7 @@
     "provider" : "CURSE",
     "name" : "Exchangers",
     "projectID" : 270183,
-    "fileID" : 2558022
+    "fileID" : 2579652
   }, {
     "provider" : "CURSE",
     "name" : "Extra Bit Manipulation",
@@ -278,17 +293,17 @@
     "provider" : "CURSE",
     "name" : "Forestry",
     "projectID" : 59751,
-    "fileID" : 2577456
+    "fileID" : 2579920
   }, {
     "provider" : "CURSE",
     "name" : "FTB Utilities",
     "projectID" : 237102,
-    "fileID" : 2574530
+    "fileID" : 2579899
   }, {
     "provider" : "CURSE",
     "name" : "FTBLib",
     "projectID" : 237167,
-    "fileID" : 2574528
+    "fileID" : 2579897
   }, {
     "provider" : "CURSE",
     "name" : "Gendustry",
@@ -413,7 +428,7 @@
     "provider" : "CURSE",
     "name" : "RandomTweaks",
     "projectID" : 258205,
-    "fileID" : 2577910
+    "fileID" : 2579668
   }, {
     "provider" : "CURSE",
     "name" : "Ranged Pumps",
@@ -596,14 +611,9 @@
     "fileID" : 2525823
   }, {
     "provider" : "CURSE",
-    "name" : "Thaumcraft",
-    "projectID" : 223628,
-    "fileID" : 2578520
-  }, {
-    "provider" : "CURSE",
     "name" : "FastWorkbench",
     "projectID" : 288885,
-    "fileID" : 2568496
+    "fileID" : 2579685
   }, {
     "provider" : "CURSE",
     "name" : "DimensionalDoors",
@@ -677,7 +687,7 @@
     "name" : "Friendship Bracelet",
     "jenkinsUrl" : "https://ci.elytradev.com",
     "job" : "elytra/FriendshipBracelet/master",
-    "buildNumber" : 15
+    "buildNumber" : 17
   }, {
     "provider" : "JENKINS",
     "name" : "Thermionics",
@@ -914,7 +924,7 @@
     "name" : "Just Enough HarvestCraft (JEHC)",
     "side" : "CLIENT",
     "projectID" : 267939,
-    "fileID" : 2559930
+    "fileID" : 2579543
   }, {
     "provider" : "CURSE",
     "name" : "Just Enough Resources (JER)",
