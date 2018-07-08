@@ -376,6 +376,9 @@ root:
 
         - name: Neat
           description: "Simple health and unit frames."
+        
+        - name: Inventory Tweaks
+          description: "Tweaks your Inventory, you probably know this already"
 
         - name: Client Tweaks
           description: "Various client related fixes and tweaks, all in a handy menu."
