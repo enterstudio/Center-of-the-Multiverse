@@ -28,6 +28,7 @@ root:
 #==============#
 # Version Info #
 #==============#
+  provider: CURSE
   validMcVersions: [1.12.1, '1.12']
   curseOptionalDependencies: false
   curseReleaseTypes: [ alpha, beta, release ]
@@ -265,6 +266,9 @@ root:
 
     - job: elytra/ThermionicsWorld/master
       name: ThermionicsWorld
+      dependencies:
+        REQUIRED:
+        - Thermionics
 
     - job: elytra/Engination/master
       name: Engination
@@ -278,6 +282,9 @@ root:
 
     - job: elytra/FruitPhone/1.12.2
       name: FruitPhone
+      dependencies:
+        REQUIRED:
+        - ProbeDataProvider
 
     - job: elytra/ProbeDataProvider/1.12
       name: ProbeDataProvider
@@ -298,7 +305,18 @@ root:
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
     - ColorChat
+<<<<<<< HEAD
     - MatterLink
+=======
+
+    - provider: JENKINS
+      jenkinsUrl: https://ci.elytradev.com
+      job: elytra/MatterLink/master
+      name: MatterLink
+      dependencies:
+        REQUIRED:
+        - "Shadowfacts' Forgelin"
+>>>>>>> 115d813a8bd589b39323ee7b5bf379e14e1c2239
 
 #===================#
 # Common - Optional #
