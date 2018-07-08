@@ -228,7 +228,6 @@ root:
   - Caliper
   - Refined Storage
   - Flopper
-  - "Shadowfacts' Forgelin"
   - Catwalks 4
   - "Wall-Jump!"
 
@@ -304,8 +303,9 @@ root:
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
     - ColorChat
-    - MatterLink
+    - "Shadowfacts' Forgelin" # workaround due to bugs in pre-rewrite
 
+    
     - provider: JENKINS
       jenkinsUrl: https://ci.elytradev.com
       job: elytra/MatterLink/master
