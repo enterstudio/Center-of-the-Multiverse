@@ -4,7 +4,7 @@
 name: cotm
 title: Center of the Multiverse
 authors: ["AnsuzThuriaz", "Falkreon", "NikkyAi"]
-version: 2.1.8.12
+version: 2.1.8.13
 mcVersion: 1.12.2
 forge: 2727
 minecraftDir: src
@@ -163,7 +163,6 @@ root:
   - Gendustry
   - Hwyla
   - Initial Inventory
-  - Inventory Tweaks
   - Iron Chests
   - Redstone Paste
   - MmmMmmMmmMmm
@@ -248,7 +247,7 @@ root:
       name: Nutrition 
 
   # Correlated 2
-    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.120.jar
+    - url: https://centerofthemultiverse.net/launcher/mirror/Correlated-1.12.2-2.1.121.jar
       name: Correlated
 
   # Jenkins Downloads      
@@ -305,9 +304,7 @@ root:
     - "BTFU continuous rsync incremental backup"
     - SwingThroughGrass
     - ColorChat
-<<<<<<< HEAD
     - MatterLink
-=======
 
     - provider: JENKINS
       jenkinsUrl: https://ci.elytradev.com
@@ -316,7 +313,6 @@ root:
       dependencies:
         REQUIRED:
         - "Shadowfacts' Forgelin"
->>>>>>> 115d813a8bd589b39323ee7b5bf379e14e1c2239
 
 #===================#
 # Common - Optional #
@@ -405,6 +401,12 @@ root:
         - name: Smooth Font
           description: "It smoothes fonts."
 
+        - name: Inventory Tweaks
+          description: Adds amll changes to invetory handling to minor conviniences.
+
+        - name: NoFov
+          description: Removes dynamic FOV shifting due to ingame effects.
+
     # OPT-IN
     - feature:
         selected: false
@@ -465,4 +467,3 @@ root:
             description: "Custom client font based off of Chicago. Made by Falkreon."
             folder: resourcepacks
             url: https://centerofthemultiverse.net/launcher/mirror/Slice.zip
-
