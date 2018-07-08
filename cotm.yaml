@@ -28,6 +28,7 @@ root:
 #==============#
 # Version Info #
 #==============#
+  provider: CURSE
   validMcVersions: [1.12.1, '1.12']
   curseOptionalDependencies: false
   curseReleaseTypes: [ alpha, beta, release ]
@@ -293,7 +294,9 @@ root:
     - SwingThroughGrass
     - ColorChat
 
-    - job: elytra/MatterLink/master
+    - provider: JENKINS
+      jenkinsUrl: https://ci.elytradev.com
+      job: elytra/MatterLink/master
       name: MatterLink
 
 #===================#
